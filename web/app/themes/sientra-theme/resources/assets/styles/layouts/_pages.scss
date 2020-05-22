@@ -1,0 +1,21 @@
+.home {
+  .augmentation {
+    background: $danger;
+  }
+  .reconstruction {
+    background: $primary;
+  }
+  .slider {
+    background: #eae4de;
+  }
+  section {
+    h1 {
+      text-align: center;
+    }
+  }
+  .swiperTestimonial {
+    .swiper-slide {
+      padding: 100px;
+    }
+  }
+}
