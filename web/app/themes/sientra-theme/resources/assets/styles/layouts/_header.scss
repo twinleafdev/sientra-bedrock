@@ -5,3 +5,11 @@
 .banner .nav a {
   @extend .nav-link;
 }
+
+.banner {
+  .brand {
+    max-width: 200px;
+    display: block;
+    margin: 24px auto;
+  }
+}
