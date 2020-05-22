@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Avenir-Light';
+       src: url('../fonts/Avenir-Light.woff') format('woff'), /* Pretty Modern Browsers */
+            url('../fonts/Avenir-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+body {
+  font-family: 'Avenir-Light', Avenir, sans-serif;
+}

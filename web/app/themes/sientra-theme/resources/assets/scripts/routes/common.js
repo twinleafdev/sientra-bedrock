@@ -7,15 +7,16 @@ export default {
       // Optional parameters
       direction: 'horizontal',
       loop: true,
-  
+      effect: 'fade',
+      
       // If we need pagination
       pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
-        dynamicBullets: true,
+        dynamicBullets: false,
       },
       autoplay: {
-        delay: 2000,
+        delay: 4000,
       },  
       // Navigation arrows
 /*
