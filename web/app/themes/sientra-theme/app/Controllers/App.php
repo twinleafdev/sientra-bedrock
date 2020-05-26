@@ -34,6 +34,7 @@ class App extends Controller
       $args = array(
         'theme_location'    => 'primary_navigation',
         'menu_class'        => 'navbar-nav',
+        'container_class'   => 'mx-auto',
         'walker'            => new \App\wp_bootstrap4_navwalker(),
       
       );

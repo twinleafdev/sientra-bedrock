@@ -6,14 +6,14 @@
     background: $primary;
   }
   .slider {
-    background: #eae4de;
+    background: $tan;
   }
   section {
-    h1 {
-      text-align: center;
+    .heading {
+      display: flex;
     }
   }
-  .swiperTestimonial {
+  .swiper-testimonial {
     background: #eae4de;
     margin-top: 35px;
     .swiper-slide {
@@ -25,7 +25,30 @@
       display: flex;
       font-family: 'Avenir-Light', Avenir, sans-serif;
       font-size: 1.8rem;
-
+    }
+    .swiper-pagination {
+      .swiper-pagination-bullet {
+        background: $tan;
+        border: 1px solid $orange;
+        opacity: 1;
+      }
+      .swiper-pagination-bullet-active {
+        background: $orange;
+      }
+    }
+  }
+  .social-love {
+    .swiper-social {
+      width: 100vw;
+    }
+    .swiper-slide {
+      border: 1px solid $primary;
+      padding: 5px;
+      .insta-bio {
+        max-height: 32px;
+        width: auto;
+        display: flex;
+      }
     }
   }
 }
