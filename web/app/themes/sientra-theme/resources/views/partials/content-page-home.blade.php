@@ -31,8 +31,12 @@
   <div class="swiper-container swiper-social">
     <div class="swiper-wrapper">
       <div class="swiper-slide justify-content-center">
-        <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
+        <img src="@asset('images/amelia-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
         <img src="@asset('images/hochstein-insta-bio.jpg')" class="insta-bio my-2 mx-auto" alt="hochstein-insta-bio" width="300" height="81" />
+      </div>
+      <div class="swiper-slide justify-content-center">
+        <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
+        <img src="@asset('images/cindyprado-insta.jpg')" class="insta-bio my-2 mx-auto" alt="hochstein-insta-bio" width="300" height="81" />
       </div>
       <div class="swiper-slide justify-content-center">
         <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
@@ -40,7 +44,19 @@
       </div>
       <div class="swiper-slide justify-content-center">
         <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
+        <img src="@asset('images/edenknows-insta.jpg')" class="insta-bio my-2 mx-auto" alt="hochstein-insta-bio" width="300" height="81" />
+      </div>
+      <div class="swiper-slide justify-content-center">
+        <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
+        <img src="@asset('images/summer-insta.jpg')" class="insta-bio my-2 mx-auto" alt="hochstein-insta-bio" width="300" height="81" />
+      </div>
+      <div class="swiper-slide justify-content-center">
+        <img src="@asset('images/amelia-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
         <img src="@asset('images/hochstein-insta-bio.jpg')" class="insta-bio my-2 mx-auto" alt="hochstein-insta-bio" width="300" height="81" />
+      </div>
+      <div class="swiper-slide justify-content-center">
+        <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
+        <img src="@asset('images/cindyprado-insta.jpg')" class="insta-bio my-2 mx-auto" alt="hochstein-insta-bio" width="300" height="81" />
       </div>
       <div class="swiper-slide justify-content-center">
         <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
@@ -48,15 +64,11 @@
       </div>
       <div class="swiper-slide justify-content-center">
         <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
-        <img src="@asset('images/hochstein-insta-bio.jpg')" class="insta-bio my-2 mx-auto" alt="hochstein-insta-bio" width="300" height="81" />
+        <img src="@asset('images/edenknows-insta.jpg')" class="insta-bio my-2 mx-auto" alt="hochstein-insta-bio" width="300" height="81" />
       </div>
       <div class="swiper-slide justify-content-center">
         <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
-        <img src="@asset('images/hochstein-insta-bio.jpg')" class="insta-bio my-2 mx-auto" alt="hochstein-insta-bio" width="300" height="81" />
-      </div>
-      <div class="swiper-slide justify-content-center">
-        <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
-        <img src="@asset('images/hochstein-insta-bio.jpg')" class="insta-bio my-2 mx-auto" alt="hochstein-insta-bio" width="300" height="81" />
+        <img src="@asset('images/summer-insta.jpg')" class="insta-bio my-2 mx-auto" alt="hochstein-insta-bio" width="300" height="81" />
       </div>
     </div><!-- .swiper-wrapper -->
 </section>
