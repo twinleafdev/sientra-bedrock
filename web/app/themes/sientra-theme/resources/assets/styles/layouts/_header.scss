@@ -8,14 +8,25 @@
 
 .banner {
   .brand {
-    max-width: 200px;
+    max-width: 250px;
     display: block;
-//     margin: 24px auto;
+  }
+  nav {
+    text-transform: uppercase;
+    ul {
+      li {
+        &:last-of-type {
+          border-left: 1px solid $orange;
+          a {
+            color: $orange;
+            font-family: 'Avenir-Medium', Avenir, sans-serif;
+          }
+        }
+      }
+    }
   }
   .navbar-toggler-icon {
     background-image: url(../images/burger.svg);
   }
-  .navbar-toggler:not(:disabled) {
-    border: 1px solid $primary;
-  }
+
 }

@@ -8,6 +8,18 @@
        src: url('../fonts/Avenir-Book.woff') format('woff'), /* Pretty Modern Browsers */
             url('../fonts/Avenir-Book.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
+@font-face {
+  font-family: 'Avenir-Heavy';
+       src: url('../fonts/Avenir-Heavy.woff') format('woff'), /* Pretty Modern Browsers */
+            url('../fonts/Avenir-Heavy.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Avenir-Medium';
+       src: url('../fonts/Avenir-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+            url('../fonts/Avenir-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+// font-family: 'Playfair Display', serif;
 
 body {
   font-family: 'Avenir-Book', Avenir, sans-serif;

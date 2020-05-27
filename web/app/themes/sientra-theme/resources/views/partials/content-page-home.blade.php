@@ -14,9 +14,9 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide">“ I feel great and they feel more and more a part of me each day. Truly one of the best things I have done for myself. I am so happy with my decision. ”</div>
-        <div class="swiper-slide">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ”</div>
-        <div class="swiper-slide">“ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. ”</div>
+        <div class="swiper-slide"><p><span class="q">&#8220;</span> I feel great and they feel more and more a part of me each day. Truly one of the best things I have done for myself. I am so happy with my decision. <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p></div>
+        <div class="swiper-slide"><p><span class="q">&#8220;</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p></div>
+        <div class="swiper-slide"><p><span class="q">&#8220;</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p></div>
             ...
 
     </div>
@@ -27,7 +27,7 @@
 </section>
 
 <section class="social-love row">
-  <img src="@asset('images/social-love.png')" class="heading mx-auto my-5 img-fluid" alt="social love" width="400" height="123" />
+  <img src="@asset('images/social-love.png')" class="heading mx-auto mt-5 mb-3 img-fluid" alt="social love" width="400" height="123" />
   <div class="swiper-container swiper-social">
     <div class="swiper-wrapper">
       <div class="swiper-slide justify-content-center">
