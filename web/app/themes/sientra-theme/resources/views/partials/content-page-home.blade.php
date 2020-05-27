@@ -1,20 +1,21 @@
 <section class="row">
-	<div class="col p-0 augmentation">
+	<div class="col-12 col-sm-6 p-0 augmentation">
 		<img class="img-fluid" src="@asset('images/augmentation.jpg')" alt="augmentation" width="1500" height="1120" />
 	</div>
-	<div class="col p-0 reconstruction">
+	<div class="col-12 col-sm-6 p-0 reconstruction">
     <img class="img-fluid" src="@asset('images/restoration.jpg')" alt="restoration" width="1500" height="1122" />
 	</div>
 </section>
 
-<section class="row">
+<section class="row" id="testimonials">
+  <img src="@asset('images/quote.svg')" class="quote-icon" alt="quote" />
 <!-- Slider main container -->
 <div class="swiper-container swiper-testimonial">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide">“ I feel great and they feel more and more a part of me each day. Truly one of the best things I have done for myself. I am so happy with my decision. ”</div>
-        <div class="swiper-slide">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ”</div>
+        <div class="swiper-slide">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. ”</div>
         <div class="swiper-slide">“ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. ”</div>
             ...
 
@@ -62,7 +63,7 @@
 
 <section class="connect">
   <img src="@asset('images/connect.png')" class="heading mx-auto mt-5 mb-1 img-fluid" alt="connect with us" width="400" height="66" />
-  <div class="d-flex justify-content-center">
+  <div class="d-flex justify-content-center mb-4">
     <img src="@asset('images/facebook.svg')" class="social-icon" alt="facebook" />
     <img src="@asset('images/instagram.svg')" class="social-icon" alt="instagram" />
     <img src="@asset('images/linkedin.svg')" class="social-icon" alt="linkedin" />  	

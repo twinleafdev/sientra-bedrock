@@ -10,7 +10,10 @@
   .brand {
     max-width: 200px;
     display: block;
-    margin: 24px auto;
+//     margin: 24px auto;
+  }
+  .navbar-toggler-icon {
+    background-image: url(../images/burger.svg);
   }
   .navbar-toggler:not(:disabled) {
     border: 1px solid $primary;
