@@ -26,7 +26,7 @@
 </section>
 
 <section class="social-love row">
-  <img src="@asset('images/social-love.png')" class="heading mx-auto my-5" alt="social love" width="400" height="123" />
+  <img src="@asset('images/social-love.png')" class="heading mx-auto my-5 img-fluid" alt="social love" width="400" height="123" />
   <div class="swiper-container swiper-social">
     <div class="swiper-wrapper">
       <div class="swiper-slide justify-content-center">
@@ -61,6 +61,12 @@
 </section>
 
 <section class="connect">
-	<img src="@asset('images/connect.png')" class="heading mx-auto my-5" alt="connect with us" width="400" height="66" />
+  <img src="@asset('images/connect.png')" class="heading mx-auto mt-5 mb-1 img-fluid" alt="connect with us" width="400" height="66" />
+  <div class="d-flex justify-content-center">
+    <img src="@asset('images/facebook.svg')" class="social-icon" alt="facebook" />
+    <img src="@asset('images/instagram.svg')" class="social-icon" alt="instagram" />
+    <img src="@asset('images/linkedin.svg')" class="social-icon" alt="linkedin" />  	
+  </div>
+
 </section>
 @php the_content() @endphp
