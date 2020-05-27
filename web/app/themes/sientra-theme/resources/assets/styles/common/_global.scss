@@ -23,4 +23,9 @@
 
 body {
   font-family: 'Avenir-Book', Avenir, sans-serif;
+  transition: opacity ease-in 0.5s;
+  opacity: 1;
+  &.loading {
+    opacity: 0; 
+  }
 }
