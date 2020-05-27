@@ -33,8 +33,9 @@ class App extends Controller
     public function primarymenu() {
       $args = array(
         'theme_location'    => 'primary_navigation',
-        'menu_class'        => 'navbar-nav',
-        'container_class'   => 'mx-auto',
+        'menu_class'        => 'navbar-nav mx-auto text-right',
+        'container_class'   => 'collapse navbar-collapse',
+        'container_id'      => 'navbar-main-menu',
         'walker'            => new \App\wp_bootstrap4_navwalker(),
       
       );

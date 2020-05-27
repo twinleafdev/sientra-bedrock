@@ -12,4 +12,7 @@
     display: block;
     margin: 24px auto;
   }
+  .navbar-toggler:not(:disabled) {
+    border: 1px solid $primary;
+  }
 }
