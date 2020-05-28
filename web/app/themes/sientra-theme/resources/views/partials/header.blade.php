@@ -11,6 +11,7 @@
         @if (has_nav_menu('primary_navigation'))
           {!! wp_nav_menu($primarymenu) !!}
         @endif
+
       </nav>
     </div><!-- .row -->
   </div><!-- .container-fluid -->

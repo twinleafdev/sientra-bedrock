@@ -31,8 +31,10 @@ class App extends Controller
         return get_the_title();
     }
     public function primarymenu() {
+      
+      $menu = 'primary_navigation';
       $args = array(
-        'theme_location'    => 'primary_navigation',
+        'theme_location'    => $menu,
         'menu_class'        => 'navbar-nav mx-auto text-right',
         'container_class'   => 'collapse navbar-collapse',
         'container_id'      => 'navbar-main-menu',
@@ -41,4 +43,5 @@ class App extends Controller
       );
       return $args;
     }
+
 }
