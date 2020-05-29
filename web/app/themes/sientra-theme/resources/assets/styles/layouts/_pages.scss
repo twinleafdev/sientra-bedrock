@@ -94,11 +94,34 @@
       margin-left: 5px;
       margin-right: 5px;
     }
+    a {
+      color: $orange;
+      text-decoration: underline;
+      font-size: 0.9rem;
+      &:hover {
+        color: $primary;
+      }
+    }
   }
 }
 .breast-augmentation {
-  .whychoose {
+  .why-choose {
     background: $tan;
+    .why-choose-h {
+      width: 40%;
+      height: auto;
+    }
+    .col {
+      padding-left: 4%;
+      padding-right: 4%;
+      p {
+        margin: 0;
+      }
+      span {
+        color: $orange;
+      }
+    }
+
   }
   .shape {
     background-image: url(../images/yoga-pose.jpg);
