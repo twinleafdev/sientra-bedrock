@@ -35,10 +35,8 @@ class App extends Controller
       global $post;
       $parent_id = wp_get_post_parent_id($post);
       $wp_page_template = get_post_meta($parent_id, '_wp_page_template', true);
-
-
       $menu = 'primary_navigation';
-      
+      // checks is augmentation section via page template      
       if( "template-augmentation-home.blade.php" ==  basename( $wp_page_template ) || "template-augmentation-home.blade.php" ==  basename(get_page_template($post)) ) {
         $menu = 'augmentation_navigation';
       }
