@@ -105,6 +105,11 @@
   }
 }
 .breast-augmentation {
+  .hero {
+    img {
+      height: auto !important;
+    }
+  }
   .why-choose {
     background: $tan;
       span {
