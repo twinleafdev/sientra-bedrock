@@ -6,7 +6,7 @@
      sizes="(max-width: 1200px) 1200px,
             2500px"
      src="@asset('images/aug_home_hero-2500.jpg')"
-     alt="Safer more beautiful results">
+     alt="Safer more beautiful results" height="2500" width="1552" >
 </section>
 
 <section class="row why-choose text-center my-4  py-5">
