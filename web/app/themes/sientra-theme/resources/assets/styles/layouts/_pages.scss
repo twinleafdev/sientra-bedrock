@@ -106,15 +106,13 @@
 }
 .breast-augmentation {
   .hero {
-    img {
-      height: auto !important;
-    }
+//     flex-direction: column;
+  }
+  span.opus {
+        color: $orange;
   }
   .why-choose {
     background: $tan;
-      span {
-        color: $orange;
-      }
     .why-choose-h {
       width: 40%;
       height: auto;
@@ -135,6 +133,13 @@
     background-repeat: no-repeat;
     background-size: contain;
     
+  }
+  .pair {
+    .tag {
+      font-size: 1.5rem;
+      padding-left: 4%;
+      padding-right: 4%;
+    }
   }
   .matters {
     .matters-h {

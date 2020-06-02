@@ -1,4 +1,4 @@
-<section class="hero row">
+<section class="hero row flex-column">
 <!-- 	<img src="@asset('images/aug_home_hero.jpg')" class="img-fluid" alt="aug_home_hero" width="2500" height="1552" /> -->
 	<img class="img-fluid"
 	   srcset="@asset('images/aug_home_hero-1200.jpg') 1200w,
@@ -6,32 +6,32 @@
      sizes="(max-width: 1200px) 1200px,
             2500px"
      src="@asset('images/aug_home_hero-2500.jpg')"
-     alt="Safer more beautiful results" height="2500" width="1552" >
+     alt="Safer more beautiful results" width="2500" height="1552" >
 </section>
 
 <section class="row why-choose text-center my-4  py-5">
 	<div class="col-12 mb-5">
   	<img src="@asset('images/why-choose.svg')" class="why-choose-h" alt="why choose" />
-		<h3>Sientra <span>OPUS</span> implants?</h3>
+		<h3>Sientra <span class="opus">OPUS</span> implants?</h3>
 	</div> 
 	<div class="col">
 		<p class="lead">Next-generation <br>
 implant science</p>
-<span>•••</span><br>
+<span class="opus">•••</span><br>
 Implants designed <br>
 to perform better with a high safety profile.<sup>1,2</sup>
 	</div>
 	<div class="col">
 		<p class="lead">Only the best, most<br>  
 highly trained plastic surgeons</p>
-<span>•••</span><br>
-Sientra is available exclusively through board-certified plastic surgeons. With <span>OPUS</span> you can trust you are in 
+<span class="opus">•••</span><br>
+Sientra is available exclusively through board-certified plastic surgeons. With <span class="opus">OPUS</span> you can trust you are in 
 exceptionally skilled hands. 
 	</div>
 	<div class="col">
 		<p class="lead">The industry’s most comprehensive
 20-year warranty</p>
-<span>•••</span><br>
+<span class="opus">•••</span><br>
 It’s more than a warranty, it’s 
 our commitment to your health and safety. 
 	</div>
@@ -47,10 +47,10 @@ while maintaining a remarkably soft feel</h2>
 </section>
 <section class="pair row text-center py-5">
 	<div class="col-5">
-		<h2>The Perfect Pair</h2>
+		<img src="@asset('images/perfect-pair.svg')" alt="perfect-pair" />
 	</div>
-	<div class="col-5">
-		When it comes to patient safety, not all implants are created equal. Sientra OPUS implants are clinically shown to have low complication rates.<sup>2</sup>
+	<div class="col-5 tag d-flex align-items-end">
+		<p>When it comes to patient safety, not all implants are created equal. Sientra <span class="opus">OPUS</span> implants are clinically shown to have low complication rates.<sup>2</sup></p>
 	</div>
 	<div class="col-12 py-4">
 		<h3>1,116 patients enrolled  |  evaluated for 10 years</h3>
