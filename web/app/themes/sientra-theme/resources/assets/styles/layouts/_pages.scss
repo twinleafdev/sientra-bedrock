@@ -135,10 +135,35 @@
     
   }
   .pair {
+    h3 {
+      color: $orange;
+      font-size: 1.5rem;
+      margin-bottom: 0;
+    }
     .tag {
       font-size: 1.5rem;
       padding-left: 4%;
       padding-right: 4%;
+      line-height: 1.7rem;
+      
+      h3 {
+        font-family: Avenir-Light, Avenir, sans-serif;
+        color: $primary;
+        strong {
+          font-family: Avenir-Heavy, Avenir, sans-serif;
+          color: $orange;
+        }
+      }
+    }
+    .rounded-circle {
+      height: 100px;
+      width: 100px;
+      background-color: $orange;
+      text-align: center;
+      color: #fff;
+      border: 1px solid $orange;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   .matters {
@@ -150,6 +175,12 @@
     .wrap {
       position: relative;
       height: 40vw;
+      h2 {
+        font-size: 2.0rem;
+        color: $orange;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+      }
       .img {
         @media (min-width: 768px) {
           position: absolute;

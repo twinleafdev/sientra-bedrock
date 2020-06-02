@@ -49,33 +49,59 @@ while maintaining a remarkably soft feel</h2>
 	<div class="col-5">
 		<img src="@asset('images/perfect-pair.svg')" alt="perfect-pair" />
 	</div>
-	<div class="col-5 tag d-flex align-items-end">
+	<div class="col-6 tag d-flex align-items-end">
 		<p>When it comes to patient safety, not all implants are created equal. Sientra <span class="opus">OPUS</span> implants are clinically shown to have low complication rates.<sup>2</sup></p>
 	</div>
-	<div class="col-12 py-4">
-		<h3>1,116 patients enrolled  |  evaluated for 10 years</h3>
+	<div class="col-12 py-4 tag">
+		<h3><strong>1,116</strong> patients enrolled  |  evaluated for <strong>10 years</strong></h3>
 	</div>
-	<div class="col">
-		<h3>Capsular Contracture</h3>
-A tightening/hardening 
-of the scar tissue around 
-the implant
-	</div>
-	<div class="col">
-		<h3>Implant Rupture</h3>
-A hole or tear in the 
-shell of the implant 
 
-*(primary augmentation cohort)
-	</div>
-	<div class="col">
-		<h3>Reoperation</h3>
-Any additional surgery performed to the breast after the first breast implantation 
-	</div>
+  <div class="container">
+    <div class="row">
+    	
+    
+    <!-- 	 -->
+    	<article class="col-12 col-sm-4">
+      	<div class="rounded-circle">
+      		<strong>Low</strong><br>
+    capsular contracture rate*
+      	</div>
+    		<h3>Capsular Contracture</h3>
+    A tightening/hardening 
+    of the scar tissue around 
+    the implant
+    	</article>
+    <!-- 	 -->
+    	<article class="col-12 col-sm-4">
+      	<div class="rounded-circle">
+      		<strong>Low</strong><br>
+    capsular contracture rate*
+      	</div>
+    		<h3>Implant Rupture</h3>
+    A hole or tear in the 
+    shell of the implant 
+    
+    	</article>
+    <!-- 	 -->
+    	<article class="col-12 col-sm-4">
+      	<div class="rounded-circle">
+      		<strong>Low</strong><br>
+    capsular contracture rate*
+      	</div>
+    		<h3>Reoperation</h3>
+    Any additional surgery performed to the breast after the first breast implantation 
+    	</article>
+    <!-- 	 -->
+      <article class="col-12">
+      	    *(primary augmentation cohort)
+      </article>
+    </div><!-- .row -->
+  </div><!-- .container -->
+
 </section>
 
 <section class="row matters text-center">
-	<div class="col-12">
+	<div class="col-12 my-5">
 		<img src="@asset('images/board-certified-matters.svg')" class="matters-h" alt="board-certified-matters" />
 	</div>
   <div class="col wrap">
