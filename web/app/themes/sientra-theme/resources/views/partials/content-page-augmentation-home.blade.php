@@ -1,5 +1,12 @@
 <section class="hero row">
-	<img src="@asset('images/aug_home_hero.jpg')" class="img-fluid" alt="aug_home_hero" width="2500" height="1552" />
+<!-- 	<img src="@asset('images/aug_home_hero.jpg')" class="img-fluid" alt="aug_home_hero" width="2500" height="1552" /> -->
+	<img class="img-fluid"
+	   srcset="@asset('images/aug_home_hero-1200.jpg') 1200w,
+             @asset('images/aug_home_hero-2500.jpg') 2500w"
+     sizes="(max-width: 1200px) 1200px,
+            2500px"
+     src="@asset('images/aug_home_hero-2500.jpg')"
+     alt="Safer more beautiful results">
 </section>
 
 <section class="row why-choose text-center my-4  py-5">
@@ -69,7 +76,7 @@ Any additional surgery performed to the breast after the first breast implantati
 
 <section class="row matters text-center">
 	<div class="col-12">
-		<h1>board-certification MATTERS</h1>
+		<img src="@asset('images/board-certified-matters.svg')" class="matters-h" alt="board-certified-matters" />
 	</div>
   <div class="col wrap">
   	<div class="col-8 ml-auto boxed-wrap">
