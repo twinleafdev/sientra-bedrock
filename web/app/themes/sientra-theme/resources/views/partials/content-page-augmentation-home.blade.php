@@ -45,6 +45,7 @@ while maintaining a remarkably soft feel</h2>
 		<img src="@asset('images/shape-implant.png')" class="img-fluid mx-auto" alt="shape-implant" width="700" height="601" />
 	</div>
 </section>
+
 <section class="pair row text-center py-5">
 	<div class="col-5">
 		<img src="@asset('images/perfect-pair.svg')" alt="perfect-pair" />
@@ -57,9 +58,7 @@ while maintaining a remarkably soft feel</h2>
 	</div>
 
   <div class="container">
-    <div class="row">
-    	
-    
+    <div class="row">    
     <!-- 	 -->
     	<article class="col-12 col-sm-4">
       	<div class="rounded-circle">
@@ -105,18 +104,103 @@ while maintaining a remarkably soft feel</h2>
 		<img src="@asset('images/board-certified-matters.svg')" class="matters-h" alt="board-certified-matters" />
 	</div>
   <div class="col wrap">
-  	<div class="col-8 ml-auto boxed-wrap">
+  	<div class="col-12 col-lg-8 ml-auto boxed-wrap">
   		<div>
   		  <h2>Is your plastic surgeon board-certified?</h2>
-  		  This is the first criteria to consider when researching a surgeon. Not all surgeons who perform breast augmentation are board-certified. Board-certification requires the highest level of surgical training and education and, as a result, is shown to minimize complications related to breast surgery.3 
-  ONLY Sientra implants are available exclusively through board-certified plastic surgeons. You can trust if a surgeon offers Sientra, they are board-certified. 
+  		  <p>This is the first criteria to consider when researching a surgeon. Not all surgeons who perform breast augmentation are board-certified. Board-certification requires the highest level of surgical training and education and, as a result, is shown to minimize complications related to breast surgery.3</p>
+  <p><span class="opus">ONLY</span> Sientra implants are available exclusively through board-certified plastic surgeons. You can trust if a surgeon offers Sientra, they are board-certified. </p>
+  <img src="@asset('images/14yrs.svg')" class="14yrs" alt="14 years of formalized training and experience4" />
   		</div>
   	</div>
-  	<div class="col-5 img">
+  	<div class="col-12 col-lg-5 imgwrap">
   		<img src="@asset('images/pittman.jpg')" alt="pittman" width="800" height="767" />
   	</div>
   </div>
 </section>
+<section class="love my-5">
+	<div class="col-5">
+		<img src="@asset('images/woman-love-results.svg')" alt="woman love the results" />
+	</div>
+	<div class="col-8 testimonial ml-auto">
+  	<img src="@asset('images/quote.svg')" class="quote-icon" alt="quote" />
+  	<p><span class="q">&#8220;</span> I went to the beach over the weekend and it’s the first time in a while I wore a bikini! I couldn’t be happier
+with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p>
+	</div>
+</section>
+<section class="row realself text-center">
 
+  <div class="col wrap">
+  	
+  	<div class="col-12 col-lg-8 model text-left">
+      <img src="@asset('images/realself-model.jpg')" alt="pittman" width="800" height="767" />
+  	</div>
+  	
+  	<div class="col-12 col-lg-5 ml-auto rated">
+      <div class="rated-inner">
+      	The highest rated breast implant brand in the U.S.*
+      </div>
+  	</div>
+  	
+  </div>
+</section>
+<section class="pair row text-center py-5">
+	<div class="col">
+		<img src="@asset('images/perfect-pair.svg')" alt="perfect-pair" />
+	</div>
+	<div class="col-12 py-4 tag">
+		<h3>patient satisfaction rates<sup>2</sup></h3>
+	</div>
+
+  <div class="container">
+    <div class="row">    
+    <!-- 	 -->
+    	<article class="col-12 col-sm-4">
+      	<div class="rounded-circle">
+      		<strong>Low</strong><br>
+    capsular contracture rate*
+      	</div>
+    		<h3>Capsular Contracture</h3>
+    A tightening/hardening 
+    of the scar tissue around 
+    the implant
+    	</article>
+    <!-- 	 -->
+    	<article class="col-12 col-sm-4">
+      	<div class="rounded-circle">
+      		<strong>Low</strong><br>
+    capsular contracture rate*
+      	</div>
+    		<h3>Implant Rupture</h3>
+    A hole or tear in the 
+    shell of the implant 
+    
+    	</article>
+    <!-- 	 -->
+    	<article class="col-12 col-sm-4">
+      	<div class="rounded-circle">
+      		<strong>Low</strong><br>
+    capsular contracture rate*
+      	</div>
+    		<h3>Reoperation</h3>
+    Any additional surgery performed to the breast after the first breast implantation 
+    	</article>
+    <!-- 	 -->
+      <article class="col-12">
+      	    *(primary augmentation cohort)
+      </article>
+    </div><!-- .row -->
+  </div><!-- .container -->
+
+</section>
+
+<section class="connect text-center">
+  <img src="@asset('images/connect.png')" class="heading mx-auto mt-5 mb-1 img-fluid" alt="connect with us" width="400" height="66" />
+  <div class="d-flex justify-content-center mb-1">
+    <img src="@asset('images/facebook.svg')" class="social-icon" alt="facebook" />
+    <img src="@asset('images/instagram.svg')" class="social-icon" alt="instagram" />
+    <img src="@asset('images/linkedin.svg')" class="social-icon" alt="linkedin" />
+  </div>
+  <a href="#" class="mb-4 mt-1">CEO Corner</a>
+</section>
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp

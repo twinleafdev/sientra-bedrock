@@ -37,9 +37,6 @@
           line-height: 1.2em;
           padding: 15px 45px 45px;
         }
-        .q {
-          font-family: 'Playfair Display', serif;
-        }
         p {
           margin: 0;
           max-width: 800px;
@@ -81,29 +78,7 @@
       }
     }
   }
-  .connect {
-    .heading {
-      max-width: 300px;
-      @media (min-width: 768px) {
-        max-width: 400px;
-      }
-    }
-    .social-icon {
-      width: 30px;
-      height: auto;
-      margin-left: 5px;
-      margin-right: 5px;
-    }
-    a {
-      color: $orange;
-      text-decoration: underline;
-      font-size: 0.9rem;
-      &:hover {
-        color: $primary;
-      }
-    }
-  }
-}
+ }
 .breast-augmentation {
   .hero {
 //     flex-direction: column;
@@ -166,7 +141,14 @@
       margin-right: auto;
     }
   }
+  $max-width-matters: 1650px;
+  $break1: 40vw;
+  $break2: 65vw;
+  $break3: 600px;
   .matters {
+    max-width: $max-width-matters;
+    margin-left: auto;
+    margin-right: auto;
     .matters-h {
       width: 60vw;
       max-width: 700px;
@@ -174,44 +156,195 @@
     }
     .wrap {
       position: relative;
-      height: 40vw;
+      font-size: 1.1rem;
+      line-height: 1.2rem;
+      @media (min-width: 992px) {
+        height: $break2;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+      }
+      @media (min-width: 1200px) { 
+        height: $break1;
+      }
+      @media (min-width: $max-width-matters) {
+        height: $break3;
+      } 
       h2 {
-        font-size: 2.0rem;
+        font-size: 1.8rem;
         color: $orange;
         border: 1px solid #fff;
-        padding: 5px 10px;
+        padding: 5px 45px;
+        display: inline-block;
+        font-family: 'Avenir-Medium', Avenir, sans-serif;
       }
-      .img {
-        @media (min-width: 768px) {
+      .imgwrap {
+        @media (min-width: 992px) {
           position: absolute;
           left: 0;
-          height: 40vw;
+          height: $break1;
           padding-top: 25px;
           padding-bottom: 25px;
           margin-left: -15px; 
-        }     
-        img {
-          width: auto;
+        }
+        @media (min-width: 1200px) { 
+          height: $break1;
+        }
+        @media (min-width: $max-width-matters) { 
           height: 100%;
-          margin-right: auto;
-          display: block;
+          width: auto;
+        }
+        img {
+          width: 100%;
+          height: auto;
+          @media (min-width: 992px) {
+            width: auto;
+            height: 100%;
+            margin-right: auto;
+            display: block;
+          }
         }
       }
       .boxed-wrap {
-        @media (min-width: 768px) {
+        @media (min-width: 992px) {
           position: absolute;
           right: 15px;
           padding: 10px;
           background-color: #fff;
           border: 1px solid $primary;
-          height: 40vw;
+          height: $break2;
         }
+        @media (min-width: 1200px) { 
+          height: $break1;
+        } 
+        @media (min-width: 1200px) { 
+          height: $break1;
+        } 
+        @media (min-width: $max-width-matters) { 
+          height: $break3;
+        } 
         div {
           background-color: $tan;
-          padding: 20px 20px 20px 10%;
+          padding: 20px 5% 20px 15%;
           height: 100%;
+          img {
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+          }
         }
       }
     }
   }
+  .love {
+    .testimonial {
+       .quote-icon {
+        width: 50px;
+        height: auto;
+        margin: 15px auto 0;
+        display: flex;
+      }
+      p{
+        text-align: center;
+        font-family: 'Avenir-Light', Avenir, sans-serif;
+        font-size: 1.6rem;
+        .sig {
+          text-align: center;
+          @media (min-width: 768px) {
+          text-align: right;
+          display: block;
+          font-size: 1.4rem;
+          }
+        }
+      }     
+    }
+  }
+  $max-width-matters: 1650px;
+  $break1: 40vw;
+  $break2: 40vw;
+  $break3: 600px;
+  .realself {
+    max-width: $max-width-matters;
+    margin-left: auto;
+    margin-right: auto;
+    .wrap {
+      position: relative;
+      font-size: 1.1rem;
+      line-height: 1.2rem;
+      @media (min-width: 992px) {
+        height: $break2;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+      }
+      @media (min-width: 1200px) { 
+        height: $break1;
+      }
+      @media (min-width: $max-width-matters) {
+        height: $break3;
+      } 
+      h2 {
+        font-size: 1.8rem;
+        color: $orange;
+        border: 1px solid #fff;
+        padding: 5px 45px;
+        display: inline-block;
+        font-family: 'Avenir-Medium', Avenir, sans-serif;
+      }
+      .rated {
+        background: #fff;
+        @media (min-width: 992px) {
+          position: absolute;
+          right: 0;
+          top: 50px;
+          bottom: 50px;
+//           height: $break1;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          margin-left: -15px; 
+        }
+        img {
+          width: 100%;
+          height: auto;
+          @media (min-width: 992px) {
+            width: auto;
+            height: 100%;
+            margin-right: auto;
+            display: block;
+          }
+        }
+      }
+      .model {
+        img {
+          width: auto;
+          height: $break1;
+        }
+        @media (min-width: 992px) {
+          position: absolute;
+          left: 0;
+//           padding: 10px;
+          background-color: #fff;
+          height: $break2;
+        }
+        @media (min-width: 1200px) { 
+          height: $break1;
+        } 
+        @media (min-width: 1200px) { 
+          height: $break1;
+        } 
+        @media (min-width: $max-width-matters) { 
+          height: $break3;
+        } 
+        div {
+          background-color: $tan;
+          padding: 20px 5% 20px 15%;
+          height: 100%;
+          img {
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+      }
+    }
+  }
+
 }

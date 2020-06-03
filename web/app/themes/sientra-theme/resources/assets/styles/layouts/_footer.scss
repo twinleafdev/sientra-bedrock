@@ -1,3 +1,26 @@
+.connect {
+  .heading {
+    max-width: 300px;
+    @media (min-width: 768px) {
+      max-width: 400px;
+    }
+  }
+  .social-icon {
+    width: 30px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  a {
+    color: $orange;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
 footer {
   .small {
     font-size: .5rem;
