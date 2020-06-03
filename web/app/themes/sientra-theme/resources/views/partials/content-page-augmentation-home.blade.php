@@ -184,7 +184,7 @@ fit better</h3>
 
 </section>
 
-<section class="row unmatched">
+<section class="row unmatched flex-column">
 	<img src="@asset('images/unmatched.jpg')" class="img-fluid" alt="unmatched" width="2000" height="1182" />
 </section>
 
