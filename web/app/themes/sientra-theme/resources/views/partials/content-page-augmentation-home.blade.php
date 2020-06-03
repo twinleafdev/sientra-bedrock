@@ -14,21 +14,21 @@
   	<img src="@asset('images/why-choose.svg')" class="why-choose-h" alt="why choose" />
 		<h3>Sientra <span class="opus">OPUS</span> implants?</h3>
 	</div> 
-	<div class="col">
+	<div class="col-12 col-sm">
 		<p class="lead">Next-generation <br>
 implant science</p>
 <span class="opus">•••</span><br>
 Implants designed <br>
 to perform better with a high safety profile.<sup>1,2</sup>
 	</div>
-	<div class="col">
+	<div class="col-12 col-sm">
 		<p class="lead">Only the best, most<br>  
 highly trained plastic surgeons</p>
 <span class="opus">•••</span><br>
 Sientra is available exclusively through board-certified plastic surgeons. With <span class="opus">OPUS</span> you can trust you are in 
 exceptionally skilled hands. 
 	</div>
-	<div class="col">
+	<div class="col-12 col-sm">
 		<p class="lead">The industry’s most comprehensive
 20-year warranty</p>
 <span class="opus">•••</span><br>
@@ -47,10 +47,10 @@ while maintaining a remarkably soft feel</h2>
 </section>
 
 <section class="pair row text-center py-5">
-	<div class="col-5">
-		<img src="@asset('images/perfect-pair.svg')" alt="perfect-pair" />
+	<div class="col-12 col-md-5">
+		<img src="@asset('images/perfect-pair.svg')" class="pair-h" alt="perfect-pair" />
 	</div>
-	<div class="col-6 tag d-flex align-items-end">
+	<div class="col-12 col-md-6 tag d-flex align-items-end">
 		<p>When it comes to patient safety, not all implants are created equal. Sientra <span class="opus">OPUS</span> implants are clinically shown to have low complication rates.<sup>2</sup></p>
 	</div>
 	<div class="col-12 py-4 tag">
@@ -118,10 +118,10 @@ while maintaining a remarkably soft feel</h2>
   </div>
 </section>
 <section class="love my-5">
-	<div class="col-5">
+	<div class="col-12 col-md-5">
 		<img src="@asset('images/woman-love-results.svg')" alt="woman love the results" />
 	</div>
-	<div class="col-8 testimonial ml-auto">
+	<div class="col-12 col-md-8 testimonial ml-auto">
   	<img src="@asset('images/quote.svg')" class="quote-icon" alt="quote" />
   	<p><span class="q">&#8220;</span> I went to the beach over the weekend and it’s the first time in a while I wore a bikini! I couldn’t be happier
 with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p>
@@ -137,17 +137,16 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
   	
   	<div class="col-12 col-lg-5 ml-auto rated">
       <div class="rated-inner">
-      	The highest rated breast implant brand in the U.S.*
+        <img src="@asset('images/realself.svg')" alt="realself" />
+      	<h2>The <span class="opus"><strong>highest rated</strong></span><br>breast implant brand in the U.S.*</h2>
       </div>
   	</div>
   	
   </div>
 </section>
-<section class="pair row text-center py-5">
-	<div class="col">
-		<img src="@asset('images/perfect-pair.svg')" alt="perfect-pair" />
-	</div>
+<section class="factor row text-center py-5">
 	<div class="col-12 py-4 tag">
+  	<img src="@asset('images/feel-good-factor.svg')" alt="feel good factor" />
 		<h3>patient satisfaction rates<sup>2</sup></h3>
 	</div>
 
@@ -156,33 +155,25 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
     <!-- 	 -->
     	<article class="col-12 col-sm-4">
       	<div class="rounded-circle">
-      		<strong>Low</strong><br>
-    capsular contracture rate*
+      		<strong>90%</strong><br>
       	</div>
-    		<h3>Capsular Contracture</h3>
-    A tightening/hardening 
-    of the scar tissue around 
-    the implant
+    		<h3>Felt more feminine</h3>
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4">
       	<div class="rounded-circle">
-      		<strong>Low</strong><br>
-    capsular contracture rate*
+      		<strong>91%</strong><br>
       	</div>
-    		<h3>Implant Rupture</h3>
-    A hole or tear in the 
-    shell of the implant 
-    
+    		<h3>Felt breasts look natural and soft
+</h3>
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4">
       	<div class="rounded-circle">
-      		<strong>Low</strong><br>
-    capsular contracture rate*
+      		<strong>79%</strong><br>
       	</div>
-    		<h3>Reoperation</h3>
-    Any additional surgery performed to the breast after the first breast implantation 
+    		<h3>Felt their clothes
+fit better</h3>
     	</article>
     <!-- 	 -->
       <article class="col-12">
@@ -193,6 +184,10 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
 
 </section>
 
+<section class="row unmatched">
+	<img src="@asset('images/unmatched.jpg')" class="img-fluid" alt="unmatched" width="2000" height="1182" />
+</section>
+
 <section class="connect text-center">
   <img src="@asset('images/connect.png')" class="heading mx-auto mt-5 mb-1 img-fluid" alt="connect with us" width="400" height="66" />
   <div class="d-flex justify-content-center mb-1">
@@ -201,6 +196,14 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
     <img src="@asset('images/linkedin.svg')" class="social-icon" alt="linkedin" />
   </div>
   <a href="#" class="mb-4 mt-1">CEO Corner</a>
+  <div class="container my-5">
+  	<div class="row">
+  		<div class="col">
+    		
+  		<img src="@asset('images/social-section.png')" alt="social-section" class="img-fluid" width="1008" height="170" />
+  		</div>
+  	</div><!-- .row -->
+  </div><!-- .container -->
 </section>
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp

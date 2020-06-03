@@ -110,6 +110,9 @@
     
   }
   .pair {
+    .pair-h {
+      max-width: 80vw;
+    }
     h3 {
       color: $orange;
       font-size: 1.5rem;
@@ -282,31 +285,33 @@
         height: $break3;
       } 
       h2 {
-        font-size: 1.8rem;
-        color: $orange;
-        border: 1px solid #fff;
-        padding: 5px 45px;
-        display: inline-block;
-        font-family: 'Avenir-Medium', Avenir, sans-serif;
+        font-size: 2.0rem;
+        font-family: 'Avenir-Light', Avenir, sans-serif;
+        strong {
+          font-family: 'Avenir-Medium', Avenir, sans-serif;
+        }
+        margin-top: 20px;
+        margin-bottom: 15px;
       }
       .rated {
         background: #fff;
+        padding: 25px;
+        .rated-inner {
+          border: 1px solid $primary;
+          padding: 15px;
+          height: 100%;
+        }
         @media (min-width: 992px) {
           position: absolute;
           right: 0;
-          top: 50px;
-          bottom: 50px;
-//           height: $break1;
-          padding-top: 5px;
-          padding-bottom: 5px;
+          top: 75px;
+          bottom: 75px;
           margin-left: -15px; 
         }
         img {
           width: 100%;
           height: auto;
           @media (min-width: 992px) {
-            width: auto;
-            height: 100%;
             margin-right: auto;
             display: block;
           }
@@ -314,14 +319,15 @@
       }
       .model {
         img {
-          width: auto;
-          height: $break1;
+          width: 100%;
+          height: auto;
         }
         @media (min-width: 992px) {
           position: absolute;
           left: 0;
 //           padding: 10px;
           background-color: #fff;
+          width: auto;
           height: $break2;
         }
         @media (min-width: 1200px) { 
@@ -346,5 +352,42 @@
       }
     }
   }
+  .factor {
+    h3 {
+      color: $orange;
+      font-size: 1.5rem;
+      margin-bottom: 0;
+    }
+    .tag {
+      font-size: 1.5rem;
+      padding-left: 4%;
+      padding-right: 4%;
+      line-height: 1.7rem;
+      img {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+      }
+      h3 {
+        font-family: Avenir-Light, Avenir, sans-serif;
+        color: $primary;
+        strong {
+          font-family: Avenir-Heavy, Avenir, sans-serif;
+          color: $orange;
+        }
+      }
+    }
+    .rounded-circle {
+      height: 100px;
+      width: 100px;
+      background-color: transparent;
+      text-align: center;
+      color: $orange;
+      border: 1px solid $orange;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
 
 }
