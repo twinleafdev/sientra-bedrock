@@ -49,9 +49,9 @@ while maintaining a remarkably soft feel</h2>
 </section>
 
 <section class="pair row text-center py-5">
-	<div class="col-12 col-md-5">
-		<img src="@asset('images/perfect-pair.svg')" class="pair-h" alt="perfect-pair" />
-	</div>
+	<header class="col-12 col-md-5">
+		<img src="@asset('images/perfect-pair.svg')" alt="perfect-pair" />
+	</header>
 	<div class="col-12 col-md-6 tag d-flex align-items-end">
 		<p>When it comes to patient safety, not all implants are created equal. Sientra <span class="opus">OPUS</span> implants are clinically shown to have low complication rates.<sup>2</sup></p>
 	</div>
@@ -62,37 +62,39 @@ while maintaining a remarkably soft feel</h2>
   <div class="container">
     <div class="row">    
     <!-- 	 -->
-    	<article class="col-12 col-sm-4">
+    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle">
-      		<strong>Low</strong><br>
-    capsular contracture rate*
+      		<strong>Low</strong>
+    <p>capsular contracture rate*</p>
       	</div>
     		<h3>Capsular Contracture</h3>
-    A tightening/hardening 
+    <p>A tightening/hardening 
     of the scar tissue around 
-    the implant
+    the implant</p>
     	</article>
     <!-- 	 -->
-    	<article class="col-12 col-sm-4">
+    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle">
-      		<strong>Lowest</strong><br>rupture rate*
+      		<strong>Lowest</strong>
+      		<p>rupture rate*</p>
     		</div>
     		<h3>Implant Rupture</h3>
-    A hole or tear in the 
-    shell of the implant 
+    <p>A hole or tear in the 
+    shell of the implant</p> 
     
     	</article>
     <!-- 	 -->
-    	<article class="col-12 col-sm-4">
+    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle">
-      		<strong>Lowest</strong><br>reoperation rate*
+      		<strong>Lowest</strong>
+      		<p>reoperation rate*</p>
       	</div>
     		<h3>Reoperation</h3>
-    Any additional surgery performed to the breast after the first breast implantation 
+    <p>Any additional surgery performed to the breast after the first breast implantation</p> 
     	</article>
     <!-- 	 -->
       <article class="col-12">
-      	    *(primary augmentation cohort)
+      	    <p>*(primary augmentation cohort)</p>
       </article>
     </div><!-- .row -->
   </div><!-- .container -->
