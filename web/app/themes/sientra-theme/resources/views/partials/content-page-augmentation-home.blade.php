@@ -39,11 +39,10 @@ our commitment to your health and safety.
 	</article>
 </section>
 <section class="shape row text-center py-5">
-	<div class="col-8">
-		<h2>Implants designed to hold their shape<br> 
-while maintaining a remarkably soft feel</h2>
+	<div class="tag col-6 col-md-8">
+		<h2>Implants designed to hold their shape while maintaining a <span class="opus">remarkably soft</span> feel</h2>
 	</div>
-	<div class="col-8">
+	<div class="implant col-12 col-md-8">
 		<img src="@asset('images/shape-implant.png')" class="img-fluid mx-auto" alt="shape-implant" width="700" height="601" />
 	</div>
 </section>
@@ -160,14 +159,14 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
   	  
     <!-- 	 -->
     	<article class="col-12 col-sm-4">
-      	<div class="rounded-circle">
+      	<div class="rounded-circle _90">
       		<strong>90%</strong><br>
       	</div>
     		<h3>Felt more feminine</h3>
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4">
-      	<div class="rounded-circle">
+      	<div class="rounded-circle _91">
       		<strong>91%</strong><br>
       	</div>
     		<h3>Felt breasts look natural and soft
@@ -175,7 +174,7 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4">
-      	<div class="rounded-circle">
+      	<div class="rounded-circle _79">
       		<strong>79%</strong><br>
       	</div>
     		<h3>Felt their clothes

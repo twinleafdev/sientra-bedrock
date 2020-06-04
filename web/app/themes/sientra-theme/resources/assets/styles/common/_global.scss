@@ -18,6 +18,11 @@
        src: url('../fonts/Avenir-Medium.woff') format('woff'), /* Pretty Modern Browsers */
             url('../fonts/Avenir-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
+@font-face {
+  font-family: 'Avenir-Black';
+       src: url('../fonts/Avenir-Black.woff') format('woff'), /* Pretty Modern Browsers */
+            url('../fonts/Avenir-Black.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 // font-family: 'Playfair Display', serif;
 

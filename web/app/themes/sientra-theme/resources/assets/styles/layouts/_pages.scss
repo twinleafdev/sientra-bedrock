@@ -122,9 +122,27 @@
   }
   .shape {
     background-image: url(../images/yoga-pose.jpg);
-    background-position: right bottom;
+    background-position: right top;
     background-repeat: no-repeat;
     background-size: contain;
+    @media (min-width: 768px) { 
+      background-position: right bottom;
+    }
+    .tag {
+      height: 107vw;
+      h2 {
+        font-size: 1.2rem;
+      }
+       @media (min-width: 768px) { 
+        height: auto;
+         h2 {
+          font-size: 2rem;
+         }
+       }
+    }
+    .implant {
+      
+    }
     
   }
   .pair {
@@ -193,15 +211,22 @@
     margin-left: auto;
     margin-right: auto;
     header img {
-      width: 60vw;
+      width: 100%;
       max-width: 700px;
       height: auto;
+       @media (min-width: 768px) {
+         width: 60vw;
+       }
     }
     .wrap {
       position: relative;
-      font-size: 1.3rem;
+      font-size: 1.0rem;
       line-height: 1.4rem;
-
+      padding-left: 0;
+      padding-right: 0;
+      @media (min-width: 768px) {
+        font-size: 1.2rem
+      }
       @media (min-width: 992px) {
         font-size: 1.2rem;
         line-height: 1.5rem;
@@ -216,16 +241,21 @@
       @media (min-width: $max-width-matters) {
       } 
       h2 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         color: $orange;
         border: 1px solid #fff;
-        padding: 5px 45px;
+        padding: 5px;
         display: inline-block;
         font-family: 'Avenir-Medium', Avenir, sans-serif;
         margin-bottom: 1.5rem;
+        @media (min-width: 768px) {
+          font-size: 1.8rem;
+          padding: 5px 45px;
+        }
       }
       .imgwrap {
         z-index: 2;
+        margin-bottom: 20px;
         @media (min-width: 992px) {
           position: absolute;
           left: 0;
@@ -233,7 +263,7 @@
           padding-top: 25px;
           padding-bottom: 25px;
           margin-left: -30px; 
-//           min-height: 45vw;
+          margin-bottom: 0;
         }
         @media (min-width: 1200px) { 
           min-height: 35vw;
@@ -451,14 +481,37 @@
       }
     }
     .rounded-circle {
-      height: 100px;
-      width: 100px;
+      height: 155px;
+      width: 155px;
       background-color: transparent;
+      background-position: center center;
+      background-size: 150px auto;
+      background-repeat: no-repeat;
       text-align: center;
       color: $orange;
-      border: 1px solid $orange;
       margin-left: auto;
       margin-right: auto;
+      font-size: 3.0rem;
+      
+      display: flex;
+      align-items: center;
+      strong {
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Avenir-Black', Avenir, sans-serif;
+      }
+      &._90 {
+        background-image: url(../images/90percent.svg);
+        color: $primary;
+      }
+      &._91 {
+        background-image: url(../images/91percent.svg);
+        color: $orange;
+      }
+      &._79 {
+        background-image: url(../images/79percent.svg);
+        color: #a4a6a8
+      }
     }
   }
   .unmatched {
