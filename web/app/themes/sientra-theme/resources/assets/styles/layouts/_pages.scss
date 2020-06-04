@@ -192,25 +192,28 @@
     max-width: $max-width-matters;
     margin-left: auto;
     margin-right: auto;
-    .matters-h {
+    header img {
       width: 60vw;
       max-width: 700px;
       height: auto;
     }
     .wrap {
       position: relative;
-      font-size: 1.1rem;
-      line-height: 1.2rem;
+      font-size: 1.3rem;
+      line-height: 1.4rem;
+
       @media (min-width: 992px) {
-        height: $break2;
-        font-size: 1.5rem;
-        line-height: 1.8rem;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        display: flex;
+        align-items: center;
       }
       @media (min-width: 1200px) { 
-        height: $break1;
+        font-size: 1.7rem;
+        line-height: 1.9rem;
+//         min-height: $break1;
       }
       @media (min-width: $max-width-matters) {
-        height: $break3;
       } 
       h2 {
         font-size: 1.8rem;
@@ -219,18 +222,21 @@
         padding: 5px 45px;
         display: inline-block;
         font-family: 'Avenir-Medium', Avenir, sans-serif;
+        margin-bottom: 1.5rem;
       }
       .imgwrap {
+        z-index: 2;
         @media (min-width: 992px) {
           position: absolute;
           left: 0;
-          height: $break1;
+//           height: $break1;
           padding-top: 25px;
           padding-bottom: 25px;
-          margin-left: -15px; 
+          margin-left: -30px; 
+//           min-height: 45vw;
         }
         @media (min-width: 1200px) { 
-          height: $break1;
+          min-height: 35vw;
         }
         @media (min-width: $max-width-matters) { 
           height: 100%;
@@ -239,33 +245,48 @@
         img {
           width: 100%;
           height: auto;
+          
           @media (min-width: 992px) {
+/*
             width: auto;
             height: 100%;
+*/
             margin-right: auto;
             display: block;
+          }
+          @media (min-width: $max-width-matters) {
+            max-height: 700px;
           }
         }
       }
       .boxed-wrap {
+        z-index: 1;
+        border: 1px solid $primary;
+        padding: 10px;
         @media (min-width: 992px) {
+/*
           position: absolute;
           right: 15px;
+*/
           padding: 10px;
           background-color: #fff;
-          border: 1px solid $primary;
-          height: $break2;
         } 
-        @media (min-width: 1200px) { 
-          height: $break1;
-        } 
-        @media (min-width: $max-width-matters) { 
-          height: $break3;
-        } 
+
+
         div {
           background-color: $tan;
-          padding: 20px 5% 20px 15%;
+          padding: 20px;
           height: 100%;
+          @media (min-width: 992px) { 
+            padding: 20px 5% 20px 20%;
+          }
+          @media (min-width: 1200px) { 
+            min-height: 40vw;
+            padding: 20px 10% 20px 15%;
+          }
+          @media (min-width: $max-width-matters) { 
+            min-height: 700px;
+          }
           img {
             max-width: 400px;
             margin-left: auto;
@@ -314,6 +335,8 @@
         height: $break2;
         font-size: 1.5rem;
         line-height: 1.8rem;
+        display: flex;
+        align-items: center;
       }
       @media (min-width: 1200px) { 
         height: $break1;
@@ -345,8 +368,10 @@
         @media (min-width: 992px) {
           position: absolute;
           right: 0;
+/*
           top: 75px;
           bottom: 75px;
+*/
           margin-left: -15px; 
         }
         img {
@@ -413,8 +438,9 @@
           width: 100%;
           height: auto;
           max-width: 400px;
+          margin-bottom: 1.5rem;
         }
-        h3 {
+        h2 {
           font-family: Avenir-Light, Avenir, sans-serif;
           color: $primary;
           strong {

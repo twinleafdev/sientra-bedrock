@@ -102,10 +102,15 @@ while maintaining a remarkably soft feel</h2>
 </section>
 
 <section class="row matters text-center">
-	<div class="col-12 my-5">
-		<img src="@asset('images/board-certified-matters.svg')" class="matters-h" alt="board-certified-matters" />
-	</div>
+	<header class="col-12 my-5">
+		<img src="@asset('images/board-certified-matters.svg')" alt="board-certified-matters" />
+	</header>
   <div class="col wrap">
+  	
+  	<div class="col-12 col-lg-6 col-xl-5 imgwrap">
+  		<img src="@asset('images/pittman.jpg')" alt="pittman" width="800" height="767" />
+  	</div>  	
+  	
   	<div class="col-12 col-lg-8 ml-auto boxed-wrap">
   		<div>
   		  <h2>Is your plastic surgeon board-certified?</h2>
@@ -114,9 +119,8 @@ while maintaining a remarkably soft feel</h2>
   <img src="@asset('images/14yrs.svg')" class="14yrs" alt="14 years of formalized training and experience4" />
   		</div>
   	</div>
-  	<div class="col-12 col-lg-5 imgwrap">
-  		<img src="@asset('images/pittman.jpg')" alt="pittman" width="800" height="767" />
-  	</div>
+  	
+
   </div>
 </section>
 <section class="love my-5">
@@ -151,7 +155,7 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
     <div class="row">
     	<div class="col-12 py-4 tag">
       	<img src="@asset('images/feel-good-factor.svg')" alt="feel good factor" />
-    		<h3>patient satisfaction rates<sup>2</sup></h3>
+    		<h2>patient satisfaction rates<sup>2</sup></h2>
     	</div>  
   	  
     <!-- 	 -->
