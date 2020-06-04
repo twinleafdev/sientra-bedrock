@@ -84,17 +84,35 @@
 //     flex-direction: column;
   }
   span.opus {
-        color: $orange;
+      color: $orange;
   }
   .why-choose {
     background: $tan;
-    .why-choose-h {
-      width: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    @media (min-width: 576px) {
+      padding: inherit;
+    }
+    header img {
+      width: 100%;
+      max-width: 430px;
       height: auto;
     }
-    .col {
-      padding-left: 4%;
-      padding-right: 4%;
+    hr {
+      border-top: 1px solid $orange;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+    article {
+      padding-left: 5%;
+      padding-right: 5%;
+      @media (min-width: 576px) {
+        border-left: 1px solid $orange;
+        border-top: none;
+      }
+      &:first-of-type {
+        border: none;
+      }
       p {
         margin: 0;
       }
@@ -295,11 +313,15 @@
       }
       .rated {
         background: #fff;
-        padding: 25px;
+        padding: 25px 0 25px 25px;
         .rated-inner {
           border: 1px solid $primary;
           padding: 15px;
           height: 100%;
+          @media (min-width: 992px) {
+            border-right: none;
+            margin-right: -15px;
+          }
         }
         @media (min-width: 992px) {
           position: absolute;
@@ -353,27 +375,33 @@
     }
   }
   .factor {
-    h3 {
-      color: $orange;
-      font-size: 1.5rem;
-      margin-bottom: 0;
-    }
-    .tag {
-      font-size: 1.5rem;
-      padding-left: 4%;
-      padding-right: 4%;
-      line-height: 1.7rem;
-      img {
-        width: 100%;
-        height: auto;
-        max-width: 400px;
-      }
+    .container {
+      background-image: url(../images/implant-bg.jpg);
+      background-position: center top;
+      background-size: contain;
+      background-repeat: no-repeat;
       h3 {
-        font-family: Avenir-Light, Avenir, sans-serif;
-        color: $primary;
-        strong {
-          font-family: Avenir-Heavy, Avenir, sans-serif;
-          color: $orange;
+        color: $orange;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+      }
+      .tag {
+        font-size: 1.5rem;
+        padding-left: 4%;
+        padding-right: 4%;
+        line-height: 1.7rem;
+        img {
+          width: 100%;
+          height: auto;
+          max-width: 400px;
+        }
+        h3 {
+          font-family: Avenir-Light, Avenir, sans-serif;
+          color: $primary;
+          strong {
+            font-family: Avenir-Heavy, Avenir, sans-serif;
+            color: $orange;
+          }
         }
       }
     }
@@ -388,6 +416,33 @@
       margin-right: auto;
     }
   }
-
+  .unmatched {
+    @media (min-width: 768px) {
+      .unmatched-h {
+        margin-top: -50px;
+      }
+    }
+    @media (min-width: 768px) {
+      margin-top: 50px;
+      background-image: url(../images/unmatched-bg.jpg);
+      background-position: center right;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 54vw;
+      background-position: center top;
+    }
+    .warranty {
+      @media (max-width: 767px) {
+        background-image: url(../images/unmatched-bg.jpg);
+        background-position: center right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vw;
+        padding-left: 13vw;
+        padding-right: 60vw;
+        padding-top: 20px;
+      }
+    }
+  }
 
 }

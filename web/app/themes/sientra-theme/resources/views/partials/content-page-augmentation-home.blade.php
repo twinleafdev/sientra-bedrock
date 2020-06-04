@@ -10,31 +10,33 @@
 </section>
 
 <section class="row why-choose text-center my-4  py-5">
-	<div class="col-12 mb-5">
-  	<img src="@asset('images/why-choose.svg')" class="why-choose-h" alt="why choose" />
+	<header class="col-12 mb-2 mb-sm-5">
+  	<img src="@asset('images/why-choose.svg')" alt="why choose" />
 		<h3>Sientra <span class="opus">OPUS</span> implants?</h3>
-	</div> 
-	<div class="col-12 col-sm">
+	</header> 
+	<article class="col-12 col-sm pt-3 pt-sm-0">
 		<p class="lead">Next-generation <br>
 implant science</p>
 <span class="opus">•••</span><br>
 Implants designed <br>
 to perform better with a high safety profile.<sup>1,2</sup>
-	</div>
-	<div class="col-12 col-sm">
+	</article>
+	<hr class="w-50 d-block d-sm-none">
+	<article class="col-12 col-sm pt-sm-0">
 		<p class="lead">Only the best, most<br>  
 highly trained plastic surgeons</p>
 <span class="opus">•••</span><br>
 Sientra is available exclusively through board-certified plastic surgeons. With <span class="opus">OPUS</span> you can trust you are in 
 exceptionally skilled hands. 
-	</div>
-	<div class="col-12 col-sm">
+	</article>
+	<hr class="w-50 d-block d-sm-none">
+	<article class="col-12 col-sm pt-sm-0">
 		<p class="lead">The industry’s most comprehensive
 20-year warranty</p>
 <span class="opus">•••</span><br>
 It’s more than a warranty, it’s 
 our commitment to your health and safety. 
-	</div>
+	</article>
 </section>
 <section class="shape row text-center py-5">
 	<div class="col-8">
@@ -73,9 +75,8 @@ while maintaining a remarkably soft feel</h2>
     <!-- 	 -->
     	<article class="col-12 col-sm-4">
       	<div class="rounded-circle">
-      		<strong>Low</strong><br>
-    capsular contracture rate*
-      	</div>
+      		<strong>Lowest</strong><br>rupture rate*
+    		</div>
     		<h3>Implant Rupture</h3>
     A hole or tear in the 
     shell of the implant 
@@ -84,8 +85,7 @@ while maintaining a remarkably soft feel</h2>
     <!-- 	 -->
     	<article class="col-12 col-sm-4">
       	<div class="rounded-circle">
-      		<strong>Low</strong><br>
-    capsular contracture rate*
+      		<strong>Lowest</strong><br>reoperation rate*
       	</div>
     		<h3>Reoperation</h3>
     Any additional surgery performed to the breast after the first breast implantation 
@@ -145,13 +145,13 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
   </div>
 </section>
 <section class="factor row text-center py-5">
-	<div class="col-12 py-4 tag">
-  	<img src="@asset('images/feel-good-factor.svg')" alt="feel good factor" />
-		<h3>patient satisfaction rates<sup>2</sup></h3>
-	</div>
-
   <div class="container">
-    <div class="row">    
+    <div class="row">
+    	<div class="col-12 py-4 tag">
+      	<img src="@asset('images/feel-good-factor.svg')" alt="feel good factor" />
+    		<h3>patient satisfaction rates<sup>2</sup></h3>
+    	</div>  
+  	  
     <!-- 	 -->
     	<article class="col-12 col-sm-4">
       	<div class="rounded-circle">
@@ -184,8 +184,22 @@ fit better</h3>
 
 </section>
 
-<section class="row unmatched flex-column">
-	<img src="@asset('images/unmatched.jpg')" class="img-fluid" alt="unmatched" width="2000" height="1182" />
+<section class="row unmatched">
+<!--   <img src="@asset('images/unmatched.jpg')" class="img-fluid" alt="unmatched" width="2000" height="1182" /> -->
+  <div class="unmatched-h col-12 col-md-6">
+  	<img src="@asset('images/unmatched.svg')" alt="unmatched" />
+  </div>
+  <div class="w-100">
+  	
+  </div>
+  <div class="col-12 order-2 order-md-1 col-md-5">
+  	Because we believe in the safety and performance of our implants, we can offer the industry’s best warranty.
+Our Sientra Platinum20TM Product Replacement and Limited Warranty Program provides the most comprehensive protection, longest length of coverage, most financial assistance, and least amount of warranty restrictions amongst all implant brands.
+All at no cost to you.
+  </div>
+  <div class="warranty col-12 offset-md-0 col-md-2 order-1 order-md-2">
+  	<img src="@asset('images/warranty.svg')" alt="warranty" />
+  </div>
 </section>
 
 <section class="connect text-center">
