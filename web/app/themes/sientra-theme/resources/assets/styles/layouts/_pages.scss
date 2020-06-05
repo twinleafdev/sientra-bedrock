@@ -81,7 +81,19 @@
  }
 .breast-augmentation {
   .hero {
-//     flex-direction: column;
+    background-image: url(../images/aug-header-mobile.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 170vw;
+    @media (min-width: 768px) { 
+      background-image: url(../images/aug_home_hero-1200.jpg);
+      height: 64vw;
+    }
+    @media (min-width: 1999px) { 
+      background-image: url(../images/aug_home_hero-2500.jpg);
+    }
+
   }
   span.opus {
       color: $orange;

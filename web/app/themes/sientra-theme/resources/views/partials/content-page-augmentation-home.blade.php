@@ -1,5 +1,6 @@
 <section class="hero row flex-column">
 <!-- 	<img src="@asset('images/aug_home_hero.jpg')" class="img-fluid" alt="aug_home_hero" width="2500" height="1552" /> -->
+<!--
 	<img class="img-fluid"
 	   srcset="@asset('images/aug_home_hero-1200.jpg') 1200w,
              @asset('images/aug_home_hero-2500.jpg') 2500w"
@@ -7,6 +8,8 @@
             2500px"
      src="@asset('images/aug_home_hero-2500.jpg')"
      alt="Safer more beautiful results" width="2500" height="1552" >
+-->
+
 </section>
 
 <section class="row why-choose text-center my-4  py-5">
