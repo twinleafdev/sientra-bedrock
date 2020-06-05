@@ -515,8 +515,9 @@
     }
   }
   .unmatched {
+    font-size: 1.4rem;
     @media (min-width: 768px) {
-      .unmatched-h {
+      header img {
         margin-top: -50px;
       }
     }

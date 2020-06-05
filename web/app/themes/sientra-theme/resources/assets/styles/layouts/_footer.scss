@@ -28,5 +28,15 @@ footer {
   .footerMenu {
     background: $primary;
     color: #fff; 
+    font-size: .9rem;
+    .nav {
+      justify-content: center;
+      @media (min-width: 768px) {
+        justify-content: left;
+      }
+      .nav-link {
+        color: #fff;
+      }
+    } 
   }
 }

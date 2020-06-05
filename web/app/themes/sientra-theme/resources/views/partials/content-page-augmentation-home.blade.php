@@ -189,20 +189,20 @@ fit better</h3>
 
 </section>
 
-<section class="row unmatched">
+<section class="row unmatched align-content-start">
 <!--   <img src="@asset('images/unmatched.jpg')" class="img-fluid" alt="unmatched" width="2000" height="1182" /> -->
-  <div class="unmatched-h col-12 col-md-6">
+  <header class="col-12 col-md-6">
   	<img src="@asset('images/unmatched.svg')" alt="unmatched" />
-  </div>
+  </header>
   <div class="w-100">
   	
   </div>
-  <div class="col-12 order-2 order-md-1 col-md-5">
-  	Because we believe in the safety and performance of our implants, we can offer the industry’s best warranty.
-Our Sientra Platinum20TM Product Replacement and Limited Warranty Program provides the most comprehensive protection, longest length of coverage, most financial assistance, and least amount of warranty restrictions amongst all implant brands.
-All at no cost to you.
+  <div class="col-12 order-2 order-md-1 col-md-5 mt-md-5">
+  	<p>Because we believe in the safety and performance of our implants, we can offer the industry’s best warranty.</p>
+<p>Our Sientra Platinum20TM Product Replacement and Limited Warranty Program provides the most comprehensive protection, <span class="opus">longest length of coverage</span>, most financial assistance, and <span class="opus">least amount of warranty restrictions</span> amongst all implant brands.</p>
+<p><span class="opus">All at no cost to you.</span></p>
   </div>
-  <div class="warranty col-12 offset-md-0 col-md-2 order-1 order-md-2">
+  <div class="warranty col-12 offset-md-0 col-md-2 order-1 order-md-2 mt-md-5">
   	<img src="@asset('images/warranty.svg')" alt="warranty" />
   </div>
 </section>
