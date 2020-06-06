@@ -163,7 +163,7 @@
     }
     h3 {
       color: $orange;
-      font-size: 1.7rem;
+      font-size: 1.6rem;
       margin-bottom: 0;
     }
     .tag {
@@ -341,20 +341,26 @@
   .love {
     .testimonial {
        .quote-icon {
-        width: 50px;
+        width: 30px;
         height: auto;
-        margin: 15px auto 0;
+        margin: 30px auto 0;
         display: flex;
+        @media (min-width: 768px) { 
+          width: 50px;
+        }
       }
       p{
         text-align: center;
         font-family: 'Avenir-Light', Avenir, sans-serif;
-        font-size: 1.6rem;
+        font-size: 1.2rem;
+        @media (min-width: 768px) { 
+          font-size: 1.6rem;
+        }
         .sig {
-          text-align: center;
-          @media (min-width: 768px) {
           text-align: right;
           display: block;
+          font-size: 1.0rem;
+          @media (min-width: 768px) {
           font-size: 1.4rem;
           }
         }
@@ -387,8 +393,11 @@
         height: $break3;
       } 
       h2 {
-        font-size: 2.0rem;
+        font-size: 1rem;
         font-family: 'Avenir-Light', Avenir, sans-serif;
+        @media (min-width: 992px) { 
+          font-size: 2.0rem;
+        }
         strong {
           font-family: 'Avenir-Medium', Avenir, sans-serif;
         }
@@ -397,7 +406,10 @@
       }
       .rated {
         background: #fff;
-        padding: 25px 0 25px 25px;
+        padding: 25px;
+        @media (min-width: 992px) {
+          padding: 25px 0 25px 25px;
+        }
         .rated-inner {
           border: 1px solid $primary;
           padding: 15px;
@@ -417,9 +429,10 @@
           margin-left: -15px; 
         }
         img {
-          width: 100%;
+          width: 80%;
           height: auto;
           @media (min-width: 992px) {
+            width: 100%;
             margin-right: auto;
             display: block;
           }
@@ -507,6 +520,7 @@
       
       display: flex;
       align-items: center;
+      margin-bottom: 1rem;
       strong {
         margin-left: auto;
         margin-right: auto;

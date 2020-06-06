@@ -137,9 +137,9 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
 </section>
 <section class="row realself text-center">
 
-  <div class="col wrap">
+  <div class="container-fluid wrap px-0 px-lg-3">
   	
-  	<div class="col-12 col-lg-8 model text-left">
+  	<div class="col-12 col-lg-8 model text-left px-0 px-lg-3">
       <img src="@asset('images/realself-model.jpg')" alt="pittman" width="800" height="767" />
   	</div>
   	
@@ -161,14 +161,14 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
     	</div>  
   	  
     <!-- 	 -->
-    	<article class="col-12 col-sm-4">
+    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle _90">
       		<strong>90%</strong><br>
       	</div>
     		<h3>Felt more feminine</h3>
     	</article>
     <!-- 	 -->
-    	<article class="col-12 col-sm-4">
+    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle _91">
       		<strong>91%</strong><br>
       	</div>
@@ -176,7 +176,7 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
 </h3>
     	</article>
     <!-- 	 -->
-    	<article class="col-12 col-sm-4">
+    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle _79">
       		<strong>79%</strong><br>
       	</div>
