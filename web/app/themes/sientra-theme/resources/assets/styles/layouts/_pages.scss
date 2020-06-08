@@ -541,13 +541,14 @@
     }
   }
   .unmatched {
-    font-size: 1.4rem;
+    font-size: 1.0rem;
+    line-height: 1.3rem;
     @media (min-width: 768px) {
+      font-size: 1.4rem;
+      line-height: initial;
       header img {
         margin-top: -50px;
       }
-    }
-    @media (min-width: 768px) {
       margin-top: 50px;
       background-image: url(../images/unmatched-bg.jpg);
       background-position: center right;

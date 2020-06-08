@@ -8,9 +8,18 @@
 
 .banner {
   .locator {
-    position: absolute;
-    top: 5px;
-    right: 5px;
+    position: relative;
+    width: calc(100% - 20px);
+    height: auto;
+    margin: 10px;
+
+     @media (min-width: 768px) { 
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 255px;
+      height: auto;  
+     }
   }
   .brand {
     max-width: 250px;
@@ -36,6 +45,9 @@
       top: 0;
       left: 0;
       right: 0;    
+    }
+    @media (min-width: 992px) { 
+      background: transparent;
     }
     .brand {
       &.brand-light {
