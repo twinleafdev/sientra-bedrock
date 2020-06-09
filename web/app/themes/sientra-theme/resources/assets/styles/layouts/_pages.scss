@@ -152,8 +152,13 @@
          }
        }
     }
-    .implant {
-      
+    .implant img {
+      width: 100%;
+      margin-top: 35px;
+      @media (min-width: 768px) {
+        width: 75%;
+        margin-top: 0;
+      }
     }
     
   }
@@ -407,9 +412,6 @@
       .rated {
         background: #fff;
         padding: 25px;
-        @media (min-width: 992px) {
-          padding: 25px 0 25px 25px;
-        }
         .rated-inner {
           border: 1px solid $primary;
           padding: 15px;
@@ -422,11 +424,8 @@
         @media (min-width: 992px) {
           position: absolute;
           right: 0;
-/*
-          top: 75px;
-          bottom: 75px;
-*/
-          margin-left: -15px; 
+          margin-left: -15px;
+          padding: 25px 0 25px 25px; 
         }
         img {
           width: 80%;
@@ -446,7 +445,6 @@
         @media (min-width: 992px) {
           position: absolute;
           left: 0;
-//           padding: 10px;
           background-color: #fff;
           width: auto;
           height: $break2;
@@ -570,5 +568,59 @@
       }
     }
   }
+}
+.implant-science {
+  $height2: 35vw;
+  .boxy-box {
+    .wrap {
+        @media (min-width: 992px) { 
+          height: $height2;
+        }
+      .model {
+        @media (min-width: 992px) { 
+          height: $height2;
+        }
+      }
+      .message {
+        .message-inner {
 
+        }
+      }
+    }
+  }
+  .patient-safety {
+    background-color: $tan;
+    article {
+      padding-left: 6%;
+      padding-right: 6%;
+      .rounded-circle {
+        height: 150px;
+        width: 150px;
+        background-color: $orange;
+        text-align: center;
+        color: #fff;
+        border: 1px solid $orange;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 8%;
+        font-size: 1.2rem;
+        font-family: Avenir-Light, Avenir, sans-serif;
+        margin-bottom: 1rem;
+        strong {
+          font-size: 1.7rem;
+          margin-bottom: .6rem;
+        }
+        p {
+          margin: 0;
+        }
+      }
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
 }

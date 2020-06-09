@@ -39,6 +39,9 @@ class App extends Controller
       // checks is augmentation section via page template      
       if( "template-augmentation-home.blade.php" ==  basename( $wp_page_template ) || "template-augmentation-home.blade.php" ==  basename(get_page_template($post)) ) {
         $menu = 'augmentation_navigation';
+        add_filter( 'body_class', function( $classes ) {
+            return array_merge( $classes, array( 'augmentation' ) );
+        } );
       }
       
       $args = array(

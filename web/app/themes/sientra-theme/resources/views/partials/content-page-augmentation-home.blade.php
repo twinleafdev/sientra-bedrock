@@ -41,12 +41,12 @@ It’s more than a warranty, it’s
 our commitment to your health and safety. 
 	</article>
 </section>
-<section class="shape row text-center py-5">
+<section class="shape row text-center">
 	<div class="tag col-6 col-md-8">
 		<h2>Implants designed to hold their shape while maintaining a <span class="opus">remarkably soft</span> feel</h2>
 	</div>
 	<div class="implant col-12 col-md-8">
-		<img src="@asset('images/shape-implant.png')" class="img-fluid mx-auto" alt="shape-implant" width="700" height="601" />
+		<img src="@asset('images/implant-diagram.png')" class="img-fluid mx-auto b-block" alt="shape-implant" width="700" height="601" />
 	</div>
 </section>
 
@@ -135,23 +135,24 @@ our commitment to your health and safety.
 with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p>
 	</div>
 </section>
-<section class="row realself text-center">
 
-  <div class="container-fluid wrap px-0 px-lg-3">
+<section class="row realself text-center">
+  <div class="container-fluid wrap px-0 px-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 px-lg-3">
       <img src="@asset('images/realself-model.jpg')" alt="pittman" width="800" height="767" />
   	</div>
-  	
+
   	<div class="col-12 col-lg-5 ml-auto rated">
       <div class="rated-inner">
         <img src="@asset('images/realself.svg')" alt="realself" />
       	<h2>The <span class="opus"><strong>highest rated</strong></span><br>breast implant brand in the U.S.*</h2>
       </div>
   	</div>
-  	
+  	  	
   </div>
 </section>
+
 <section class="factor row text-center py-5">
   <div class="container">
     <div class="row">
@@ -208,24 +209,6 @@ fit better</h3>
   <div class="warranty col-12 offset-md-0 col-md-2 order-1 order-md-2 mt-md-5">
   	<img src="@asset('images/warranty.svg')" alt="warranty" />
   </div>
-</section>
-
-<section class="connect text-center">
-  <img src="@asset('images/connect.png')" class="heading mx-auto mt-5 mb-1 img-fluid" alt="connect with us" width="400" height="66" />
-  <div class="d-flex justify-content-center mb-1">
-    <img src="@asset('images/facebook.svg')" class="social-icon" alt="facebook" />
-    <img src="@asset('images/instagram.svg')" class="social-icon" alt="instagram" />
-    <img src="@asset('images/linkedin.svg')" class="social-icon" alt="linkedin" />
-  </div>
-  <a href="#" class="mb-4 mt-1">CEO Corner</a>
-  <div class="container my-5">
-  	<div class="row">
-  		<div class="col">
-    		
-  		<img src="@asset('images/social-section.png')" alt="social-section" class="img-fluid" width="1008" height="170" />
-  		</div>
-  	</div><!-- .row -->
-  </div><!-- .container -->
 </section>
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp

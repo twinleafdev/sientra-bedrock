@@ -1,3 +1,20 @@
+<section class="connect text-center">
+  <img src="@asset('images/connect.png')" class="heading mx-auto mt-5 mb-1 img-fluid" alt="connect with us" width="400" height="66" />
+  <div class="d-flex justify-content-center mb-1">
+    <img src="@asset('images/facebook.svg')" class="social-icon" alt="facebook" />
+    <img src="@asset('images/instagram.svg')" class="social-icon" alt="instagram" />
+    <img src="@asset('images/linkedin.svg')" class="social-icon" alt="linkedin" />
+  </div>
+  <a href="#" class="mb-4 mt-1">CEO Corner</a>
+  <div class="container my-5">
+  	<div class="row">
+  		<div class="col">
+    		
+  		<img src="@asset('images/social-section.png')" alt="social-section" class="img-fluid" width="1008" height="170" />
+  		</div>
+  	</div><!-- .row -->
+  </div><!-- .container -->
+</section>
 <footer class="content-info">
   <div class="container-fluid">
     <div class="disclaimer">
