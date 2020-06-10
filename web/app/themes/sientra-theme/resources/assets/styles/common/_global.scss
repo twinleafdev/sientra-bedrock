@@ -28,12 +28,12 @@
 
 body {
   font-family: 'Avenir-Book', Avenir, sans-serif;
-  transition: opacity ease 5.5s;
+  transition: opacity ease 0.5s;
   opacity: 1;
   color: $primary;
   &.loading {
     opacity: 0; 
-    transition: opacity ease 5.5s;
+//    transition: opacity ease 5.5s;
   }
   a {
     transition: all ease 0.5s;
