@@ -28,14 +28,15 @@
 
 body {
   font-family: 'Avenir-Book', Avenir, sans-serif;
-  transition: opacity ease-in 0.5s;
+  transition: opacity ease 5.5s;
   opacity: 1;
   color: $primary;
   &.loading {
     opacity: 0; 
+    transition: opacity ease 5.5s;
   }
   a {
-    transition: all ease 0.2s;
+    transition: all ease 0.5s;
   }
   .q {
     font-family: 'Playfair Display', serif;
@@ -52,9 +53,10 @@ $height1: 41vw;
     max-width: 1650px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
   .wrap {
       @media (min-width: 992px) { 
-        height: $height1;
+//         height: $height1;
         display: flex;
         align-items: center;
       }
@@ -64,23 +66,37 @@ $height1: 41vw;
         height: auto;
       }
       @media (min-width: 992px) { 
-        height: $height1;
+//         height: $height1;
       }
     }
     .message {
       @media (min-width: 992px) {
-        position: absolute;
-        right: 0;
-        padding: 25px 0 25px 25px; 
+        margin-left: calc(-8.33333% + 15px);
+        padding: 15px;
       }
       .message-inner {
         border: 1px solid $primary;
         padding: 15px;
         height: 100%;
         @media (min-width: 992px) {
-          border-right: none;
+//           border-right: none;
         }
       }
     }
+  }
+}
+
+.h2-wrap {
+  background-color: $tan;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+  h2 {
+    border: 1px solid #fff;
+    padding: 5px 100px;
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: 'Avenir-Light', Avenir, sans-serif;
   }
 }

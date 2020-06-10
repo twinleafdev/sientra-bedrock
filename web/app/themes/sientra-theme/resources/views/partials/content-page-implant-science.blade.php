@@ -1,14 +1,13 @@
-<section class="boxy-box row text-center">
-  <div class="container-fluid wrap px-0 px-lg-3">  	
+<section class="science boxy-box text-center">
+  <div class="wrap px-0 pl-lg-3">  	
   	
-  	<div class="col-12 col-lg-8 model text-left px-0 px-lg-3">
+  	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
       <img src="@asset('images/implant-science.jpg')" alt="pittman" width="1200" height="691" />
   	</div>
 
-  	<div class="col-12 col-lg-5 ml-auto message bg-white">
+  	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/realself.svg')" alt="realself" />
-      	<h2>The <span class="opus"><strong>highest rated</strong></span><br>breast implant brand in the U.S.*</h2>
+         <img src="@asset('images/advanced-science.svg')" class="mx-auto" alt="advanced-science" />
       </div>
   	</div>
   	  	
@@ -16,50 +15,52 @@
 </section>
 <section class="desired-look text-center">
   <header>
-  	achieve your look
-  	with our advanced cohesive gel implants
+    <img src="@asset('images/desired-look.svg')" class="w-50" alt="achieve your desired look" />
   </header>
-	<div class="col wrap">
-  	<div>
-  		available in round and teardrop shape
-  	</div>
+	<div class="h2-wrap">
+		<h2>available in round and teardrop shape</h2>
 	</div>
 	<div class="row">
-		<div class="col">
+		<div class="col my-3">
 			Cohesive round implants designed for a fuller look with a naturally soft feel
 		</div>
-		<div class="col">
+		<div class="col my-3">
 			Cohesive teardrop shaped implants designed to mimic the natural slope of a women’s breast
 		</div>
 	</div><!-- .row -->
-	<img src="@asset('images/desires-diagram.jpg')" class="img-fluid" alt="desires-diagram" width="2500" height="911" />
+	<img src="@asset('images/desires-diagram.jpg')" class="img-fluid my-5" alt="desires-diagram" width="2500" height="911" />
 </section>
-<section class="row">
-	<div class="col">
+<section class="surfaces row">
+	
+	<div class="col mx-3">
+  	<img src="@asset('images/smooth-surfaces.svg')" alt="smooth-surfaces" />
 		Are soft yet durable. Smooth shells keep the gel inside and allow the implant to move naturally with the breast tissue.
 	</div>
-	<div class="col">
+	<div class="col mx-3">
+  	
+  	<img src="@asset('images/textured-surfaces.svg')" alt="textured-surfaces" />
 		Textured breast implant shells are not all the same. More rough and aggressive shell surfaces have been classified as macrotextured. Sientra’s textured shell has been classified as a microtexture due to its less aggressive, finer surface.5 Sientra’s microtextured surface has been reported to have a lower incidence of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<sup>5,6</sup>
 	</div>
 </section>
 <section class="feel-so-real text-center"> 
 	<header>
-		feel so REAL
+		<img src="@asset('images/feel-so-real.svg')" class="w-50"alt="feel-so-real" />
 	</header>
-	<div class="col">
-		choose from 2 cohesive gel levels, for 2 degrees of softness
+	<div class="h2-wrap">
+		<h2>choose from 2 cohesive gel levels, for 2 degrees of softness</h2>
 	</div>
 	<div class="col-12">
-		  optimal FEEL<br>  
+  	<img src="@asset('images/optimal-feel.svg')" class="w-50" alt="optimal-feel" /><br>
+		   
 		  *-----------*
 	</div>
 	<div class="row">
 		<div class="col">
-			High-Strength Cohesive (HSC) Gel
+			<h3>High-Strength Cohesive (HSC) Gel</h3>
 is soft but maintains its shape. HSC implants hold their fullness while mimicking the soft feel of natural breast tissue.
 		</div>
 		<div class="col">
-			High-Strength Cohesive Plus (HSC+) Gel
+			<h3>High-Strength Cohesive Plus (HSC+) Gel</h3>
 is more cohesive than our HSC gel. It provides improved shape retention without the trade-off of an overly firm implant.1
 		</div>
 	</div><!-- .row -->
