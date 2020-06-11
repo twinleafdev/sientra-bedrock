@@ -569,6 +569,15 @@
     }
   }
 }
+
+// end .home
+
+/* 
+ * 
+ */
+ 
+// start .implant-science
+
 .implant-science {
   .boxy-box.science {
     .wrap {
@@ -676,6 +685,15 @@
     }
   }
 }
+
+// end .implant-science
+
+/* 
+ * 
+ */
+ 
+// start .breast-implant-basics
+
 .breast-implant-basics {
   .boxy-box {
     .wrap {
@@ -742,4 +760,94 @@
       }
     }
   }
+}
+
+// end .breast-implant-basics
+
+/* 
+ * 
+ */
+ 
+// start .p20-warranty-details
+
+.p20-warranty-details {
+  .boxy-box {
+    .wrap {
+      .model {
+        order: 2; 
+        @media (min-width: 992px) {
+          margin-left: calc(-8.33333% + 15px);
+        }
+      }
+      .message {
+        order: 1;
+        @media (min-width: 992px) {
+          margin-left: -30px;
+        }   
+        .message-inner {
+          padding: 15% 15px;
+          align-items: center;
+          img {
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }  
+}
+
+// end .p20-warranty-details
+
+/* 
+ * 
+ */
+ 
+// start .patient-resources
+
+.patient-resources {
+  .boxy-box {
+    .wrap {
+      .model {
+
+      }
+      .message {
+  
+        .message-inner {
+          padding: 25% 15px;
+          align-items: center;
+          img {
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .resources {
+    article {
+      header {
+        display: flex;
+      }
+      line-height: 1.2rem;
+      span {
+        color: $orange;
+        margin-bottom: 1rem;
+        margin-right: .3rem;
+        float: left;
+        font-family: 'Avenir-Heavy', Avenir, sans-serif;
+        text-decoration: underline;
+      }
+      p {
+        
+      }
+      h3 {
+        color: $orange;
+        border: 1px solid $primary;
+        padding: 5px 20px;
+        text-align: center;
+        margin: 50px auto 30px;
+      }
+    }
+  }  
 }

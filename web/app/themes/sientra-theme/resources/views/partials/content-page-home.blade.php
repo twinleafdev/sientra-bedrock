@@ -53,6 +53,7 @@
     </div><!-- .swiper-wrapper -->
 </section>
 
+<!--
 <section class="connect text-center">
   <img src="@asset('images/connect.png')" class="heading mx-auto mt-5 mb-1 img-fluid" alt="connect with us" width="400" height="66" />
   <div class="d-flex justify-content-center mb-1">
@@ -62,4 +63,5 @@
   </div>
   <a href="#" class="mb-4 mt-1">CEO Corner</a>
 </section>
+-->
 @php the_content() @endphp

@@ -10,7 +10,7 @@
   	<div class="row">
   		<div class="col">
     		
-  		<img src="@asset('images/social-section.png')" alt="social-section" class="img-fluid" width="1008" height="170" />
+  		<img src="@asset('images/social-section.png')" alt="social-section" class="img-fluid instagram-feed" width="1008" height="170" />
   		</div>
   	</div><!-- .row -->
   </div><!-- .container -->
