@@ -56,7 +56,6 @@ $height1: 41vw;
     margin-bottom: 60px;
   .wrap {
       @media (min-width: 992px) { 
-//         height: $height1;
         display: flex;
         align-items: center;
       }
@@ -66,7 +65,6 @@ $height1: 41vw;
         height: auto;
       }
       @media (min-width: 992px) { 
-//         height: $height1;
       }
     }
     .message {
@@ -78,9 +76,8 @@ $height1: 41vw;
         border: 1px solid $primary;
         padding: 15px;
         height: 100%;
-        @media (min-width: 992px) {
-//           border-right: none;
-        }
+        display: flex;
+        flex-direction: column;
       }
     }
   }

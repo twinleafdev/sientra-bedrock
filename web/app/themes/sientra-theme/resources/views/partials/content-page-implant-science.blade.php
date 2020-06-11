@@ -30,16 +30,19 @@
 	</div><!-- .row -->
 	<img src="@asset('images/desires-diagram.jpg')" class="img-fluid my-5" alt="desires-diagram" width="2500" height="911" />
 </section>
-<section class="surfaces row">
+<section class="surfaces row text-center">
 	
-	<div class="col mx-3">
-  	<img src="@asset('images/smooth-surfaces.svg')" alt="smooth-surfaces" />
-		Are soft yet durable. Smooth shells keep the gel inside and allow the implant to move naturally with the breast tissue.
+	<div class="mx-3 wrap">
+  	<div>
+    	<img src="@asset('images/smooth-surfaces.svg')" alt="smooth-surfaces" />
+  		<p>Are soft yet durable. Smooth shells keep the gel inside and allow the implant to move naturally with the breast tissue.</p>
+  	</div>
 	</div>
-	<div class="col mx-3">
-  	
-  	<img src="@asset('images/textured-surfaces.svg')" alt="textured-surfaces" />
-		Textured breast implant shells are not all the same. More rough and aggressive shell surfaces have been classified as macrotextured. Sientra’s textured shell has been classified as a microtexture due to its less aggressive, finer surface.5 Sientra’s microtextured surface has been reported to have a lower incidence of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<sup>5,6</sup>
+	<div class="mx-3 wrap">
+  	<div>
+	  	<img src="@asset('images/textured-surfaces.svg')" alt="textured-surfaces" />
+<p>Textured breast implant shells are not all the same. More rough and aggressive shell surfaces have been classified as macrotextured. Sientra’s textured shell has been classified as a microtexture due to its less aggressive, finer surface.5 Sientra’s microtextured surface has been reported to have a lower incidence of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<sup>5,6</sup></p>
+  	</div>
 	</div>
 </section>
 <section class="feel-so-real text-center"> 
@@ -66,56 +69,58 @@ is more cohesive than our HSC gel. It provides improved shape retention without 
 	</div><!-- .row -->
 </section>
 <section>
-	<img src="@asset('images/luxe.jpg')" class="img-fluid" alt="luxe" width="2500" height="1382" />
+	<img src="@asset('images/luxe.jpg')" class="img-fluid my-5" alt="luxe" width="2500" height="1382" />
 </section>
 <section>
-	<img src="@asset('images/curve.jpg')" class="img-fluid" alt="curve" width="2500" height="1257" />
+	<img src="@asset('images/curve.jpg')" class="img-fluid mb-5" alt="curve" width="2500" height="1257" />
 </section>
-<section class="patient-safety text-center">
-  <header>
-  a commitment to safety PATIENT
-clinically shown to have low complication rates2
-  </header>
-  <div class="container">
-    <div class="row">    
-    <!-- 	 -->
-    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
-      	<div class="rounded-circle">
-      		<strong>Low</strong>
-    <p>capsular contracture rate*</p>
-      	</div>
-    		<h3>Capsular Contracture</h3>
-    <p>A tightening/hardening 
-    of the scar tissue around 
-    the implant</p>
-    	</article>
-    <!-- 	 -->
-    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
-      	<div class="rounded-circle">
-      		<strong>Lowest</strong>
-      		<p>rupture rate*</p>
-    		</div>
-    		<h3>Implant Rupture</h3>
-    <p>A hole or tear in the 
-    shell of the implant</p> 
-    
-    	</article>
-    <!-- 	 -->
-    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
-      	<div class="rounded-circle">
-      		<strong>Lowest</strong>
-      		<p>reoperation rate*</p>
-      	</div>
-    		<h3>Reoperation</h3>
-    <p>Any additional surgery performed to the breast after the first breast implantation</p> 
-    	</article>
-    <!-- 	 -->
-      <article class="col-12">
-      	    <p>*(primary augmentation cohort)</p>
-      </article>
-    </div><!-- .row -->
-  </div><!-- .container -->
-
+<section class="patient-safety row text-center">
+  <div class="inner container-fluid">
+    <header class="row mb-5">
+   <div class="col-7"> <img src="@asset('images/patient-safety.svg')" alt="patient-safety" /></div>
+   
+ <div class="col-5 text-left d-flex align-items-center"> <p>clinically shown to have<br>low complication rates<sup>2</sup></p></div>
+    </header>
+    <div class="container">
+      <div class="row">    
+      <!-- 	 -->
+      	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+        	<div class="rounded-circle">
+        		<strong>Low</strong>
+      <p>capsular contracture rate*</p>
+        	</div>
+      		<h3>Capsular Contracture</h3>
+      <p>A tightening/hardening 
+      of the scar tissue around 
+      the implant</p>
+      	</article>
+      <!-- 	 -->
+      	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+        	<div class="rounded-circle">
+        		<strong>Lowest</strong>
+        		<p>rupture rate*</p>
+      		</div>
+      		<h3>Implant Rupture</h3>
+      <p>A hole or tear in the 
+      shell of the implant</p> 
+      
+      	</article>
+      <!-- 	 -->
+      	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+        	<div class="rounded-circle">
+        		<strong>Lowest</strong>
+        		<p>reoperation rate*</p>
+        	</div>
+      		<h3>Reoperation</h3>
+      <p>Any additional surgery performed to the breast after the first breast implantation</p> 
+      	</article>
+      <!-- 	 -->
+        <article class="col-12">
+        	    <p>*(primary augmentation cohort)</p>
+        </article>
+      </div><!-- .row -->
+    </div><!-- .container -->
+  </div>
 </section>
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp
