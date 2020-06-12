@@ -32,9 +32,22 @@
       left: auto;
       transform: none;
     }
-    &.brand-dark {
+    &.brand-opus {
       display: none;
       visibility: hidden;
+    }
+  }
+  .augmentation.page-child &{
+    .brand {
+      &.brand-light,
+      &.brand-dark {
+        display: none;
+        visibility: hidden;
+      }
+      &.brand-opus.brand-light {
+        display: block;
+        visibility: visible;
+      }
     }
   }
   .breast-augmentation & {
