@@ -37,13 +37,13 @@
         <li class="list-group-item"><span>2 Year</span>Up to $2,000 for uncovered fees and costs due to capsular contracture (Baker Grade III/IV), late forming seroma, and double capsule</li> 
   		</ul>
   		<p class="text-center small">For qualifying patients with late forming seroma, Sientra will cover the cost of complete testing, based on current best practices, for Breast Implant Associated-Anaplastic Large Cell Lymphoma (BIA-ALCL). </p>
-  		<p class="text-center">For complete details about the terms and conditions of the Sientra Platinum20 program and Sientra OPUS breast implants visit resources</p>
+  		<p class="text-center">For complete details about the terms and conditions of the Sientra Platinum20 program and Sientra <span class="opus">OPUS</span> breast implants visit <span class="opus heavy">resources</span></p>
   	</div>
   </section>
 </div>
 <section class="row text-right my-5">
   <div class="col-12">
-    <h3>It’s more than a warranty,<br>it’s our commitment to your health and safety.</h3>
+    <h3>It’s more than a warranty,<br>it’s <span class="opus heavy">our commitment</span> to your health and safety.</h3>
   </div>
 </section>
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
