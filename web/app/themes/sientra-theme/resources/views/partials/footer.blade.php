@@ -1,5 +1,5 @@
 <section class="connect text-center">
-  <img src="@asset('images/connect.png')" class="heading mx-auto mt-5 mb-1 img-fluid" alt="connect with us" width="400" height="66" />
+  <img src="@asset('images/connect.svg')" class="heading mx-auto mt-5 mb-1 img-fluid" alt="connect with us" width="400" height="66" />
   <div class="d-flex justify-content-center mb-1">
     <img src="@asset('images/facebook.svg')" class="social-icon" alt="facebook" />
     <img src="@asset('images/instagram.svg')" class="social-icon" alt="instagram" />

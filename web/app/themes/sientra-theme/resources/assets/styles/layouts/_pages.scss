@@ -95,9 +95,6 @@
     }
 
   }
-  span.opus {
-      color: $orange;
-  }
   .why-choose {
     background: $tan;
     padding-left: 10%;
@@ -679,9 +676,15 @@
     }
   }
   .feel-so-real {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-family: 'Avenir-light', Avenir, sans-serif;
+    header img {
+      transform: translateX(-17%);
+    }
     h3 {
       color: $orange;
+      font-size: 1.3rem;
+      font-family: 'Avenir-medium', Avenir, sans-serif;
     }
   }
 }
@@ -791,6 +794,60 @@
             width: 90%;
             height: auto;
           }
+        }
+      }
+    }
+  }
+  .bg-wrap {
+    background-image: url(../images/warranty-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 20vh top;
+    background-size: contain;
+    @media (min-width: 922px) {
+      background-position: right bottom;
+    }
+  }
+  .comfort {
+    p {
+      font-size: 1.2rem;
+      .opus {
+        font-family: 'Avenir-Medium', Avenir, sans-serif;
+      }
+    }
+  }
+  .coverage {
+    font-family: 'Avenir-Light', Avenir, sans-serif;
+    .lead {
+      margin-bottom: 100px;
+      margin-top: 30px;
+    }
+    p {
+      font-size: 1.3rem;
+      &.small {
+        font-size: .9rem;
+      }
+    }
+    ul {
+      margin-bottom: 100px;
+      transition: background-color ease-in 0.2s;
+      background-color: transparent;
+      @media (max-width: 1100px) {
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 25px;
+      }
+      li {
+        font-size: 1.2rem;
+        border: none;
+        padding: 0 0 0.5rem; 
+        background: transparent;
+        span {
+          color: $orange;
+          width: 5.5rem;
+          line-height: 2.0rem;
+          float: left;
+          display: inline-block;
+          font-family: 'Avenir-Heavy', Avenir, sans-serif;
+          font-size: 1.3rem;
         }
       }
     }

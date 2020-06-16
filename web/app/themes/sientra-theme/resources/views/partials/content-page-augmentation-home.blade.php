@@ -116,7 +116,7 @@ our commitment to your health and safety.
   	<div class="col-12 col-lg-8 ml-auto boxed-wrap">
   		<div>
   		  <h2>Is your plastic surgeon board-certified?</h2>
-  		  <p>This is the first criteria to consider when researching a surgeon. Not all surgeons who perform breast augmentation are board-certified. Board-certification requires the highest level of surgical training and education and, as a result, is shown to minimize complications related to breast surgery.3</p>
+  		  <p>This is the first criteria to consider when researching a surgeon. Not all surgeons who perform breast augmentation are board-certified. Board-certification requires the highest level of surgical training and education and, as a result, is shown to minimize complications related to breast surgery.<sup>3</sup></p>
   <p><span class="opus">ONLY</span> Sientra implants are available exclusively through board-certified plastic surgeons. You can trust if a surgeon offers Sientra, they are board-certified. </p>
   <img src="@asset('images/14yrs.svg')" class="14yrs" alt="14 years of formalized training and experience4" />
   		</div>
