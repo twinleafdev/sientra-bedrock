@@ -906,5 +906,31 @@
         margin: 50px auto 30px;
       }
     }
-  }  
+  } 
 }
+.before-after-gallery {
+  .intro {
+    h3 {
+      font-size: 1.2rem;
+      font-family: 'Avenir-Light', Avenir, sans-serif;
+    }
+  }
+  .projection {
+    border: 1px solid $orange;
+    padding: 0 25px 50px;
+    margin-top: 70px;
+    header img {
+      margin: -35px auto 30px;
+      height: 130px;
+      width: auto;
+      display: block;
+    } 
+    img {
+      width: 100%;
+      height: auto;
+    }
+    article {
+      padding: 0;
+    }
+  }
+} 
