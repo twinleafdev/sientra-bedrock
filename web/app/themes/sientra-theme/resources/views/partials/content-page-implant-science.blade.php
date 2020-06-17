@@ -50,7 +50,7 @@
 		<img src="@asset('images/feel-so-real.svg')" class="w-50 mt-4"alt="feel-so-real" />
 	</header>
 	<div class="h2-wrap">
-		<h2>choose from 2 cohesive gel levels, for 2 degrees of softness</h2>
+		<h2>choose from 2 cohesive gel levels for 2 degrees of softness</h2>
 	</div>
 	<div class="col-12">
   	<img src="@asset('images/optimal-feel.svg')" class="w-25 mb-4" alt="optimal-feel" /><br>
@@ -59,30 +59,44 @@
   	<div class="col-12 col-sm-10 offset-sm-1 px-5">
   		<img src="@asset('images/cohesivity.svg')" alt="cohesivity" />
   	</div>
-		<div class="col-12 col-sm-5 px-5 offset-sm-1">
+		<div class="col-12 col-sm-5 px-4 offset-sm-1">
   		<img src="@asset('images/hsc-gel.jpg')" class="img-fluid mb-5" alt="hsc-gel" width="1000" height="633" />
 			<h3>High-Strength Cohesive (HSC) Gel</h3>
 <p>is soft but maintains its shape. HSC implants hold their fullness while mimicking the soft feel of natural breast tissue.</p>
 		</div>
-		<div class="col-12 col-sm-5 px-5">
+		<div class="col-12 col-sm-5 px-4">
 			<img src="@asset('images/hsc-plus-gel.jpg')" class="img-fluid mb-5" alt="hsc-plus-gel" width="1000" height="632" />
 			<h3>High-Strength Cohesive Plus (HSC+) Gel</h3>
-<p>is more cohesive than our HSC gel. It provides improved shape retention without the trade-off of an overly firm implant.1</p>
+<p>is more cohesive than our HSC gel. It provides improved shape retention without the trade-off of an overly firm implant.<sup>1</sup></p>
 		</div>
 	</div><!-- .row -->
 </section>
-<section>
-	<img src="@asset('images/luxe.jpg')" class="img-fluid my-5" alt="luxe" width="2500" height="1382" />
+<section class="luxe row mb-5">
+ <header class="col-6"> <img src="@asset('images/opus-luxe.png')" class="img-fluid" alt="opus-luxe" width="949" height="353" /></header>
+ <div class="_250-round col-12 col-md-6 mb-2">
+  <img src="@asset('images/250-round.svg')" alt="250-round" />
+ </div>
+ <div class="implant col-12 col-md-6 text-center">
+   <img src="@asset('images/implant-projection.png')" class="img-fluid" alt="implant-projection" width="800" height="452" />
+ 	<span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)
+ </div>
 </section>
-<section>
-	<img src="@asset('images/curve.jpg')" class="img-fluid mb-5" alt="curve" width="2500" height="1257" />
+<section class="curve row">
+ <div class="_250-round col-12 col-md-6 mb-2">
+  <img src="@asset('images/250-round.svg')" alt="250-round" />
+ </div>
+ <div class="implant col-12 text-center">
+   <img src="@asset('images/implant-projection.png')" class="img-fluid" alt="implant-projection" width="800" height="452" />
+ 	<span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)
+ </div>
+
 </section>
 <section class="patient-safety row text-center">
   <div class="inner container-fluid">
     <header class="row mb-5">
-   <div class="col-7"> <img src="@asset('images/patient-safety.svg')" alt="patient-safety" /></div>
+   <div class="col-12 col-md-7"> <img src="@asset('images/patient-safety.svg')" alt="patient-safety" /></div>
    
- <div class="col-5 text-left d-flex align-items-center"> <p>clinically shown to have<br>low complication rates<sup>2</sup></p></div>
+ <div class="col-12 col-md-5 text-left d-flex align-items-center"> <p>clinically shown to have<br>low complication rates<sup>2</sup></p></div>
     </header>
     <div class="container">
       <div class="row">    

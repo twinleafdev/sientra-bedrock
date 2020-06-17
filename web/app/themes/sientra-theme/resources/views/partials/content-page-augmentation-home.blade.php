@@ -51,7 +51,7 @@ our commitment to your health and safety.
 </section>
 
 <section class="pair row text-center py-5">
-	<header class="col-12 col-md-5">
+	<header class="col-12 col-md-6 pl-5">
 		<img src="@asset('images/perfect-pair.svg')" alt="perfect-pair" />
 	</header>
 	<div class="col-12 col-md-6 tag d-flex align-items-end">
@@ -118,7 +118,7 @@ our commitment to your health and safety.
   		  <h2>Is your plastic surgeon board-certified?</h2>
   		  <p>This is the first criteria to consider when researching a surgeon. Not all surgeons who perform breast augmentation are board-certified. Board-certification requires the highest level of surgical training and education and, as a result, is shown to minimize complications related to breast surgery.<sup>3</sup></p>
   <p><span class="opus">ONLY</span> Sientra implants are available exclusively through board-certified plastic surgeons. You can trust if a surgeon offers Sientra, they are board-certified. </p>
-  <img src="@asset('images/14yrs.svg')" class="14yrs" alt="14 years of formalized training and experience4" />
+  <img src="@asset('images/14yrs.svg')" class="14yrs" alt="14 years of formalized training and experience" />
   		</div>
   	</div>
   	
@@ -148,6 +148,7 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
         <img src="@asset('images/realself.svg')" alt="realself" />
       	<h2>The <span class="opus"><strong>highest rated</strong></span><br>breast implant brand in the U.S.*</h2>
       </div>
+      <small>*Among silicone gel breast implants; As of March, 2020, realself.com</small>
   	</div>
   	  	
   </div>

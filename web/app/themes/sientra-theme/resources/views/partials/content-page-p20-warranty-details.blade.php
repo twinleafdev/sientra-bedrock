@@ -24,7 +24,7 @@
 </section>
 <div class="bg-wrap row">
   <section class="coverage">
-    <div class="lead col-8 offset-2 text-center">
+    <div class="lead col-8 offset-md-2">
     	<p>Our Sientra Platinum20 Product Replacement and Limited Warranty Program provides the most comprehensive protection, longest length of coverage, most financial assistance, and least amount of warranty restrictions in the industry.<br>
       <span class="opus">All at no cost to you.</span></p>
     </div>
