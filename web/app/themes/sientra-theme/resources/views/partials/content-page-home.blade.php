@@ -3,7 +3,7 @@
 		<a href="/breast-augmentation/"><img class="img-fluid" src="@asset('images/augmentation.jpg')" alt="augmentation" width="1500" height="1120" /></a>
 	</div>
 	<div class="col-12 col-sm-6 p-0 reconstruction">
-    <img class="img-fluid" src="@asset('images/restoration.jpg')" alt="restoration" width="1500" height="1122" />
+    <a href="/breast-reconstruction/"><img class="img-fluid" src="@asset('images/restoration.jpg')" alt="restoration" width="1500" height="1122" /></a>
 	</div>
 </section>
 

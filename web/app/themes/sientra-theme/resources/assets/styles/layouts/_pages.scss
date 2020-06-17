@@ -729,6 +729,9 @@
   .get-started {
     font-size: 1.8rem;
     font-family: 'Avenir-Light', Avenir, sans-serif;
+    header img {
+      transform: translateX(-9%);
+    }
   }
   .faq {
     border: 1px solid #000;
@@ -933,4 +936,125 @@
       padding: 0;
     }
   }
-} 
+}
+.expander-implant-options {
+  .why-choose {
+    background: $tan;
+    padding: 15px;
+/*
+    @media (min-width: 576px) {
+      padding: inherit;
+    }
+*/
+    .wrap {
+      border: 1px solid #fff;
+      padding-left: 10%;
+      padding-right: 10%;
+      flex-wrap: wrap;
+      flex-direction: row;
+      display: flex;
+      header img {
+        width: 100%;
+        max-width: 430px;
+        height: auto;
+      }
+      hr {
+        border-top: 1px solid $orange;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+      }
+      article {
+        padding-left: 5%;
+        padding-right: 5%;
+        @media (min-width: 576px) {
+          border-left: 1px solid $orange;
+          border-top: none;
+        }
+        &:first-of-type {
+          border: none;
+        }
+        p {
+          margin: 0;
+        }
+  
+      }
+    }
+  }
+  .boxy-box.following {
+    .wrap {
+      .model {
+        order: 2; 
+        @media (min-width: 992px) {
+          margin-left: calc(-8.33333% + 15px);
+        }
+      }
+      .message {
+        order: 1;
+        background-color: $tan;
+        @media (min-width: 992px) {
+          margin-left: -30px;
+        }   
+        .message-inner {
+          padding: 15% 15px;
+          align-items: center;
+          img {
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  #testimonials {
+      background: #eae4de;
+      margin-top: 35px;
+      flex-direction: column;
+    .quote-icon {
+      width: 50px;
+      height: auto;
+      margin: 15px auto 0;
+      display: flex;
+    }
+    .swiper-testimonial {
+      .swiper-slide {
+        padding: 10px 50px 35px;
+        background: #eae4de;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: 'Avenir-Light', Avenir, sans-serif;
+        font-size: 1.1rem;
+        @media (min-width: 768px) {
+          font-size: 1.7rem;
+          line-height: 1.2em;
+          padding: 15px 45px 45px;
+        }
+        p {
+          margin: 0;
+          max-width: 800px;
+          .sig {
+            text-align: center;
+            @media (min-width: 768px) {
+              text-align: right;
+              display: block;
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+      .swiper-pagination {
+        .swiper-pagination-bullet {
+          background: $tan;
+          border: 1px solid $orange;
+          opacity: 1;
+          width: 10px;
+          height: 10px;
+        }
+        .swiper-pagination-bullet-active {
+          background: $orange;
+        }
+      }
+    }
+  }
+}
