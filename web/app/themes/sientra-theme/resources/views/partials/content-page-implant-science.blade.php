@@ -15,20 +15,22 @@
 </section>
 <section class="desired-look text-center">
   <header>
-    <img src="@asset('images/desired-look.svg')" class="w-50" alt="achieve your desired look" />
+    <img src="@asset('images/desired-look.svg')" class="img-fluid" alt="achieve your desired look" />
   </header>
 	<div class="h2-wrap">
 		<h2>available in round and teardrop shape</h2>
 	</div>
 	<div class="row">
-		<div class="col my-3 px-2">
+		<div class="col-12 col-md-6 my-3 px-2">
 			<p>Cohesive <span class="opus">round implants</span> designed for a fuller look with a naturally soft feel</p>
+			<img src="@asset('images/desires-diagram-round.jpg')" class="img-fluid d-md-none" alt="desires-diagram-round" width="1000" height="597" />
 		</div>
-		<div class="col my-3 px-2">
+		<div class="col-12 col-md-6 my-3 px-2">
 			<p>Cohesive <span class="opus">teardrop shaped implants</span> designed to mimic the natural slope of a women’s breast</p>
+			<img src="@asset('images/desires-diagram-teardrop.jpg')" class="img-fluid d-md-none" alt="desires-diagram-teardrop" width="1091" height="845" />
 		</div>
 	</div><!-- .row -->
-	<img src="@asset('images/desires-diagram.jpg')" class="img-fluid my-5" alt="desires-diagram" width="2500" height="911" />
+	<img src="@asset('images/desires-diagram.jpg')" class="img-fluid my-5 d-none d-md-block" alt="desires-diagram" width="2500" height="911" />
 </section>
 <section class="surfaces row text-center">
 	
