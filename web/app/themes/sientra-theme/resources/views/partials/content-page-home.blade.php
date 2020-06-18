@@ -32,11 +32,11 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide justify-content-center">
         <img src="@asset('images/amelia-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
-        <img src="@asset('images/insta1.jpg')" class="insta-bio my-2 mx-auto" alt="insta1" width="550" height="145" />
+        <img src="@asset('images/insta5.jpg')" class="insta-bio my-2 mx-auto" alt="insta5" width="689" height="145" />
       </div>
       <div class="swiper-slide justify-content-center">
         <img src="@asset('images/cindyprado-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
-        <img src="@asset('images/insta2.jpg')" class="insta-bio my-2 mx-auto" alt="insta2" width="644" height="145" />
+        <img src="@asset('images/insta4.jpg')" class="insta-bio my-2 mx-auto" alt="insta4" width="645" height="145" />
       </div>
       <div class="swiper-slide justify-content-center">
         <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
@@ -44,11 +44,11 @@
       </div>
       <div class="swiper-slide justify-content-center">
         <img src="@asset('images/edenknows-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />        
-        <img src="@asset('images/insta4.jpg')" class="insta-bio my-2 mx-auto" alt="insta4" width="645" height="145" />
+        <img src="@asset('images/insta2.jpg')" class="insta-bio my-2 mx-auto" alt="insta2" width="644" height="145" /> 
       </div>
       <div class="swiper-slide justify-content-center">
         <img src="@asset('images/summer-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
-        <img src="@asset('images/insta5.jpg')" class="insta-bio my-2 mx-auto" alt="insta5" width="689" height="145" />
+        <img src="@asset('images/insta1.jpg')" class="insta-bio my-2 mx-auto" alt="insta1" width="550" height="145" />
       </div>
     </div><!-- .swiper-wrapper -->
 </section>

@@ -15,10 +15,10 @@
 </section>
 
 <section class="comfort row">
-  <div class="col-2 offset-1">
+  <div class="col-4 col-md-2 offset-md-1">
   	<img src="@asset('images/warranty.svg')" alt="warranty" />
   </div>
-  <div class="col-6">
+  <div class="col-8 col-md-6">
   	<img src="@asset('images/take-comfort.svg')" alt="take-comfort" />
   </div>
 </section>

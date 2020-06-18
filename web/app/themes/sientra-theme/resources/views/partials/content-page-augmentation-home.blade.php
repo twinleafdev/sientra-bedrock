@@ -212,4 +212,4 @@ fit better</h3>
   </div>
 </section>
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
-@php the_content() @endphp
+<!-- @php the_content() @endphp -->

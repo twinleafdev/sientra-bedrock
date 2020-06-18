@@ -7,10 +7,8 @@
 
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/realself.svg')" alt="realself" />
-      	<h2>The <span class="opus"><strong>highest rated</strong></span><br>breast implant brand in the U.S.*</h2>
+        <img src="@asset('images/before-after-gallery.svg')" alt="before-after-gallery" />
       </div>
-      <small>*Among silicone gel breast implants; As of March, 2020, realself.com</small>
   	</div>
   	  	
   </div>

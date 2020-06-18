@@ -48,7 +48,7 @@
 		</article>
 		<article class="col">
 			<header><h3>Reconstruction</h3></header>
-        <span>PDF </span> <p>SBIOCORNEUM: See Your Beauty, Not Your Scar</p>
+        <span>PDF </span> <p>BIOCORNEUM: See Your Beauty, Not Your Scar</p>
 		</article>
 	</div><!-- .row -->
 	<div class="row">
