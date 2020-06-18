@@ -72,21 +72,21 @@
 	</div><!-- .row -->
 </section>
 <section class="luxe row mb-5">
- <header class="col-6"> <img src="@asset('images/opus-luxe.png')" class="img-fluid" alt="opus-luxe" width="949" height="353" /></header>
- <div class="_250-round col-12 col-md-6 mb-2">
+ <header class="col-6 col-sm-4"> <img src="@asset('images/opus-luxe.png')" class="img-fluid" alt="opus-luxe" width="949" height="353" /></header>
+ <div class="_250-round col-12 col-md-4 mb-2">
   <img src="@asset('images/250-round.svg')" alt="250-round" />
  </div>
- <div class="implant col-12 col-md-6 text-center">
+ <div class="implant col-12 col-md-4 text-center">
    <img src="@asset('images/implant-projection.png')" class="img-fluid" alt="implant-projection" width="800" height="452" />
  	<span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)
  </div>
 </section>
-<section class="curve row">
- <div class="_250-round col-12 col-md-6 mb-2">
-  <img src="@asset('images/250-round.svg')" alt="250-round" />
+<section class="curve row mb-5">
+ <div class="_90-options col-12 col-md-4 mb-2 offset-md-5">
+  <img src="@asset('images/90-options.svg')" alt="90-options" />
  </div>
- <div class="implant col-12 text-center">
-   <img src="@asset('images/implant-projection.png')" class="img-fluid" alt="implant-projection" width="800" height="452" />
+ <div class="implant col-12 col-md-3 text-center">
+   <img src="@asset('images/implant-projection-vert.png')" class="img-fluid" alt="implant-projection-vert" width="500" height="1047" />
  	<span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)
  </div>
 
