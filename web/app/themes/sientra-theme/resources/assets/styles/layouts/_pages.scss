@@ -1240,6 +1240,34 @@
   .warranty {
     padding-left: 3%;
     padding-right: 3%;
+  }
+  .platinum20 {
+    border: 1px solid $primary;
+    padding: 15px;
+    .inner {
+      background-color: $tan;
+      padding: 30px;
+      font-size: 1.4rem;
+      ul {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        li {
+          font-size: 1.2rem;
+          border: none;
+          padding: 0 0 0.5rem; 
+          background: transparent;
+          span {
+            color: $orange;
+            width: 5.5rem;
+            line-height: 2.0rem;
+            float: left;
+            display: inline-block;
+            font-family: 'Avenir-Heavy', Avenir, sans-serif;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
   }  
 }
 

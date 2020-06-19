@@ -80,6 +80,27 @@ Sientra OPUS implants are clinically shown to have low complication rates.<sup>4
 	<div class="col-2">
 		<img src="@asset('images/warranty.svg')" class="img-fluid" alt="warranty" />
 	</div>
+	<div class="col-12 text-center">
+		<p>Because we believe in the safety and performance of our implants, we can offer the industry’s best warranty. </p>
+	</div>
+</section>
+<section class="platinum20 container">
+	<div class="inner">
+  	<div class="col-12 text-center">
+  		<p>Our Sientra Platinum20™ Product Replacement and Limited Warranty Program provides the most comprehensive protection, longest length of coverage, most financial assistance, and least amount of warranty restrictions amongst all implant brands. </p>
+  		<p>Covers all primary and revision augmentation and reconstruction surgeries</p>
+  	</div>
+  	<div class="col-10 offset-1">
+  		<ul class="list-group"><li class="list-group-item"><span>Lifetime</span>FREE implant replacement for rupture</li>
+        <li class="list-group-item"><span>20 Year</span>Up to $5,000 for uncovered fees and costs due to implant rupture</li>
+        <li class="list-group-item"><span>20 Year</span>FREE implant replacement for complications of capsular contracture (Baker Grade III/IV), late forming seroma, and double capsule</li>
+        <li class="list-group-item"><span>2 Year</span>Up to $2,000 for uncovered fees and costs due to capsular contracture (Baker Grade III/IV), late forming seroma, and double capsule</li> 
+  		</ul>
+  		<p class="text-center small">For qualifying patients with late forming seroma, Sientra will cover the cost of complete testing, based on current best practices, for Breast Implant Associated-Anaplastic Large Cell Lymphoma (BIA-ALCL). </p>
+  		<p class="text-center">For complete details about the terms and conditions of the Sientra Platinum20 program and Sientra <span class="opus">OPUS</span> breast implants visit <span class="opus heavy">resources</span></p>
+  	</div>
+
+	</div>
 </section>
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp
