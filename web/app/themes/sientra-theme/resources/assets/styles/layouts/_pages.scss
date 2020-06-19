@@ -988,6 +988,15 @@
     }
   } 
 }
+
+// end .patient-resources
+
+/* 
+ * 
+ */
+ 
+// start .before-after-gallery
+
 .before-after-gallery {
   .intro {
     h3 {
@@ -1021,6 +1030,15 @@
     }
   }
 }
+
+// end .before-after-gallery
+
+/* 
+ * 
+ */
+ 
+// start .expander-implant-options
+
 .expander-implant-options {
   .why-choose {
     background: $tan;
@@ -1141,4 +1159,216 @@
       }
     }
   }
+}
+
+// end .expander-implant-options
+
+/* 
+ * 
+ */
+ 
+// start .breast-reconstruction
+
+.breast-reconstruction {
+  .hero {
+    background-image: url(../images/aug-header-mobile.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 170vw;
+    @media (min-width: 768px) { 
+      background-image: url(../images/recon_home_hero-1200.jpg);
+      height: 50vw;
+    }
+    @media (min-width: 1999px) { 
+      background-image: url(../images/recon_home_hero-2500.jpg);
+    }
+
+  }
+  .intro {
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  .guide {
+    
+  }
+  .two-step {
+    background-color: $tan;
+    padding: 15px;
+    .inner {
+      border: 1px solid #fff;
+      padding-left: 8%;
+      padding-right: 8%;
+    }
+  }
+}
+
+// end .breast-reconstruction
+
+/* 
+ * 
+ */
+ 
+// start .saftey
+
+.safety {
+  .boxy-box {
+    .wrap {
+      .model {
+        order: 2; 
+        @media (min-width: 992px) {
+          margin-left: calc(-8.33333% + 15px);
+        }
+      }
+      .message {
+        order: 1;
+        @media (min-width: 992px) {
+          margin-left: -30px;
+        }   
+        .message-inner {
+          padding: 15% 15px;
+          align-items: center;
+          img {
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .warranty {
+    padding-left: 3%;
+    padding-right: 3%;
+  }  
+}
+
+// end .saftey
+
+/* 
+ * 
+ */
+ 
+// start .recon-before-after-gallery
+
+.recon-before-after-gallery {
+  .boxy-box {
+      .wrap {
+        .model {
+          order: 2; 
+          @media (min-width: 992px) {
+            margin-left: calc(-8.33333% + 15px);
+          }
+        }
+        .message {
+          order: 1;
+          @media (min-width: 992px) {
+            margin-left: -30px;
+          }   
+          .message-inner {
+            padding: 17% 30px;
+/*
+            align-items: center;
+            img {
+              width: 90%;
+              height: auto;
+            }
+*/
+          }
+        }
+      }
+    }
+  .projection {
+    border: 1px solid $orange;
+    padding: 0 25px 50px;
+    margin-top: 70px;
+    header img {
+      margin: -53px auto 30px;
+      height: 100px;
+      width: auto;
+      display: block;
+      background-color: #fff;
+    } 
+    img {
+      width: 100%;
+      height: auto;
+    }
+    article {
+      padding: 0;
+    }
+  }
+}
+
+// end .saftey
+
+/* 
+ * 
+ */
+ 
+// start .recon-before-after-gallery
+
+.preparing-for-surgery {
+  .boxy-box {
+    .wrap {
+      .model {
+
+      }
+      .message {
+        background-image: url(../images/basics-bg.jpg);
+        background-position: center;
+        background-size: 75%;
+        background-repeat: no-repeat;  
+        .message-inner {
+          padding: 15% 15px;
+          align-items: center;
+          img {
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .get-started {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    font-family: 'Avenir-Light', Avenir, sans-serif;
+    header img {
+      transform: translateX(-9%);
+    }
+  }
+  .faq {
+    border: 1px solid #000;
+    padding: 15px;
+    background-color: #fff;
+    .accordion {
+      padding: 15px;
+      background-color: $tan;
+      .card {
+        background-color: transparent;
+        border: 1px solid #fff !important;
+        margin-bottom: 15px;
+        border-bottom: 1px;
+        .card-header {
+          background-color: transparent;
+          padding: 0;
+          border: none;
+          button {
+            &:not(.collapsed) {
+              background-color: #fff;
+            }
+            font-size: 1.8rem;
+            font-family: 'Avenir-Light', Avenir, sans-serif;
+            padding: 15px;
+            width: 100%;
+            text-align: left;
+          }
+        }
+        .card-body {
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  
 }
