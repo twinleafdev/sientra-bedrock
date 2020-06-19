@@ -1187,21 +1187,80 @@
   }
   .intro {
     p {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
     }
   }
   .guide {
     
+    header{
+      img {
+        max-width: 455px;
+      }
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 1.9rem;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      &.implant-bg {
+        padding: 15px 0 15px 245px;
+        background-image: url(../images/implant-p-bg.jpg);
+        background-position: left center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 86%;
+        display: inline-block;
+      }
+    }
   }
   .two-step {
     background-color: $tan;
     padding: 15px;
     .inner {
       border: 1px solid #fff;
-      padding-left: 8%;
-      padding-right: 8%;
+      padding: 15px 15%;
+      header img {
+        max-width: 400px;
+      }
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 1.9rem;
     }
   }
+  .steps {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+  }
+  .boxy-box.timing {
+    .wrap {
+      .message {
+        background-image: url(../images/science-bg.jpg);
+        background-position: right center;
+        background-size: 75%;
+        background-repeat: no-repeat;
+        border: 1px solid $primary;
+        .message-inner {
+          padding: 50px;
+          background-color: $tan;
+          border: none;
+          img {
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .options {
+    header img {
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+    }
+  } 
 }
 
 // end .breast-reconstruction
@@ -1397,6 +1456,5 @@
         }
       }
     }
-  }
-  
+  } 
 }
