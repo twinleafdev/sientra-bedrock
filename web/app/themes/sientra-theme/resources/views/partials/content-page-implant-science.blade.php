@@ -13,7 +13,7 @@
   	  	
   </div>
 </section>
-<section class="desired-look text-center">
+<section class="desired-look text-center mx-auto">
   <header>
     <img src="@asset('images/desired-look.svg')" class="img-fluid" alt="achieve your desired look" />
   </header>

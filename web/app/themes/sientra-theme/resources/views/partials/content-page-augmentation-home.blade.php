@@ -41,7 +41,7 @@ It’s more than a warranty, it’s
 our commitment to your health and safety. 
 	</article>
 </section>
-<section class="shape row text-center">
+<section class="shape row text-center mt-5">
 	<div class="tag col-6 col-md-8">
 		<h2>Implants designed to hold their shape while maintaining a <span class="opus">remarkably soft</span> feel</h2>
 	</div>

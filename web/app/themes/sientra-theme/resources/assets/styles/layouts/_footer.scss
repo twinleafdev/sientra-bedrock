@@ -26,7 +26,17 @@
     display: block;
   }
 }
-
+.top {
+  font-size: 0.9rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+  img {
+    width: 30px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
 footer {
   .small {
     font-size: .5rem;

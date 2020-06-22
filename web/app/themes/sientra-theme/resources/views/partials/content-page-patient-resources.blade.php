@@ -36,7 +36,7 @@
 	</div><!-- .row -->
 	<div class="row">
 		<article class="col">
-			<header><h3>Augmentation</h3></header>
+			<header><h3>Warranty Terms & Condition</h3></header>
         <p>Please find terms and conditions below by date of implantation:</p>
         <p>April 1, 2012 – Sept 30, 2014</p>
         <span>PDF </span> <p>Sientra Warranty Terms & Conditions</p>
@@ -47,7 +47,7 @@
         <span>PDF </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Terms & Conditions</p>
 		</article>
 		<article class="col">
-			<header><h3>Reconstruction</h3></header>
+			<header><h3>Silicone Scar Treatment</h3></header>
         <span>PDF </span> <p>BIOCORNEUM: See Your Beauty, Not Your Scar</p>
 		</article>
 	</div><!-- .row -->

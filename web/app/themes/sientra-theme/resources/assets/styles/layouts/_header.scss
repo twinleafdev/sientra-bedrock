@@ -20,7 +20,7 @@
       position: absolute;
       top: 5px;
       right: 5px;
-      width: 255px;
+      width: 300px;
       height: auto;  
      }
   }
@@ -95,6 +95,12 @@
           a {
             color: $orange;
             font-family: 'Avenir-Medium', Avenir, sans-serif;
+          }
+        }
+        &.active,
+        &:hover {
+          a {
+            color: $orange;
           }
         }
       }

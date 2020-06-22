@@ -13,12 +13,12 @@
 
   </div>
 </section>
-<section class="get-started text-center">
+<section class="get-started text-center light">
 	<header>
-		<img src="@asset('images/getting-started.svg')" class="w-50" alt="getting-started" />
-		<p>on your breast augmentation journey</p>
+		<img src="@asset('images/getting-started.svg')" class="img-fluid" alt="getting-started" />
+		<h3 class="light">on your breast augmentation journey</h3>
 	</header>
-	<p class="w-75 mx-auto">There are many decisions to make when selecting the right implant for your body and desired outcome. Below are some initial terms and topics you’ll want to be familiar with going into discussions with your surgeon.</p>
+	<p class="mx-auto">There are many decisions to make when selecting the right implant for your body and desired outcome. Below are some initial terms and topics you’ll want to be familiar with going into discussions with your surgeon.</p>
 </section>
 <section class="faq">
 

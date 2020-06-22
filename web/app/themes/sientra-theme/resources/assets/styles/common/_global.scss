@@ -25,7 +25,9 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 // font-family: 'Playfair Display', serif;
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Avenir-Book', Avenir, sans-serif;
   transition: opacity ease 0.5s;
@@ -36,7 +38,7 @@ body {
 //    transition: opacity ease 5.5s;
   }
   a {
-    transition: all ease 0.5s;
+    transition: all ease 0.3s;
   }
   .q {
     font-family: 'Playfair Display', serif;

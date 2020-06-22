@@ -136,6 +136,7 @@
     background-size: contain;
     @media (min-width: 768px) { 
       background-position: right bottom;
+      margin-top: 80px;
     }
     .tag {
       height: 107vw;
@@ -655,9 +656,10 @@
   }
   .desired-look {
     font-size: 1.5rem;
+    max-width: 1650px;
     header img {
       transform: translateX(2%);
-      max-width: 375px;
+      max-width: 475px;
     }
   }
   .surfaces {
@@ -797,11 +799,28 @@
     }
   }
   .get-started {
-    font-size: 1.5rem;
-    line-height: 1.9rem;
-    font-family: 'Avenir-Light', Avenir, sans-serif;
-    header img {
-      transform: translateX(-9%);
+    header {
+      img {
+        transform: translateX(-9%);
+        max-width: 70vw;
+        @media (min-width: 992px) {
+          max-width: 50%;
+        }
+      }
+      h3 {
+        font-size: 1.1rem;
+        @media (min-width: 992px) {
+          font-size: 1.5rem;
+          line-height: 1.9rem; 
+        }
+      }
+    }
+    p {
+      @media (min-width: 992px) {
+        font-size: 1.5rem;
+        line-height: 1.9rem; 
+        width: 75%;
+      }
     }
   }
   .faq {
@@ -845,9 +864,9 @@
  * 
  */
  
-// start .p20-warranty-details
+// start .warranty-details
 
-.p20-warranty-details {
+.warranty-details {
   .boxy-box {
     .wrap {
       .model {
@@ -935,7 +954,7 @@
   }  
 }
 
-// end .p20-warranty-details
+// end .warranty-details
 
 /* 
  * 
