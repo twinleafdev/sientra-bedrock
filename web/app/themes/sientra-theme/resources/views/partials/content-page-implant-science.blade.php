@@ -79,8 +79,33 @@
   <img src="@asset('images/250-round.svg')" alt="250-round" />
  </div>
  <div class="implant col-12 col-md-4 text-center">
-   <img src="@asset('images/implant-projection.png')" class="img-fluid" alt="implant-projection" width="800" height="452" />
- 	<span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)
+   
+     <div class="swiper-container swiper-luxe-projection">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="@asset('images/luxe-projection-low.png')" class="img-fluid" alt="luxe-projection-low" width="800" height="679" />
+          <p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="@asset('images/luxe-projection-moderate.png')" class="img-fluid" alt="luxe-projection-moderate" width="800" height="554" />
+          <p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="@asset('images/luxe-projection-moderate-plus.png')" class="img-fluid" alt="luxe-projection-moderate-plus" width="800" height="570" />
+          <p><span class="opus">moderate plus</span> projection  <span class="opus">|</span>  (175 cc - 695 cc)</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="@asset('images/luxe-projection-high.png')" class="img-fluid" alt="luxe-projection-high" width="800" height="592" />       
+          <p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="@asset('images/luxe-projection-xrta-high.png')" class="img-fluid" alt="luxe-projection-xrta-high" width="800" height="506" />
+          <p><span class="opus">Xtra high</span> projection  <span class="opus">|</span>  (275 cc - 510 cc)</p>
+        </div>
+      </div><!-- .swiper-wrapper -->
+     </div>
+
+ 
  </div>
 </section>
 <section class="curve row mb-5">

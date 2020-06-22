@@ -51,6 +51,7 @@
         <img src="@asset('images/insta1.jpg')" class="insta-bio my-2 mx-auto" alt="insta1" width="550" height="145" />
       </div>
     </div><!-- .swiper-wrapper -->
+  </div>
 </section>
 
 <!--

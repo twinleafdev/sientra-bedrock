@@ -724,7 +724,25 @@
         margin-top: 0;
         padding: 3%;
       }
-    }    
+    }
+    .swiper-luxe-projection {
+      .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        @media (min-width: 768px) {
+
+        }
+        p, img {
+          opacity: 0;
+          transition: opacity ease 0.3s;
+        }
+        &.swiper-slide-active {
+          p, img {
+            opacity: 1;
+          }
+        }   
+      }
+    }
   }
   .curve {
     background-image: url(../images/curve-bg-m.jpg);
