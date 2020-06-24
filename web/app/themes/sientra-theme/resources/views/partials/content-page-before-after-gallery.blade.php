@@ -27,24 +27,32 @@
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_04.jpg')" alt="before-after_04" width="339" height="300" /></article>
 	</div><!-- .container -->
 
-	<div class="low projection row">
-  	<header class="col-12"><img src="@asset('images/low-projection.png')" alt="low-projection" width="800" height="300" /></header>
+	<div class="moderate projection row">
+  	<header class="col-12"><img src="@asset('images/moderate-projection.jpg" alt="moderate-projection')" width="1000" height="322" /></header>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_01.jpg')" alt="before-after_01" width="339" height="300" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_02.jpg')" alt="before-after_02" width="339" height="300" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_03.jpg')" alt="before-after_03" width="339" height="300" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_04.jpg')" alt="before-after_04" width="339" height="300" /></article>
 	</div><!-- .container -->
 	
-	<div class="low projection row">
-  	<header class="col-12"><img src="@asset('images/low-projection.png')" alt="low-projection" width="800" height="300" /></header>
+	<div class="moderate-plus projection row">
+  	<header class="col-12"><img src="@asset('images/moderate-plus-projection.jpg')" alt="moderate-plus-projection" width="1378" height="350" /></header>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_01.jpg')" alt="before-after_01" width="339" height="300" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_02.jpg')" alt="before-after_02" width="339" height="300" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_03.jpg')" alt="before-after_03" width="339" height="300" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_04.jpg')" alt="before-after_04" width="339" height="300" /></article>
 	</div><!-- .container -->
 	
-	<div class="low projection row">
-  	<header class="col-12"><img src="@asset('images/low-projection.png')" alt="low-projection" width="800" height="300" /></header>
+	<div class="high projection row">
+  	<header class="col-12"><img src="@asset('images/high-projection.png')" alt="high-projection" width="882" height="350" /></header>
+    <article class="col-6 col-md-3"><img src="@asset('images/before-after_01.jpg')" alt="before-after_01" width="339" height="300" /></article>
+    <article class="col-6 col-md-3"><img src="@asset('images/before-after_02.jpg')" alt="before-after_02" width="339" height="300" /></article>
+    <article class="col-6 col-md-3"><img src="@asset('images/before-after_03.jpg')" alt="before-after_03" width="339" height="300" /></article>
+    <article class="col-6 col-md-3"><img src="@asset('images/before-after_04.jpg')" alt="before-after_04" width="339" height="300" /></article>
+	</div><!-- .container -->
+	
+	<div class="xtra-high projection row">
+  	<header class="col-12"><img src="@asset('images/xtra-high-projection.jpg')" alt="xtra-high-projection" width="800" height="363" /></header>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_01.jpg')" alt="before-after_01" width="339" height="300" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_02.jpg')" alt="before-after_02" width="339" height="300" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_03.jpg')" alt="before-after_03" width="339" height="300" /></article>

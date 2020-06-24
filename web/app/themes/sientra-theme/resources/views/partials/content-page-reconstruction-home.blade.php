@@ -67,25 +67,22 @@
         </header>
         <div class="row">
           <div class="col-12">
-            <h3>Immediate vs. Delayed Reconstruction</h3>
-          	<p>Breast reconstruction can begin at the time of your mastectomy (Immediate) or it can be performed months or years later (Delayed). Timing will depend on your stage of cancer and treatment plan post mastectomy:<sup>3</sup></p>
+            <h3 class="light opus">Immediate vs. Delayed Reconstruction</h3>
+          	<p>Breast reconstruction can begin at the time of your mastectomy <span class="opus">(Immediate)</span> or it can be performed months or years later <span class="opus">(Delayed)</span>. Timing will depend on your stage of cancer and treatment plan post mastectomy:<sup>3</sup></p>
           </div>
         
           <div class="col-6">
-          	Some benefits of
-  Immediate Reconstruction<sup>3</sup>
+          	Some benefits of<br><span class="opus">Immediate Reconstruction</span><sup>3</sup>
             <ul class="text-left">
-              <li>One less surgery and potentially
-              less costs</li>
+              <li>One less surgery and potentially less costs</li>
               <li>Emotional benefit of beginning reconstruction at same time as 
               your mastectomy</li>
             </ul>
           </div>
           <div class="col-6">
-          	Some benefits of
-  Delayed Reconstruction<sup>3</sup>
+          	Some benefits of<br><span class="opus">Delayed Reconstruction</span><sup>3</sup>
             <ul class="text-left">
-              <li>Allows for additional cancer therapies (such as chemo and radiation)</li>
+              <li> Allows for additional cancer therapies (such as chemo and radiation)</li>
               <li>More time to consider your reconstruction options</li>
             </ul>
           </div>  
@@ -105,7 +102,7 @@
   <header class="col-12">
   	 <img src="@asset('images/options.svg')" class="img-fluid" alt="options" />
   </header>
-	<div class="col-12 text-center">
+	<div class="col-sm-12  col-lg-8 text-center">
   	<h2>breast tissue expanders and silicone gel breast implants
 designed for your comfort and peace-of-mind</h2>
   </div>
