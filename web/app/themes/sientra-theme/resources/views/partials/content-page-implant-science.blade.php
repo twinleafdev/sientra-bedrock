@@ -113,8 +113,20 @@
   <img src="@asset('images/90-options.svg')" alt="90-options" />
  </div>
  <div class="implant col-12 col-md-3 text-center">
-   <img src="@asset('images/implant-projection-vert.png')" class="img-fluid" alt="implant-projection-vert" width="500" height="1047" />
- 	<span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)
+   
+     <div class="swiper-container swiper-curve-projection">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+           <img src="@asset('images/curve-projection-low.png')" class="img-fluid" alt="curve-projection-low" width="500" height="1048" />
+           <p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="@asset('images/curve-projection-high.png')" class="img-fluid" alt="curve-projection-high" width="500" height="1046" />
+          <p><span class="opus">high</span> projection  <span class="opus">|</span>  (180 cc - 650 cc)</p>
+        </div>
+      </div><!-- .swiper-wrapper -->
+     </div>
+ 	
  </div>
 
 </section>
