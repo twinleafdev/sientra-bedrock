@@ -36,7 +36,7 @@
 	</div><!-- .row -->
 	<div class="row">
 		<article class="col">
-			<header><h3>Warranty Terms & Condition</h3></header>
+			<header><h3>Warranty Terms & Conditions</h3></header>
         <p>Please find terms and conditions below by date of implantation:</p>
         <p>April 1, 2012 – Sept 30, 2014</p>
         <span>PDF </span> <p>Sientra Warranty Terms & Conditions</p>

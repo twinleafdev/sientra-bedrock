@@ -3,7 +3,7 @@
 
 </section>
 
-<section class="intro row" >
+<section class="intro row mb-5" >
   <div class="container">
     <header class="w-75 mx-auto">
     	<img src="@asset('images/helping-you-more.svg')" alt="helping-you-more" />
@@ -20,8 +20,8 @@
   	<h3 class="light">what is breast reconstruction?</h3>
   </header>
 	<p>Breast reconstruction is a surgical procedure that restores the shape and appearance of a breast. You may consider breast reconstruction following a mastectomy or a lumpectomy.</p>
-	<p class="implant-bg">The most common approach is implant-based reconstruction which uses a breast implant to rebuild breast shape.<sup>1</sup> </p>
-	<p>Breast reconstruction can either be performed in a one-step procedure, often referred to as direct-to-implant, where the implant is inserted at the time of your mastectomy. Or, more commonly, the reconstruction takes place in two steps.<sup>1</sup> </p>
+	<p class="implant-bg">The most common approach is <span class="opus">implant-based reconstruction</span> which uses a breast implant to rebuild breast shape.<sup>1</sup> </p>
+	<p>Breast reconstruction can either be performed in a <span class="opus">one-step procedure</span>, often referred to as <span class="opus">direct-to-implant</span>, where the implant is inserted at the time of your mastectomy. Or, more commonly, the reconstruction takes place in <span class="opus">two steps</span>.<sup>1</sup> </p>
 </section>
 <section class="two-step text-center container">
   <div class="inner light">
@@ -94,10 +94,11 @@
   	</div>
   	  	
   </div>
-  <img src="@asset('images/recon-woman-section-break.jpg')" class="img-fluid" alt="recon-woman-section-break" width="2000" height="759" />
-
+   
 </section>
-
+<section class="row">
+    <img src="@asset('images/recon-patient-break.jpg')" class="img-fluid my-5" alt="recon-patient-break" width="2500" height="1094" />
+</section>
 <section class="options row"> 
   <header class="col-12">
   	 <img src="@asset('images/options.svg')" class="img-fluid" alt="options" />
