@@ -185,7 +185,7 @@
 
 </section>
 
-<section class="factor row text-center py-5">
+<section class="factor row text-center pb-5">
   <div class="container">
     <div class="row">
     	<div class="col-12 py-4 tag">
