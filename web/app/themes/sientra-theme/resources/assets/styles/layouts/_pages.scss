@@ -1446,6 +1446,9 @@
       background-position: center top;
       background-size: contain;
       background-repeat: no-repeat;
+      @media (min-width: 768px) {
+        border-top-right-radius: 37%;
+      }
       h3 {
         color: $primary;
         font-size: 1.5rem;
@@ -1667,7 +1670,7 @@
           margin-left: -30px;
         }   
         .message-inner {
-          padding: 20% 15%;
+          padding: 15%;
           align-items: center;
           img {
             width: 90%;
