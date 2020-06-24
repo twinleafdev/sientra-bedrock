@@ -87,7 +87,8 @@
     background-size: contain;
     height: 170vw;
     @media (min-width: 768px) { 
-      background-image: url(../images/aug_home_hero-1200.jpg);
+//       background-image: url(../images/aug_home_hero-1200.jpg);
+      background-image: url(../images/aug_home_hero-2500.jpg);
       height: 64vw;
     }
     @media (min-width: 1999px) { 
@@ -743,24 +744,6 @@
         }   
       }
     }
-    .swiper-curve-projection {
-      .swiper-slide {
-        display: flex;
-        flex-direction: column;
-        @media (min-width: 768px) {
-
-        }
-        p, img {
-          opacity: 0;
-          transition: opacity ease 0.3s;
-        }
-        &.swiper-slide-active {
-          p, img {
-            opacity: 1;
-          }
-        }   
-      }
-    }
   }
   .curve {
     background-image: url(../images/curve-bg-m.jpg);
@@ -792,6 +775,24 @@
       ._90-options { 
         margin-top: 0;
         padding: 3%;
+      }
+    }
+    .swiper-curve-projection {
+      .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        @media (min-width: 768px) {
+
+        }
+        p, img {
+          opacity: 0;
+          transition: opacity ease 0.3s;
+        }
+        &.swiper-slide-active {
+          p, img {
+            opacity: 1;
+          }
+        }   
       }
     }
   }
@@ -1095,6 +1096,13 @@
 // start .expander-implant-options
 
 .expander-implant-options {
+  .boxy-box {
+    .message {
+      .message-inner {
+        padding: 17% 30px;
+      }
+    }
+  }
   .why-choose {
     background: $tan;
     padding: 15px;
@@ -1364,6 +1372,24 @@
         padding: 3%;
       }
     }
+    .swiper-curve-projection {
+      .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        @media (min-width: 768px) {
+
+        }
+        p, img {
+          opacity: 0;
+          transition: opacity ease 0.3s;
+        }
+        &.swiper-slide-active {
+          p, img {
+            opacity: 1;
+          }
+        }   
+      }
+    }
   }
   .factor {
     .container {
@@ -1372,8 +1398,9 @@
       background-size: contain;
       background-repeat: no-repeat;
       h3 {
-        color: $orange;
+        color: $primary;
         font-size: 1.5rem;
+        font-family: Avenir-Light, Avenir, sans-serif; 
         margin-bottom: 0;
       }
       .tag {
@@ -1417,14 +1444,19 @@
         margin-left: auto;
         margin-right: auto;
         font-family: 'Avenir-Black', Avenir, sans-serif;
+        display: flex;
+        align-items: center;
+        span {
+          font-size: 0.7em;
+        }
       }
       &._90 {
         background-image: url(../images/90percent.svg);
-        color: $primary;
+        color: $orange;
       }
       &._91 {
         background-image: url(../images/91percent.svg);
-        color: $orange;
+         color: $primary;
       }
       &._79 {
         background-image: url(../images/79percent.svg);
@@ -1467,7 +1499,8 @@
     background-size: contain;
     height: 170vw;
     @media (min-width: 768px) { 
-      background-image: url(../images/recon_home_hero-1200.jpg);
+//       background-image: url(../images/recon_home_hero-1200.jpg);
+      background-image: url(../images/recon_home_hero-2500.jpg);
       height: 50vw;
     }
     @media (min-width: 1999px) { 

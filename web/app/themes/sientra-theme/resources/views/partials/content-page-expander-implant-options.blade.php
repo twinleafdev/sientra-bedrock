@@ -2,12 +2,11 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/implant-science.jpg')" alt="pittman" width="1200" height="691" />
+      <img src="@asset('images/expander-implant-options.jpg')" alt="expander-implant-options" width="1800" height="1038" />
   	</div>
-
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/patient-resources.svg')" alt="patient resources" />
+        <img src="@asset('images/expander-implant-options.svg')" alt="expander-implant-options" />
       </div>
   	</div>
   	  	
@@ -191,34 +190,32 @@
     <div class="row">
     	<div class="col-12 py-4 tag">
       	<img src="@asset('images/feel-good-factor.svg')" alt="feel good factor" />
-    		<h2>patient satisfaction rates<sup>2</sup></h2>
+    		<h2>patient satisfaction rates<sup>4</sup></h2>
     	</div>  
   	  
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle _90">
-      		<strong>90%</strong><br>
+      		<strong>80.3<span class="light">%</span></strong><br>
       	</div>
-    		<h3>Felt more feminine</h3>
+    		<h3>Felt more<br>feminine</h3>
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle _91">
-      		<strong>91%</strong><br>
+      		<strong>75.2<span class="light">%</span></strong><br>
       	</div>
-    		<h3>Felt breasts look natural and soft
-</h3>
+    		<h3>felt their clothes<br>fit better</h3>
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle _79">
-      		<strong>79%</strong><br>
+      		<strong>71.3<span class="light">%</span></strong><br>
       	</div>
-    		<h3>Felt their clothes
-fit better</h3>
+    		<h3>felt their breasts look<br>natural and soft</h3>
     	</article>
     <!-- 	 -->
-      <article class="col-12">
+      <article class="col-12 my-4">
       	    *(primary augmentation cohort)
       </article>
     </div><!-- .row -->
@@ -230,7 +227,7 @@ fit better</h3>
   <div class="wrap px-0 pl-lg-3">  	
   	
     <div class="col-12 col-lg-8 model text-left px-0 px-lg-3">
-      <img src="@asset('images/realself-model.jpg')" alt="pittman" width="800" height="767" />
+      <img src="@asset('images/expander-realself.jpg')" alt="expander-realself" width="1500" height="992" />
     </div>
 
   	<div class="col-12 col-lg-5 message">
