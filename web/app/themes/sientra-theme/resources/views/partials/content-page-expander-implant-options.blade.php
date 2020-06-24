@@ -195,21 +195,21 @@
   	  
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
-      	<div class="rounded-circle _90">
+      	<div class="rounded-circle _80">
       		<strong>80.3<span class="light">%</span></strong><br>
       	</div>
     		<h3>Felt more<br>feminine</h3>
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
-      	<div class="rounded-circle _91">
+      	<div class="rounded-circle _75">
       		<strong>75.2<span class="light">%</span></strong><br>
       	</div>
     		<h3>felt their clothes<br>fit better</h3>
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
-      	<div class="rounded-circle _79">
+      	<div class="rounded-circle _71">
       		<strong>71.3<span class="light">%</span></strong><br>
       	</div>
     		<h3>felt their breasts look<br>natural and soft</h3>

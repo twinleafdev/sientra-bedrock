@@ -104,12 +104,16 @@ $height1: 41vw;
   margin-top: 30px;
   margin-bottom: 30px;
   display: inline-block;
+
   h2 {
     border: 1px solid #fff;
-    padding: 5px 100px;
+    padding: 5px;
     margin: 0;
     font-size: 1.6rem;
     font-family: 'Avenir-Light', Avenir, sans-serif;
+    @media (min-width: 768px) {
+      padding: 5px 100px;
+    }
   }
 }
 .opus {

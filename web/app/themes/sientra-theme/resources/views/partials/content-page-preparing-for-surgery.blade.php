@@ -2,12 +2,12 @@
   <div class="wrap px-0 pl-lg-3">  	
 
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/breast-implant-basics.jpg')" alt="breast-implant-basics" width="1200" height="712" />
+      <img src="@asset('images/preparing-for-surgery.jpg')" alt="preparing-for-surgery" width="1500" height="861" />
   	</div>
-  	
+
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/breast-implant-basics.svg')" alt="breast implant basics" />
+        <img src="@asset('images/preparing-for-surgery.svg')" alt="preparing-for-surgery" />
       </div>
   	</div>
 

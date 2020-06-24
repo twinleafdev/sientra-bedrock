@@ -133,9 +133,8 @@
 <section class="patient-safety row text-center">
   <div class="inner container-fluid">
     <header class="row mb-5">
-   <div class="col-12 col-md-7"> <img src="@asset('images/patient-safety.svg')" alt="patient-safety" /></div>
-   
- <div class="col-12 col-md-4 text-center d-flex align-items-center"> <p><span class="opus">OPUS</span> implants are clinically shown to have low complication rates<sup>2</sup></p></div>
+      <div class="h-line col-12 col-md-7"> <img src="@asset('images/patient-safety.svg')" alt="patient-safety" /></div>
+      <div class="col-12 col-md-4 text-center d-flex align-items-center"> <p><span class="opus">OPUS</span> implants are clinically shown to have low complication rates<sup>2</sup></p></div>
     </header>
     <div class="container">
       <div class="row">    

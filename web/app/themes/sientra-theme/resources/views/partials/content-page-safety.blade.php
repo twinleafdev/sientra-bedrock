@@ -2,43 +2,37 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/warranty.jpg')" alt="warranty" width="1200" height="687" />
+      <img src="@asset('images/recon-patient-safety.jpg')" alt="recon-patient-safety" width="1500" height="861" />
   	</div>
 
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/warranty-details.svg')" alt="warranty details" />
+        <img src="@asset('images/recon-patient-safety.svg')" alt="recon-patient-safety" />
       </div>
   	</div>
   	  	
   </div>
 </section>
-<section class="container text-center">
-  <div class="row">
-    <header class="col-12">
-    	PATIENT SAFETY
-    </header>
-  	<div class="col-12">
-  			<p>When it comes to patient safety, not all implants are created equal. 
-Sientra OPUS implants are clinically shown to have low complication rates.<sup>4</sup></p>
-  	</div>
-  </div><!-- .row -->
 
-</section>
 <section class="patient-safety row text-center">
-
     <header class="col-12">
-     	<img src="@asset('images/implant-safety-diagram.jpg')" class="img-fluid" alt="implant-safety-diagram" width="1800" height="661" />
+      	<img src="@asset('images/patient-safety.svg')" alt="patient-safety" />
     </header>
+  	<div class="col-12 col-md-10 offset-md-1 my-5">
+    			<h2 class="light">When it comes to patient safety, not all implants are created equal.<br>Sientra <span class="opus">OPUS</span> implants are clinically shown to have low complication rates.<sup>4</sup></h2>
+  	</div>
 
-    </header>
+    <div class="diagram col-12">
+     	<img src="@asset('images/implant-safety-diagram.jpg')" class="img-fluid" alt="implant-safety-diagram" width="1800" height="661" />
+    </div>
+
     <div class="container">
       <div class="row">    
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
         	<div class="rounded-circle">
         		<strong>Low</strong>
-      <p>capsular contracture rate*</p>
+      <p>capsular contracture rate<sup>*</sup></p>
         	</div>
       		<h3>Capsular Contracture</h3>
       <p>A tightening/hardening 
@@ -49,7 +43,7 @@ Sientra OPUS implants are clinically shown to have low complication rates.<sup>4
       	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
         	<div class="rounded-circle">
         		<strong>Lowest</strong>
-        		<p>rupture rate*</p>
+        		<p>rupture rate<sup>*</sup></p>
       		</div>
       		<h3>Implant Rupture</h3>
       <p>A hole or tear in the 
@@ -60,7 +54,7 @@ Sientra OPUS implants are clinically shown to have low complication rates.<sup>4
       	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
         	<div class="rounded-circle">
         		<strong>Lowest</strong>
-        		<p>reoperation rate*</p>
+        		<p>reoperation rate<sup>*</sup></p>
         	</div>
       		<h3>Reoperation</h3>
       <p>Any additional surgery performed to the breast after the first breast implantation</p> 
@@ -71,17 +65,17 @@ Sientra OPUS implants are clinically shown to have low complication rates.<sup>4
         </article>
       </div><!-- .row -->
     </div><!-- .container -->
-  </div>
+  
 </section>
 <section class="warranty row">
-	<div class="col-8 offset-2 text-center">
-		best implant WARRANTY
+	<div class="h-line col-9 col-md-8 offset-md-2 text-center">
+		<img src="@asset('images/best-implant-warranty.svg')" alt="best-implant-warranty" />
 	</div>
-	<div class="col-2">
+	<div class="col-3 col-md-2">
 		<img src="@asset('images/warranty.svg')" class="img-fluid" alt="warranty" />
 	</div>
-	<div class="col-12 text-center">
-		<p>Because we believe in the safety and performance of our implants, we can offer the industry’s best warranty. </p>
+	<div class="col-12 col-md-8 offset-md-2 text-center my-5">
+		<h2 class="light">Because we believe in the safety and performance of our implants, we can offer the industry’s best warranty. </h2>
 	</div>
 </section>
 <section class="platinum20 container">
