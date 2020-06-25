@@ -1030,13 +1030,16 @@
         display: flex;
       }
       line-height: 1.2rem;
-      span {
+      span a {
         color: $orange;
         margin-bottom: 1rem;
         margin-right: .3rem;
         float: left;
         font-family: 'Avenir-Heavy', Avenir, sans-serif;
         text-decoration: underline;
+        &:hover {
+          color: $primary;
+        }
       }
       p {
         
