@@ -28,7 +28,7 @@
 	</div><!-- .container -->
 
 	<div class="moderate projection row">
-  	<header class="col-12"><img src="@asset('images/moderate-projection.jpg" alt="moderate-projection')" width="1000" height="322" /></header>
+  	<header class="col-12"><img src="@asset('images/moderate-projection.jpg')" alt="moderate-projection')" width="1000" height="322" /></header>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_01.jpg')" alt="before-after_01" width="339" height="300" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_02.jpg')" alt="before-after_02" width="339" height="300" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_03.jpg')" alt="before-after_03" width="339" height="300" /></article>
