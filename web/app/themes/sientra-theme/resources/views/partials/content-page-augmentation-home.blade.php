@@ -1,4 +1,4 @@
-<section class="hero row flex-column">
+<section class="hero row">
 <!-- 	<img src="@asset('images/aug_home_hero.jpg')" class="img-fluid" alt="aug_home_hero" width="2500" height="1552" /> -->
 <!--
 	<img class="img-fluid"
@@ -9,7 +9,13 @@
      src="@asset('images/aug_home_hero-2500.jpg')"
      alt="Safer more beautiful results" width="2500" height="1552" >
 -->
-
+  <div class="col-12 col-md-6 offset-md-6">
+    <span class="image-h" style="background-image: url(@asset('images/safer-results.svg'));">SAFER more beautiful RESULTS</span>
+  </div>
+  <div class="col-12 col-md-6 offset-md-6">
+  	<h2 class="light">We believe superior implants in the most skilled<br>
+and qualified hands leads to better outcomes</h2>
+  </div>
 </section>
 
 <section class="row why-choose text-center my-4  py-5">

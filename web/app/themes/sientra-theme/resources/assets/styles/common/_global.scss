@@ -61,6 +61,14 @@ body {
   .black {
     font-family: 'Avenir-Black', Avenir, sans-serif;
   }
+  .image-h {
+    text-indent: -9999px;
+    font-size: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+  }
 }
 $height1: 41vw;
 .boxy-box {
