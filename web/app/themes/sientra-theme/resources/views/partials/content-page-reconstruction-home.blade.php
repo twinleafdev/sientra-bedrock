@@ -63,7 +63,7 @@
   	<div class="col-12 col-lg-8 message">
       <div class="message-inner">
         <header>
-        	TIMING
+        	<span style="background-image:url( @asset('images/timing.svg') );">TIMING</span>
         </header>
         <div class="row">
           <div class="col-12">

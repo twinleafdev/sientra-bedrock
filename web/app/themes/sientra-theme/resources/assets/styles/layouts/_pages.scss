@@ -1621,6 +1621,22 @@
           padding: 50px;
           background-color: $tan;
           border: none;
+          margin-top: 10px;
+          header {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            span {
+              text-indent: -9999px;
+              font-size: 0;
+              display: flex;
+              width: 80%;
+              padding-bottom: 8%;
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: contain;
+            }
+          }
           img {
             width: 90%;
             height: auto;
