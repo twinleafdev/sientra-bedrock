@@ -16,28 +16,22 @@
 <section class="resources container">
 	<div class="row">
 		<article class="col">
-
-
-
-
-
-
 			<header><h3>Augmentation</h3></header>
-        <span><a href="@asset('images/aug/MDC-0351%20R1%20OPUS%20Luxe%20Patient%20Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
+        <span><a href="@asset('images/aug/MDC-0351_R1_OPUS_Luxe_Patient_Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
         <span><a href="@asset('images/aug/Sientra_Patient_Planning_Guide_Breast_Augmentation.pdf')" target="_blank">PDF</a> </span> <p>Sientra Patient Planning Guide: Breast Augmentation</p>
-        <span><a href="@asset('images/aug/Sientra_PatientLabel_Augmentation_MDC-0010%20R2_11.7.17.pdf')" target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p>
+        <span><a href="@asset('images/aug/Sientra_PatientLabel_Augmentation_MDC-0010_R2_11.7.17.pdf')" target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p>
         <span><a href="@asset('images/aug/Sientra_Silicone_Gel_Breast_Implants_Quick_Facts_About_Breast_Augmentation_and_Reconstruction.pdf')" target="_blank">PDF</a> </span> <p>Patient Educational Brochure: Breast Augmentation With Sientra Silicone Gel Breast Implants</p>
-        <span><a href="@asset('images/aug/MDC-0298%20R2%20Platinum20%20Patient%20Leaflet.pdf')" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Program Information Pamphlet</p>
+        <span><a href="@asset('images/aug/MDC-0298_R2_Platinum20_Patient_Leaflet.pdf')" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Program Information Pamphlet</p>
 		</article>
 		<article class="col">
   		  		
 			<header><h3>Reconstruction</h3></header>
-        <span><a href="@asset('images/recon/MDC-0351%20R1%20OPUS%20Luxe%20Patient%20Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
+        <span><a href="@asset('images/recon/MDC-0351_R1_OPUS_Luxe_Patient_Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
         <span><a href="@asset('images/recon/Sientra_Patient_Planning_Guide_Breast_Augmentation.pdf')" target="_blank">PDF</a> </span> <p>Sientra Patient Planning Guide: Breast Reconstruction</p>
         <span><a href="@asset('images/recon/Sientra_Silicone_Gel_Breast_Implants_Quick_Facts_About_Breast_Augmentation_and_Reconstruction.pdf') " target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p>
-        <span><a href="@asset('images/recon/Sientra_PatientLabel_Augmentation_MDC-0010%20R2_11.7.17.pdf')" target="_blank">PDF</a> </span> <p>Patient Educational Brochure: Breast Reconstruction With Sientra Silicone Gel Breast Implants</p>
-        <span><a href="@asset('images/recon/MDC-0009%20R2%20Warranty.pdf')" target="_blank">PDF</a> </span> <p>The Sientra Platinum20<sup>TM</sup> Limited Warranty & Lifetime Product Replacement Program Brochure</p>
-        <span><a href="@asset('images/recon/MDC-0298%20R2%20Platinum20%20Patient%20Leaflet.pdf')" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Program Information Pamphlet</p>
+        <span><a href="@asset('images/recon/Sientra_PatientLabel_Augmentation_MDC-0010_R2_11.7.17.pdf')" target="_blank">PDF</a> </span> <p>Patient Educational Brochure: Breast Reconstruction With Sientra Silicone Gel Breast Implants</p>
+        <span><a href="@asset('images/recon/MDC-0009_R2_Warranty.pdf')" target="_blank">PDF</a> </span> <p>The Sientra Platinum20<sup>TM</sup> Limited Warranty & Lifetime Product Replacement Program Brochure</p>
+        <span><a href="@asset('images/recon/MDC-0298_R2_Platinum20_Patient_Leaflet.pdf')" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Program Information Pamphlet</p>
 
 		</article>
 	</div><!-- .row -->
