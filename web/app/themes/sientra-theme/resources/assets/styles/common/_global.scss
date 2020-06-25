@@ -119,3 +119,35 @@ $height1: 41vw;
 .opus {
     color: $orange;
 }
+.faq {
+  .accordion {
+    .card {
+      .card-header {
+        button {
+          display: flex;
+          &:hover,
+          &:focus {
+            text-decoration: none;
+          }
+          display: flex;
+          &:hover,
+          &:focus {
+            text-decoration: none;
+          }
+          &:before {
+            content: '\0002B\000A';
+            display: block;
+            color: $orange;
+            padding-right: 5px;
+            
+          }
+          &:not(.collapsed):before {
+            content: '\02212\000A';
+            display: block;
+            color: $orange;
+          }
+        }
+      }
+    }
+  }
+} 

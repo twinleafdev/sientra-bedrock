@@ -27,7 +27,7 @@
       <div class="card-header" id="headingOne">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            + What’s a “highly cohesive” silicone gel implant? 
+            What’s a “highly cohesive” silicone gel implant? 
           </button>
         </h2>
       </div>
@@ -42,7 +42,7 @@
       <div class="card-header" id="headingTwo">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            + Round vs. teardrop shaped implants
+            Round vs. teardrop shaped implants
           </button>
         </h2>
       </div>
@@ -56,7 +56,7 @@
       <div class="card-header" id="headingThree">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            + What’s the difference between macrotextured and microtextured implants?
+            What’s the difference between macrotextured and microtextured implants?
           </button>
         </h2>
       </div>
@@ -70,7 +70,7 @@
       <div class="card-header" id="headingFour">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            + Smooth vs. microtextured implants
+            Smooth vs. microtextured implants
           </button>
         </h2>
       </div>
@@ -83,7 +83,7 @@
       <div class="card-header" id="headingFive">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            + Implant projection
+            Implant projection
           </button>
         </h2>
       </div>
@@ -98,7 +98,7 @@
       <div class="card-header" id="headingSix">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-            + Implant volume/fullness
+            Implant volume/fullness
           </button>
         </h2>
       </div>
@@ -112,7 +112,7 @@
       <div class="card-header" id="headingSeven">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-            + Are silicone gel breast implants safe?
+            Are silicone gel breast implants safe?
           </button>
         </h2>
       </div>
@@ -126,7 +126,7 @@
       <div class="card-header" id="headingEight">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-            + Choosing your surgeon
+            Choosing your surgeon
           </button>
         </h2>
       </div>
@@ -142,7 +142,7 @@
       <div class="card-header" id="headingNine">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-            + What’s the difference between saline & silicone?
+            What’s the difference between saline & silicone?
           </button>
         </h2>
       </div>
