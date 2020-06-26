@@ -1664,26 +1664,55 @@
   }
   .boxy-box.timing {
     .wrap {
+      align-items: flex-end;
       .message {
         border: 1px solid $primary;
         .message-inner {
-          padding: 50px;
+          padding: 50px 50px 20px;
           background-color: $tan;
           border: none;
           margin-top: 10px;
+          font-size: 1.15rem;
+          line-height: 1.25rem;
           header {
             display: flex;
-            justify-content: center;
+            align-items: center;
+            flex-direction: column;
             margin-bottom: 10px;
-            span {
+            font-size: 1.3rem;
+            line-height: 1.4rem;
+            text-align: left;
+            padding: 0 5%;
+            h3 {
+              margin: 20px auto;
+              font-size: 1.8rem;
+            }
+            & > span {
               text-indent: -9999px;
               font-size: 0;
               display: flex;
               width: 80%;
-              padding-bottom: 8%;
+              padding-bottom: 6%;
               background-position: center center;
               background-repeat: no-repeat;
               background-size: contain;
+            }
+          }
+          footer {
+            margin-top: 20px;
+            p {
+              font-size: 1.3rem;
+              line-height: 1.4rem;             
+            }
+          }
+          h3 {
+            font-size: 1.15rem;
+            line-height: 1.25rem;
+            margin-bottom: 10px;
+          }
+          ul {
+            li {
+              margin-bottom: 10px;
             }
           }
           img {
@@ -1691,6 +1720,9 @@
             height: auto;
           }
         }
+      }
+      .model img {
+        margin-bottom: 50px;
       }
     }
   }

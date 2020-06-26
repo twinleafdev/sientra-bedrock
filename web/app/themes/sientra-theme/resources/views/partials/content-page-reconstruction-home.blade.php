@@ -23,7 +23,7 @@
 	<p class="implant-bg">The most common approach is <span class="opus">implant-based reconstruction</span> which uses a breast implant to rebuild breast shape.<sup>1</sup> </p>
 	<p>Breast reconstruction can either be performed in a <span class="opus">one-step procedure</span>, often referred to as <span class="opus">direct-to-implant</span>, where the implant is inserted at the time of your mastectomy. Or, more commonly, the reconstruction takes place in <span class="opus">two steps</span>.<sup>1</sup> </p>
 </section>
-<section class="two-step text-center container">
+<section class="two-step mt-5 text-center container">
   <div class="inner light">
     <header>
     	<img src="@asset('images/two-step-recon.svg')" alt="two-step-recon" />
@@ -65,17 +65,15 @@
 
   	<div class="col-12 col-lg-8 message">
       <div class="message-inner">
-        <header>
+        <header class="col-12 flex-column">
         	<span style="background-image:url( @asset('images/timing.svg') );">TIMING</span>
-        </header>
-        <div class="row">
-          <div class="col-12">
             <h3 class="light opus">Immediate vs. Delayed Reconstruction</h3>
-          	<p>Breast reconstruction can begin at the time of your mastectomy <span class="opus">(Immediate)</span> or it can be performed months or years later <span class="opus">(Delayed)</span>. Timing will depend on your stage of cancer and treatment plan post mastectomy:<sup>3</sup></p>
-          </div>
+          	<p class="light">Breast reconstruction can begin at the time of your mastectomy <span class="opus">(Immediate)</span> or it can be performed months or years later <span class="opus">(Delayed)</span>. Timing will depend on your stage of cancer and treatment plan post mastectomy:<sup>3</sup></p>
         
+        </header>
+        <div class="row">        
           <div class="col-6">
-          	Some benefits of<br><span class="opus">Immediate Reconstruction</span><sup>3</sup>
+          	<h3>Some benefits of<br><span class="opus">Immediate Reconstruction</span><sup>3</sup></h3>
             <ul class="text-left">
               <li>One less surgery and potentially less costs</li>
               <li>Emotional benefit of beginning reconstruction at same time as 
@@ -83,16 +81,18 @@
             </ul>
           </div>
           <div class="col-6">
-          	Some benefits of<br><span class="opus">Delayed Reconstruction</span><sup>3</sup>
+          	<h3>Some benefits of<br><span class="opus">Delayed Reconstruction</span><sup>3</sup></h3>
             <ul class="text-left">
               <li> Allows for additional cancer therapies (such as chemo and radiation)</li>
               <li>More time to consider your reconstruction options</li>
             </ul>
-          </div>  
+          </div>       	
+        </div><!-- .row -->
+        <footer class="row light">
           <div class="col-12">
           	<p>You’ll want to discuss the timing of your breast reconstruction surgery with your doctor. Together you’ll determine your best path forward.</p>
-          </div>      	
-        </div><!-- .row -->
+          </div>
+        </footer> 
       </div>
   	</div>
   	  	
