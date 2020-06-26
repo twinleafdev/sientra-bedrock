@@ -1583,9 +1583,19 @@
 
   }
   .intro {
+    header {
+      width: 100%;
+      @media (min-width: 768px) {
+        width: 75%
+      } 
+    }
     p {
-      font-size: 1.4rem;
-      line-height: 1.8rem;
+      font-size: 1.3rem;
+      line-height: 1.7rem;
+      @media (min-width: 768px) { 
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+      }
     }
   }
   .guide {
@@ -1621,14 +1631,21 @@
     padding: 15px;
     .inner {
       border: 1px solid #fff;
-      padding: 15px 15%;
+      padding: 15px ;
+      @media (min-width: 768px) { 
+        padding: 15px 15%;
+      }
       header img {
         max-width: 400px;
       }
     }
     p {
-      font-size: 1.5rem;
-      line-height: 1.9rem;
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+      @media (min-width: 768px) {
+        font-size: 1.5rem;
+        line-height: 1.9rem;
+      }
     }
   }
   .steps {
@@ -1668,12 +1685,17 @@
       .message {
         border: 1px solid $primary;
         .message-inner {
-          padding: 50px 50px 20px;
+          padding: 15px;
           background-color: $tan;
           border: none;
           margin-top: 10px;
-          font-size: 1.15rem;
+          font-size: 1.0rem;
           line-height: 1.25rem;
+          @media (min-width: 768px) { 
+            padding: 50px 50px 20px;
+            font-size: 1.15rem;
+            line-height: 1.25rem;
+          }
           header {
             display: flex;
             align-items: center;
@@ -1682,10 +1704,18 @@
             font-size: 1.3rem;
             line-height: 1.4rem;
             text-align: left;
-            padding: 0 5%;
+            padding: 0;
+            @media (min-width: 768px) {
+              padding: 0 5%;
+            }
             h3 {
               margin: 20px auto;
-              font-size: 1.8rem;
+              font-size: 1.3rem;
+              text-align: center;
+              @media (min-width: 768px) { 
+                font-size: 1.8rem;
+              }
+
             }
             & > span {
               text-indent: -9999px;
@@ -1709,6 +1739,7 @@
             font-size: 1.15rem;
             line-height: 1.25rem;
             margin-bottom: 10px;
+
           }
           ul {
             li {

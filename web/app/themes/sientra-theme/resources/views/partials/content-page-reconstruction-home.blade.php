@@ -5,7 +5,7 @@
 
 <section class="intro row mb-5" >
   <div class="container">
-    <header class="w-75 mx-auto">
+    <header class="mx-auto">
     	<img src="@asset('images/helping-you-more.svg')" alt="helping-you-more" />
     </header>
   	<div class="col text-center my-5 light">
@@ -72,7 +72,7 @@
         
         </header>
         <div class="row">        
-          <div class="col-6">
+          <div class="col-12 col-md-6">
           	<h3>Some benefits of<br><span class="opus">Immediate Reconstruction</span><sup>3</sup></h3>
             <ul class="text-left">
               <li>One less surgery and potentially less costs</li>
@@ -80,7 +80,7 @@
               your mastectomy</li>
             </ul>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-md-6">
           	<h3>Some benefits of<br><span class="opus">Delayed Reconstruction</span><sup>3</sup></h3>
             <ul class="text-left">
               <li> Allows for additional cancer therapies (such as chemo and radiation)</li>
@@ -99,7 +99,7 @@
   </div>
    
 </section>
-<section class="row">
+<section class="row my-5">
     <img src="@asset('images/recon-patient-break.jpg')" class="img-fluid my-5" alt="recon-patient-break" width="2500" height="1094" />
 </section>
 <section class="options row"> 
