@@ -1567,11 +1567,11 @@
 
 .breast-reconstruction {
   .hero {
-    background-image: url(../images/aug-header-mobile.jpg);
+    background-image: url(../images/recon-header-mobile.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 170vw;
+    height: 125vw;
     @media (min-width: 768px) { 
 //       background-image: url(../images/recon_home_hero-1200.jpg);
       background-image: url(../images/recon_home_hero-2500.jpg);
@@ -1632,8 +1632,35 @@
     }
   }
   .steps {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+    @media (min-width: 768px) {
+      font-size: 1.5rem;
     line-height: 1.9rem;
+    }
+    .step-one {
+      .image-h {
+        padding-bottom: 42vw;
+      }
+      @media (min-width: 768px) {
+        text-align: left;
+        .image-h {
+          padding-bottom: 70%;
+        }  
+      }
+    }
+    .step-two {
+      .image-h {
+        padding-bottom: 42vw;
+      }
+      @media (min-width: 768px) {
+        text-align: right;
+        .image-h {
+          padding-bottom: 70%;
+        } 
+      }
+    }
   }
   .boxy-box.timing {
     .wrap {

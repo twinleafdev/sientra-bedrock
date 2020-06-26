@@ -30,27 +30,30 @@
     </header>
   	<p>During the <span class="opus">two-step</span> reconstruction method, a temporary breast tissue expander is used to form a new breast pocket which will eventually hold the long-term breast implant.</p>
   </div>
-	
+
 </section>
 <section class="steps container light">
-	<div class="row">
-  	<div class="col-3">
-  		<img src="@asset('images/step-one.svg')" alt="step-one" />
+	<div class="step-one row my-5">
+  	<div class="col-12 col-md-3">
+  		<h2 class="image-h" style="background-image: url(@asset('images/step-one.svg'))">Step One</h2>
   	</div>
-  	<div class="col-9 d-flex align-items-center">
+  	<div class="col-12 col-md-9 d-flex align-items-center flex-column flex-md-row">
     	Sterile saline is injected through the expander port to slowly stretch the muscle and skin creating a pocket for the breast implant
+    	<img src="@asset('images/step-one-diagram.svg')" class="img-fluid d-block d-md-none" alt="step-one-diagram" />
   	</div>
   </div>
-  <div class="col-12">
+  <div class="col-12 d-none d-md-block">
     <img src="@asset('images/expander-diagram.svg')" alt="expander-diagram" />
   </div>
-  <div class="row">
-    <div class="col-9 text-right d-flex align-items-center">
-      Once the pocket is formed (typically within 2-6 months following surgery) the tissue expander is removed and replaced with a long-term breast implant	
-    </div>
-  	<div class="col-3">
-  		<img src="@asset('images/step-two.svg')" alt="step-two" />
+  <div class="step-two row my-5">
+  	<div class="col-12 col-md-3 order-md-2">
+  		<h2 class="image-h" style="background-image: url(@asset('images/step-two.svg'))">Step Two</h2>
   	</div>
+    <div class="col-12 col-md-9 d-flex align-items-center flex-column flex-md-row order-md-1">
+      Once the pocket is formed (typically within 2-6 months following surgery) the tissue expander is removed and replaced with a long-term breast implant	
+      <img src="@asset('images/step-two-diagram.svg')" class="img-fluid d-block d-md-none" alt="step-two-diagram" />
+    </div>
+
   </div>
 </section>
 <section class="timing boxy-box text-center">
