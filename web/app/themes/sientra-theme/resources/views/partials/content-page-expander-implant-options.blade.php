@@ -16,30 +16,25 @@
   <div class="container-fluid wrap py-5">
   	<header class="col-12 mb-2 mb-sm-5">
     	<img src="@asset('images/why-choose.svg')" alt="why choose" />
-  		<h3>Sientra <span class="opus">OPUS</span> implants?</h3>
+  		<h3>Sientra <span class="opus">OPUS</span> Reconstruction?</h3>
   	</header> 
   	<article class="col-12 col-sm pt-3 pt-sm-0">
-  		<p class="lead">Next-generation <br>
-  implant science</p>
+  		<p class="lead">One-of-a-kind breast tissue expanders</p>
   <span class="opus">•••</span><br>
-  Implants designed <br>
-  to perform better with a high safety profile.<sup>1,2</sup>
+  Uniquely designed to deliver comfortable, predictable expansion 
   	</article>
   	<hr class="w-50 d-block d-sm-none">
   	<article class="col-12 col-sm pt-sm-0">
-  		<p class="lead">Only the best, most<br>  
-  highly trained plastic surgeons</p>
+  		<p class="lead">Highest rated silicone gel breast implant brand<sup>*</sup>
+</p>
   <span class="opus">•••</span><br>
-  Sientra is available exclusively through board-certified plastic surgeons. With <span class="opus">OPUS</span> you can trust you are in 
-  exceptionally skilled hands. 
+  Women love the natural look and feel of their <span class="opus">OPUS</span> implants
   	</article>
   	<hr class="w-50 d-block d-sm-none">
   	<article class="col-12 col-sm pt-sm-0">
-  		<p class="lead">The industry’s most comprehensive
-  20-year warranty</p>
+  		<p class="lead">Unrivaled safety and<br>clinical results<sup>4</sup></p>
   <span class="opus">•••</span><br>
-  It’s more than a warranty, it’s 
-  our commitment to your health and safety. 
+  Supported by the industry’s most comprehensive 20-year warranty 
   	</article>
   </div>
 </section>
