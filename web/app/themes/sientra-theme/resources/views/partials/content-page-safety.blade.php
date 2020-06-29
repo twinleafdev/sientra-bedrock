@@ -22,16 +22,17 @@
     			<h2 class="light">When it comes to patient safety, not all implants are created equal.<br>Sientra <span class="opus">OPUS</span> implants are clinically shown to have low complication rates.<sup>4</sup></h2>
   	</div>
 
-    <div class="diagram col-12">
-     	<img src="@asset('images/implant-safety-diagram.jpg')" class="img-fluid" alt="implant-safety-diagram" width="1800" height="661" />
+    <div class="diagram col-12 mb-5">
+<!--      	<img src="@asset('images/implant-safety-diagram.jpg')" class="img-fluid" alt="implant-safety-diagram" width="1800" height="661" /> -->
+     	<img src="@asset('images/implant-safety-diagram.svg')" class="img-fluid" alt="implant-safety-diagram" />
     </div>
 
     <div class="container">
       <div class="row">    
       <!-- 	 -->
-      	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+      	<article class="col-12 col-sm-4 mb-5">
         	<div class="rounded-circle">
-        		<strong>Low</strong>
+        		<strong>Lowest</strong>
       <p>capsular contracture rate<sup>*</sup></p>
         	</div>
       		<h3>Capsular Contracture</h3>
@@ -40,7 +41,7 @@
       the implant</p>
       	</article>
       <!-- 	 -->
-      	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+      	<article class="col-12 col-sm-4 mb-5">
         	<div class="rounded-circle">
         		<strong>Lowest</strong>
         		<p>rupture rate<sup>*</sup></p>
@@ -51,7 +52,7 @@
       
       	</article>
       <!-- 	 -->
-      	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+      	<article class="col-12 col-sm-4 mb-1 mb-md-5">
         	<div class="rounded-circle">
         		<strong>Lowest</strong>
         		<p>reoperation rate<sup>*</sup></p>
@@ -84,7 +85,7 @@
   		<p>Our Sientra Platinum20™ Product Replacement and Limited Warranty Program provides the most comprehensive protection, longest length of coverage, most financial assistance, and least amount of warranty restrictions amongst all implant brands. </p>
   		<p>Covers all primary and revision augmentation and reconstruction surgeries</p>
   	</div>
-  	<div class="col-10 offset-1">
+  	<div class="col-12 col-md-10 offset-md-1">
   		<ul class="list-group"><li class="list-group-item"><span>Lifetime</span>FREE implant replacement for rupture</li>
         <li class="list-group-item"><span>20 Year</span>Up to $5,000 for uncovered fees and costs due to implant rupture</li>
         <li class="list-group-item"><span>20 Year</span>FREE implant replacement for complications of capsular contracture (Baker Grade III/IV), late forming seroma, and double capsule</li>

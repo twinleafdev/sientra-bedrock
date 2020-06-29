@@ -36,6 +36,7 @@
   <span class="opus">•••</span><br>
   Supported by the industry’s most comprehensive 20-year warranty 
   	</article>
+  	<small class="mt-5">*As of March, 2020, realself.com</small>
   </div>
 </section>
 <section class="following boxy-box text-center my-5">
@@ -76,7 +77,7 @@
   </div>
 </section>
 
-<section class="implant-options text-center mx-auto my-5">
+<section class="implant-options text-center mx-auto mt-5">
   <header>
     <img src="@asset('images/implant-options.svg')" class="img-fluid" alt="implant-options" />
 		<h2 class="light my-3">available in round and teardrop shape</h2>
@@ -85,15 +86,15 @@
 		<div class="col-12 col-md-6 my-3">
   		<img src="@asset('images/opus-luxe.svg')" alt="opus-luxe" />
 			<p>Cohesive <span class="opus">round implants</span> designed for a fuller look with a naturally soft feel</p>
-			<img src="@asset('images/desires-diagram-round.jpg')" class="img-fluid d-md-none" alt="desires-diagram-round" width="1000" height="597" />
+			<img src="@asset('images/options-diagram_luxe.jpg')" class="img-fluid diagram" alt="options-diagram_luxe" width="1500" height="1067" />
 		</div>
 		<div class="col-12 col-md-6 my-3">
 			<img src="@asset('images/opus-curve.svg')" alt="opus-curve" />
 			<p>Cohesive <span class="opus">teardrop shaped implants</span> designed to mimic the natural slope of a women’s breast</p>
-			<img src="@asset('images/desires-diagram-teardrop.jpg')" class="img-fluid d-md-none" alt="desires-diagram-teardrop" width="1091" height="845" />
+			<img src="@asset('images/options-diagram_curve.jpg')" class="img-fluid diagram" alt="options-diagram_curve" width="1500" height="1067" />
 		</div>
 	</div><!-- .row -->
-	<img src="@asset('images/desires-diagram.jpg')" class="img-fluid my-5 d-none d-md-block" alt="desires-diagram" width="2500" height="911" />
+<!-- 	<img src="@asset('images/desires-diagram.jpg')" class="img-fluid my-5 d-none d-md-block" alt="desires-diagram" width="2500" height="911" /> -->
 </section>
 
 <section class="feel-so-real text-center"> 
@@ -110,13 +111,13 @@
   	<div class="col-12 col-sm-10 offset-sm-1 px-5">
   		<img src="@asset('images/cohesivity.svg')" alt="cohesivity" />
   	</div>
-		<div class="col-12 col-sm-5 px-4 offset-sm-1">
-  		<img src="@asset('images/hsc-gel.jpg')" class="img-fluid mb-5" alt="hsc-gel" width="1000" height="633" />
+		<div class="col-12 col-sm-5 px-4 mb-5 offset-sm-1">
+  		<img src="@asset('images/hsc-gel.jpg')" class="img-fluid mb-1 mb-md-4" alt="hsc-gel" width="1000" height="633" />
 			<h3>High-Strength Cohesive (HSC) Gel</h3>
 <p>is soft but maintains its shape. HSC implants hold their fullness while mimicking the soft feel of natural breast tissue.</p>
 		</div>
 		<div class="col-12 col-sm-5 px-4">
-			<img src="@asset('images/hsc-plus-gel.jpg')" class="img-fluid mb-5" alt="hsc-plus-gel" width="1000" height="632" />
+			<img src="@asset('images/hsc-plus-gel.jpg')" class="img-fluid mb-1 mb-md-4" alt="hsc-plus-gel" width="1000" height="632" />
 			<h3>High-Strength Cohesive Plus (HSC+) Gel</h3>
 <p>is more cohesive than our HSC gel. It provides improved shape retention without the trade-off of an overly firm implant.<sup>1</sup></p>
 		</div>

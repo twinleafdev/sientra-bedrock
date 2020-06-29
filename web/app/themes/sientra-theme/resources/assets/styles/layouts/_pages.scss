@@ -1188,6 +1188,10 @@
         }
   
       }
+      small {
+        flex-basis: 100%;
+        text-align: left;
+      }
     }
   }
   .boxy-box.following {
@@ -1234,12 +1238,20 @@
     }
     .allo-derm {
       display: flex;
-      flex-direction: row;
-      height: 32vw;
+      flex-direction: column;
       justify-content: center;
+      @media (min-width: 768px) {
+        flex-direction: row;
+        height: 32vw;
+      }
       img {
-        height: 100%;
-        width: auto;
+        height: auto;
+        width: 100%;
+        flex-basis: 100%;
+        @media (min-width: 768px) {
+          height: 100%;
+          width: auto;
+        }
       }
     }
   }
@@ -1296,7 +1308,7 @@
     }
   }
   .implant-options {
-    font-size: 1.5rem;
+
     max-width: 1650px;
     header {      
       img {
@@ -1316,13 +1328,22 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        padding-left: 5%;
-        padding-right: 5%;
+        p {
+          margin-left: 5%;
+          margin-right: 5%;
+          font-size: 1.2rem;
+           @media (min-width: 768px) { 
+            font-size: 1.5rem;
+           }
+        }
         img {
-          width: 60%;
+          width: 50%;
           margin-bottom: 15px;
           margin-left: auto;
           margin-right: auto;
+          &.diagram {
+            width: 100%;
+          }
         }
       }
     } 
@@ -1813,12 +1834,22 @@
       width: 80%;
       max-width: 800px;
     }
+    h2 {
+      font-size: 1.3rem;
+      @media (min-width: 768px) { 
+        font-size: 1.8rem;
+      }
+    }
     .diagram {
       justify-content: center;
+      background-image: url(../images/implant-safety-diagram.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
     }
     article {
-      padding-left: 4%;
-      padding-right: 4%;
+      padding-left: 5%;
+      padding-right: 5%;
       h3 {
         color: $orange;
         font-size: 1.6rem;
@@ -1851,7 +1882,8 @@
         }
       }
       p {
-        font-size: 1.2rem;
+        font-size: 1.0rem;
+        line-height: 1.2rem;
       }
     }
 
@@ -1859,10 +1891,12 @@
   .warranty {
     padding-left: 3%;
     padding-right: 3%;
+    margin-top: 50px;
     .h-line img {
       @media (min-width: 768px) {
         max-width: 600px;
         transform: translatex(-8%);
+        padding-top: 5%;
       } 
     }
   }
@@ -1871,24 +1905,35 @@
     padding: 15px;
     .inner {
       background-color: $tan;
-      padding: 30px;
-      font-size: 1.4rem;
+      padding: 10px;
+      font-size: 1.0rem;
+      @media (min-width: 768px) {
+        font-size: 1.4rem;
+        padding: 30px;
+      }
       ul {
         margin-bottom: 30px;
         margin-top: 30px;
         li {
-          font-size: 1.2rem;
+          font-size: 1.0rem;
           border: none;
           padding: 0 0 0.5rem; 
           background: transparent;
+          @media (min-width: 768px) { 
+            font-size: 1.2rem;
+          }
           span {
             color: $orange;
-            width: 5.5rem;
+            width: 4.5rem;
             line-height: 2.0rem;
-            float: left;
             display: inline-block;
             font-family: 'Avenir-Heavy', Avenir, sans-serif;
-            font-size: 1.3rem;
+            font-size: 1.0rem;
+            @media (min-width: 768px) {
+              float: left;
+              font-size: 1.3rem;
+              width: 5.5rem;
+            }
           }
         }
       }
@@ -1966,13 +2011,9 @@
       .model {
 
       }
-      .message {
-        background-image: url(../images/basics-bg.jpg);
-        background-position: center;
-        background-size: 75%;
-        background-repeat: no-repeat;  
+      .message {  
         .message-inner {
-          padding: 15% 15px;
+          padding: 20% 15px;
           align-items: center;
           img {
             width: 90%;
