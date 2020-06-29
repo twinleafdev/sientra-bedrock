@@ -110,7 +110,7 @@
   	<h2>breast tissue expanders and silicone gel breast implants
 designed for your comfort and peace-of-mind</h2>
   </div>
-  <img src="@asset('images/options-implant-group.jpg')" class="img-fluid w-75 mx-auto" alt="options-implant-group" width="1800" height="612" />
+  <img src="@asset('images/options-implant-group.jpg')" class="img-fluid w-75 h-100 mx-auto" alt="options-implant-group" width="1800" height="612" />
 </section>
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp
