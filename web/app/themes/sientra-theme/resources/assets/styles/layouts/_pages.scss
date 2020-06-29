@@ -1978,14 +1978,19 @@
     }
   .projection {
     border: 1px solid $orange;
-    padding: 0 25px 50px;
+    padding: 0 25px 0;
     margin-top: 70px;
-    header img {
-      margin: -53px auto 30px;
-      height: 100px;
-      width: auto;
-      display: block;
-      background-color: #fff;
+    header {
+      img {
+        margin: -53px auto 30px;
+        height: 100px;
+        width: auto;
+        display: block;
+        background-color: #fff;
+      }
+      h3 {
+        font-size: 1.4rem;
+      }
     } 
     img {
       width: 100%;
@@ -1994,6 +1999,9 @@
     article {
       padding: 0;
     }
+  }
+  footer p {
+    font-size: 0.95rem;
   }
 }
 
