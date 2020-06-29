@@ -56,15 +56,15 @@ our commitment to your health and safety.
 	</div>
 </section>
 
-<section class="pair row text-center py-5">
+<section class="pair row text-center py-5 mt-md-5">
 	<header class="col-12 col-md-6 pl-5">
 		<img src="@asset('images/perfect-pair.svg')" alt="perfect-pair" />
 	</header>
 	<div class="col-12 col-md-6 tag d-flex align-items-end">
 		<p>When it comes to patient safety, not all implants are created equal. Sientra <span class="opus">OPUS</span> implants are clinically shown to have low complication rates.<sup>2</sup></p>
 	</div>
-	<div class="col-12 py-4 tag">
-		<h3><strong>1,116</strong> patients enrolled  |  evaluated for <strong>10 years</strong></h3>
+	<div class="col-12 py-4 mt-md-5 tag">
+		<h3><span><strong>1,116</strong> patients enrolled</span><span>evaluated for <strong>10 years</strong></span></h3>
 	</div>
 
   <div class="container">
@@ -180,7 +180,7 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
       	<div class="rounded-circle _91">
       		<strong>91%</strong><br>
       	</div>
-    		<h3>Felt breasts look natural and soft
+    		<h3>Felt their breasts look natural and soft
 </h3>
     	</article>
     <!-- 	 -->
@@ -192,7 +192,7 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
 fit better</h3>
     	</article>
     <!-- 	 -->
-      <article class="col-12">
+      <article class="col-12 mt-4">
       	    *(primary augmentation cohort)
       </article>
     </div><!-- .row -->
@@ -210,7 +210,7 @@ fit better</h3>
   </div>
   <div class="col-12 order-2 order-md-1 col-md-5 mt-md-5">
   	<p>Because we believe in the safety and performance of our implants, we can offer the industry’s best warranty.</p>
-<p>Our Sientra Platinum20TM Product Replacement and Limited Warranty Program provides the most comprehensive protection, <span class="opus">longest length of coverage</span>, most financial assistance, and <span class="opus">least amount of warranty restrictions</span> amongst all implant brands.</p>
+<p>Our Sientra Platinum20<sup>TM</sup> Product Replacement and Limited Warranty Program provides the most comprehensive protection, <span class="opus">longest length of coverage</span>, most financial assistance, and <span class="opus">least amount of warranty restrictions</span> amongst all implant brands.</p>
 <p><span class="opus">All at no cost to you.</span></p>
   </div>
   <div class="warranty col-12 offset-md-0 col-md-2 order-1 order-md-2 mt-md-5">

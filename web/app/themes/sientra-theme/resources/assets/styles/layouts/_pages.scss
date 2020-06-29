@@ -185,11 +185,38 @@
       max-width: 80vw;
     }
     .tag {
-      font-size: 1.6rem;
       padding-left: 4%;
       padding-right: 4%;
-      line-height: 1.7rem;
-      
+
+      p {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        margin-top: 15px;
+        @media (min-width: 768px) {
+          font-size: 1.6rem;
+          line-height: 1.7rem;
+          margin-top: 0;
+        }
+      }
+        h3 {
+          font-size: 1.2rem;
+          display: flex;
+          flex-direction: column;
+          @media (min-width: 768px) {
+            font-size: 1.5rem;
+            display: inline;
+          }
+          span{
+
+            &:first-of-type {
+              @media (min-width: 768px) {
+                border-right: 0.1rem solid $primary;
+                margin-right: 10px;
+                padding-right: 10px;
+              }
+            }
+          }
+        }
       h3 {
         font-family: Avenir-Light, Avenir, sans-serif;
         color: $primary;
@@ -224,6 +251,7 @@
         font-size: 1.2rem;
         font-family: Avenir-Light, Avenir, sans-serif;
         margin-bottom: 1rem;
+        align-items: center;
         strong {
           font-size: 1.7rem;
           margin-bottom: .6rem;
@@ -503,7 +531,7 @@
       background-size: contain;
       background-repeat: no-repeat;
       h3 {
-        color: $orange;
+        color: $primary;
         font-size: 1.5rem;
         margin-bottom: 0;
       }
@@ -543,7 +571,7 @@
       
       display: flex;
       align-items: center;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       strong {
         margin-left: auto;
         margin-right: auto;
