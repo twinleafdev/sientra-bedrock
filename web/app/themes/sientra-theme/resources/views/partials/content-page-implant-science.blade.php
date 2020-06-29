@@ -62,7 +62,7 @@
   		<img src="@asset('images/cohesivity.svg')" alt="cohesivity" />
   	</div>
 		<div class="col-12 col-sm-5 px-4 offset-sm-1">
-  		<img src="@asset('images/hsc-gel.jpg')" class="img-fluid mb-5" alt="hsc-gel" width="1000" height="633" />
+  		<img src="@asset('images/HSC.gif')" class="img-fluid mb-5" alt="HSC" width="1000" height="656" />
 			<h3>High-Strength Cohesive (HSC) Gel</h3>
 <p>is soft but maintains its shape. HSC implants hold their fullness while mimicking the soft feel of natural breast tissue.</p>
 		</div>
