@@ -745,6 +745,27 @@
       transform: translateX(-17%);
       max-width: 350px;
     }
+    .press {
+        background-position: center center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: block;
+        padding-bottom: 70%; 
+      &.hsc {
+        background-image: url(../images/hsc.jpg);
+        &:hover{
+          background-image: url(../images/hsc.gif);
+        }
+      }
+      &.hsc-plus {
+        background-image: url(../images/hsc-plus.jpg);
+        &:hover{
+          background-image: url(../images/hsc-plus.gif);
+        }
+      }
+      
+    }
+
     h3 {
       color: $orange;
       font-size: 1.3rem;
@@ -1113,7 +1134,7 @@
 .before-after-gallery {
   .intro {
     h3 {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       font-family: 'Avenir-Light', Avenir, sans-serif;
     }
   }
@@ -1130,9 +1151,13 @@
     margin-top: 70px;
     header img {
       margin: -35px auto 30px;
-      height: 130px;
+      height: 65px;
       width: auto;
       display: block;
+      @media (min-width: 768px) { 
+      margin: -35px auto 30px;
+      height: 130px;
+      }
     } 
     img {
       width: 100%;
@@ -1142,19 +1167,34 @@
       padding: 0;
     }
     &.low header img {
-      margin-top: -35px;
+      margin-top: -18px;
+      @media (min-width: 768px) { 
+        margin-top: -35px;
+      }
     }
     &.moderate header img {
-      margin-top: -35px;
+      margin-top: -18px;
+      @media (min-width: 768px) { 
+        margin-top: -35px;
+      }
     }
     &.moderate-plus header img {
-      margin-top: -40px;
+      margin-top: -21px;
+      @media (min-width: 768px) { 
+        margin-top: -40px;
+      }
     }
     &.high header img {
-      margin-top: -45px;
+      margin-top: -23px;
+      @media (min-width: 768px) { 
+        margin-top: -45px;
+      }
     }
     &.xtra-high header img {
-      margin-top: -58px;
+      margin-top: -29px;
+      @media (min-width: 768px) { 
+        margin-top: -58px;
+      }
     }
       
   }
@@ -1381,6 +1421,26 @@
     header img {
       transform: translateX(-17%);
       max-width: 350px;
+    }
+    .press {
+        background-position: center center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: block;
+        padding-bottom: 70%; 
+      &.hsc {
+        background-image: url(../images/hsc.jpg);
+        &:hover{
+          background-image: url(../images/hsc.gif);
+        }
+      }
+      &.hsc-plus {
+        background-image: url(../images/hsc-plus.jpg);
+        &:hover{
+          background-image: url(../images/hsc-plus.gif);
+        }
+      }
+      
     }
     h3 {
       color: $orange;

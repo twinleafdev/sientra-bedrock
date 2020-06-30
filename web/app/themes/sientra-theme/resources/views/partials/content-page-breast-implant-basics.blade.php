@@ -14,7 +14,7 @@
   </div>
 </section>
 <section class="get-started text-center light">
-	<header>
+	<header class="my-4">
 		<img src="@asset('images/getting-started.svg')" class="img-fluid" alt="getting-started" />
 		<h3 class="light">on your breast augmentation journey</h3>
 	</header>
@@ -62,7 +62,7 @@
       </div>
       <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
         <div class="card-body">
-          <p>Textured breast implant shells are not all the same. They vary in their degree of “roughness.” More rough and aggressive shell surfaces have been classified as macrotextured. Sientra’s textured shell has been classified as a microtexture due to its less aggressive, finer surface.5 Sientra’s microtextured surface has been reported to have a lower incidence of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<sup>5,6</sup></p>
+          <p>Textured breast implant shells are not all the same. They vary in their degree of “roughness.” More rough and aggressive shell surfaces have been classified as macrotextured. Sientra’s textured shell has been classified as a microtexture due to its less aggressive, finer surface.<sup>5</sup> Sientra’s microtextured surface has been reported to have a lower incidence of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<sup>5,6</sup></p>
         </div>
       </div>
     </div>
@@ -76,7 +76,7 @@
       </div>
       <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
         <div class="card-body">
-<p>The shell of an implant is designed to hold the gel in place. It can either be smooth or textured. Smooth implants are round and can move naturally with the breast tissue. OPUS teardrop shaped implants also move with the breast tissue but feature a microtextured shell surface.5 The less aggressive surface acts as a gentle anchor to keep the implant in place and is designed to minimize rotation. <span class="opus">OPUS</span> implants are shown to have low complication rates.<sup>2</sup></p>        </div>
+<p>The shell of an implant is designed to hold the gel in place. It can either be smooth or textured. Smooth implants are round and can move naturally with the breast tissue. OPUS teardrop shaped implants also move with the breast tissue but feature a microtextured shell surface.<sup>5</sup> The less aggressive surface acts as a gentle anchor to keep the implant in place and is designed to minimize rotation. <span class="opus">OPUS</span> implants are shown to have low complication rates.<sup>2</sup></p>        </div>
       </div>
     </div>
     <div class="card">
