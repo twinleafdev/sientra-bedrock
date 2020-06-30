@@ -708,7 +708,7 @@
   }
   .desired-look {
     font-size: 1.5rem;
-    max-width: 1650px;
+    max-width: 1250px;
     header img {
       transform: translateX(2%);
       max-width: 475px;
@@ -798,6 +798,101 @@
         padding: 3%;
       }
     }
+    .luxe-projections {
+	    height: 18vw;
+	    width: 32vw;
+//  	    background-image: url(../images/luxe-projection-low.png);
+	    background-position: center bottom;
+	    background-size: contain;
+	    position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		transition: background-image ease-in 0.3s;
+		&:hover .projection-bg.default {
+			opacity: 0;
+		}
+	    .projection {
+		    position: absolute;
+		    bottom: 0;
+		    height: 100%;
+		    width: 100%;
+			border-top-left-radius: 1000px;
+			border-top-right-radius: 1000px;
+			border-bottom-left-radius: 100px;
+			border-bottom-right-radius: 100px;
+			z-index: 2;
+		    &.low {
+			    height: 43%;
+				width: 95%;
+			 	&:hover ~ .projection-bg.low{
+				 	opacity: 1;
+			 	}
+
+		    }
+		    &.mod {
+			    height: 59%;
+			 	&:hover ~ .projection-bg.mod{
+				 	opacity: 1;
+			 	}
+		    }
+		    &.mod-plus {
+			    height: 70%;
+			 	&:hover ~ .projection-bg.mod-plus{
+				 	opacity: 1;
+			 	}
+		    }
+		    &.high {
+			    height: 83%;
+				border-bottom-left-radius: 100px;
+				border-bottom-right-radius: 100px;
+			 	&:hover ~ .projection-bg.high{
+				 	opacity: 1;
+			 	}
+
+		    }
+		    &.xtra-high {
+			    height: 100%;
+				border-top-left-radius: 800px;
+				border-top-right-radius: 800px;
+			 	&:hover ~ .projection-bg.xtra-high{
+				 	opacity: 1;
+			 	}   
+		    }
+	    }
+	    .projection-bg {
+			position: absolute;
+			bottom: 0;
+			height: 100%;
+			width: 100%;
+			z-index: 1;
+			background-position: center bottom;
+			background-size: contain;
+			opacity: 0;
+			transition: opacity ease-in 0.3s;
+			background-image: url(../images/luxe-projection-low.png);
+			&.default {
+				background-image: url(../images/luxe-projection-low.png);
+				opacity: 1;
+			}
+			&.low {
+				background-image: url(../images/luxe-projection-low.png);
+			}
+			&.mod {
+				background-image: url(../images/luxe-projection-moderate.png);
+			}
+			&.mod-plus {
+				background-image: url(../images/luxe-projection-moderate-plus.png);
+			}
+			&.high {
+				background-image: url(../images/luxe-projection-high.png);
+			}
+			&.xtra-high {
+				background-image: url(../images/luxe-projection-xrta-high.png);
+			}
+
+	    }
+    }
     .swiper-luxe-projection {
       .swiper-slide {
         display: flex;
@@ -807,7 +902,7 @@
         }
         p, img {
           opacity: 0;
-          transition: opacity ease 0.3s;
+          transition: opacity ease-out 0.3s;
         }
         &.swiper-slide-active {
           p, img {

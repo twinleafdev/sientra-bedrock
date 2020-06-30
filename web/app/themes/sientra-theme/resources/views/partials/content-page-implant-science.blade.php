@@ -78,7 +78,47 @@
  <div class="_250-round col-12 col-md-4 mb-2">
   <img src="@asset('images/250-round.svg')" alt="250-round" />
  </div>
- <div class="implant col-12 col-md-4 text-center">
+ 
+ 
+ <div class="d-none d-md-block luxe-projections text-center">
+ 	<div class="xtra-high projection">
+		
+ 	</div>
+ 	<div class="high projection">
+ 		
+ 	</div> 
+ 	<div class="mod-plus projection">
+		
+ 	</div>
+ 	<div class="mod projection">
+ 		
+ 	</div> 
+ 	<div class="low projection">
+ 		
+ 	</div> 
+ 	
+ 	<div class="xtra-high projection-bg">
+ 		
+ 	</div>
+ 	<div class="high projection-bg">
+ 		
+ 	</div>
+ 	<div class="mod-plus projection-bg">
+ 		
+ 	</div>
+ 	<div class="mod projection-bg">
+ 		
+ 	</div>
+ 	<div class="low projection-bg">
+ 		
+ 	</div>
+ 	<div class="default projection-bg">
+ 		
+ 	</div>
+ </div>
+ 
+ 
+ <div class="implant col-12 col-md-4 text-center d-md-none">
    
      <div class="swiper-container swiper-luxe-projection">
       <div class="swiper-wrapper">
