@@ -2127,7 +2127,7 @@
       transform: translateX(-9%);
     }
   }
-  .faq {
+  .questions {
     border: 1px solid #000;
     padding: 15px;
     background-color: #fff;
@@ -2144,9 +2144,18 @@
           padding: 0;
           border: none;
           button {
+	          display: flex;
             &:not(.collapsed) {
               background-color: #fff;
             }
+	          &:hover,
+	          &:focus {
+	            text-decoration: none;
+	          }
+	          &:hover,
+	          &:focus {
+	            text-decoration: none;
+	          }
             font-size: 1.2rem;
             font-family: 'Avenir-Light', Avenir, sans-serif;
             padding: 15px;
@@ -2155,6 +2164,11 @@
             @media (min-width: 768px) {
               font-size: 1.8rem;
             }
+            &:before {
+				content: '\02212\000A';
+				display: block;
+				color: $orange;
+			}
           }
         }
         .card-body {
