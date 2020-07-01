@@ -119,6 +119,54 @@
       <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
         <div class="card-body">
           <p>Yes. But when it comes to patient safety, not all implants are created equal. Sientra’s 10-year FDA-required clinical study – the largest breast implant study of its kind – revealed unrivaled safety and clinical results.<sup>2</sup></p>
+          <div class="silicone">        
+            <div class="col-12 py-4 mt-md-1 tag text-center">
+          		<h3><span><strong>1,116</strong> patients enrolled</span><span>evaluated for <strong>10 years</strong></span></h3>
+          	</div>
+          
+            <div class="container text-center">
+              <div class="row">    
+              <!-- 	 -->
+              	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+                	<div class="rounded-circle">
+                		<strong>Low</strong>
+              <p>capsular contracture rate*</p>
+                	</div>
+              		<h3>Capsular Contracture</h3>
+              <p>A tightening/hardening 
+              of the scar tissue around 
+              the implant</p>
+              	</article>
+              <!-- 	 -->
+              	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+                	<div class="rounded-circle">
+                		<strong>Lowest</strong>
+                		<p>rupture rate*</p>
+              		</div>
+              		<h3>Implant Rupture</h3>
+              <p>A hole or tear in the 
+              shell of the implant</p> 
+              
+              	</article>
+              <!-- 	 -->
+              	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+                	<div class="rounded-circle">
+                		<strong>Lowest</strong>
+                		<p>reoperation rate*</p>
+                	</div>
+              		<h3>Reoperation</h3>
+              <p>Any additional surgery performed to the breast after the first breast implantation</p> 
+              	</article>
+              <!-- 	 -->
+                <article class="col-12">
+                	    <p>*(primary augmentation cohort)</p>
+                </article>
+              </div><!-- .row -->
+            </div><!-- .container -->
+          </div>
+          <p>As with any surgery, complications do exist. It’s important to understand the risks and familiarize yourself with the differences across implant brands. When it comes to patient safety, there are clear differences across implant brands. 
+          </p>  
+          
         </div>
       </div>
     </div>

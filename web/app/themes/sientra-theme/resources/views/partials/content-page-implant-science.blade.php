@@ -98,19 +98,19 @@
  	</div> 
  	
  	<div class="xtra-high projection-bg">
- 		
+ 		<p><span class="opus">Xtra high</span> projection  <span class="opus">|</span>  (275 cc - 510 cc)</p>
  	</div>
  	<div class="high projection-bg">
- 		
+ 		<p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
  	</div>
  	<div class="mod-plus projection-bg">
- 		
+ 		<p><span class="opus">moderate plus</span> projection  <span class="opus">|</span>  (175 cc - 695 cc)</p>
  	</div>
  	<div class="mod projection-bg">
- 		
+ 		<p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
  	</div>
  	<div class="low projection-bg">
- 		
+ 		<p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
  	</div>
  	<div class="default projection-bg">
  		

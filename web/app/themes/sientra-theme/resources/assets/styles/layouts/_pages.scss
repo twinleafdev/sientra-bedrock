@@ -799,7 +799,7 @@
       }
     }
     .luxe-projections {
-	    height: 18vw;
+	    height: 16vw;
 	    width: 32vw;
 //  	    background-image: url(../images/luxe-projection-low.png);
 	    background-position: center bottom;
@@ -868,28 +868,35 @@
 			z-index: 1;
 			background-position: center bottom;
 			background-size: contain;
+			background-repeat: no-repeat;
 			opacity: 0;
 			transition: opacity ease-in 0.3s;
 			background-image: url(../images/luxe-projection-low.png);
-			&.default {
-				background-image: url(../images/luxe-projection-low.png);
-				opacity: 1;
-			}
-			&.low {
-				background-image: url(../images/luxe-projection-low.png);
-			}
-			&.mod {
-				background-image: url(../images/luxe-projection-moderate.png);
-			}
-			&.mod-plus {
-				background-image: url(../images/luxe-projection-moderate-plus.png);
-			}
-			&.high {
-				background-image: url(../images/luxe-projection-high.png);
-			}
-			&.xtra-high {
-				background-image: url(../images/luxe-projection-xrta-high.png);
-			}
+			align-items: flex-end;
+			justify-content: center;
+      display: flex;
+			  p{
+  			  margin-bottom: -28px;
+			  }
+  			&.default {
+  				background-image: url(../images/luxe-projection-low.png);
+  				opacity: 1;
+  			}
+  			&.low {
+  				background-image: url(../images/luxe-projection-low.png);
+  			}
+  			&.mod {
+  				background-image: url(../images/luxe-projection-moderate.png);
+  			}
+  			&.mod-plus {
+  				background-image: url(../images/luxe-projection-moderate-plus.png);
+  			}
+  			&.high {
+  				background-image: url(../images/luxe-projection-high.png);
+  			}
+  			&.xtra-high {
+  				background-image: url(../images/luxe-projection-xrta-high.png);
+  			}
 
 	    }
     }
@@ -1059,6 +1066,84 @@
         }
         .card-body {
           background-color: #fff;
+          
+          .silicone {
+            .tag {
+              padding-left: 4%;
+              padding-right: 4%;
+              h3 {
+                font-size: 1.2rem;
+                display: flex;
+                flex-direction: column;
+                @media (min-width: 768px) {
+                  font-size: 1.5rem;
+                  display: inline;
+                }
+                span{
+                  &:first-of-type {
+                    @media (min-width: 768px) {
+                      border-right: 0.1rem solid $primary;
+                      margin-right: 10px;
+                      padding-right: 10px;
+                    }
+                  }
+                }
+                
+                font-family: Avenir-Light, Avenir, sans-serif;
+                color: $primary;
+                margin: 1rem;
+                strong {
+                  color: $orange;
+                }
+              }
+            }
+            .container {
+              h3 {
+                color: $orange;
+                font-size: 1.0rem;
+                margin-bottom: 0;
+              }
+            }
+            .rounded-circle {
+              height: 150px;
+              width: 150px;
+              
+              text-align: center;
+              color: $orange;
+//               border: 1px solid $orange;
+              margin-left: auto;
+              margin-right: auto;
+              line-height: 1.2rem;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              padding: 8%;
+              font-size: 1.1rem;
+              font-family: Avenir-Light, Avenir, sans-serif;
+              margin-bottom: 1rem;
+              align-items: center;
+              background-image: url(../images/silicone-faq-circle.svg);
+              background-size: 145px auto;
+              background-position: center center;
+              background-repeat: no-repeat;
+              strong {
+                font-size: 1.5rem;
+                margin-bottom: .6rem;
+                margin-top: 20px;
+              }
+              
+              strong {
+                margin-left: auto;
+                margin-right: auto;
+                font-family: 'Avenir-Black', Avenir, sans-serif;
+              }
+            }
+          }
+
+          
+          
+          
+          
         }
       }
     }
