@@ -730,6 +730,9 @@
         img {
           width: 80%;
           margin-bottom: 15px;
+          &.micro {
+            width: 76%;
+          }
         }
         border: 1px solid #fff;
         padding: 15px;

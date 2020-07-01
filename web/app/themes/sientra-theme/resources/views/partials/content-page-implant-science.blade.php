@@ -42,8 +42,9 @@
 	</div>
 	<div class="mx-3 mb-3 wrap">
   	<div>
-	  	<img src="@asset('images/textured-surfaces.svg')" alt="textured-surfaces" />
-<p>Textured breast implant shells are not all the same. More rough and aggressive shell surfaces have been classified as macrotextured. Sientra’s textured shell has been classified as a microtexture due to its less aggressive, finer surface.<sup>5</sup> Sientra’s microtextured surface has been reported to have a lower incidence of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<sup>5,6</sup></p>
+	  	<img src="@asset('images/microtextured-surfaces.svg')" class="micro" alt="textured-surfaces" />
+<p>More rough and aggressive shell surfaces have been classified as macrotextured. Sientra’s textured shell has been classified as a microtexture due to its less aggressive, finer surface.<sup>5</sup> Sientra’s <span class="opus">microtextured</span> surface has been reported to have a lower incidence
+of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<sup>5,6</sup></p>
   	</div>
 	</div>
 </section>
