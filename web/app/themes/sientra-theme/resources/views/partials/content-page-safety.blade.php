@@ -23,8 +23,8 @@
   	</div>
 
     <div class="diagram col-12 mb-5">
-<!--      	<img src="@asset('images/implant-safety-diagram.jpg')" class="img-fluid" alt="implant-safety-diagram" width="1800" height="661" /> -->
-     	<img src="@asset('images/implant-safety-diagram.svg')" class="img-fluid" alt="implant-safety-diagram" />
+     	<img src="@asset('images/implant-diagram.png')" class="img-fluid d-md-none" alt="implant-diagram" width="1000" height="974" />
+     	<img src="@asset('images/implant-safety-diagram.svg')" class="img-fluid d-none d-md-block" alt="implant-safety-diagram" />
     </div>
 
     <div class="container">

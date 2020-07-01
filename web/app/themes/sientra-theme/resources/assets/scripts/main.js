@@ -1,6 +1,6 @@
 // import external dependencies
 import 'jquery';
-
+import 'video.js';
 // Import everything from autoload
 import './autoload/**/*'
 
