@@ -23,6 +23,7 @@
         <span><a href="@asset('images/aug/Sientra_Silicone_Gel_Breast_Implants_Quick_Facts_About_Breast_Augmentation_and_Reconstruction.pdf')" target="_blank">PDF</a> </span> <p>Patient Educational Brochure: Breast Augmentation With Sientra Silicone Gel Breast Implants</p>
         <span><a href="@asset('images/aug/MDC-0298_R2_Platinum20_Patient_Leaflet.pdf')" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Program Information Pamphlet</p>
 		</article>
+		
 		<article class="col">
   		  		
 			<header><h3>Reconstruction</h3></header>
@@ -34,6 +35,7 @@
         <span><a href="@asset('images/recon/MDC-0298_R2_Platinum20_Patient_Leaflet.pdf')" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Program Information Pamphlet</p>
 
 		</article>
+	
 	</div><!-- .row -->
 	<div class="row">
 		<article class="col">
@@ -50,11 +52,24 @@
 		<article class="col">
 			<header><h3>Silicone Scar Treatment</h3></header>
         <span><a href="" target="_blank">PDF</a> </span> <p>BIOCORNEUM: See Your Beauty, Not Your Scar</p>
-		</article>
-	</div><!-- .row -->
-	<div class="row">
+  		  		
+			<header><h3>FULL CIRCLE Program</h3></header>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>web We are committed to improving the lives of women with breast cancer</p>
+ 		</article>
 		
 	</div><!-- .row -->
+	<div class="row commitment">
+  	<article class="col-md-8 offset-md-2">
+  		<header><h3>Commitment to Safety</h3></header>
+  		<span><a href="#" target="_blank">WEB</a> </span> <p>Patient safety and product quality are our highest priority. Deciding to have breast surgery is a very personal choice. And women should feel confident in their breast implants and their decision to have breast augmentation or reconstructive surgery. Understanding the benefits and risks of breast surgery is an important step in your decision to have surgery.</p> 
+
+  	</article>
+		
+	</div><!-- .row -->
+	
+	
 </section>
+
+
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp

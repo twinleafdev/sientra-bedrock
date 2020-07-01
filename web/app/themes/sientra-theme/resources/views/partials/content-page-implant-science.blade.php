@@ -114,7 +114,7 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
  		<p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
  	</div>
  	<div class="default projection-bg">
- 		<p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+ 		<p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p> 
  	</div>
  </div>
  

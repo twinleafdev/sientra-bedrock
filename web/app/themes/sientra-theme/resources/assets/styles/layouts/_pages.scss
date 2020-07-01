@@ -1292,15 +1292,23 @@
           color: $primary;
         }
       }
-      p {
-        
-      }
       h3 {
         color: $orange;
         border: 1px solid $primary;
         padding: 5px 20px;
         text-align: center;
         margin: 50px auto 30px;
+
+      }
+    }
+    .commitment {
+       h3 {
+        background-color: $orange;
+        color: #fff;
+        border: none;         
+      }
+      span a {
+        margin-bottom: 4rem;
       }
     }
   } 
