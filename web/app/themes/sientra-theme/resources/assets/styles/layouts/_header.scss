@@ -35,7 +35,8 @@
       left: auto;
       transform: none;
     }
-    &.brand-opus {
+    &.brand-opus,
+    &.brand-recon {
       display: none;
       visibility: hidden;
     }
@@ -43,11 +44,26 @@
   .augmentation.page-child &{
     .brand {
       &.brand-light,
-      &.brand-dark {
+      &.brand-dark,
+      &.brand-opus.brand-recon {
         display: none;
         visibility: hidden;
       }
       &.brand-opus.brand-light {
+        display: block;
+        visibility: visible;
+      }
+    }
+  }
+  .reconstruction &{
+    .brand {
+      &.brand-light,
+      &.brand-dark,
+      &.brand-opus.brand-light {
+        display: none;
+        visibility: hidden;
+      }
+      &.brand-recon {
         display: block;
         visibility: visible;
       }
