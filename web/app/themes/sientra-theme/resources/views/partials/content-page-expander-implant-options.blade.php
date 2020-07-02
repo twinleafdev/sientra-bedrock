@@ -99,13 +99,13 @@
 
 <section class="feel-so-real text-center"> 
 	<header>
-		<img src="@asset('images/feel-so-real.svg')" class="w-50 mt-4"alt="feel-so-real" />
+		<img src="@asset('images/feel-so-real.svg')" class="feel mt-4"alt="feel-so-real" />
 	</header>
 	<div class="h2-wrap">
 		<h2>choose from 2 cohesive gel levels for 2 degrees of softness</h2>
 	</div>
 	<div class="col-12">
-  	<img src="@asset('images/optimal-feel.svg')" class="w-25 mb-4" alt="optimal-feel" /><br>
+  	<img src="@asset('images/optimal-feel.svg')" class="optimal mb-4" alt="optimal-feel" /><br>
 	</div>
 	<div class="row">
   	<div class="col-12 col-sm-10 offset-sm-1 px-5">
@@ -163,9 +163,7 @@
   	<div class="low projection-bg">
   		<p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
   	</div>
-  	<div class="default projection-bg">
-  		<p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p> 
-  	</div>
+
  </div>
  
  
@@ -204,9 +202,35 @@
 
 <section class="curve row mb-5">
  <div class="_90-options col-12 col-md-4 mb-2 offset-md-5">
-  <img src="@asset('images/90-options.svg')" alt="90-options" />
+  <img src="@asset('images/90-options-recon.svg')" alt="90-options" />
  </div>
- <div class="implant col-12 col-md-3 text-center">
+ 
+ 
+<div class="d-none d-md-flex col-md-3 curve-projections text-center">
+
+  	<div class="high projection">
+  		
+  	</div> 
+
+  	<div class="low projection">
+  		
+  	</div> 
+  	
+  	<div class="high projection-bg">
+  		<p><span class="opus">high</span> projection  <span class="opus">|</span>  (180 cc - 650 cc)</p>
+  	</div>
+
+  	<div class="low projection-bg">
+  		<p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+  	</div>
+ </div>
+
+ 
+ 
+ 
+ 
+ 
+ <div class="implant col-12 d-md-none text-center">
    
      <div class="swiper-container swiper-curve-projection">
       <div class="swiper-wrapper">
