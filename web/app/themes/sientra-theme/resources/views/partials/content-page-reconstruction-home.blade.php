@@ -60,7 +60,7 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-5 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/timing.png')" alt="timing" width="708" height="834" />
+      <img src="@asset('images/timing.jpg')" alt="timing" width="708" height="834" />
   	</div>
 
   	<div class="col-12 col-lg-8 message">
