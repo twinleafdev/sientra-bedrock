@@ -116,7 +116,27 @@ our commitment to your health and safety.
   <div class="col wrap">
   	
   	<div class="col-12 col-lg-6 col-xl-5 imgwrap">
-  		<img src="@asset('images/pittman.jpg')" alt="pittman" width="800" height="767" />
+<!--   		<img src="@asset('images/pittman.jpg')" alt="pittman" width="800" height="767" /> -->
+      <video
+          id="matters-video"
+          class="video-js"
+          controls
+          preload="auto"
+          poster="@asset('images/pittman.jpg')"
+          data-setup='{}'>
+        <source src="@asset('images/video/Sientra_Dr_Pittman_Consumer_Testimonial_B_PG_003.mp4')" type="video/mp4"></source>
+      <!--
+        <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
+        <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>
+      -->
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to a
+          web browser that
+          <a href="https://videojs.com/html5-video-support/" target="_blank">
+            supports HTML5 video
+          </a>
+        </p>
+      </video>
   	</div>  	
   	
   	<div class="col-12 col-lg-8 ml-auto boxed-wrap">
@@ -141,25 +161,6 @@ our commitment to your health and safety.
 with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p>
 	</div>
 </section>
-
-<video
-    id="my-player"
-    class="video-js"
-    controls
-    preload="auto"
-    poster="//vjs.zencdn.net/v/oceans.png"
-    data-setup='{}'>
-  <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
-  <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
-  <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>
-  <p class="vjs-no-js">
-    To view this video please enable JavaScript, and consider upgrading to a
-    web browser that
-    <a href="https://videojs.com/html5-video-support/" target="_blank">
-      supports HTML5 video
-    </a>
-  </p>
-</video>
 
 
 <section class="row realself text-center">
