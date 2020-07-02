@@ -2659,8 +2659,18 @@
     }
   }
   .brands {
+    font-size: 0.8rem;
+    text-align: center;
     h2 {
       height: 3rem;
+    }
+    img {
+      margin-bottom: 15px;
+    }
+  }
+  .manufacture {
+    h2 {
+      height: 7rem;
     }
   }
 }
