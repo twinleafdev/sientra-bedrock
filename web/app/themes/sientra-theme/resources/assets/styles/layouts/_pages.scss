@@ -804,7 +804,6 @@
     .luxe-projections {
 	    height: 16vw;
 	    width: 32vw;
-//  	    background-image: url(../images/luxe-projection-low.png);
 	    background-position: center bottom;
 	    background-size: contain;
 	    position: relative;
@@ -1664,12 +1663,113 @@
     }
     @media (min-width: 768px) { 
        background-image: url(../images/recon-luxe-bg.jpg);
-       min-height: 53vw;
+       min-height: 55vw;
        padding-top: 3%;
       ._250-round { 
         margin-top: 0;
         padding: 3%;
       }
+    }
+    .luxe-projections {
+	    height: 16vw;
+	    width: 32vw;
+	    background-position: center bottom;
+	    background-size: contain;
+	    position: relative;
+  		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+  		transition: background-image ease-in 0.3s;
+  		&:hover .projection-bg.default {
+  			opacity: 0;
+  		}
+	    .projection {
+		    position: absolute;
+		    bottom: 0;
+		    height: 100%;
+		    width: 100%;
+  			border-top-left-radius: 1000px;
+  			border-top-right-radius: 1000px;
+  			border-bottom-left-radius: 100px;
+  			border-bottom-right-radius: 100px;
+  			z-index: 2;
+		    &.low {
+			    height: 43%;
+				width: 95%;
+			 	&:hover ~ .projection-bg.low{
+				 	opacity: 1;
+			 	}
+
+		    }
+		    &.mod {
+			    height: 59%;
+			 	&:hover ~ .projection-bg.mod{
+				 	opacity: 1;
+			 	}
+		    }
+		    &.mod-plus {
+			    height: 70%;
+			 	&:hover ~ .projection-bg.mod-plus{
+				 	opacity: 1;
+			 	}
+		    }
+		    &.high {
+			    height: 83%;
+				border-bottom-left-radius: 100px;
+				border-bottom-right-radius: 100px;
+			 	&:hover ~ .projection-bg.high{
+				 	opacity: 1;
+			 	}
+
+		    }
+		    &.xtra-high {
+			    height: 100%;
+				border-top-left-radius: 800px;
+				border-top-right-radius: 800px;
+			 	&:hover ~ .projection-bg.xtra-high{
+				 	opacity: 1;
+			 	}   
+		    }
+	    }
+	    .projection-bg {
+			position: absolute;
+			bottom: 0;
+			height: 100%;
+			width: 100%;
+			z-index: 1;
+			background-position: center bottom;
+			background-size: contain;
+			background-repeat: no-repeat;
+			opacity: 0;
+			transition: opacity ease-in 0.3s;
+			background-image: url(../images/luxe-projection-low.png);
+			align-items: flex-end;
+			justify-content: center;
+      display: flex;
+			  p{
+  			  margin-bottom: -28px;
+			  }
+  			&.default {
+  				background-image: url(../images/luxe-projection-low.png);
+  				opacity: 1;
+  			}
+  			&.low {
+  				background-image: url(../images/luxe-projection-low.png);
+  			}
+  			&.mod {
+  				background-image: url(../images/luxe-projection-moderate.png);
+  			}
+  			&.mod-plus {
+  				background-image: url(../images/luxe-projection-moderate-plus.png);
+  			}
+  			&.high {
+  				background-image: url(../images/luxe-projection-high.png);
+  			}
+  			&.xtra-high {
+  				background-image: url(../images/luxe-projection-xrta-high.png);
+  			}
+
+	    }
     }
     .swiper-luxe-projection {
       .swiper-slide {

@@ -123,12 +123,54 @@
 		</div>
 	</div><!-- .row -->
 </section>
+
+
 <section class="luxe row mb-5">
  <header class="col-6 col-sm-4"> <img src="@asset('images/opus-luxe.png')" class="img-fluid" alt="opus-luxe" width="949" height="353" /></header>
  <div class="_250-round col-12 col-md-4 mb-2">
   <img src="@asset('images/250-round.svg')" alt="250-round" />
  </div>
- <div class="implant col-12 col-md-4 text-center">
+ 
+ <div class="d-none d-md-block luxe-projections text-center">
+  	<div class="xtra-high projection">
+  	
+  	</div>
+  	<div class="high projection">
+  		
+  	</div> 
+  	<div class="mod-plus projection">
+  	
+  	</div>
+  	<div class="mod projection">
+  		
+  	</div> 
+  	<div class="low projection">
+  		
+  	</div> 
+  	
+  	<div class="xtra-high projection-bg">
+  		<p><span class="opus">Xtra high</span> projection  <span class="opus">|</span>  (275 cc - 510 cc)</p>
+  	</div>
+  	<div class="high projection-bg">
+  		<p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
+  	</div>
+  	<div class="mod-plus projection-bg">
+  		<p><span class="opus">moderate plus</span> projection  <span class="opus">|</span>  (175 cc - 695 cc)</p>
+  	</div>
+  	<div class="mod projection-bg">
+  		<p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
+  	</div>
+  	<div class="low projection-bg">
+  		<p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+  	</div>
+  	<div class="default projection-bg">
+  		<p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p> 
+  	</div>
+ </div>
+ 
+ 
+ 
+ <div class="implant col-12 col-md-4 text-center d-md-none">
    
      <div class="swiper-container swiper-luxe-projection">
       <div class="swiper-wrapper">
@@ -158,6 +200,8 @@
  
  </div>
 </section>
+ 
+
 <section class="curve row mb-5">
  <div class="_90-options col-12 col-md-4 mb-2 offset-md-5">
   <img src="@asset('images/90-options.svg')" alt="90-options" />
