@@ -89,8 +89,23 @@
       </div>
       <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
         <div class="card-body">
-          <p>The projection of an implant refers to how much it projects forward from the chest wall. The most common implant profiles include low, moderate, moderate plus, high, and Xtra high. 
-          </p>
+          <p>The projection of an implant refers to how much it projects forward from the chest wall. The most common implant profiles include low, moderate, moderate plus, high, and Xtra high.</p>
+          
+          <h3 class="text-center"><strong class="opus">Round</strong> implants  <span class="opus">|  5</span> projection levels </h3>
+          <div class="round row mb-4"> 
+            <img src="@asset('images/round-projections_01.jpg')" alt="round-projections_02" width="312" height="291" />
+            <img src="@asset('images/round-projections_02.jpg')" alt="round-projections_02" width="312" height="291" />
+            <img src="@asset('images/round-projections_03.jpg')" alt="round-projections_03" width="328" height="291" />
+            <img src="@asset('images/round-projections_04.jpg')" alt="round-projections_04" width="312" height="291" />
+            <img src="@asset('images/round-projections_05.jpg')" alt="round-projections_05" width="317" height="291" />
+          </div>
+          
+          <h3 class="text-center"><strong class="opus">Teardrop</strong> shaped implants  <span class="opus">|  5</span> projection levels </h3>
+          <div class="teardrop row"> 
+            <img src="@asset('images/teardrop-projections_01.jpg')" alt="teardrop-projections_01" width="458" height="279" />
+            <img src="@asset('images/teardrop-projections_02.jpg')" alt="teardrop-projections_02" width="452" height="279" />
+          </div>
+          
         </div>
       </div>
     </div>
