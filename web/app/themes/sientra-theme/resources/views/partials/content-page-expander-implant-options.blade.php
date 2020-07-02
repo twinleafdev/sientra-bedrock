@@ -206,7 +206,7 @@
  </div>
  
  
-<div class="d-none d-md-flex col-md-3 curve-projections text-center">
+  <div class="d-none d-md-flex col-md-3 curve-projections text-center">
 
   	<div class="high projection">
   		
@@ -225,11 +225,6 @@
   	</div>
  </div>
 
- 
- 
- 
- 
- 
  <div class="implant col-12 d-md-none text-center">
    
      <div class="swiper-container swiper-curve-projection">

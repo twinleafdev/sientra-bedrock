@@ -962,6 +962,78 @@
         padding: 3%;
       }
     }
+    .curve-projections {
+	    height: 32vw;
+	    width: 32vw;
+	    background-position: center bottom;
+	    background-size: contain;
+	    position: relative;
+  		flex-direction: column;
+  		align-items: center;
+  		&:hover .projection-bg.default {
+  			opacity: 0;
+  		}
+	    .projection {
+		    position: absolute;
+		    bottom: 0;
+		    left: 15%;
+		    height: 100%;
+		    width: 100%;
+  			border-top-left-radius: 0;
+  			border-top-right-radius: 100%;
+  			border-bottom-left-radius: 0;
+  			border-bottom-right-radius: 0;
+  			z-index: 2;
+  			
+		    &.low {
+			    height: 100%;
+          width: 46%;
+  				opacity: 1;
+  			 	&:hover ~ .projection-bg.low{
+  				 	opacity: 1;
+  			 	}
+
+		    }
+		    &.high {
+			    height: 100%;
+			    width: 68%;
+  			 	&:hover ~ .projection-bg.high{
+  				 	opacity: 1;
+  			 	}
+  			 	&:hover ~ .projection-bg.low{
+  				 	opacity: 0;
+  			 	}
+		    }
+	    }
+	    .projection-bg {
+  			position: absolute;
+  			bottom: 0;
+  			left: 15%;
+  			height: 100%;
+  			z-index: 1;
+  			background-position: center left;
+  			background-size: contain;
+  			background-repeat: no-repeat;
+  			opacity: 0;
+  			transition: opacity ease-in 0.3s;
+  			align-items: flex-end;
+  			justify-content: center;
+        display: flex;
+        color: #fff;
+			  p{
+  			  margin-bottom: -28px;
+			  }
+  			&.low {
+  				background-image: url(../images/curve-projection-low.png);
+  				opacity: 1;
+  			}
+  			&.high {
+  				background-image: url(../images/curve-projection-high.png);
+  			}
+
+	    }
+    }
+
     .swiper-curve-projection {
       .swiper-slide {
         display: flex;
@@ -1868,8 +1940,6 @@
   			border-bottom-right-radius: 0;
   			z-index: 2;
   			
-//   			border: 1px solid $orange;
-  			
 		    &.low {
 			    height: 100%;
           width: 46%;
@@ -1882,10 +1952,6 @@
 		    &.high {
 			    height: 100%;
 			    width: 68%;
-/*
-  				border-bottom-left-radius: 100px;
-  				border-bottom-right-radius: 100px;
-*/
   			 	&:hover ~ .projection-bg.high{
   				 	opacity: 1;
   			 	}
