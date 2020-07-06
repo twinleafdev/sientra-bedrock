@@ -2644,6 +2644,15 @@
     }
   } 
 }
+
+// end .recon-before-after-gallery
+
+/* 
+ * 
+ */
+ 
+// start .about
+
 .about {
   .hero {
     background-image: url(../images/about-hero.jpg);
@@ -2672,5 +2681,64 @@
     h2 {
       height: 7rem;
     }
+  }
+  .meet {
+    h2 {
+      height: 3rem;
+    }
+    .swiper-team {
+      background-color: $tan;
+    }
+  }
+
+  .commitment {
+    .wrap {
+      .model {
+        img {
+          
+        }
+        p {
+          margin-top: -230px;
+          margin-left: 45px;
+          margin-bottom: 50px;
+          color: #fff;
+          font-size: 2.0rem;
+          text-transform: uppercase;
+        }
+      }
+      .message {
+        .message-inner {
+        }
+      }
+    }
+  }
+  .careers {
+    h3 {
+      font-size: 2.0rem;
+    }
+    p {
+      font-size: 1.8rem;
+      line-height: 2.0rem;
+      margin-bottom: 0;
+    }
+  }
+}
+
+// end .about
+
+/* 
+ * 
+ */
+ 
+// start .commitment-to-safety
+
+.commitment-to-safety {
+  .hero {
+    background-image: url(../images/commitment-hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 49vw;
+    padding-top: 6vw;    
   }
 }

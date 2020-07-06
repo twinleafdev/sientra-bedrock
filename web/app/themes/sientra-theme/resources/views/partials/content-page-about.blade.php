@@ -25,8 +25,65 @@
 		</div>
 </section>
 
-<section class="manufacture">
+<section class="manufacture px-5">
 	<h2 class="image-h" style="background-image: url(@asset('images/proudly.svg'))">proudly manufactured in the United states</h2>
+	<img src="@asset('images/about-map.jpg')" class="img-fluid my-5" alt="about-map" width="2500" height="1433" />
+</section>
+
+<section class="meet row">
+	<header class="container my-5">
+  	<h2 class="image-h" style="background-image: url(@asset('images/meet-sientra.svg'))">Meet Sientra</h2>
+	</header>
+	
+  <div class="swiper-container swiper-team py-5">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide justify-content-center">
+        <img src="@asset('images/amelia-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
+        
+      </div>
+      <div class="swiper-slide justify-content-center">
+        <img src="@asset('images/cindyprado-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
+        
+      </div>
+      <div class="swiper-slide justify-content-center">
+        <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
+        
+      </div>
+      <div class="swiper-slide justify-content-center">
+        <img src="@asset('images/edenknows-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />        
+        
+      </div>
+      <div class="swiper-slide justify-content-center">
+        <img src="@asset('images/summer-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
+        
+      </div>
+    </div><!-- .swiper-wrapper -->
+  </div>	
+	
+</section>
+
+<section class="commitment boxy-box text-center my-5">
+  <div class="wrap px-0 pl-lg-3">  	
+  	
+  	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
+    	<img src="@asset('images/one-woman.jpg')" alt="one-woman" width="1500" height="992" />
+      <p>ONE WOMAN’S BREAST<br>reconstruction<br>contributes to<br>another woman’s cure</p>
+  	</div>
+
+  	<div class="col-12 col-lg-5 message bg-white">
+      <div class="message-inner">
+        <img src="@asset('images/patient-resources.svg')" alt="patient resources" />
+      </div>
+  	</div>
+  	  	
+  </div>
+</section>
+<section class="careers light text-center container my-5">
+	<h3 class="opus light">We Help Build Relationships. And Careers.</h3>
+<p>We are seeking exceptionally talented and motivated people to join our team. 
+If you are looking for a career that is both challenging and rewarding, and to 
+work for a company at the forefront of the aesthetic industry, please visit our </p>
+<p class="heavy opus">Careers Website.</p>
 </section>
 
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
