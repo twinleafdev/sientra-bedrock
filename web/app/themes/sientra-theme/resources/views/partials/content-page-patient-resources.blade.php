@@ -54,14 +54,14 @@
         <span><a href="" target="_blank">PDF</a> </span> <p>BIOCORNEUM: See Your Beauty, Not Your Scar</p>
   		  		
 			<header><h3>FULL CIRCLE Program</h3></header>
-        <span><a href="#" target="_blank">WEB</a> </span> <p>web We are committed to improving the lives of women with breast cancer</p>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>We are committed to improving the lives of women with breast cancer</p>
  		</article>
 		
 	</div><!-- .row -->
 	<div class="row commitment">
   	<article class="col-md-8 offset-md-2">
   		<header><h3>Commitment to Safety</h3></header>
-  		<span><a href="#" target="_blank">WEB</a> </span> <p>Patient safety and product quality are our highest priority. Deciding to have breast surgery is a very personal choice. And women should feel confident in their breast implants and their decision to have breast augmentation or reconstructive surgery. Understanding the benefits and risks of breast surgery is an important step in your decision to have surgery.</p> 
+  		<span><a href="/commitment-to-safety/" target="_blank">WEB</a> </span> <p>Patient safety and product quality are our highest priority. Deciding to have breast surgery is a very personal choice. And women should feel confident in their breast implants and their decision to have breast augmentation or reconstructive surgery. Understanding the benefits and risks of breast surgery is an important step in your decision to have surgery.</p> 
 
   	</article>
 		

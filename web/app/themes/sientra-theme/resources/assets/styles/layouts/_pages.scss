@@ -410,8 +410,7 @@
         font-family: 'Avenir-Light', Avenir, sans-serif;
         font-size: 1.2rem;
         @media (min-width: 768px) { 
-          font-size: 1.6rem;
-          line-height: 1.8rem;
+          font-size: 1.8rem;
         }
         .sig {
           text-align: right;
@@ -716,7 +715,7 @@
     max-width: 1250px;
     header img {
       transform: translateX(2%);
-      max-width: 475px;
+      max-width: 555px;
     }
   }
   .surfaces {

@@ -217,11 +217,11 @@
   	</div> 
   	
   	<div class="high projection-bg">
-  		<p><span class="opus">high</span> projection  <span class="opus">|</span>  (180 cc - 650 cc)</p>
+  		<p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 635 cc)</p>
   	</div>
 
   	<div class="low projection-bg">
-  		<p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+  		<p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
   	</div>
  </div>
 
@@ -231,11 +231,11 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
            <img src="@asset('images/curve-projection-low.png')" class="img-fluid" alt="curve-projection-low" width="500" height="1048" />
-           <p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+           <p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
         </div>
         <div class="swiper-slide">
           <img src="@asset('images/curve-projection-high.png')" class="img-fluid" alt="curve-projection-high" width="500" height="1046" />
-          <p><span class="opus">high</span> projection  <span class="opus">|</span>  (180 cc - 650 cc)</p>
+          <p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 635 cc)</p>
         </div>
       </div><!-- .swiper-wrapper -->
      </div>
@@ -275,7 +275,7 @@
     	</article>
     <!-- 	 -->
       <article class="col-12 my-4">
-      	    *(primary augmentation cohort)
+      	    *(primary reconstruction cohort)
       </article>
     </div><!-- .row -->
   </div><!-- .container -->

@@ -12,7 +12,10 @@
   		<p>For many women, restoring the look and feel of their breasts can be emotionally rewarding and promote a general sense of well-being. If you are considering breast reconstruction surgery, Sientra has a comprehensive portfolio of options to support you along your reconstructive journey.</p>
   	</div>  	
   </div><!-- .container -->
-<img src="@asset('images/recon-woman-section-break.jpg')" class="img-fluid" alt="recon-woman-section-break" width="2000" height="759" />
+
+</section>
+<section class="row d-block">
+  <img src="@asset('images/recon-woman-section-break.jpg')" class="img-fluid" alt="recon-woman-section-break" width="2000" height="759" />	
 </section>
 <section class="guide text-center container light">
   <header>
@@ -99,7 +102,7 @@
   </div>
    
 </section>
-<section class="row my-5">
+<section class="row my-5 d-block">
     <img src="@asset('images/recon-patient-break.jpg')" class="img-fluid my-5" alt="recon-patient-break" width="2500" height="1094" />
 </section>
 <section class="options row"> 

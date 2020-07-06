@@ -62,7 +62,7 @@
       	</article>
       <!-- 	 -->
         <article class="col-12">
-        	    <p>*(primary augmentation cohort)</p>
+        	    <p>*(primary reconstruction cohort)</p>
         </article>
       </div><!-- .row -->
     </div><!-- .container -->
