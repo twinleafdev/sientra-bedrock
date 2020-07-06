@@ -2741,4 +2741,115 @@
     height: 49vw;
     padding-top: 6vw;    
   }
+  .lead {
+    padding-left: 3%;
+    padding-right: 3%;
+    h2 {
+      text-align: center;
+      color: $orange;
+    }
+    p {
+      font-size: 1.6rem;
+      line-height: 1.8rem;
+    }
+  }
+  .faq {
+    border: 1px solid $primary;
+    padding: 15px;
+    .card {
+      background-color: $tan;
+      padding: 15px 15px 0;
+      border: none;
+      border-radius: 0;
+      &:last-of-type {
+        padding-bottom: 15px;
+      }
+      .card-body {
+        background-color: #fff;
+        h2 {
+          font-size: 1.8rem;
+          color: $orange;
+        }
+        p {
+          font-size: 1.5rem;
+          line-height: 1.75rem;
+          margin-bottom: 15px;
+          &:last-of-type {
+            margin-bottom: 0;
+          }
+        }
+        .rounded-circle {
+          height: 155px;
+          width: 155px;
+          background-color: transparent;
+          background-position: center center;
+          background-size: 150px auto;
+          background-repeat: no-repeat;
+          text-align: center;
+          color: $orange;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 3.0rem;
+          
+          display: flex;
+          align-items: center;
+          margin-bottom: 2rem;
+          strong {
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Avenir-Black', Avenir, sans-serif;
+          }
+          &._90 {
+            background-image: url(../images/90percent.svg);
+            color: $primary;
+          }
+          &._91 {
+            background-image: url(../images/91percent.svg);
+            color: $orange;
+          }
+          &._79 {
+            background-image: url(../images/79percent.svg);
+            color: #a4a6a8
+          }
+        }
+      }
+    }
+  }
+  .warranty {
+    font-size: 1.6rem;
+    .row {
+      align-items: center;     
+      p {
+        margin-bottom: 0;
+        a {
+          color: $orange;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+  .resources {
+    article {
+      header {
+        h3 {
+        }
+      }
+      &.patient .image-h {
+         height: 4.5rem;
+      }
+      line-height: 1.2rem;
+      span a {
+        color: $orange;
+        margin-bottom: 1rem;
+        margin-right: .3rem;
+        float: left;
+        font-family: 'Avenir-Heavy', Avenir, sans-serif;
+        text-decoration: underline;
+        &:hover {
+          color: $primary;
+        }
+      }
+
+    }
+  }
 }
