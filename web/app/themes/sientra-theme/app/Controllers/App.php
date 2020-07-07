@@ -51,6 +51,13 @@ class App extends Controller
         } );
       } 
       
+      if( "template-surgeon-home.blade.php" ==  basename( $wp_page_template ) || "template-surgeon-home.blade.php" ==  basename(get_page_template($post)) )  {
+        $menu = 'sergeon_navigation';
+        add_filter( 'body_class', function( $classes ) {
+            return array_merge( $classes, array( 'us_surgeons' ) );
+        } );
+      } 
+      
       $args = array(
         'theme_location'    => $menu,
         'menu_class'        => 'navbar-nav mx-auto text-right',
