@@ -2874,3 +2874,260 @@
     }
   }
 }
+
+.for-us-surgeons {
+  .why-choose {
+    background: $tan;
+    padding-left: 10%;
+    padding-right: 10%;
+    @media (min-width: 576px) {
+      padding: inherit;
+    }
+    header img {
+      width: 100%;
+      max-width: 430px;
+      height: auto;
+    }
+    hr {
+      border-top: 1px solid $orange;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+    article {
+      padding-left: 5%;
+      padding-right: 5%;
+      @media (min-width: 576px) {
+        border-left: 1px solid $orange;
+        border-top: none;
+      }
+      &:first-of-type {
+        border: none;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+  .expanders {
+    h2 {
+      padding-left: 5%;
+      padding-right: 5%;
+      margin-bottom: 35px;
+      font-size: 1.3rem;
+      @media (min-width: 768px) {
+        padding-left: 18%;
+        padding-right: 18%;
+        font-size: 2.0em;       
+      }
+    }
+    .allo-derm {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @media (min-width: 768px) {
+        flex-direction: row;
+        height: 32vw;
+      }
+      img {
+        height: auto;
+        width: 100%;
+        flex-basis: 100%;
+        @media (min-width: 768px) {
+          height: 100%;
+          width: auto;
+        }
+      }
+    }
+  }
+  .patient-safety-break {
+    height: 42vw;
+    background-image: url(../images/patient-safety-break.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    color: #fff;
+    font-size: 2.25rem;
+    div {
+      padding-left: 6%;
+      padding-right: 6%;
+    }
+  }
+  .pair {
+    header {
+      max-width: 80vw;
+    }
+    .tag {
+      padding-left: 4%;
+      padding-right: 4%;
+
+      p {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        margin-top: 15px;
+        @media (min-width: 768px) {
+          font-size: 1.6rem;
+          line-height: 1.7rem;
+          margin-top: 0;
+        }
+      }
+        h3 {
+          font-size: 1.2rem;
+          display: flex;
+          flex-direction: column;
+          @media (min-width: 768px) {
+            font-size: 1.5rem;
+            display: inline;
+          }
+          span{
+
+            &:first-of-type {
+              @media (min-width: 768px) {
+                border-right: 0.1rem solid $primary;
+                margin-right: 10px;
+                padding-right: 10px;
+              }
+            }
+          }
+        }
+      h3 {
+        font-family: Avenir-Light, Avenir, sans-serif;
+        color: $primary;
+        margin: 1rem;
+        strong {
+          color: $orange;
+        }
+      }
+    }
+    article {
+      padding-left: 4%;
+      padding-right: 4%;
+
+      .rounded-circle {
+        height: 150px;
+        width: 150px;
+        background-color: $orange;
+        text-align: center;
+        color: #fff;
+        border: 1px solid $orange;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 8%;
+        font-size: 1.2rem;
+        font-family: Avenir-Light, Avenir, sans-serif;
+        margin-bottom: 1rem;
+        align-items: center;
+        strong {
+          font-size: 1.7rem;
+          margin-bottom: .6rem;
+        }
+        p {
+          margin: 0;
+        }
+      }
+
+    }
+  }
+  .factor {
+    .container {
+      background-image: url(../images/implant-bg.jpg);
+      background-position: center top;
+      background-size: contain;
+      background-repeat: no-repeat;
+      h3 {
+        color: $primary;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+      }
+      .tag {
+        font-size: 1.5rem;
+        padding-left: 4%;
+        padding-right: 4%;
+        line-height: 1.7rem;
+        img {
+          width: 100%;
+          height: auto;
+          max-width: 400px;
+          margin-bottom: 1.5rem;
+        }
+        h2 {
+          font-family: Avenir-Light, Avenir, sans-serif;
+          color: $primary;
+          strong {
+            font-family: Avenir-Heavy, Avenir, sans-serif;
+            color: $orange;
+          }
+        }
+      }
+    }
+    .rounded-circle {
+      height: 155px;
+      width: 155px;
+      background-color: transparent;
+      background-position: center center;
+      background-size: 150px auto;
+      background-repeat: no-repeat;
+      text-align: center;
+      color: $orange;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 3.0rem;
+      
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+      strong {
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Avenir-Black', Avenir, sans-serif;
+      }
+      &._90 {
+        background-image: url(../images/90percent.svg);
+        color: $primary;
+      }
+      &._91 {
+        background-image: url(../images/91percent.svg);
+        color: $orange;
+      }
+      &._79 {
+        background-image: url(../images/79percent.svg);
+        color: #a4a6a8
+      }
+    }
+  }
+  .unmatched {
+    font-size: 1.0rem;
+    line-height: 1.3rem;
+    @media (min-width: 768px) {
+      font-size: 1.4rem;
+      line-height: 1.7rem;
+      header img {
+        margin-top: -50px;
+      }
+      margin-top: 50px;
+      background-image: url(../images/unmatched-bg.jpg);
+      background-position: center right;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 54vw;
+      background-position: center top;
+    }
+    .warranty {
+      @media (max-width: 767px) {
+        background-image: url(../images/unmatched-bg.jpg);
+        background-position: center right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vw;
+        padding-left: 13vw;
+        padding-right: 60vw;
+        padding-top: 20px;
+      }
+    }
+  }
+
+}
