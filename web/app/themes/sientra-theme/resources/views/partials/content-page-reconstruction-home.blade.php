@@ -102,8 +102,9 @@
   </div>
    
 </section>
-<section class="row my-5 d-block">
-    <img src="@asset('images/recon-patient-break.jpg')" class="img-fluid my-5" alt="recon-patient-break" width="2500" height="1094" />
+<section class="quote row my-5">
+<!--     <img src="@asset('images/recon-patient-break.jpg')" class="img-fluid my-5" alt="recon-patient-break" width="2500" height="1094" /> -->
+    <img src="@asset('images/jane-cook-quote.svg')" alt="jane-cook-quote" />
 </section>
 <section class="options row"> 
   <header class="col-12">

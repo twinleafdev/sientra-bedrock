@@ -69,7 +69,7 @@
   
 </section>
 <section class="warranty row">
-	<div class="h-line col-9 col-md-8 offset-md-2 text-center">
+	<div class="h-line col-9 col-md-6 offset-md-3 text-center">
 		<img src="@asset('images/best-implant-warranty.svg')" alt="best-implant-warranty" />
 	</div>
 	<div class="col-3 col-md-2">
