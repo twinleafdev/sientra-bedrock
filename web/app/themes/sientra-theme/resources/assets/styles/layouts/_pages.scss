@@ -3099,6 +3099,16 @@
       }
     }
   }
+  .board-certified {
+    border: 1px solid $primary;
+    padding: 20px;
+    margin-bottom: 75px;
+    .row {
+      background-color: $tan;
+      margin: 0;
+      padding: 20px;
+    }
+  }
   .unmatched {
     font-size: 1.0rem;
     line-height: 1.3rem;

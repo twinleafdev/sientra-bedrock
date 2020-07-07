@@ -125,7 +125,30 @@ fit better</h3>
   </div><!-- .container -->
 
 </section>
-
+<section class="board-certified container">
+	<div class="row">
+		<div class="col-12 text-center">
+  		<h1>board-certified</h1>
+  		<h3>The only silicone gel breast implant available exclusively to board-certified plastic surgeons</h3>
+			<h3>We believe high-performing implants exclusively in the hands of the most skilled and qualified surgeons lead to safer, more beautiful outcomes.</h3>
+		</div>
+	</div><!-- .row -->
+</section>
+<section class="row unmatched align-content-start">
+  <header class="col-12 col-md-6">
+  	<img src="@asset('images/unmatched.svg')" alt="unmatched" />
+  </header>
+  <div class="w-100">
+  	
+  </div>
+  <div class="col-12 order-2 order-md-1 col-md-5 mt-md-5">
+  	<p>Because we believe in the safety and performance of our implants, we can offer the industry’s best warranty.</p>
+<p>Our Sientra Platinum20<sup>TM</sup> Product Replacement and Limited Warranty Program provides the most comprehensive protection, <span class="opus">longest length of coverage</span>, most financial assistance, and <span class="opus">least amount of warranty restrictions</span> amongst all implant brands.</p>
+<p><span class="opus">All at no cost to you.</span></p>
+  </div>
+  <div class="warranty col-12 offset-md-0 col-md-2 order-1 order-md-2 mt-md-5">
+  	<img src="@asset('images/warranty.svg')" alt="warranty" />
+  </div>
+</section>
 
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
-@php the_content() @endphp
