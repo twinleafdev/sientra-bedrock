@@ -3139,5 +3139,62 @@
       }
     }
   }
+}
+
+.breast-implants {
+  .boxy-box.science {
+    .wrap {
+      .message {
+        background-image: url(../images/science-bg.jpg);
+        background-position: right center;
+        background-size: 75%;
+        background-repeat: no-repeat;
+        
+        .message-inner {
+          padding: 20% 15px;
+          border: 1px solid $orange;
+          img {
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .desired-look {
+    font-size: 1.5rem;
+    max-width: 1250px;
+    header img {
+      transform: translateX(2%);
+      max-width: 555px;
+    }
+  }
+  .surfaces {
+    .wrap {
+      background-color: $tan;
+      padding: 15px;
+      flex-basis: 1;
+      flex-grow: 1;
+      max-width: 100%;
+      position: relative;
+      width: 100%;
+      @media (min-width: 768px) {
+        flex-basis: 0;
+      }
+      div {
+        img {
+          width: 80%;
+          margin-bottom: 15px;
+          &.micro {
+            width: 76%;
+          }
+        }
+        border: 1px solid #fff;
+        padding: 15px;
+        font-size: 1.2rem;
+        height: 100%;
+      }
+    }
+  }
 
 }
