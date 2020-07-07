@@ -3196,5 +3196,13 @@
       }
     }
   }
-
+  .gel-break {
+    height: 42vw;
+    background-image: url(../images/gel-break.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    font-size: 2.25rem;
+  }
 }
