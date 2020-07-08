@@ -7,7 +7,7 @@
 
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-         <img src="@asset('images/advanced-science.svg')" class="mx-auto" alt="advanced-science" />
+         <img src="@asset('images/breast-implants.svg')" class="mx-auto" alt="advanced-science" />
       </div>
   	</div>
   	  	
@@ -16,33 +16,29 @@
 
 <section class="desired-look text-center mx-auto">
   <header>
-    <img src="@asset('images/desired-look.svg')" class="img-fluid" alt="achieve your desired look" />
+    <img src="@asset('images/implant-options-surg.svg')" class="img-fluid" alt="achieve your desired look" />
   </header>
 	<div class="h2-wrap">
-		<h2>design features unique to all OPUS implants</h2>
+		<h2>design features unique to all <span class="opus">OPUS</span> implants</h2>
 	</div>
 	<div class="row">
 		<div class="col-12 col-md-6 my-3 px-2">
-			<img src="@asset('images/desires-diagram-round.jpg')" class="img-fluid d-md-none" alt="desires-diagram-round" width="1000" height="597" />
-		</div>
-		<div class="col-12 col-md-6 my-3 px-2">
-			<img src="@asset('images/desires-diagram-teardrop.jpg')" class="img-fluid d-md-none" alt="desires-diagram-teardrop" width="1091" height="845" />
+			<img src="@asset('images/gel-diagram.jpg')" class="img-fluid my-5 d-md-none" alt="gel-diagram" width="2500" height="1036" />
 		</div>
 	</div><!-- .row -->
-	<img src="@asset('images/desires-diagram.jpg')" class="img-fluid my-5 d-none d-md-block" alt="desires-diagram" width="2500" height="911" />
+	<img src="@asset('images/gel-diagram.jpg')" class="img-fluid my-5 d-none d-md-block" alt="gel-diagram" width="2500" height="1036" />
 </section>
 <section class="surfaces row text-center">
 	<div class="mx-3 mb-3 wrap">
   	<div>
     	<img src="@asset('images/smooth-surfaces.svg')" alt="smooth-surfaces" />
-  		<p>Are soft yet durable. Smooth shells keep the gel inside and allow the implant to move naturally with the breast tissue.</p>
+  		<p>Soft yet durable, our smooth shell aids in the natural feel of our <span class="opus">OPUS</span> implants. The shell is designed to minimize rupture and allow the implant to move naturally with the natural breast tissue.</p>
   	</div>
 	</div>
 	<div class="mx-3 mb-3 wrap">
   	<div>
 	  	<img src="@asset('images/microtextured-surfaces.svg')" class="micro" alt="textured-surfaces" />
-<p>More rough and aggressive shell surfaces have been classified as macrotextured. Sientra’s textured shell has been classified as a microtexture due to its less aggressive, finer surface.<sup>5</sup> Sientra’s <span class="opus">microtextured</span> surface has been reported to have a lower incidence
-of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<sup>5,6</sup></p>
+<p>More rough and aggressive shell surfaces have been classified as macrotextured. Sientra’s proprietary texturing process results in a less aggressive, <span class="opus">microtextured surface</span>.<sup>3</sup></p>
   	</div>
 	</div>
 </section>
@@ -52,33 +48,45 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
 </section>
 
 <section class="gel-break row">
-	
+	<div class="col-12 col-md-6 offset-md-6 text-center">
+		<h2>Two exclusive high-strength cohesive gels – HSC & HSC+</h2>
+<p>Engineered for optimal shape retention and fracture resistance while maintaining a natural feel<sup>2</sup></p>
+	</div>
 </section>
 
 <section class="surfaces row text-center">
 	<div class="mx-3 mb-3 wrap">
   	<div>
     	<img src="@asset('images/smooth-surfaces.svg')" alt="smooth-surfaces" />
-  		<p>Are soft yet durable. Smooth shells keep the gel inside and allow the implant to move naturally with the breast tissue.</p>
+      <ul class="text-left">
+        <li>Soft feel mimics natural breast tissue</li>
+        <li>Impressive upper pole retention</li>
+        <li>More resistant to gel fracture than competitive gels<sup>2</sup></li>
+      </ul>
   	</div>
 	</div>
 	<div class="mx-3 mb-3 wrap">
   	<div>
 	  	<img src="@asset('images/microtextured-surfaces.svg')" class="micro" alt="textured-surfaces" />
-<p>More rough and aggressive shell surfaces have been classified as macrotextured. Sientra’s textured shell has been classified as a microtexture due to its less aggressive, finer surface.<sup>5</sup> Sientra’s <span class="opus">microtextured</span> surface has been reported to have a lower incidence
-of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<sup>5,6</sup></p>
+      <ul class="text-left">
+        <li>More cohesive than our HSC gel</li>
+        <li>Unmatched shape retention<sup>2</sup></li>
+        <li>Highest level of gel fracture resistance available<sup>2</sup></li>
+        <li>Designed to minimize wrinkling and rippling</li>
+      </ul>
   	</div>
 	</div>
 </section>
-<section class="strength row">
-	<header>
-		<img src="@asset('images/strength-softness.svg')" alt="strength-softness" />
+<section class="strength row my-5">
+	<header class=col-12>
+  	<h2 class="image-h" style="background-image: url(@asset('images/strength-softness.svg')); height: 12vw;">an optimal balance of Strength and softness</h2>
+		<h3 class="light text-center"><span class="opus">OPUS</span> implants offer the highest level of gel fracture resistance<br>available without the compromise of an overly firm implant2</h3>
 	</header>
 	<div class="col-6">
 		<img src="@asset('images/gel-graph.svg')" alt="gel-graph" />
 	</div>
-	<div class="col-6 align-self-center">
-		OPUS HSC & HSC+ implants show minimum trade-off in softness in order to achieve greater gel strength<sup>2</sup>
+	<div class="softness col-6 align-self-center light"> 
+  	<p>OPUS HSC & HSC+ implants show minimum trade-off in softness in order to achieve greater gel strength<sup>2</sup></p>
 	</div>
 </section>
 <section class="luxe row mb-5">
