@@ -159,3 +159,278 @@ $height1: 41vw;
     }
   }
 } 
+.luxe {
+  background-image: url(../images/luxe-bg-m.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 80vw;
+  padding-left: 4%;
+  padding-top: 15%;
+  flex-direction: column;
+  ._250-round {
+    margin-top: 53vw;
+    padding-left: 15%;
+    padding-right: 15%; 
+  }
+  @media (min-width: 768px) { 
+     background-image: url(../images/luxe-bg.jpg);
+     min-height: 53vw;
+     padding-top: 3%;
+    ._250-round { 
+      margin-top: 0;
+      padding: 3%;
+    }
+  }
+  .luxe-projections {
+    height: 16vw;
+    width: 32vw;
+    background-position: center bottom;
+    background-size: contain;
+    position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		transition: background-image ease-in 0.3s;
+		&:hover .projection-bg.default {
+			opacity: 0;
+		}
+    .projection {
+	    position: absolute;
+	    bottom: 0;
+	    height: 100%;
+	    width: 100%;
+			border-top-left-radius: 1000px;
+			border-top-right-radius: 1000px;
+			border-bottom-left-radius: 100px;
+			border-bottom-right-radius: 100px;
+			z-index: 2;
+	    &.low {
+		    height: 43%;
+				width: 95%;
+				opacity: 1;
+		 	&:hover ~ .projection-bg.low{
+			 	opacity: 1;
+		 	}
+
+	    }
+	    &.mod {
+		    height: 59%;
+			 	&:hover ~ .projection-bg.mod{
+				 	opacity: 1;
+			 	}
+			 	&:hover ~ .projection-bg.low{
+				 	opacity: 0;
+			 	}
+	    }
+	    &.mod-plus {
+		    height: 70%;
+			 	&:hover ~ .projection-bg.mod-plus{
+				 	opacity: 1;
+			 	}
+			 	&:hover ~ .projection-bg.low{
+				 	opacity: 0;
+			 	}
+	    }
+	    &.high {
+		    height: 83%;
+			border-bottom-left-radius: 100px;
+			border-bottom-right-radius: 100px;
+			 	&:hover ~ .projection-bg.high{
+				 	opacity: 1;
+			 	}
+			 	&:hover ~ .projection-bg.low{
+				 	opacity: 0;
+			 	}
+	    }
+	    &.xtra-high {
+		    height: 100%;
+			border-top-left-radius: 800px;
+			border-top-right-radius: 800px;
+			 	&:hover ~ .projection-bg.xtra-high{
+				 	opacity: 1;
+			 	}
+			 	&:hover ~ .projection-bg.low{
+				 	opacity: 0;
+			 	}   
+	    }
+    }
+    .projection-bg {
+		position: absolute;
+		bottom: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 1;
+		background-position: center bottom;
+		background-size: contain;
+		background-repeat: no-repeat;
+		opacity: 0;
+		transition: opacity ease-in 0.3s;
+		align-items: flex-end;
+		justify-content: center;
+    display: flex;
+		  p{
+			  margin-bottom: -28px;
+		  }
+			&.low {
+				background-image: url(../images/luxe-projection-low.png);
+				opacity: 1;
+			}
+			&.mod {
+				background-image: url(../images/luxe-projection-moderate.png);
+			}
+			&.mod-plus {
+				background-image: url(../images/luxe-projection-moderate-plus.png);
+			}
+			&.high {
+				background-image: url(../images/luxe-projection-high.png);
+			}
+			&.xtra-high {
+				background-image: url(../images/luxe-projection-xrta-high.png);
+			}
+
+    }
+  }
+
+  .swiper-luxe-projection {
+    .swiper-slide {
+      display: flex;
+      flex-direction: column;
+      @media (min-width: 768px) {
+
+      }
+      p, img {
+        opacity: 0;
+        transition: opacity ease-out 0.3s;
+      }
+      &.swiper-slide-active {
+        p, img {
+          opacity: 1;
+        }
+      }   
+    }
+  }
+}
+.curve {
+  background-image: url(../images/curve-bg-m.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 108vw;
+  padding-left: 4%;
+  padding-top: 15%;
+  ._90-options {
+    margin-top: 78vw;
+    padding-left: 15%;
+    padding-right: 15%; 
+  }
+  .implant {
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 50%;
+      @media (min-width: 768px) {
+        max-width: 70%;
+      }
+    }
+  }
+  @media (min-width: 768px) { 
+     background-image: url(../images/curve-bg.jpg);
+     min-height: 52vw;
+    ._90-options { 
+      margin-top: 0;
+      padding: 3%;
+    }
+  }
+  .curve-projections {
+    height: 32vw;
+    width: 32vw;
+    background-position: center bottom;
+    background-size: contain;
+    position: relative;
+		flex-direction: column;
+		align-items: center;
+		&:hover .projection-bg.default {
+			opacity: 0;
+		}
+    .projection {
+	    position: absolute;
+	    bottom: 0;
+	    left: 15%;
+	    height: 100%;
+	    width: 100%;
+			border-top-left-radius: 0;
+			border-top-right-radius: 100%;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+			z-index: 2;
+			
+	    &.low {
+		    height: 100%;
+        width: 46%;
+				opacity: 1;
+			 	&:hover ~ .projection-bg.low{
+				 	opacity: 1;
+			 	}
+
+	    }
+	    &.high {
+		    height: 100%;
+		    width: 68%;
+			 	&:hover ~ .projection-bg.high{
+				 	opacity: 1;
+			 	}
+			 	&:hover ~ .projection-bg.low{
+				 	opacity: 0;
+			 	}
+	    }
+    }
+    .projection-bg {
+			position: absolute;
+			bottom: 0;
+			left: 15%;
+			height: 100%;
+			z-index: 1;
+			background-position: center left;
+			background-size: contain;
+			background-repeat: no-repeat;
+			opacity: 0;
+			transition: opacity ease-in 0.3s;
+			align-items: flex-end;
+			justify-content: center;
+      display: flex;
+      color: #fff;
+		  p{
+			  margin-bottom: -28px;
+		  }
+			&.low {
+				background-image: url(../images/curve-projection-low.png);
+				opacity: 1;
+			}
+			&.high {
+				background-image: url(../images/curve-projection-high.png);
+			}
+
+    }
+  }
+
+  .swiper-curve-projection {
+    .swiper-slide {
+      display: flex;
+      flex-direction: column;
+      @media (min-width: 768px) {
+
+      }
+      p, img {
+        opacity: 0;
+        transition: opacity ease 0.3s;
+      }
+      &.swiper-slide-active {
+        p, img {
+          opacity: 1;
+        }
+      }   
+    }
+  }
+}
