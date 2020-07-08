@@ -3083,3 +3083,29 @@
     }
   }
 }
+.breast-tissue-expanders {
+  .boxy-box {
+    .wrap {
+      .model {
+        order: 2; 
+        @media (min-width: 992px) {
+          margin-left: calc(-8.33333% + 15px);
+        }
+      }
+      .message {
+        order: 1;
+        @media (min-width: 992px) {
+          margin-left: -30px;
+        }   
+        .message-inner {
+          padding: 15% 15px;
+          align-items: center;
+          img {
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}
