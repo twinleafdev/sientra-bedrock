@@ -56,5 +56,29 @@
 		<h2>AlloX2 is designed to reduce the financial risks associated with breast reconstruction</h2>
 	</footer>
 </section>
+
+
+<section class="risks row">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <header class="col-12">
+      	<h2>Managing the risks of post-operative fluid accumulation</h2>
+      </header>
+    	<div class="col-4">
+    		Obesity (BMI >30) and use of an
+    Acellular Dermal Matrix (ADM) have been identified as major risk factors for seroma4
+    	</div>
+    	<div class="col-4">
+    		A seroma increases the risk of 
+    major infection in breast reconstruction patients
+    	</div>
+    	<div class="col-4">
+    		Clinically relevant infections with poor salvage rates occurred in nearly 1/5 of seroma patients (18.8%)4
+    	</div>
+    </div>
+  </div><!-- .container -->
+</section>
+
+
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp

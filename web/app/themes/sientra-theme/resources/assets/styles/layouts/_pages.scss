@@ -2929,4 +2929,11 @@
       color: rgba(83, 86, 89, 0.3);
     }
   }
+  .risks {
+    background-color: $tan;
+    padding: 15px;
+    & > .container-fluid {
+      border: 1px solid #fff;
+    }
+  }
 }
