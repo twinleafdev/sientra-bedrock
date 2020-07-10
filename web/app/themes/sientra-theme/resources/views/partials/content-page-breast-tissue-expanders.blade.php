@@ -64,21 +64,46 @@
       <header class="col-12">
       	<h2>Managing the risks of post-operative fluid accumulation</h2>
       </header>
-    	<div class="col-4">
-    		Obesity (BMI >30) and use of an
-    Acellular Dermal Matrix (ADM) have been identified as major risk factors for seroma4
+    	<div class="col-4 px-5">
+        <img src="@asset('images/risk_icon_1.svg')" class="w-25 img-fluid mx-auto d-block" alt="risk_icon_1" />
+    		<p>Obesity (BMI >30) and use of an Acellular Dermal Matrix (ADM) have been identified as major risk factors for seroma<sup>4</sup></p>
+    		<ul class="text-left">
+      		<li>~40% of adult patients in the US are obese<sup>5</sup></li>
+          <li>An ADM is used in over 60% of breast reconstruction cases<sup>6</sup></li>
+    		</ul>
     	</div>
-    	<div class="col-4">
-    		A seroma increases the risk of 
-    major infection in breast reconstruction patients
+    	<div class="col-4 px-5">
+      	<img src="@asset('images/risk_icon_2.svg')" class="w-25 img-fluid mx-auto d-block" alt="risk_icon_2" />
+    		<p>A seroma increases the risk of major infection in breast reconstruction patients</p>
+    		<ul class="text-left">
+      		<li>Risk of infection is 4x higher in patients who develop a seroma<sup>4</sup></li>
+          <li>Risk of expander loss caused by infection is 6.7x higher in patients who develop a seroma<sup>4</sup></li>
+    		</ul>
     	</div>
-    	<div class="col-4">
-    		Clinically relevant infections with poor salvage rates occurred in nearly 1/5 of seroma patients (18.8%)4
+    	<div class="col-4 px-5">
+      	<img src="@asset('images/risk_icon_3.svg')" class="w-25 img-fluid mx-auto d-block" alt="risk_icon_3" />
+    		<p>Clinically relevant infections with poor salvage rates occurred in nearly 1/5 of seroma patients (18.8%)4</p>
     	</div>
     </div>
   </div><!-- .container -->
 </section>
-
-
+<section class="container">
+	<header class="row">
+		<div class="col-8 pt-4">
+			<img src="@asset('images/standard-of-care.svg')" alt="standard-of-care" />
+		</div>
+		<div class="col-4 d-flex align-items-center">
+			<h2>78% of infections require explantation<sup>4</sup></h2>
+		</div>
+	</header><!-- .row -->
+</section>
+<section class="two-step mt-5 text-center container">
+  <div class="inner light">
+  	<p>Re-operation costs can run upwards of +$20K,<sup>7</sup> which may not be covered by insurance if within 30 days of initial surgery<sup>8</sup></p>
+  </div>
+</section>
+<section class="flow-chart container">
+	<img src="@asset('images/risk-flow-chart.svg')" class="img-fluid" alt="risk-flow-chart" />
+</section>
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp

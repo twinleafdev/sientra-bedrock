@@ -2932,8 +2932,28 @@
   .risks {
     background-color: $tan;
     padding: 15px;
+    font-size: 1.25rem;
     & > .container-fluid {
       border: 1px solid #fff;
     }
   }
+  .two-step {
+    background-color: $tan;
+    padding: 15px;
+    .inner {
+      border: 1px solid #fff;
+      padding: 15px ;
+      @media (min-width: 768px) { 
+        padding: 15px 15%;
+      }
+    }
+    p {
+      font-size: 1.3rem;
+      margin-bottom: 0;
+      @media (min-width: 768px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
 }
