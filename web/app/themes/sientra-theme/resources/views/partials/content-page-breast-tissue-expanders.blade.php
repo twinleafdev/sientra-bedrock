@@ -97,13 +97,39 @@
 		</div>
 	</header><!-- .row -->
 </section>
-<section class="two-step mt-5 text-center container">
+<section class="costs info-box mt-5 text-center container">
   <div class="inner light">
   	<p>Re-operation costs can run upwards of +$20K,<sup>7</sup> which may not be covered by insurance if within 30 days of initial surgery<sup>8</sup></p>
   </div>
 </section>
 <section class="flow-chart container">
 	<img src="@asset('images/risk-flow-chart.svg')" class="img-fluid" alt="risk-flow-chart" />
+</section>
+<section class="clinical-outcomes row text-center">
+	<header class="col-7">
+		<h2 class="image-h" style="background-image:url(@asset('images/clinical-outcomes.svg')); height: 12vw;">Clinical Outcomes</h2>
+		<h3>AlloX2 improves salvage rates & clinical outcomes<sup>10</sup></h3>
+	</header>
+	<div class="info-box col-5 offset-1">
+    <div class="inner light">
+    	<p>Re-operation costs can run upwards of +$20K,<sup>7</sup> which may not be covered by insurance if within 30 days of initial surgery<sup>8</sup></p>
+    </div>		
+	</div>
+	<div class="col-7">
+		<h3>AlloX2 Stats:</h3>
+•  8% seroma rate
+•  All successfully drained in clinic through AlloX2 
+	</div>
+</section>
+<section class="row text-center my-5">
+  <div class="col-8 offset-2">
+
+  	<h2>100% Surgeon Satisfaction using AlloX2<sup>11</sup></h2>
+  	<p>In a clinical study with 40 primary reconstructive patients, the AlloX2 was deemed 
+  successful in treating seromas and should be considered a tool for noninvasive treatment 
+  of common complications of tissue expander-based breast reconstruction.</p>
+  	
+  </div>
 </section>
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp

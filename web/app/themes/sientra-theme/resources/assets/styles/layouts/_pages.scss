@@ -2937,23 +2937,16 @@
       border: 1px solid #fff;
     }
   }
-  .two-step {
-    background-color: $tan;
-    padding: 15px;
+  .costs.info-box {
     .inner {
-      border: 1px solid #fff;
-      padding: 15px ;
-      @media (min-width: 768px) { 
-        padding: 15px 15%;
-      }
-    }
-    p {
-      font-size: 1.3rem;
-      margin-bottom: 0;
-      @media (min-width: 768px) {
-        font-size: 1.5rem;
-      }
+      padding: 15px 15%;
     }
   }
-
+  .clinical-outcomes {
+    background-image: url(../images/clinical-outcome-bg.jpg);
+    background-position: right bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 10vw;    
+  }
 }
