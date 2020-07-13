@@ -1170,7 +1170,7 @@
   }
   .projection {
     border: 1px solid $orange;
-    padding: 0 25px 50px;
+    padding: 0 25px 10px;
     margin-top: 70px;
     header img {
       margin: -35px auto 30px;
@@ -1180,6 +1180,13 @@
       @media (min-width: 768px) { 
       margin: -35px auto 30px;
       height: 130px;
+      }
+    }
+    footer {
+      margin-top: 10px;
+      p {
+        margin: 0;
+        font-size: 0.9rem;
       }
     } 
     img {

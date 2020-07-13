@@ -25,6 +25,9 @@
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_02.jpg')" alt="before-after_02" width="339" height="300" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_03.jpg')" alt="before-after_03" width="339" height="300" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_04.jpg')" alt="before-after_04" width="339" height="300" /></article>
+    <footer class="col-12 text-center light">
+    	<p class="text-center light">Photos courtesy of Dr. James C. Grotting</p>
+    </footer>
 	</div><!-- .container -->
 
 	<div class="moderate projection row">
@@ -34,7 +37,9 @@
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_mod_02.jpg')" alt="before-after_mod_02" width="1081" height="959" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_mod_03.jpg')" alt="before-after_mod_03" width="1080" height="959" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_mod_04.jpg')" alt="before-after_mod_04" width="1085" height="959" /></article>
-
+    <footer class="col-12 text-center light">
+    	<p class="text-center light">Photos courtesy of Dr. Jennifer Harrington</p>
+    </footer>
 	</div><!-- .container -->
 	
 	<div class="moderate-plus projection row">
@@ -43,6 +48,9 @@
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_modplus_02.jpg')" alt="before-after_modplus_02" width="1081" height="953" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_modplus_03.jpg')" alt="before-after_modplus_03" width="1080" height="953" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_modplus_04.jpg')" alt="before-after_modplus_04" width="1085" height="953" /></article>
+    <footer class="col-12 text-center light">
+    	<p class="text-center light">Photos courtesy of Dr. Sean Kelishad</p>
+    </footer>
 	</div><!-- .container -->
 	
 	<div class="high projection row">
@@ -51,6 +59,9 @@
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_high_02.jpg')" alt="before-after_high_02" width="1081" height="955" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_high_03.jpg')" alt="before-after_high_03" width="1080" height="955" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_high_04.jpg')" alt="before-after_high_04" width="1085" height="955" /></article>
+    <footer class="col-12 text-center light">
+    	<p class="text-center light">Photos courtesy of Dr. Leonard Hochstein</p>
+    </footer>
 	</div><!-- .container -->
 	
 	<div class="xtra-high projection row">
@@ -59,6 +70,9 @@
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_xhigh_02.jpg')" alt="before-after_xhigh_02" width="1081" height="951" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_xhigh_03.jpg')" alt="before-after_xhigh_03" width="1080" height="951" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/before-after_xhigh_04.jpg')" alt="before-after_xhigh_04" width="1085" height="951" /></article>
+    <footer class="col-12 text-center light">
+    	<p class="text-center light">Photos courtesy of Dr. Lorem Ipsum</p>
+    </footer>
 	</div><!-- .container -->
 	
 	
