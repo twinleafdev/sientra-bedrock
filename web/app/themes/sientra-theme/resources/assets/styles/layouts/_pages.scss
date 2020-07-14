@@ -2957,3 +2957,102 @@
     padding-bottom: 10vw;    
   }
 }
+.patient-safety {
+  .boxy-box {
+    .wrap {
+      .message {
+/*
+        order: 1;
+        @media (min-width: 992px) {
+          margin-left: -30px;
+        } 
+*/  
+        .message-inner {
+          padding: 25% 15%;
+          align-items: center;
+          img {
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .rates {
+    .boxed-h {
+      padding: 15px 25px;
+      background-color: $tan;
+      display: inline-block;
+    }
+    article {
+      padding-left: 5%;
+      padding-right: 5%;
+      h3 {
+        color: $primary;
+        font-size: 1.6rem;
+        margin-bottom: 0;
+      }
+      .rounded-circle {
+        height: 140px;
+        width: 140px;
+        background-color: transparent;
+        text-align: center;
+        color: $orange;
+        border: 2px solid $primary;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 8%;
+        font-size: 1.2rem;
+        font-family: Avenir-Light, Avenir, sans-serif;
+        margin-bottom: 1rem;
+        strong {
+          font-size: 2.3rem;
+          line-height: 2.3rem;
+          margin-bottom: 0;
+          color: $orange;
+        }
+      }
+    }
+    .tb {
+      article {
+        padding: 0;
+        margin: 0; 
+        header {
+          background-color: #fff;
+          border-left: 1px solid #fff;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          h4 {
+            color: #fff;
+          }
+        }
+        ul {
+          li {
+            display: inline-block;
+          }
+        }
+        &.sientra {
+          header {
+            background-color: $orange;
+          }
+          color: $orange;
+        }
+        &.mentor {
+          header {
+            background-color: $teal;
+          }          
+        }
+        &.allergan {
+          header {
+            background-color: $teal;
+          }          
+        }
+      }
+    }
+
+  }
+}
