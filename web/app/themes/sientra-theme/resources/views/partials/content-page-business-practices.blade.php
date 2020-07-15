@@ -7,7 +7,7 @@
 
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/recon-patient-safety.svg')" alt="recon-patient-safety" />
+        <img src="@asset('images/partners-inventory.svg')" alt="recon-patient-safety" />
       </div>
   	</div>
   	  	

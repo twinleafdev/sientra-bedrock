@@ -2957,6 +2957,15 @@
     padding-bottom: 10vw;    
   }
 }
+
+// end .breast-tissue-expanders
+
+/* 
+ * 
+ */
+ 
+// start .patient-safety
+
 .patient-safety {
   .boxy-box {
     .wrap {
@@ -3067,6 +3076,15 @@
     }
   }
 }
+
+// end .patient-safety
+
+/* 
+ * 
+ */
+ 
+// start .enhance
+
 .enhance {
   .boxy-box {
     .wrap {
@@ -3133,6 +3151,15 @@
     }
   }
 }
+
+// end .enhance
+
+/* 
+ * 
+ */
+ 
+// start .business-practices
+
 .business-practices {
   .lead {
     background-image: url(../images/implant-group.jpg);
@@ -3161,4 +3188,69 @@
       }
     }
   }
+}
+
+// end .business-practices
+
+/* 
+ * 
+ */
+ 
+// start .resources
+
+.resources {
+  .boxy-box {
+    .wrap {
+      .model {
+
+      }
+      .message {
+        .message-inner {
+          padding: 25% 15px;
+          align-items: center;
+          img {
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .resources {
+    article {
+      header {
+        display: flex;
+      }
+      line-height: 1.2rem;
+      span a {
+        color: $orange;
+        margin-bottom: 1rem;
+        margin-right: .3rem;
+        float: left;
+        font-family: 'Avenir-Heavy', Avenir, sans-serif;
+        text-decoration: underline;
+        &:hover {
+          color: $primary;
+        }
+      }
+      h3 {
+        color: $orange;
+        border: 1px solid $primary;
+        padding: 5px 20px;
+        text-align: center;
+        margin: 50px auto 30px;
+
+      }
+    }
+    .commitment {
+       h3 {
+        background-color: $orange;
+        color: #fff;
+        border: none;         
+      }
+      span a {
+        margin-bottom: 4rem;
+      }
+    }
+  } 
 }
