@@ -265,9 +265,23 @@
 
 </section>
 
-<section>
-	
+<section class="timing boxy-box text-center">
+  <div class="wrap px-0 pl-lg-3">  	
+  	
+  	<div class="col-12 col-lg-5 model text-left px-0 pl-lg-3">
+      <img src="@asset('images/timing.jpg')" alt="timing" width="708" height="834" />
+  	</div>
+
+  	<div class="col-12 col-lg-8 message">
+      <div class="message-inner">
+
+      </div>
+  	</div>
+  	  	
+  </div>
+   
 </section>
+
 
 
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>

@@ -3055,4 +3055,15 @@
     }
 
   }
+  .boxy-box.timing {
+    .wrap {
+//       align-items: flex-end;
+      .message {
+        border: 1px solid $primary;
+        .message-inner {
+
+        }
+      }
+    }
+  }
 }
