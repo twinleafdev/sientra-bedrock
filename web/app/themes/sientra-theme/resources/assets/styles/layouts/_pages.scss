@@ -3095,15 +3095,20 @@
   }
   .practice-assessment {
     article {
+/*
       padding-left: 3%;
       padding-right: 3%;
+*/
       h3 {
         text-align: center;
         color: $orange;
         border: 1px solid $primary;
+        width: 80%;
+        margin: 15px auto;
       }
       ul {
-        margin-left: 8%;
+        width: 70%;
+        margin: 0 auto;
         li {
           font-size: 1.3rem;
         }
@@ -3123,6 +3128,35 @@
             font-size: 1.5rem;
             margin-bottom: 5px;
           }
+        }
+      }
+    }
+  }
+}
+.business-practices {
+  .lead {
+    background-image: url(../images/implant-group.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20vw;
+    h1 {
+      
+    }
+  }
+  .features {
+    article {
+      margin-bottom: 75px;
+      padding-left: 5%;
+      padding-right: 5%;
+      & > div {
+        align-items: flex-start;
+        display: flex;
+      }
+      ul {
+        margin-top: 15px;
+        li {
+          font-size: 1.5rem;
         }
       }
     }
