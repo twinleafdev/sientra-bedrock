@@ -3067,3 +3067,64 @@
     }
   }
 }
+.enhance {
+  .boxy-box {
+    .wrap {
+      .model {
+        order: 2; 
+        @media (min-width: 992px) {
+          margin-left: calc(-8.33333% + 15px);
+        }
+      }
+      .message {
+        order: 1;
+        @media (min-width: 992px) {
+          margin-left: -30px;
+        }   
+        .message-inner {
+          padding: 15% 15px;
+          align-items: center;
+          border: 1px solid $orange;
+          img {
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .practice-assessment {
+    article {
+      padding-left: 3%;
+      padding-right: 3%;
+      h3 {
+        text-align: center;
+        color: $orange;
+        border: 1px solid $primary;
+      }
+      ul {
+        margin-left: 8%;
+        li {
+          font-size: 1.3rem;
+        }
+      }
+    }
+
+  }
+  .training {
+    & > div {
+      border: 1px solid $primary;
+      padding: 15px;
+      .inner {
+        background-color: $tan;
+        padding: 15px;
+        ul {
+          li {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+}

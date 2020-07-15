@@ -41,10 +41,6 @@
   	</div>
   </section>
 </div>
-<section class="row text-right my-5">
-  <div class="col-12">
-    <h3>It’s more than a warranty,<br>it’s <span class="opus heavy">our commitment</span> to your health and safety.</h3>
-  </div>
-</section>
+
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp
