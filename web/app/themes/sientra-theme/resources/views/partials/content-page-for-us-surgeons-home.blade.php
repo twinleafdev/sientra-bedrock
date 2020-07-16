@@ -40,7 +40,7 @@ Our shared commitment to excellence. Sientra is the only silicone gel implant br
 	<div class="col-6 light text-center">When it comes to <span class="opus">patient safety</span> not all implants are created equal. Sientra OPUS implants are clinically shown to have low complication rates.<sup>1</sup></div>
 </section>
 
-<section class="pair row text-center py-5 mt-md-5">
+<section class="pair row text-center">
 
 	<div class="col-12 py-4 mt-md-5 tag">
 		<h3><span><strong>1,116</strong> patients enrolled</span><span>evaluated for <strong>10 years</strong></span></h3>

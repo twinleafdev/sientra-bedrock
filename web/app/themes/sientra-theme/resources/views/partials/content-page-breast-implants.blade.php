@@ -31,7 +31,7 @@
 <section class="surfaces row text-center">
 	<div class="mx-3 mb-3 wrap">
   	<div>
-    	<img src="@asset('images/smooth-surfaces.svg')" alt="smooth-surfaces" />
+    	<img src="@asset('images/smooth-surface.svg')" alt="smooth-surfaces" />
   		<p>Soft yet durable, our smooth shell aids in the natural feel of our <span class="opus">OPUS</span> implants. The shell is designed to minimize rupture and allow the implant to move naturally with the natural breast tissue.</p>
   	</div>
 	</div>
@@ -45,12 +45,13 @@
 
 <section class="row"> 
 	<img src="@asset('images/surface-diagram.jpg')" class="img-fluid" alt="surface-diagram" width="2500" height="1237" />
+	
 </section>
 
 <section class="gel-break row">
 	<div class="col-12 col-md-6 offset-md-6 text-center">
-		<h2>Two exclusive high-strength cohesive gels – HSC & HSC+</h2>
-<p>Engineered for optimal shape retention and fracture resistance while maintaining a natural feel<sup>2</sup></p>
+		<h2 class="light">Two exclusive high-strength<br>cohesive gels – <span class="opus heavy">HSC</span> & <span class="opus heavy">HSC+</span></h2>
+<p class="light">Engineered for <span class="medium">optimal shape retention</span><br>and <span class="medium">fracture resistance</span> while<br>maintaining a <span class="medium">natural feel</span><sup>2</sup></p>
 	</div>
 </section>
 
@@ -79,15 +80,17 @@
 </section>
 <section class="strength row my-5">
 	<header class=col-12>
-  	<h2 class="image-h" style="background-image: url(@asset('images/strength-softness.svg')); height: 12vw;">an optimal balance of Strength and softness</h2>
-		<h3 class="light text-center"><span class="opus">OPUS</span> implants offer the highest level of gel fracture resistance<br>available without the compromise of an overly firm implant2</h3>
+  	<h2 class="image-h" style="background-image: url(@asset('images/strength-softness.svg')); height: 14vw;">an optimal balance of Strength and softness</h2>
+		<h3 class="light text-center"><span class="opus">OPUS</span> implants offer the highest level of gel fracture resistance<br>available without the compromise of an overly firm implant<sup>2</sup></h3>
 	</header>
-	<div class="col-6">
+	<div class="col-6 px-5">
 		<img src="@asset('images/gel-graph.svg')" alt="gel-graph" />
+		
 	</div>
-	<div class="softness col-6 align-self-center light"> 
-  	<p>OPUS HSC & HSC+ implants show minimum trade-off in softness in order to achieve greater gel strength<sup>2</sup></p>
+	<div class="softness col-5 align-self-center light text-center"> 
+  	<p><span class="opus">OPUS</span> HSC & HSC+ implants show minimum trade-off in softness in order to achieve greater gel strength<sup>2</sup></p>
 	</div>
+	<small class="m-5">*tests performed by an independent laboratory</small>
 </section>
 <section class="luxe row mb-5">
  <header class="col-6 col-sm-4"> <img src="@asset('images/opus-luxe.png')" class="img-fluid" alt="opus-luxe" width="949" height="353" /></header>
@@ -203,7 +206,7 @@
  </div>
 
 </section>
-<section class="love my-5">
+<section class="love row my-5">
 	<div class="col-12 col-md-5">
 		<img src="@asset('images/woman-love-results.svg')" alt="woman love the results" />
 	</div>

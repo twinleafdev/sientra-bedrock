@@ -2687,15 +2687,19 @@
     background-size: contain;
     background-repeat: no-repeat;
     align-items: center;
-    font-size: 2.25rem;
+    font-size: 1.8rem;
+    h2 {
+      font-size: 2.25rem;
+    }
   }
   .strength {
     .softness {
       background-color: $tan;
       padding: 15px;
+      font-size: 1.8rem;
       p {
         border: 1px solid #fff;
-        padding: 15px;
+        padding: 30px;
         margin: 0;
       }
     }
@@ -2705,7 +2709,7 @@
        .quote-icon {
         width: 30px;
         height: auto;
-        margin: 30px auto 0;
+        margin: 0 auto 20px;
         display: flex;
         @media (min-width: 768px) { 
           width: 50px;
@@ -2716,7 +2720,7 @@
         font-family: 'Avenir-Light', Avenir, sans-serif;
         font-size: 1.2rem;
         @media (min-width: 768px) { 
-          font-size: 1.8rem;
+          font-size: 2.0rem;
         }
         .sig {
           text-align: right;
@@ -2861,6 +2865,7 @@
         .message-inner {
           padding: 15% 15px;
           align-items: center;
+          border: 1px solid $orange;
           img {
             width: 90%;
             height: auto;

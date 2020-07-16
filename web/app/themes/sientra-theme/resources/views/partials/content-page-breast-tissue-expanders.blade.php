@@ -6,7 +6,7 @@
   	</div>
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/expander-implant-options.svg')" alt="expander-implant-options" />
+        <img src="@asset('images/breast-tissue-expanders.svg')" alt="breast tissue expanders" />
       </div>
   	</div>
   	  	
@@ -14,7 +14,7 @@
 </section>
 <section class="expander-options text-center">
 	<header class="col-12">
-		<h2>Breast Tissue Expander Options</h2>
+		<h2 class="image-h mb-5" style="background-image:url(@asset('images/expander-options.svg')); height: 18vw; ">Breast Tissue Expander Options</h2>
 	</header>
 	<div class="wrap row">
   	<div class="col-6 offset-6">
