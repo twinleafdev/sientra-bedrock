@@ -2,7 +2,7 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/expander-implant-options.jpg')" alt="expander-implant-options" width="1800" height="1038" />
+      <img src="@asset('images/breast-tissue-expanders.jpg')" alt="breast-tissue-expanders" width="1500" height="865" />
   	</div>
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
@@ -12,24 +12,24 @@
   	  	
   </div>
 </section>
-<section class="expander-options text-center">
+<section class="expander-options text-center light">
 	<header class="col-12">
 		<h2 class="image-h mb-5" style="background-image:url(@asset('images/expander-options.svg')); height: 18vw; ">Breast Tissue Expander Options</h2>
 	</header>
 	<div class="wrap row">
-  	<div class="col-6 offset-6">
+  	<div class="col-7 offset-5">
   		<h2 class="black">AlloX2<sup>®</sup></h2>
-  		<h3>Revolutionary dual-port design and integral drain allow for less invasive – non-surgical – draining of serous fluid</h3>
-      <p>•  Designed to mitigate key risks associated with breast expansion and ultimately reduce reoperation rates</p> 
-      <p>•  Only tissue expander with an integral drain providing direct access to the periprosthetic space where fluid can accumulate</p>
-      <p>•  Allows for diagnostic fluid sampling to enable a faster treatment response</p>
+  		<h3>Revolutionary <span class="opus">dual-port</span> design and <span class="opus">integral</span> drain allow for less invasive – non-surgical – draining of serous fluid</h3>
+      <p><span class="opus">&bull;</span>  Designed to mitigate key risks associated with breast<br>expansion and ultimately reduce reoperation rates</p> 
+      <p><span class="opus">&bull;</span>  Only tissue expander with an integral drain providing direct<br>access to the periprosthetic space where fluid can accumulate</p>
+      <p><span class="opus">&bull;</span>  Allows for diagnostic fluid sampling to enable a faster<br>treatment response</p>
   	</div>
   	<div class="allox-info-box col-5 offset-7">
   		<img src="@asset('images/allox2-info-box.jpg')" class="img-fluid" alt="allox2-info-box" width="750" height="409" />
   	</div>
 	</div>
 </section>
-<section class="row" id="testimonials">
+<section class="row py-3" id="testimonials">
   <img src="@asset('images/quote.svg')" class="quote-icon" alt="quote" />
 <!-- Slider main container -->
   <div class="swiper-container swiper-testimonial">
@@ -42,13 +42,13 @@
   
   </div>
 </section>
-<section class="dermaspan row text-center">
-	<div class="col-6">
+<section class="dermaspan row text-center light">
+	<div class="col-7">
 		<h2 class="black">Dermaspan<sup>TM</sup></h2>
-		<h3>Soft, refined design allows for <span class="opus">gentle</span> and <span class="opus">more comfortable</span> expansion</h3>
-    <p>• Designed to mitigate key risks associated with breast expansion and ultimately reduce reoperation rates</p> 
-    <p>• Only tissue expander with an integral drain providing direct access to the periprosthetic space where fluid can accumulate</p>
-    <p>• Allows for diagnostic fluid sampling to enable a faster treatment response</p>
+		<h3>Soft, refined design allows for<br><span class="opus">gentle</span> and <span class="opus">more comfortable</span> expansion</h3>
+    <p><span class="opus">&bull;</span> Soft, pliable shell results in less friction upon insertion</p> 
+    <p><span class="opus">&bull;</span> Designed without ridges or rings for improved comfort</p>
+    <p><span class="opus">&bull;</span> Port location is designed to aid in predictable,<br>consistent expansion</p>
 	</div>
 </section>
 <section class="row">
