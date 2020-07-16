@@ -1,8 +1,8 @@
 <section class="hero row">
-	
+	<h1 class="image-h w-100" style="background-image:url(@asset('images/patient-safety-w.svg')); height: 13vw;">A commitment to patient safety</h1>
 </section>
 
-<section class="lead my-5">
+<section class="lead my-5 light">
 	<h2>We’re guided by the science supporting our products which continues to confirm the long-term safety and effectiveness of all Sientra implants.</h2>
 <p>At Sientra, patient safety and product quality are our highest priority. That is why, from our inception, we have exclusively entrusted the safety and patient satisfaction of our breast implants to only the most qualified surgeons in our industry - board-certified and board-eligible plastic surgeons. Sientra is committed to providing transparent, evidence-based information about our implants to help physicians and patients make an informed decision.</p>
 </section>
@@ -46,8 +46,8 @@
         <h2>Things to Remember:</h2>
         <p>Long-term clinical and real-world data supports the safety of breast implants.<sup>9</sup> Because of this:</p>
         <ul>
-          <li>- The FDA and all leading medical societies currently do not recommend the removal of implants in women without symptoms.</li>
-          <li>- The FDA and leading medical societies currently do not recommend changing the routine medical care and follow-up for women with implants. Patients should contact their board-certified plastic surgeon with any changes to breast shape or size, including pain, lumps or swelling.<sup>4</sup></li>
+          <li>The FDA and all leading medical societies currently do not recommend the removal of implants in women without symptoms.</li>
+          <li>The FDA and leading medical societies currently do not recommend changing the routine medical care and follow-up for women with implants. Patients should contact their board-certified plastic surgeon with any changes to breast shape or size, including pain, lumps or swelling.<sup>4</sup></li>
         </ul>
       </div>
     </div>

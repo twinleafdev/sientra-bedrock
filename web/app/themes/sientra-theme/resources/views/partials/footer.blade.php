@@ -38,6 +38,7 @@
           <a class="nav-link" href="#">INFORMATION</a>
           <a class="nav-link" href="#">COMPLIANCE</a>
           <a class="nav-link" href="#">RESOURCES</a>
+          <a class="nav-link" href="#">PATENTS</a>
         </nav>
       </div>
       <div class="col-12 col-md-4 text-center text-md-right">© 2020 Sientra, Inc. All rights reserved.</div> 

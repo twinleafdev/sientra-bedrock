@@ -2233,7 +2233,11 @@
     background-repeat: no-repeat;
     background-size: contain;
     height: 49vw;
-    padding-top: 6vw;    
+    padding-top: 11vw;
+    padding-left: 6vw;
+    h1 {
+      background-position: left center;
+    }    
   }
   .lead {
     padding-left: 3%;
