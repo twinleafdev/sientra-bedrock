@@ -59,7 +59,7 @@
 	<div class="mx-3 mb-3 wrap">
   	<div>
     	<img src="@asset('images/smooth-surfaces.svg')" alt="smooth-surfaces" />
-      <ul class="text-left">
+      <ul class="opus-list text-left">
         <li>Soft feel mimics natural breast tissue</li>
         <li>Impressive upper pole retention</li>
         <li>More resistant to gel fracture than competitive gels<sup>2</sup></li>
@@ -69,7 +69,7 @@
 	<div class="mx-3 mb-3 wrap">
   	<div>
 	  	<img src="@asset('images/microtextured-surfaces.svg')" class="micro" alt="textured-surfaces" />
-      <ul class="text-left">
+      <ul class="opus-list text-left">
         <li>More cohesive than our HSC gel</li>
         <li>Unmatched shape retention<sup>2</sup></li>
         <li>Highest level of gel fracture resistance available<sup>2</sup></li>

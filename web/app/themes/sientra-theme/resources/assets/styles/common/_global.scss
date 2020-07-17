@@ -452,3 +452,28 @@ $height1: 41vw;
     }
   }
 }
+ul.opus-list {
+  list-style: none;
+  li {
+    margin-bottom: 0.5em;
+    &::before {
+      content: "\2022 ";
+      color: $orange;
+      margin-left: -1em;
+      float: left;
+    }    
+  }
+
+}
+ul.opus-list-dash {
+  list-style: none;
+  li {
+    margin-bottom: 0.5em;
+    &::before {
+      content: "\2013 ";
+      color: $orange;
+      margin-left: -1em;
+      float: left;
+    }
+  }
+}

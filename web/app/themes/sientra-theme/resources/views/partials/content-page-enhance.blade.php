@@ -27,7 +27,7 @@
 		</header>
 		<article class="col-6">
 			<h3>Operations</h3>
-			<ul>
+			<ul class="opus-list">
         <li>Customer service</li>
         <li>Scheduling efficiency</li>
         <li>Process management</li>
@@ -37,7 +37,7 @@
 		</article>
 		<article class="col-6">
 			<h3>Operations</h3>
-			<ul>
+			<ul class="opus-list">
         <li>Customer service</li>
         <li>Scheduling efficiency</li>
         <li>Process management</li>
@@ -47,7 +47,7 @@
 		</article>
 		<article class="col-6">
 			<h3>Operations</h3>
-			<ul>
+			<ul class="opus-list">
         <li>Customer service</li>
         <li>Scheduling efficiency</li>
         <li>Process management</li>
@@ -57,7 +57,7 @@
 		</article>
 		<article class="col-6">
 			<h3>Operations</h3>
-			<ul>
+			<ul class="opus-list">
         <li>Customer service</li>
         <li>Scheduling efficiency</li>
         <li>Process management</li>
@@ -75,7 +75,7 @@
 	
 	<div class="col-10 offset-1">
 		<div class="inner">
-			<ul>
+			<ul class="opus-list">
         <li>Understanding the customer buying cycle and how this relates to patient relationship management.</li>
         <li>Capturing new patient demographic information and sending appropriate materials.</li>
         <li>Learning how to execute an effective tracking process and customizing follow-up activities to your specific practice.</li>

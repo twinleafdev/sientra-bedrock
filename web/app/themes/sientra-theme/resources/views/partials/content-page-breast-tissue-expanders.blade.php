@@ -51,9 +51,9 @@
     <p><span class="opus">&bull;</span> Port location is designed to aid in predictable,<br>consistent expansion</p>
 	</div>
 </section>
-<section class="row">
+<section class="row mb-5">
 	<footer class="col-6 offset-3">
-		<h2>AlloX2 is designed to reduce the financial risks associated with breast reconstruction</h2>
+		<h2 class="image-h" style="background-image:url(@asset('images/reduce-the-financial-risks.svg')); height: 18vw;" >AlloX2 is designed to reduce the financial risks associated with breast reconstruction</h2>
 	</footer>
 </section>
 
@@ -61,72 +61,77 @@
 <section class="risks row">
   <div class="container-fluid">
     <div class="row text-center">
-      <header class="col-12">
+      <header class="col-12 mb-5">
       	<h2>Managing the risks of post-operative fluid accumulation</h2>
       </header>
     	<div class="col-4 px-5">
-        <img src="@asset('images/risk_icon_1.svg')" class="w-25 img-fluid mx-auto d-block" alt="risk_icon_1" />
+        <img src="@asset('images/risk_icon_1.svg')" class="icon w-50 img-fluid mx-auto d-block" alt="risk_icon_1" />
     		<p>Obesity (BMI >30) and use of an Acellular Dermal Matrix (ADM) have been identified as major risk factors for seroma<sup>4</sup></p>
-    		<ul class="text-left">
+    		<ul class="opus-list text-left">
       		<li>~40% of adult patients in the US are obese<sup>5</sup></li>
           <li>An ADM is used in over 60% of breast reconstruction cases<sup>6</sup></li>
     		</ul>
     	</div>
     	<div class="col-4 px-5">
-      	<img src="@asset('images/risk_icon_2.svg')" class="w-25 img-fluid mx-auto d-block" alt="risk_icon_2" />
+      	<img src="@asset('images/risk_icon_2.svg')" class="icon w-50 img-fluid mx-auto d-block" alt="risk_icon_2" />
     		<p>A seroma increases the risk of major infection in breast reconstruction patients</p>
-    		<ul class="text-left">
+    		<ul class="opus-list text-left">
       		<li>Risk of infection is 4x higher in patients who develop a seroma<sup>4</sup></li>
           <li>Risk of expander loss caused by infection is 6.7x higher in patients who develop a seroma<sup>4</sup></li>
     		</ul>
     	</div>
     	<div class="col-4 px-5">
-      	<img src="@asset('images/risk_icon_3.svg')" class="w-25 img-fluid mx-auto d-block" alt="risk_icon_3" />
+      	<img src="@asset('images/risk_icon_3.svg')" class="icon w-50 img-fluid mx-auto d-block" alt="risk_icon_3" />
     		<p>Clinically relevant infections with poor salvage rates occurred in nearly 1/5 of seroma patients (18.8%)4</p>
     	</div>
     </div>
   </div><!-- .container -->
 </section>
-<section class="container">
+<section class="standard container mt-5">
 	<header class="row">
 		<div class="col-8 pt-4">
 			<img src="@asset('images/standard-of-care.svg')" alt="standard-of-care" />
 		</div>
 		<div class="col-4 d-flex align-items-center">
-			<h2>78% of infections require explantation<sup>4</sup></h2>
+			<h2><span class="opus heavy">78%</span> of infections require explantation<sup>4</sup></h2>
 		</div>
 	</header><!-- .row -->
 </section>
 <section class="costs info-box mt-5 text-center container">
   <div class="inner light">
-  	<p>Re-operation costs can run upwards of +$20K,<sup>7</sup> which may not be covered by insurance if within 30 days of initial surgery<sup>8</sup></p>
+  	<p>Re-operation costs can run upwards of <span class="opus heavy">+$20K</span>,<sup>7</sup> which may not be covered by insurance if <span class="opus heavy">within 30 days</span> of initial surgery<sup>8</sup></p>
   </div>
 </section>
 <section class="flow-chart container">
 	<img src="@asset('images/risk-flow-chart.svg')" class="img-fluid" alt="risk-flow-chart" />
 </section>
 <section class="clinical-outcomes row text-center">
-	<header class="col-7">
-		<h2 class="image-h" style="background-image:url(@asset('images/clinical-outcomes.svg')); height: 12vw;">Clinical Outcomes</h2>
-		<h3>AlloX2 improves salvage rates & clinical outcomes<sup>10</sup></h3>
+	<header class="col-7 mb-5">
+		<h2 class="image-h" style="background-image:url(@asset('images/clinical-outcomes.svg')); height: 10vw;">Clinical Outcomes</h2>
+		<h3 class="light">AlloX2 improves salvage rates & clinical outcomes<sup>10</sup></h3>
 	</header>
 	<div class="info-box col-5 offset-1">
     <div class="inner light">
-    	<p>Re-operation costs can run upwards of +$20K,<sup>7</sup> which may not be covered by insurance if within 30 days of initial surgery<sup>8</sup></p>
+      <p>Retrospective review of <span class="opus">112</span> consecutive patients</p> 
+      <p><span class="opus">63</span> patients (53.6%) Mentor Artoura</p> 
+      <p><span class="opus">49</span> patients (43.7%) AlloX2 </p>
+      <p><span class="opus">173</span> breasts with smooth tissue expanders (2016-2017)</p>    
     </div>		
 	</div>
-	<div class="col-7">
-		<h3>AlloX2 Stats:</h3>
-•  8% seroma rate
-•  All successfully drained in clinic through AlloX2 
+	<div class="col-7 text-left pl-5 mt-5">
+		<h3><span class="opus">AlloX2</span> Stats:</h3>
+    <ul class="opus-list">
+      <li><span class="opus">8%</span> seroma rate</li>
+      <li><span class="opus">All successfully drained</span> in clinic through AlloX<sup>2</sup></li> 
+    </ul>
 	</div>
 </section>
-<section class="row text-center my-5">
+<section class="satisfaction row text-center my-5">
   <div class="col-8 offset-2">
 
-  	<h2>100% Surgeon Satisfaction using AlloX2<sup>11</sup></h2>
-  	<p>In a clinical study with 40 primary reconstructive patients, the AlloX2 was deemed 
-  successful in treating seromas and should be considered a tool for noninvasive treatment 
+  	<h2><span class="opus heavy">100%</span> Surgeon Satisfaction using AlloX2<sup>11</sup></h2>
+  	<p class="light">In a clinical study with <span class="opus">40</span> primary reconstructive patients, the AlloX2 was deemed 
+  <span class="opus">successful in treating seromas</span> and should be considered a tool for <span class="opus">noninvasive treatment</span> 
   of common complications of tissue expander-based breast reconstruction.</p>
   	
   </div>

@@ -45,7 +45,7 @@
       <div class="card-body light">
         <h2>Things to Remember:</h2>
         <p>Long-term clinical and real-world data supports the safety of breast implants.<sup>9</sup> Because of this:</p>
-        <ul>
+        <ul class="opus-list">
           <li>The FDA and all leading medical societies currently do not recommend the removal of implants in women without symptoms.</li>
           <li>The FDA and leading medical societies currently do not recommend changing the routine medical care and follow-up for women with implants. Patients should contact their board-certified plastic surgeon with any changes to breast shape or size, including pain, lumps or swelling.<sup>4</sup></li>
         </ul>

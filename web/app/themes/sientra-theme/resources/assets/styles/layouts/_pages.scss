@@ -2962,11 +2962,35 @@
     font-size: 1.25rem;
     & > .container-fluid {
       border: 1px solid #fff;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      .icon {
+        margin-bottom: 1rem;
+      }
+      li {
+        font-size: 1.1rem;
+      }
+    }
+  }
+  .standard {
+    header {
+      div:last-of-type {
+        h2 {
+          border-left: 1px solid $primary;
+          padding-top: 10%;
+          padding-bottom: 10%;
+          margin-left: -15px;
+          padding-left: 15px;
+        }
+      }
     }
   }
   .costs.info-box {
     .inner {
       padding: 15px 15%;
+      p {
+        font-size: 1.6rem;
+      }
     }
   }
   .clinical-outcomes {
@@ -2974,7 +2998,38 @@
     background-position: right bottom;
     background-size: contain;
     background-repeat: no-repeat;
-    padding-bottom: 10vw;    
+    padding-bottom: 10vw; 
+    margin-top: 10vw;
+    header {
+      margin-top: -10vw;
+    }
+    h3 {
+      font-size: 2.0rem;
+    }
+    .info-box {
+      .inner {
+        p {
+          font-size: 1.15rem;
+          line-height: 1.5;
+        }
+      }
+    }
+    .opus-list {
+      padding-left: 20px;
+      li {
+        font-size: 1.4rem;
+      }
+    }   
+  }
+  .satisfaction {
+    h2 {
+      .opus {
+        font-size: 1.6em;
+      }
+    }
+    p {
+      font-size: 1.4em;
+    }
   }
 }
 
