@@ -822,6 +822,9 @@
     }
   }
   .get-started {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
     header {
       img {
         transform: translateX(-9%);
@@ -1070,7 +1073,6 @@
         span {
           color: $orange;
           width: 5.5rem;
-          line-height: 2.0rem;
           float: left;
           display: inline-block;
           font-family: 'Avenir-Heavy', Avenir, sans-serif;
@@ -2335,6 +2337,8 @@
   .resources {
     article {
       header {
+        min-height: 7vw;
+        border: 1px solid blue;
         h3 {
         }
       }

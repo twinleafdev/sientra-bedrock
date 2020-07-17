@@ -114,7 +114,7 @@ we encourage you to reach out to your board-certified plastic surgeon. </p>
 <section class="resources container">
 	<div class="row">
 		<article class="col">
-			<header><h3 class="image-h my-4" style="background-image:url(@asset('images/for-physicians.svg'));  height: 4.0rem; margin-top: 0.5rem; ">For Physicians</h3></header>
+			<header class="my-4"><h3 class="image-h" style="background-image:url(@asset('images/for-physicians.svg'));  height: 4.0rem; margin-top: 0.5rem; ">For Physicians</h3></header>
         <span><a href="@asset('images/aug/MDC-0351_R1_OPUS_Luxe_Patient_Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
         <span><a href="@asset('images/aug/Sientra_Patient_Planning_Guide_Breast_Augmentation.pdf')" target="_blank">PDF</a> </span> <p>Sientra Patient Planning Guide: Breast Augmentation</p>
         <span><a href="@asset('images/aug/Sientra_PatientLabel_Augmentation_MDC-0010_R2_11-7-17.pdf')" target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p>
@@ -124,7 +124,7 @@ we encourage you to reach out to your board-certified plastic surgeon. </p>
 		
 		<article class="col patient">
   		  		
-			<header><h3 class="image-h my-4" style="background-image:url(@asset('images/for-your-patients.svg')); height: 4.5rem; ">For Your Patients</h3></header>
+			<header class="my-4"><h3 class="image-h" style="background-image:url(@asset('images/for-your-patients.svg')); height: 4.5rem; ">For Your Patients</h3></header>
         <span><a href="@asset('images/recon/MDC-0351_R1_OPUS_Luxe_Patient_Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
         <span><a href="@asset('images/recon/Sientra_Patient_Planning_Guide_Breast_Augmentation.pdf')" target="_blank">PDF</a> </span> <p>Sientra Patient Planning Guide: Breast Reconstruction</p>
         <span><a href="@asset('images/recon/Sientra_Silicone_Gel_Breast_Implants_Quick_Facts_About_Breast_Augmentation_and_Reconstruction.pdf') " target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p>

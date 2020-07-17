@@ -29,7 +29,7 @@
       <span class="opus">All at no cost to you.</span></p>
     </div>
 
-  	<div class="col-12 col-md-6 col-lg-8 pl-md-4">
+  	<div class="col-12 col-md-6 col-lg-8 pl-md-5">
   		<p>Covers all primary and revision augmentation and reconstruction surgeries</p>
   		<ul class="list-group"><li class="list-group-item"><span>Lifetime</span>FREE implant replacement for rupture</li>
         <li class="list-group-item"><span>20 Year</span>Up to $5,000 for uncovered fees and costs due to implant rupture</li>

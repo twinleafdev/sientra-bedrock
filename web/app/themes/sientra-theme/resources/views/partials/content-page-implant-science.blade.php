@@ -21,11 +21,11 @@
 		<h2>available in round and teardrop shape</h2>
 	</div>
 	<div class="row">
-		<div class="col-12 col-md-6 my-3 px-2">
+		<div class="col-12 col-md-6 my-3 px-5">
 			<p>Cohesive <span class="opus">round implants</span> designed for a fuller look with a naturally soft feel</p>
 			<img src="@asset('images/desires-diagram-round.jpg')" class="img-fluid d-md-none" alt="desires-diagram-round" width="1000" height="597" />
 		</div>
-		<div class="col-12 col-md-6 my-3 px-2">
+		<div class="col-12 col-md-6 my-3 px-5">
 			<p>Cohesive <span class="opus">teardrop shaped implants</span> designed to mimic the natural slope of a women’s breast</p>
 			<img src="@asset('images/desires-diagram-teardrop.jpg')" class="img-fluid d-md-none" alt="desires-diagram-teardrop" width="1091" height="845" />
 		</div>
