@@ -713,9 +713,9 @@
   .desired-look {
     font-size: 1.5rem;
     max-width: 1250px;
-    header img {
-      transform: translateX(2%);
-      max-width: 555px;
+    header h2 {
+      transform: translateX(1vw);
+//       max-width: 555px;
     }
   }
   .surfaces {
@@ -1277,6 +1277,7 @@
         @media (min-width: 576px) {
           border-left: 1px solid $orange;
           border-top: none;
+          font-size: 1.2rem;
         }
         &:first-of-type {
           border: none;
@@ -1284,7 +1285,10 @@
         p {
           margin: 0;
         }
-  
+        .lead {
+          font-size: 1.15em;
+          margin-bottom: 4px;
+        }
       }
       small {
         flex-basis: 100%;
@@ -1293,6 +1297,7 @@
     }
   }
   .boxy-box.following {
+    margin-top: 0;
     .wrap {
       .model {
         order: 2; 
@@ -1502,11 +1507,12 @@
   }
 
   .curve {
+     padding-top: 5%;
     @media (min-width: 768px) { 
        background-image: url(../images/recon-curve-bg.jpg);
        min-height: 68vw;
     }
-
+    
   }
   .factor {
     @media (min-width: 768px) { 
@@ -3045,15 +3051,11 @@
   .boxy-box {
     .wrap {
       .message {
-/*
-        order: 1;
-        @media (min-width: 992px) {
-          margin-left: -30px;
-        } 
-*/  
+  
         .message-inner {
           padding: 25% 15%;
           align-items: center;
+          border: 1px solid $orange;
           img {
             width: 90%;
             height: auto;

@@ -10,7 +10,7 @@
 		<p class="lead">Unrivaled safety and<br>
 clinical results<sup>1</sup></p>
 <span class="opus">•••</span><br>
-  A portfolio of implants and one-of-a-kind tissue expanders designed to improve patient outcomes
+  The latest generation implants and one-of-a-kind tissue expanders designed to improve patient outcomes
 	</article>
 	<hr class="w-50 d-block d-sm-none">
 	<article class="col-12 col-sm pt-sm-0">

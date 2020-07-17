@@ -15,7 +15,7 @@
 </section>
 <section class="desired-look text-center mx-auto">
   <header>
-    <img src="@asset('images/desired-look.svg')" class="img-fluid" alt="achieve your desired look" />
+    <h2 class="image-h" style="background-image: url(@asset('images/desired-look.svg')); height:13vw;">achieve your desired look</h2>
   </header>
 	<div class="h2-wrap">
 		<h2>available in round and teardrop shape</h2>

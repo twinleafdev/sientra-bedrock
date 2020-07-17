@@ -402,7 +402,9 @@ $height1: 41vw;
       display: flex;
       color: #fff;
 		  p{
-			  margin-bottom: -28px;
+			  // margin-bottom: -28px;
+			  transform: translateY(200%);
+			  margin-left: -25px;
 		  }
 			&.low {
 				background-image: url(../images/curve-projection-low.png);

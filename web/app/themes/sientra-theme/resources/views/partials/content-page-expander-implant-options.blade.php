@@ -12,7 +12,7 @@
   	  	
   </div>
 </section>
-<section class="row why-choose text-center my-4">
+<section class="row why-choose text-center mt-4">
   <div class="container-fluid wrap py-5">
   	<header class="col-12 mb-2 mb-sm-5">
     	<img src="@asset('images/why-choose.svg')" alt="why choose" />
@@ -21,25 +21,25 @@
   	<article class="col-12 col-sm pt-3 pt-sm-0">
   		<p class="lead">One-of-a-kind breast tissue expanders</p>
   <span class="opus">•••</span><br>
-  Uniquely designed to deliver comfortable, predictable expansion 
+  <p>Uniquely designed to deliver comfortable, predictable expansion</p> 
   	</article>
   	<hr class="w-50 d-block d-sm-none">
   	<article class="col-12 col-sm pt-sm-0">
   		<p class="lead">Highest rated silicone gel breast implant brand<sup>*</sup>
 </p>
   <span class="opus">•••</span><br>
-  Women love the natural look and feel of their <span class="opus">OPUS</span> implants
+  <p>Women love the natural look and feel of their <span class="opus">OPUS</span> implants</p>
   	</article>
   	<hr class="w-50 d-block d-sm-none">
   	<article class="col-12 col-sm pt-sm-0">
   		<p class="lead">Unrivaled safety and<br>clinical results<sup>4</sup></p>
   <span class="opus">•••</span><br>
-  Supported by the industry’s most comprehensive 20-year warranty 
+  <p>Supported by the industry’s most comprehensive 20-year warranty</p> 
   	</article>
   	<small class="mt-5">*As of March, 2020, realself.com</small>
   </div>
 </section>
-<section class="following boxy-box text-center my-5">
+<section class="following boxy-box text-center mb-5">
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-7 model text-left px-0 pl-lg-3">

@@ -17,7 +17,7 @@
 <section class="row d-block">
   <img src="@asset('images/recon-woman-section-break.jpg')" class="img-fluid" alt="recon-woman-section-break" width="2000" height="759" />	
 </section>
-<section class="guide text-center container light">
+<section class="guide text-center container light mt-5">
   <header>
     <img src="@asset('images/breast-surgery-guide.svg')" alt="breast-surgery-guide" />
   	<h3 class="light">what is breast reconstruction?</h3>

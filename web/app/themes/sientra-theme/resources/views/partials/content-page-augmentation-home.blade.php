@@ -13,8 +13,8 @@
     <span class="image-h" style="background-image: url(@asset('images/safer-results.svg'));">SAFER more beautiful RESULTS</span>
   </div>
   <div class="col-12 col-md-6 offset-md-6">
-  	<h2 class="light">We believe superior implants in the most skilled<br>
-and qualified hands leads to better outcomes</h2>
+  	<h2 class="light">We believe superior implants, in the most skilled<br>
+and qualified hands, lead to better outcomes</h2>
   </div>
 </section>
 
@@ -181,7 +181,7 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
   </div>
 </section>
 
-<section class="factor row text-center py-5">
+<section class="factor row text-center py-5 mt-5">
   <div class="container">
     <div class="row">
     	<div class="col-12 py-4 tag">

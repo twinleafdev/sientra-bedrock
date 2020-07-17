@@ -18,7 +18,7 @@
 		<img src="@asset('images/getting-started.svg')" class="w-50" alt="getting-started" />
 		<p>on your reconstruction journey</p>
 	</header>
-	<p class="w-75 mx-auto">There are many decisions to make when selecting the right implant for your body and desired outcome. Below are some initial terms and topics you’ll want to be familiar with going into discussions with your surgeon.</p>
+	<p class="w-75 mx-auto">There are many decisions to make when considering breast reconstruction surgery. We’ve compiled a list of questions to help guide your initial discussions with your surgical team. </p>
 </section>
 <section class="questions">
   <div class="accordion" id="accordionExample">

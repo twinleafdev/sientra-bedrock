@@ -2,7 +2,7 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/recon-patient-safety.jpg')" alt="recon-patient-safety" width="1500" height="861" />
+      <img src="@asset('images/safety-surg.jpg')" alt="safety-surg" width="1500" height="861" />
   	</div>
 
   	<div class="col-12 col-lg-5 message bg-white">
