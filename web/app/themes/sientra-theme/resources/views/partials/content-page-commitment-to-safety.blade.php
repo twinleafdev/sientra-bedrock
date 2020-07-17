@@ -97,10 +97,10 @@
 
 <section class="warranty container mt-5">
   <div class="row">
-    <div class="col-3">
+    <div class="col-8 offset-2 offset-md-0 col-md-3 mb-4 mb-md-0">
   		<img src="@asset('images/warranty.svg')" alt="warranty" />
   	</div>
-  	<div class="col-8">
+  	<div class="col-12 col-md-8">
   		<h3 class="medium opus">First Company to Provide 20-Year Warranty</h3>
       <p class="light">Because Sientra trusts in the safety and performance of our breast implants, we offer the Platinum20 Warranty, the most complete warranty program, and we are the first company to provide 20-year coverage. <a href="#">learn more here.</a></p>
   	</div>
@@ -113,8 +113,8 @@ we encourage you to reach out to your board-certified plastic surgeon. </p>
 
 <section class="resources container">
 	<div class="row">
-		<article class="col">
-			<header class="my-4"><h3 class="image-h" style="background-image:url(@asset('images/for-physicians.svg'));  height: 4.0rem; margin-top: 0.5rem; ">For Physicians</h3></header>
+		<article class="col-12 col-md-6">
+			<header class="mb-4"><h3 class="image-h" style="background-image:url(@asset('images/for-physicians.svg'));  height: 4.5vw; ">For Physicians</h3></header>
         <span><a href="@asset('images/aug/MDC-0351_R1_OPUS_Luxe_Patient_Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
         <span><a href="@asset('images/aug/Sientra_Patient_Planning_Guide_Breast_Augmentation.pdf')" target="_blank">PDF</a> </span> <p>Sientra Patient Planning Guide: Breast Augmentation</p>
         <span><a href="@asset('images/aug/Sientra_PatientLabel_Augmentation_MDC-0010_R2_11-7-17.pdf')" target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p>
@@ -122,9 +122,9 @@ we encourage you to reach out to your board-certified plastic surgeon. </p>
         <span><a href="@asset('images/aug/MDC-0298_R2_Platinum20_Patient_Leaflet.pdf')" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Program Information Pamphlet</p>
 		</article>
 		
-		<article class="col patient">
+		<article class="col-12 col-md-6 patient">
   		  		
-			<header class="my-4"><h3 class="image-h" style="background-image:url(@asset('images/for-your-patients.svg')); height: 4.5rem; ">For Your Patients</h3></header>
+			<header class="mb-4"><h3 class="image-h" style="background-image:url(@asset('images/for-your-patients.svg')); height: 4.8vw; ">For Your Patients</h3></header>
         <span><a href="@asset('images/recon/MDC-0351_R1_OPUS_Luxe_Patient_Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
         <span><a href="@asset('images/recon/Sientra_Patient_Planning_Guide_Breast_Augmentation.pdf')" target="_blank">PDF</a> </span> <p>Sientra Patient Planning Guide: Breast Reconstruction</p>
         <span><a href="@asset('images/recon/Sientra_Silicone_Gel_Breast_Implants_Quick_Facts_About_Breast_Augmentation_and_Reconstruction.pdf') " target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p>

@@ -2253,10 +2253,17 @@
     h2 {
       text-align: center;
       color: $orange;
+      font-size: 1.4rem;
+      @media (min-width: 768px) { 
+        font-size: 2.0rem;
+      }
     }
     p {
-      font-size: 1.6rem;
-      line-height: 1.8rem;
+      font-size: 1.0rem;
+      @media (min-width: 768px) { 
+        font-size: 1.6rem;
+        line-height: 1.8rem;        
+      }
     }
   }
   .faq {
@@ -2273,13 +2280,19 @@
       .card-body {
         background-color: #fff;
         h2 {
-          font-size: 1.8rem;
+          font-size: 1.4rem;
           color: $orange;
+          @media (min-width: 768px) { 
+            font-size: 1.8rem;
+          }
         }
         p {
-          font-size: 1.5rem;
-          line-height: 1.75rem;
+
           margin-bottom: 15px;
+          @media (min-width: 768px) { 
+            font-size: 1.5rem;
+            line-height: 1.75rem;          
+          }
           &:last-of-type {
             margin-bottom: 0;
           }
@@ -2322,7 +2335,9 @@
     }
   }
   .warranty {
-    font-size: 1.6rem;
+    @media (min-width: 768px) { 
+      font-size: 1.6rem; 
+    }
     .row {
       align-items: center;     
       p {
@@ -2338,12 +2353,14 @@
     article {
       header {
         min-height: 7vw;
-        border: 1px solid blue;
+        display: flex;
+        align-items: flex-end;
         h3 {
+          width: 100%;
         }
-      }
-      &.patient .image-h {
-         height: 4.5rem;
+        .image-h {
+          min-height: 50px;
+        }
       }
       line-height: 1.2rem;
       span a {

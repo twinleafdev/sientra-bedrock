@@ -23,6 +23,13 @@
   		<img src="@asset('images/brands_miradry.jpg')" class="img-fluid" alt="brands_miradry" width="612" height="558" />
 			<p>Approved for sale in over 56 international markets, miraDry is the only non-surgical FDA-cleared device for permanent reduction of underarm sweat and hair and may reduce odor</p>
 		</div>
+		<footer class="col-12 text-left">
+      <ul class="list-unstyled">
+        <li><small>* Among silicone gel breast implants; As of March, 2020, realself.com</small></li>
+        <li><small>** Data on file.</small></li>
+      </ul>
+		</footer>
+
 </section>
 
 <section class="manufacture px-5">
