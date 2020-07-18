@@ -3069,7 +3069,7 @@
 // start .patient-safety
 
 .patient-safety {
-  .boxy-box {
+  .safety-boxy.boxy-box {
     .wrap {
       .message {
   
@@ -3168,11 +3168,70 @@
       .message {
         border: 1px solid $primary;
         .message-inner {
+          border: none;
+          background-color: $tan;
+          padding: 20px;
+          font-size: 1.3rem;
+          p {
+            margin: 0;
+          }
 
         }
       }
     }
   }
+  #testimonials {
+     
+      margin-top: 35px;
+    .quote-icon {
+      width: 50px;
+      height: auto;
+      margin: 15px auto 0;
+      display: flex;
+    }
+    .swiper-testimonial {
+      .swiper-slide {
+        padding: 10px 50px 35px;
+        background: #fff;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: 'Avenir-Light', Avenir, sans-serif;
+        font-size: 1.1rem;
+        @media (min-width: 768px) {
+          font-size: 1.7rem;
+          line-height: 1.2em;
+          padding: 15px 45px 45px;
+        }
+        p {
+          margin: 0;
+          max-width: 800px;
+          .sig {
+            text-align: center;
+            @media (min-width: 768px) {
+              text-align: right;
+              display: block;
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+      .swiper-pagination {
+        .swiper-pagination-bullet {
+          background: $tan;
+          border: 1px solid $orange;
+          opacity: 1;
+          width: 10px;
+          height: 10px;
+        }
+        .swiper-pagination-bullet-active {
+          background: $orange;
+        }
+      }
+    }
+  }
+
 }
 
 // end .patient-safety

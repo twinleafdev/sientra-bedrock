@@ -1,4 +1,4 @@
-<section class="boxy-box text-center">
+<section class="safety-boxy boxy-box text-center">
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
@@ -32,7 +32,7 @@
 
 <section class="rates aug-rates row text-center my-5">
         <div class="col-12">
-        	<h3 class="boxed-h">primary <span class="opus">augmentation</span> complication rates<sup>1</sup></h3>
+        	<h3 class="boxed-h mb-4">primary <span class="opus">augmentation</span> complication rates<sup>1</sup></h3>
         </div>
            
       <!-- 	 -->
@@ -62,6 +62,7 @@
   <div class="container my-5">
   
   	<div class="tb row">
+      <h3 class="light">Key Complications Primary Augmentation (smooth and textured devices) Through 10 years,<br>by Patient KM Risk Estimates</h3>
   		<article class="col-6 col-md-3">
   			<header>
         <h4>&nbsp;<br>&nbsp;</h4>
@@ -150,7 +151,7 @@
 
 <section class="rates recon-rates row text-center my-5">
         <div class="col-12">
-        	<h3 class="boxed-h">primary <span class="opus">augmentation</span> complication rates<sup>1</sup></h3>
+        	<h3 class="boxed-h mb-4">primary <span class="opus">reconstruction</span> complication rates<sup>1</sup></h3>
         </div>
            
       <!-- 	 -->
@@ -177,7 +178,7 @@
       <!-- 	 -->
 
   <div class="container my-5">
-  
+  <h3 class="light">Key Complications Primary Reconstruction Cohort Through 10 years,<br>by Patient KM Risk Estimates</h3>
   	<div class="tb row">
   		<article class="col-6 col-md-3">
   			<header>
@@ -195,14 +196,14 @@
   		
   		<article class="sientra col-6 col-md-3">
   			<header>
-  				<h4>Sientra 10-Yr<br>N=1,116</h4>
+  				<h4>Sientra 10-Yr<br>N=225</h4>
   			</header>
         <ul class="list-group">
-          <li class="list-group-item">2,230</li>
-          <li class="list-group-item">398</li>
-          <li class="list-group-item">12.9%</li>
-          <li class="list-group-item">8.7%</li>
-          <li class="list-group-item">24.2%</li>
+          <li class="list-group-item">412</li>
+          <li class="list-group-item">48</li>
+          <li class="list-group-item">15.8%</li>
+          <li class="list-group-item">16.5%</li>
+          <li class="list-group-item">48.2%</li>
         </ul>
   		</article>
   		
@@ -222,14 +223,14 @@
   			
   		<article class="mentor col-6 col-md-3">
   			<header>
-  				<h4>Mentor 10-Yr<br>N=552</h4>
+  				<h4>Mentor 10-Yr<br>N=251</h4>
   			</header>
         <ul class="list-group">
-          <li class="list-group-item">2,230</li>
-          <li class="list-group-item">398</li>
-          <li class="list-group-item">12.9%</li>
-          <li class="list-group-item">8.7%</li>
-          <li class="list-group-item">24.2%</li>
+          <li class="list-group-item">410</li>
+          <li class="list-group-item">134</li>
+          <li class="list-group-item">20.5%</li>
+          <li class="list-group-item">32.7%</li>
+          <li class="list-group-item">49.0%</li>
         </ul>
   		</article>
   
@@ -249,14 +250,14 @@
   				
   		<article class="allergan col-6 col-md-3">
   			<header>
-  				<h4>Allergan 10-Yr<br>N=455</h4>
+  				<h4>Allergan 10-Yr<br>N=98</h4>
   			</header>
         <ul class="list-group">
-          <li class="list-group-item">2,230</li>
-          <li class="list-group-item">398</li>
-          <li class="list-group-item">12.9%</li>
-          <li class="list-group-item">8.7%</li>
-          <li class="list-group-item">24.2%</li>
+          <li class="list-group-item">127</li>
+          <li class="list-group-item">51</li>
+          <li class="list-group-item">24.6%</li>
+          <li class="list-group-item">35.4%</li>
+          <li class="list-group-item">71.5%</li>
         </ul>
   		</article>
   			
@@ -274,7 +275,8 @@
 
   	<div class="col-12 col-lg-8 message">
       <div class="message-inner">
-
+    	<h3 class="image-h" style="background-image: url(@asset('images/board-certified-exclusivity.svg')); height:13vw;">board-certified plastic surgeon exclusivity – a commitment to excellence</h3>
+<p>Sientra is the ONLY major silicone gel breast implant manufacturer to sell exclusively to board-certified plastic surgeons. We believe this results in safer and more beautiful patient outcomes. Several key opinion leaders have recently expressed the importance of BCPS exclusivity:</p>
       </div>
   	</div>
   	  	
@@ -282,7 +284,25 @@
    
 </section>
 
+<section class="row" id="testimonials">
+  <img src="@asset('images/quote.svg')" class="quote-icon" alt="quote" />
+<!-- Slider main container -->
+<div class="swiper-container swiper-testimonial">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><p><span class="q">&#8220;</span> Only one major implant manufacturer exclusively sells to 
+board-certified plastic surgeons. The data shows they have superior long-term rupture and capsular contracture rates. This is not a coincidence. <span class="q">&#8221;</span><br><span class="sig">- Troy A. Pittman, MD | Washington, DC </span></p></div>
+        <div class="swiper-slide"><p><span class="q">&#8220;</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p></div>
+        <div class="swiper-slide"><p><span class="q">&#8220;</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p></div>
+            ...
 
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+</div>
+</section>
 
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp

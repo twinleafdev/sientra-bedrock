@@ -77,9 +77,12 @@
       <p>ONE WOMAN’S BREAST<br>reconstruction<br>contributes to<br>another woman’s cure</p>
   	</div>
 
-  	<div class="col-12 col-lg-5 message bg-white">
+  	<div class="col-12 col-lg-5 message bg-white text-center light">
       <div class="message-inner">
-        <img src="@asset('images/patient-resources.svg')" alt="patient resources" />
+        <p>Supports nonprofits in the breast cancer community dedicated to aid, research, patient outreach/advocacy and prevention</p>
+<p>A portion of sales of each <span class="opus">OPUS</span> expander is contributed 
+to the Sientra Full Circle Fund</p>
+<p><a href="http://sientra.com/fullcircle/about/">http://sientra.com/fullcircle/about/</a></p>
       </div>
   	</div>
   	  	
