@@ -33,8 +33,46 @@
 </section>
 
 <section class="manufacture px-md-5 text-center">
-  <h2 class="silver">proudly manufactured in the United states</h2>
-	<img src="@asset('images/about-map.jpg')" class="img-fluid my-5" alt="about-map" width="2500" height="1433" />
+  <h2 class="silver">proudly manufactured in the United&nbsp;states</h2>
+	<img src="@asset('images/about-map.jpg')" class="img-fluid my-5 d-none d-md-block" alt="about-map" width="2500" height="1433" />
+	
+	
+	<div class="row d-md-none">
+    <article class="col-12">
+    	<img src="@asset('images/hq-sientra.jpg')" class="img-fluid" alt="hq-sientra" width="800" height="697" />	
+    	<img src="@asset('images/Sientra-logo.svg')" class="img-fluid w-50 mb-3" alt="Sientra-logo" />
+    	<h3 class="hq">headquarters</h3>
+    	<p class="location">Santa Barbara, CA</p>
+    	<p class="des light px-5">Sientra is headquartered in Santa Barbara, California, known for its idyllic weather and fresh ocean air. And just a mile from spectacular coastline views.</p>
+    </article>
+    <article class="col-12">
+    	<img src="@asset('images/hq-implant.jpg')" class="img-fluid" alt="hq-implant" width="800" height="569" />
+    	<h3 class="hq">Breast Implant<br>ManufactUring</h3>
+    	<p class="location">Franklin, WI</p>
+    </article>
+    <article class="col-12">
+    	<img src="@asset('images/hq-expander.jpg')" class="img-fluid" alt="hq-expander" width="800" height="632" />
+    	<h3 class="hq">Breast Tissue expander<br>ManufactUring</h3>
+    	<p class="location">Franklin, WI</p>
+    </article>
+    <article class="col-12">
+    	<img src="@asset('images/hq-bio.jpg')" class="img-fluid" alt="hq-bio" width="800" height="641" />
+    	<img src="@asset('images/biocorneum-logo.svg')" class="img-fluid w-50 mb-3" alt="biocorneum-logo" />
+    	<h3 class="hq">BIOCORNEUM<br>ManufactUring</h3>
+    	<p class="location">Largo, FL</p>
+    </article>
+    <article class="col-12">
+    	<img src="@asset('images/hq-mira.jpg')" class="img-fluid" alt="hq-mira" width="800" height="743" />
+    	<img src="@asset('images/miradry-logo.jpg')" class="img-fluid w-50 mb-3" alt="miradry-logo" width="789" height="230" />
+    	<h3 class="hq">MIRADRY<br>ManufactUring</h3>
+    	<p class="location">Santa Clara, CA</p>
+
+    </article>
+    
+    
+	</div><!-- .row -->
+
+  	
 </section>
 
 <section class="meet row">
@@ -75,15 +113,18 @@
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
     	<img src="@asset('images/one-woman.jpg')" alt="one-woman" width="1500" height="992" />
-      <p>ONE WOMAN’S BREAST<br>reconstruction<br>contributes to<br>another woman’s cure</p>
+      <p>ONE WOMAN’S <span class="heavy">BREAST<br>reconstruction</span><br>contributes to<br>another woman’s <span class="heavy">cure</span></p>
   	</div>
 
   	<div class="col-12 col-lg-5 message bg-white text-center light">
       <div class="message-inner">
+        <h2 class="silver">Our Commitment</h2>
+        <h4>goes beyond products and services</h4>
+        <img src="@asset('images/sientra-full-circle.svg')" class="w-50 img-fluid my-3 px-md-5 mx-auto" alt="sientra-full-circle" />
         <p>Supports nonprofits in the breast cancer community dedicated to aid, research, patient outreach/advocacy and prevention</p>
-<p>A portion of sales of each <span class="opus">OPUS</span> expander is contributed 
+        <p>A portion of sales of each <span class="opus">OPUS</span> expander is contributed 
 to the Sientra Full Circle Fund</p>
-<p><a href="http://sientra.com/fullcircle/about/">http://sientra.com/fullcircle/about/</a></p>
+        <p><a href="http://sientra.com/fullcircle/about/" class="opus">http://sientra.com/fullcircle/about/</a></p>
       </div>
   	</div>
   	  	
@@ -96,6 +137,7 @@ If you are looking for a career that is both challenging and rewarding, and to
 work for a company at the forefront of the aesthetic industry, please visit our </p>
 <p class="heavy opus">Careers Website.</p>
 </section>
+
 
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 @php the_content() @endphp

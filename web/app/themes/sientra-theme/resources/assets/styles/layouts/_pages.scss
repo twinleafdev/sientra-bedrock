@@ -2180,7 +2180,7 @@
     }
   }
   .silver {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
     -webkit-text-stroke: .01em $primary;
     @media (min-width: 768px) { 
@@ -2189,6 +2189,25 @@
     
   }
   .manufacture {
+    article{
+      .hq {
+        text-transform: uppercase;
+        font-family: 'Avenir-Medium', Avenir, sans-serif; 
+        font-size: 1.2rem;
+      }
+      .location {
+        font-family: 'Avenir-light', Avenir, sans-serif;
+        font-size: 1.2rem;
+        border-top: 1px solid $orange;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 7px;
+      }
+      .des {
+        font-size: .9rem;
+      }
+    }
   }
   .meet {
     .swiper-team {
@@ -2202,17 +2221,36 @@
         img {
           
         }
-        p {
-          margin-top: -230px;
-          margin-left: 45px;
+        p {          
+          margin-top: -100px;
+          margin-left: 21px;
           margin-bottom: 50px;
           color: #fff;
-          font-size: 2.0rem;
+          font-size: 1.2rem;
           text-transform: uppercase;
+          @media (min-width: 768px) {           
+            margin-top: -230px;
+            margin-left: 45px;
+            font-size: 2.0rem;
+          }
         }
       }
       .message {
         .message-inner {
+          h2 {
+            font-size: 1.2rem;
+            color: $orange;
+            -webkit-text-stroke: 0.01em $orange;
+            @media (min-width: 768px) { 
+              font-size: 2.2rem
+            }
+          }
+          h4 {
+            font-size: 1.0rem;
+            @media (min-width: 768px) { 
+              font-size: 1.8rem
+            }
+          }
         }
       }
     }
@@ -2222,9 +2260,12 @@
       font-size: 2.0rem;
     }
     p {
-      font-size: 1.8rem;
-      line-height: 2.0rem;
+      font-size: 1.3rem;
       margin-bottom: 0;
+      @media (min-width: 768px) { 
+        font-size: 1.8rem;
+        line-height: 2.0rem;
+      }
     }
   }
 }
