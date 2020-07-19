@@ -32,14 +32,15 @@
 
 </section>
 
-<section class="manufacture px-5">
-	<h2 class="image-h" style="background-image: url(@asset('images/proudly.svg'))">proudly manufactured in the United states</h2>
+<section class="manufacture px-md-5 text-center">
+  <h2 class="silver">proudly manufactured in the United states</h2>
 	<img src="@asset('images/about-map.jpg')" class="img-fluid my-5" alt="about-map" width="2500" height="1433" />
 </section>
 
 <section class="meet row">
-	<header class="container my-5">
+	<header class="container my-2 my-md-5 text-center">
   	<h2 class="image-h" style="background-image: url(@asset('images/meet-sientra.svg'))">Meet Sientra</h2>
+  	<h2 class="silver">Meet Sientra</h2>
 	</header>
 	
   <div class="swiper-container swiper-team py-5">

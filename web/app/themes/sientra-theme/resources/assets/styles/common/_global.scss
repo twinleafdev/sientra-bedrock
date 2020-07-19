@@ -23,6 +23,13 @@
        src: url('../fonts/Avenir-Black.woff') format('woff'), /* Pretty Modern Browsers */
             url('../fonts/Avenir-Black.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
+@font-face {
+  font-family: 'silver-south-serif';
+       src: url('../fonts/silver-south-serif.woff') format('woff'), /* Pretty Modern Browsers */
+            url('../fonts/silver-south-serif.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 // font-family: 'Playfair Display', serif;
 html {
@@ -60,6 +67,9 @@ body {
   }
   .black {
     font-family: 'Avenir-Black', Avenir, sans-serif;
+  }
+  .silver {
+    font-family: 'silver-south-serif', serif;
   }
   .image-h {
     text-indent: -9999px;
