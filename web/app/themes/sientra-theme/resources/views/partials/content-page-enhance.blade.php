@@ -17,7 +17,7 @@
   <p>Our ENHANCE Practice Development team offers a wide range of support for 
   loyal Sientra accounts. Our team is the best in the industry on working with practices to increase revenue, practice efficiencies, and education for your entire practice, not just our product offering. You will receive recommendations, 
   support tools, and an action plan to drive practice growth.</p> 
-  <p>Contact your Sientra plastic surgery consultant to learn more.</p>
+  <p>Contact your Sientra <span class="opus">plastic surgery consultant</span> to learn more.</p>
 </section>
 
 <section class="practice-assessment container">

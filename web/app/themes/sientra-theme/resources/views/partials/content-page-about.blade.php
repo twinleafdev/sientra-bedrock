@@ -108,66 +108,70 @@
           </div>
         
       </div>
+      
       <div class="swiper-slide justify-content-center">
 
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <span class="headshot" style="background-image: url(@asset('images/headshot-oliver-bennett.jpg'));"></span>
                 <div>
                   <h2 class="medium">Oliver Bennett</h2>
                   <p class="light">General Counsel and<br>VP of Compliance & Legal</p>
                 </div>
               </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));">
+              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-oliver-bennett.jpg'));">
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Oliver Bennett</h2>
                   <p class="light">General Counsel and<br>VP of Compliance & Legal</p></div>
                   <button class="btn">view my profile</button>
-                  <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
+                  <p class="text-left"><span class="heavy">Oliver Bennett</span> joined Sientra in 2015, first
+as outside counsel and then as general counsel to the company, prior to becoming
+General Counsel and Vice President for Oliver Bennett Compliance and Legal in 2018. Oliver brings with him almost two decades of experience in counseling medical device and life science companies in complex high stakes legal issues.</p>
 
                 </div>
+              </div>
             </div>
           </div>
-        
-        
       </div>
+
+
       <div class="swiper-slide justify-content-center">
 
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <span class="headshot" style="background-image: url(@asset('images/headshot-deborah-bettencourt.jpg'));"></span>
                 <div>
                   <h2 class="medium">Deborah Bettencourt</h2>
                   <p class="light">Vice President,<br>Human Resources & Corporate Administration</p>
                 </div>
               </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));">
+              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-deborah-bettencourt.jpg'));">
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Deborah Bettencourt</h2>
                   <p class="light">Vice President,<br>Human Resources & Corporate Administration</p></div>
                   <button class="btn">view my profile</button>
-                  <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
+                  <p class="text-left"><span class="heavy">Deborah Bettencourt</span> joined Sientra in
+2007 with nearly 20 years of experience in corporate operations and information technology within the medical device Deborah Bettencourt industry. Deborah spent much of her professional career at Inamed Corporation (currently Alleran Medical).</p>
 
                 </div>
+              </div>
             </div>
           </div>
-        
-        
       </div>
       <div class="swiper-slide justify-content-center">
 
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <span class="headshot" style="background-image: url(@asset('images/headshot-dan-carlisle.jpg'));"></span>
                 <div>
                   <h2 class="medium">Dan Carlisle</h2>
                   <p class="light">Vice President, Innovation & Product<br>Development, Breast Products</p>
                 </div>
               </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));">
+              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-dan-carlisle.jpg'));">
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Dan Carlisle</h2>
                   <p class="light">Vice President, Innovation & Product<br>Development, Breast Products</p></div>
@@ -175,6 +179,7 @@
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
+              </div>
             </div>
           </div>
         
@@ -185,13 +190,13 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <span class="headshot" style="background-image: url(@asset('images/headshot-kirk-gunhus.jpg'));"></span>
                 <div>
                   <h2 class="medium">Kirk Gunhus</h2>
                   <p class="light">Senior Vice President of<br>Worldwide Sales</p>
                 </div>
               </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));">
+              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-kirk-gunhus.jpg'));">
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Kirk Gunhus</h2>
                   <p class="light">Senior Vice President of<br>Worldwide Sales</p></div>
@@ -199,6 +204,7 @@
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
+              </div>
             </div>
           </div>
       </div>
@@ -208,13 +214,13 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <span class="headshot" style="background-image: url(@asset('images/headshot-jeff-jones.jpg'));"></span>
                 <div>
                   <h2 class="medium">Jeff Jones</h2>
                   <p class="light">Vice President, Operations<br> </p>
                 </div>
               </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));">
+              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-jeff-jones.jpg'));">
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Jeff Jones</h2>
                   <p class="light">Vice President, Operations<br> </p></div>
@@ -222,6 +228,7 @@
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
+              </div>
             </div>
           </div>
       </div>
@@ -245,6 +252,7 @@
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
+              </div>
             </div>
           </div>
       </div>
@@ -269,6 +277,7 @@
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
+              </div>
             </div>
           </div>
       </div>
@@ -293,6 +302,7 @@
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
+              </div>
             </div>
           </div>
       </div>
@@ -316,6 +326,7 @@
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
+              </div>
             </div>
           </div>
       </div>
@@ -339,6 +350,7 @@
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
+              </div>
             </div>
           </div>
       </div>
@@ -382,4 +394,4 @@ work for a company at the forefront of the aesthetic industry, please visit our 
 
 
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
-@php the_content() @endphp
+<!-- @php the_content() @endphp -->

@@ -16,7 +16,7 @@
 
 <section class="patient-safety row text-center">
   <div class="inner container-fluid">
-    <header class="row mb-5">
+    <header class="row mb-5 px-5">
       <div class="h-line col-12 col-md-7"> <img src="@asset('images/patient-safety.svg')" alt="patient-safety" /></div>
       <div class="col-12 col-md-4 text-center d-flex align-items-center"> <p><span class="opus">OPUS</span> breast implants are clinically shown to have low complication rates<sup>1</sup></p></div>
     </header>
@@ -305,4 +305,4 @@ board-certified plastic surgeons. The data shows they have superior long-term ru
 </section>
 
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
-@php the_content() @endphp
+<!-- @php the_content() @endphp -->
