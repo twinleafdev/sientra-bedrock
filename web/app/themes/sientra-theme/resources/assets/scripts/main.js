@@ -12,6 +12,7 @@ import about from './routes/about';
 import implantScience from './routes/implant-science';
 import expanderImplantOptions from './routes/expander-implant-options';
 import patientSafety from './routes/patient-safety';
+import breastImplants from './routes/breast-implants';
 
 /** Populate Router instance with DOM routes */
 const routes = new Router({
@@ -25,6 +26,7 @@ const routes = new Router({
   implantScience,
   expanderImplantOptions,
   patientSafety,
+  breastImplants,
 });
 
 // Load Events

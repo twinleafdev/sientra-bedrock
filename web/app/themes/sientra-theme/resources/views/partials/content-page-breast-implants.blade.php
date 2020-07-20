@@ -84,15 +84,15 @@
 	</div>
 </section>
 <section class="strength row my-5">
-	<header class=col-12>
+	<header class="col-12">
   	<h2 class="image-h" style="background-image: url(@asset('images/strength-softness.svg')); height: 14vw;">an optimal balance of Strength and softness</h2>
 		<h3 class="light text-center"><span class="opus">OPUS</span> implants offer the highest level of gel fracture resistance<br>available without the compromise of an overly firm implant<sup>2</sup></h3>
 	</header>
-	<div class="col-6 px-5">
+	<div class="col-md-6 px-5 my-2">
 		<img src="@asset('images/gel-graph.svg')" alt="gel-graph" />
 		
 	</div>
-	<div class="softness col-5 align-self-center light text-center"> 
+	<div class="softness col-md-5 my-2 align-self-center light text-center"> 
   	<p><span class="opus">OPUS</span> HSC & HSC+ implants show minimum trade-off in softness in order to achieve greater gel strength<sup>2</sup></p>
 	</div>
 	<small class="m-5">*tests performed by an independent laboratory</small>

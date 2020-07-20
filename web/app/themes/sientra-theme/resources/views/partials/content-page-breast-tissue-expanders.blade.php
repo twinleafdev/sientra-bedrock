@@ -17,14 +17,14 @@
 		<h2 class="image-h mb-5" style="background-image:url(@asset('images/expander-options.svg')); height: 18vw; ">Breast Tissue Expander Options</h2>
 	</header>
 	<div class="wrap row">
-  	<div class="col-7 offset-5">
+  	<div class="col-12 col-md-7 offset-md-5">
   		<h2 class="black">AlloX2<sup>®</sup></h2>
   		<h3>Revolutionary <span class="opus">dual-port</span> design and <span class="opus">integral</span> drain allow for less invasive – non-surgical – draining of serous fluid</h3>
       <p><span class="opus">&bull;</span>  Designed to mitigate key risks associated with breast<br>expansion and ultimately reduce reoperation rates</p> 
       <p><span class="opus">&bull;</span>  Only tissue expander with an integral drain providing direct<br>access to the periprosthetic space where fluid can accumulate</p>
       <p><span class="opus">&bull;</span>  Allows for diagnostic fluid sampling to enable a faster<br>treatment response</p>
   	</div>
-  	<div class="allox-info-box col-5 offset-7">
+  	<div class="allox-info-box col-12 col-md-5 offset-md-7">
   		<img src="@asset('images/allox2-info-box.jpg')" class="img-fluid" alt="allox2-info-box" width="750" height="409" />
   	</div>
 	</div>
@@ -89,10 +89,10 @@
 </section>
 <section class="standard container mt-5">
 	<header class="row">
-		<div class="col-8 pt-4">
+		<div class="col-md-8 pt-4">
 			<img src="@asset('images/standard-of-care.svg')" alt="standard-of-care" />
 		</div>
-		<div class="col-4 d-flex align-items-center">
+		<div class="col-md-4 d-flex align-items-center">
 			<h2><span class="opus heavy">78%</span> of infections require explantation<sup>4</sup></h2>
 		</div>
 	</header><!-- .row -->
