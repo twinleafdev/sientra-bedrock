@@ -1,9 +1,9 @@
 <section class="row">
 	<div class="col-12 col-sm-6 p-0 augmentation">
-		<a href="/breast-augmentation/"><img class="img-fluid" src="@asset('images/augmentation.jpg')" alt="augmentation" width="1500" height="1120" /></a>
+		<?php the_field('left_image'); ?>
 	</div>
 	<div class="col-12 col-sm-6 p-0 reconstruction">
-    <a href="/breast-reconstruction/"><img class="img-fluid" src="@asset('images/restoration.jpg')" alt="restoration" width="1500" height="1122" /></a>
+    	<?php the_field('right_image'); ?>
 	</div>
 </section>
 
@@ -14,10 +14,17 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide"><p><span class="q">&#8220;</span> I feel great and they feel more and more a part of me each day. Truly one of the best things I have done for myself. I am so happy with my decision. <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p></div>
-        <div class="swiper-slide"><p><span class="q">&#8220;</span> When I look in the mirror I still can’t believe this is me!! <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p></div>
-        <div class="swiper-slide"><p><span class="q">&#8220;</span> 110% confident! I could not be more pleased 
-with how they turned out. <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p></div>
+		<?php // Check rows exists.
+			if( have_rows('testimonials') ):
+
+				// Loop through rows.
+				while( have_rows('testimonials') ) : the_row(); ?>
+
+					<div class="swiper-slide"><p><span class="q">&#8220;</span> <?php the_sub_field('testimonial'); ?> <span class="q">&#8221;</span><br><span class="sig">- <?php the_sub_field('author'); ?></span></p></div>
+
+				<?php // End loop.
+				endwhile;
+			endif; ?>
             ...
 
     </div>

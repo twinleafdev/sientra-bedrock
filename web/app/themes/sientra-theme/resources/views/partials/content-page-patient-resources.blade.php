@@ -2,12 +2,16 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/patient-resources.jpg')" alt="pittman" width="1200" height="691" />
+      <?php the_field('page_title_background'); ?>
   	</div>
 
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/patient-resources.svg')" alt="patient resources" />
+        <?php 
+		$page_title = get_field('page_title');
+		if( !empty( $page_title ) ): ?>
+			<img src="<?php echo esc_url($page_title['url']); ?>" alt="<?php echo esc_attr($page_title['alt']); ?>" />
+		<?php endif; ?>
       </div>
   	</div>
   	  	
@@ -16,52 +20,101 @@
 <section class="resources container">
 	<div class="row">
 		<article class="col">
-			<header><h3>Augmentation</h3></header>
-        <span><a href="@asset('images/aug/MDC-0351_R1_OPUS_Luxe_Patient_Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
-        <span><a href="@asset('images/aug/Sientra_Patient_Planning_Guide_Breast_Augmentation.pdf')" target="_blank">PDF</a> </span> <p>Sientra Patient Planning Guide: Breast Augmentation</p>
-        <span><a href="@asset('images/aug/Sientra_PatientLabel_Augmentation_MDC-0010_R2_11-7-17.pdf')" target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p>
-        <span><a href="@asset('images/aug/Sientra_Silicone_Gel_Breast_Implants_Quick_Facts_About_Breast_Augmentation_and_Reconstruction.pdf')" target="_blank">PDF</a> </span> <p>Patient Educational Brochure: Breast Augmentation With Sientra Silicone Gel Breast Implants</p>
-        <span><a href="@asset('images/aug/MDC-0298_R2_Platinum20_Patient_Leaflet.pdf')" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Program Information Pamphlet</p>
+			<header><h3><?php the_field('column_1_header'); ?></h3></header>
+        	<?php // Check rows exists.
+			if( have_rows('column_1') ):
+
+				// Loop through rows.
+				while( have_rows('column_1') ) : the_row(); ?>
+
+					<span><?php if (get_sub_field('column_1_file')) { ?><a href="<?php the_sub_field('column_1_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_1_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_1_text'); ?>
+
+				<?php // End loop.
+				endwhile;
+			endif; ?>
 		</article>
 		
 		<article class="col">
-  		  		
-			<header><h3>Reconstruction</h3></header>
-        <span><a href="@asset('images/recon/MDC-0351_R1_OPUS_Luxe_Patient_Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
-        <span><a href="@asset('images/recon/Sientra_Patient_Planning_Guide_Breast_Augmentation.pdf')" target="_blank">PDF</a> </span> <p>Sientra Patient Planning Guide: Breast Reconstruction</p>
-        <span><a href="@asset('images/recon/Sientra_Silicone_Gel_Breast_Implants_Quick_Facts_About_Breast_Augmentation_and_Reconstruction.pdf') " target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p>
-        <span><a href="@asset('images/recon/Sientra_PatientLabel_Augmentation_MDC-0010_R2_11-7-17.pdf')" target="_blank">PDF</a> </span> <p>Patient Educational Brochure: Breast Reconstruction With Sientra Silicone Gel Breast Implants</p>
-        <span><a href="@asset('images/recon/MDC-0009_R2_Warranty.pdf')" target="_blank">PDF</a> </span> <p>The Sientra Platinum20<sup>TM</sup> Limited Warranty & Lifetime Product Replacement Program Brochure</p>
-        <span><a href="@asset('images/recon/MDC-0298_R2_Platinum20_Patient_Leaflet.pdf')" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Program Information Pamphlet</p>
+  		  	<header><h3><?php the_field('column_2_header'); ?></h3></header>
+			
+			<?php // Check rows exists.
+			if( have_rows('column_2') ):
+
+				// Loop through rows.
+				while( have_rows('column_2') ) : the_row(); ?>
+
+					<span><?php if (get_sub_field('column_2_file')) { ?><a href="<?php the_sub_field('column_2_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_2_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_2_text'); ?>
+
+				<?php // End loop.
+				endwhile;
+			endif; ?>
 
 		</article>
 	
 	</div><!-- .row -->
 	<div class="row">
 		<article class="col">
-			<header><h3>Warranty Terms & Conditions</h3></header>
-        <p>Please find terms and conditions below by date of implantation:</p>
-        <p>April 1, 2012 – Sept 30, 2014</p>
-        <span><a href="" target="_blank">PDF</a> </span> <p>Sientra Warranty Terms & Conditions</p>
-       <p>October 1, 2014 – April 30, 2018</p>
-        <span><a href="" target="_blank">PDF</a> </span> <p>Sientra Warranty Terms & Conditions</p>
-        <span><a href="" target="_blank">PDF</a> </span> <p>CapCon Care Program Terms & Conditions</p>
-        <p>On or After May 1, 2018</p>
-        <span><a href="" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Terms & Conditions</p>
+			
+			<header><h3><?php the_field('column_3_header'); ?></h3></header>
+			<?php the_field('column_3_text'); ?>
+			
+			
+			<?php // Check rows exists.
+			if( have_rows('column_3') ):
+
+				// Loop through rows.
+				while( have_rows('column_3') ) : the_row(); ?>
+
+					<span><?php if (get_sub_field('column_3_file')) { ?><a href="<?php the_sub_field('column_3_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_3_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_3_text'); ?>
+
+				<?php // End loop.
+				endwhile;
+			endif; ?>
 		</article>
 		<article class="col">
-			<header><h3>Silicone Scar Treatment</h3></header>
-        <span><a href="" target="_blank">PDF</a> </span> <p>BIOCORNEUM: See Your Beauty, Not Your Scar</p>
-  		  		
-			<header><h3>FULL CIRCLE Program</h3></header>
-        <span><a href="#" target="_blank">WEB</a> </span> <p>We are committed to improving the lives of women with breast cancer</p>
+			<header><h3><?php the_field('column_4_header'); ?></h3></header>
+			<?php // Check rows exists.
+			if( have_rows('column_4') ):
+
+				// Loop through rows.
+				while( have_rows('column_4') ) : the_row(); ?>
+
+					<span><?php if (get_sub_field('column_4_file')) { ?><a href="<?php the_sub_field('column_4_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_4_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_4_text'); ?>
+
+				<?php // End loop.
+				endwhile;
+			endif; ?>
+			
+			<header><h3><?php the_field('column_5_header'); ?></h3></header>
+			<?php // Check rows exists.
+			if( have_rows('column_5') ):
+
+				// Loop through rows.
+				while( have_rows('column_5') ) : the_row(); ?>
+
+					<span><?php if (get_sub_field('column_5_file')) { ?><a href="<?php the_sub_field('column_5_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_5_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_5_text'); ?>
+
+				<?php // End loop.
+				endwhile;
+			endif; ?>
  		</article>
 		
 	</div><!-- .row -->
 	<div class="row commitment">
   	<article class="col-md-8 offset-md-2">
-  		<header><h3>Commitment to Safety</h3></header>
-  		<span><a href="/commitment-to-safety/" target="_blank">WEB</a> </span> <p>Patient safety and product quality are our highest priority. Deciding to have breast surgery is a very personal choice. And women should feel confident in their breast implants and their decision to have breast augmentation or reconstructive surgery. Understanding the benefits and risks of breast surgery is an important step in your decision to have surgery.</p> 
+  		<header><h3><?php the_field('column_6_header'); ?></h3></header>
+  		<?php // Check rows exists.
+			if( have_rows('column_6') ):
+
+				// Loop through rows.
+				while( have_rows('column_6') ) : the_row(); ?>
+
+					<span><?php if (get_sub_field('column_6_file')) { ?><a href="<?php the_sub_field('column_6_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_6_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_6_text'); ?>
+
+				<?php // End loop.
+				endwhile;
+			endif; ?>
+
 
   	</article>
 		
