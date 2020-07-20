@@ -36,33 +36,25 @@
 			</ul>
 		</article>
 		<article class="col-6">
-			<h3>Operations</h3>
+			<h3>Human Resources</h3>
 			<ul class="opus-list">
-        <li>Customer service</li>
-        <li>Scheduling efficiency</li>
-        <li>Process management</li>
-        <li>Consultation quality</li>
-        <li>Patient flow</li>
+        <li>Staffing / staff planning</li>
+        <li>Training opportunities</li>
 			</ul>
 		</article>
 		<article class="col-6">
-			<h3>Operations</h3>
+			<h3>Marketing</h3>
 			<ul class="opus-list">
-        <li>Customer service</li>
-        <li>Scheduling efficiency</li>
-        <li>Process management</li>
-        <li>Consultation quality</li>
-        <li>Patient flow</li>
+        <li>Patient acquisition systems</li>
+        <li>Internet marketing</li>
+        <li>Key procedures and sources</li>
 			</ul>
 		</article>
 		<article class="col-6">
-			<h3>Operations</h3>
+			<h3>Business and Strategic Planning</h3>
 			<ul class="opus-list">
-        <li>Customer service</li>
-        <li>Scheduling efficiency</li>
-        <li>Process management</li>
-        <li>Consultation quality</li>
-        <li>Patient flow</li>
+        <li>Overhead analysis</li>
+        <li>Revenue analysis- goal setting </li>
 			</ul>
 		</article>
 	</div><!-- .row -->

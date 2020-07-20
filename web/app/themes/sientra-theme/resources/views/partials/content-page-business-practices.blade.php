@@ -20,7 +20,7 @@
 
 <section class="features container">
 	<div class="row">
-		<article class="col-6">
+		<article class="col-12 col-md-6">
 			<h2 class="book">Free <span class="opus">two-way</span> shipping</h2>
 			<div class="light">
         <img src="@asset('images/icon-shipping.svg')" class="icon w-25" alt="icon-shipping" />
@@ -30,7 +30,7 @@
 			</div>
 		</article>
 		
-		<article class="col-6">
+		<article class="col-12 col-md-6">
 			<h2 class="book">No restocking penalty or fees</h2>
 			<div class="light">
         <img src="@asset('images/icon-shipping.svg')" class="icon w-25" alt="icon-shipping" />
@@ -42,7 +42,7 @@
 	</div><!-- .row -->
 	
 	<div class="row">
-		<article class="col-6">
+		<article class="col-12 col-md-6">
 			<h2 class="book">Provisional stock ordering</h2>
 			<div class="light">
         <img src="@asset('images/icon-shipping.svg')" class="icon w-25" alt="icon-shipping" />
@@ -52,7 +52,7 @@
 			</div>
 		</article>
 		
-		<article class="col-6">
+		<article class="col-12 col-md-6">
 			<h2 class="book">Consignments</h2>
 			<div class="light">
         <img src="@asset('images/icon-shipping.svg')" class="icon w-25" alt="icon-shipping" />
@@ -64,7 +64,7 @@
 	</div><!-- .row -->
 
 	<div class="row">
-		<article class="col-6">
+		<article class="col-12 col-md-6">
 			<h2 class="book">Extended ordering hours</h2>
 			<div class="light">
         <img src="@asset('images/icon-shipping.svg')" class="icon w-25" alt="icon-shipping" />
@@ -74,7 +74,7 @@
 			</div>
 		</article>
 		
-		<article class="col-6">
+		<article class="col-12 col-md-6">
 			<h2 class="book">Continuing education series</h2>
 			<div class="light">
         <img src="@asset('images/icon-shipping.svg')" class="icon w-25" alt="icon-shipping" />
