@@ -43,7 +43,7 @@
   </div>
 </section>
 <section class="dermaspan row text-center light">
-	<div class="col-7">
+	<div class="col-md-7">
 		<h2 class="black">Dermaspan<sup>TM</sup></h2>
 		<h3>Soft, refined design allows for<br><span class="opus">gentle</span> and <span class="opus">more comfortable</span> expansion</h3>
     <p><span class="opus">&bull;</span> Soft, pliable shell results in less friction upon insertion</p> 
@@ -51,8 +51,8 @@
     <p><span class="opus">&bull;</span> Port location is designed to aid in predictable,<br>consistent expansion</p>
 	</div>
 </section>
-<section class="row mb-5">
-	<footer class="col-6 offset-3">
+<section class="reduce row mb-5">
+	<footer class="col-md-6 offset-md-3">
 		<h2 class="image-h" style="background-image:url(@asset('images/reduce-the-financial-risks.svg')); height: 18vw;" >AlloX2 is designed to reduce the financial risks associated with breast reconstruction</h2>
 	</footer>
 </section>
@@ -64,7 +64,7 @@
       <header class="col-12 mb-5">
       	<h2>Managing the risks of post-operative fluid accumulation</h2>
       </header>
-    	<div class="col-4 px-5">
+    	<div class="col-md-4 px-5">
         <img src="@asset('images/risk_icon_1.svg')" class="icon w-50 img-fluid mx-auto d-block" alt="risk_icon_1" />
     		<p>Obesity (BMI >30) and use of an Acellular Dermal Matrix (ADM) have been identified as major risk factors for seroma<sup>4</sup></p>
     		<ul class="opus-list text-left">
@@ -72,7 +72,7 @@
           <li>An ADM is used in over 60% of breast reconstruction cases<sup>6</sup></li>
     		</ul>
     	</div>
-    	<div class="col-4 px-5">
+    	<div class="col-md-4 px-5">
       	<img src="@asset('images/risk_icon_2.svg')" class="icon w-50 img-fluid mx-auto d-block" alt="risk_icon_2" />
     		<p>A seroma increases the risk of major infection in breast reconstruction patients</p>
     		<ul class="opus-list text-left">
@@ -80,7 +80,7 @@
           <li>Risk of expander loss caused by infection is 6.7x higher in patients who develop a seroma<sup>4</sup></li>
     		</ul>
     	</div>
-    	<div class="col-4 px-5">
+    	<div class="col-md-4 px-5">
       	<img src="@asset('images/risk_icon_3.svg')" class="icon w-50 img-fluid mx-auto d-block" alt="risk_icon_3" />
     		<p>Clinically relevant infections with poor salvage rates occurred in nearly 1/5 of seroma patients (18.8%)4</p>
     	</div>
@@ -106,11 +106,11 @@
 	<img src="@asset('images/risk-flow-chart.svg')" class="img-fluid" alt="risk-flow-chart" />
 </section>
 <section class="clinical-outcomes row text-center">
-	<header class="col-7 mb-5">
+	<header class="col-md-7 mb-5">
 		<h2 class="image-h" style="background-image:url(@asset('images/clinical-outcomes.svg')); height: 10vw;">Clinical Outcomes</h2>
 		<h3 class="light">AlloX2 improves salvage rates & clinical outcomes<sup>10</sup></h3>
 	</header>
-	<div class="info-box col-5 offset-1">
+	<div class="info-box col-md-5 offset-md-1">
     <div class="inner light">
       <p>Retrospective review of <span class="opus">112</span> consecutive patients</p> 
       <p><span class="opus">63</span> patients (53.6%) Mentor Artoura</p> 
@@ -118,7 +118,7 @@
       <p><span class="opus">173</span> breasts with smooth tissue expanders (2016-2017)</p>    
     </div>		
 	</div>
-	<div class="col-7 text-left pl-5 mt-5">
+	<div class="col-md-7 text-left pl-5 mt-5">
 		<h3><span class="opus">AlloX2</span> Stats:</h3>
     <ul class="opus-list">
       <li><span class="opus">8%</span> seroma rate</li>
@@ -127,7 +127,7 @@
 	</div>
 </section>
 <section class="satisfaction row text-center my-5">
-  <div class="col-8 offset-2">
+  <div class="col-md-8 offset-md-2">
 
   	<h2><span class="opus heavy">100%</span> Surgeon Satisfaction using AlloX2<sup>11</sup></h2>
   	<p class="light">In a clinical study with <span class="opus">40</span> primary reconstructive patients, the AlloX2 was deemed 
