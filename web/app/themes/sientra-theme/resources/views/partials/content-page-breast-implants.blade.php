@@ -66,6 +66,8 @@
         <li>Impressive upper pole retention</li>
         <li>More resistant to gel fracture than competitive gels<sup>2</sup></li>
       </ul>
+      <p>Available on <i class="icon-luxe"></i> round implants</p>
+      
   	</div>
 	</div>
 	<div class="mx-3 mb-3 wrap">
@@ -77,6 +79,7 @@
         <li>Highest level of gel fracture resistance available<sup>2</sup></li>
         <li>Designed to minimize wrinkling and rippling</li>
       </ul>
+      <p>Available on <i class="icon-luxe"></i> round and <i class="icon-curve"></i> shaped implants</p>
   	</div>
 	</div>
 </section>
