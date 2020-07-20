@@ -50,7 +50,7 @@
 	
 </section>
 
-<section class="gel-break row">
+<section class="gel-break row mb-5">
 	<div class="col-12 col-md-6 offset-md-6 text-center">
 		<h2 class="light">Two exclusive high-strength<br>cohesive gels – <span class="opus heavy">HSC</span> & <span class="opus heavy">HSC+</span></h2>
 <p class="light">Engineered for <span class="medium">optimal shape retention</span><br>and <span class="medium">fracture resistance</span> while<br>maintaining a <span class="medium">natural feel</span><sup>2</sup></p>
