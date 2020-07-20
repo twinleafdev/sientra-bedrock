@@ -99,14 +99,14 @@
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Jeffrey Nugent</h2>
                   <p class="light">Chairman and<br>Chief Executive Officer</p></div>
-                  <button class="btn">view my profile</button>
+                  <button class="btn" data-toggle="modal" data-target="#bio1">view my profile</button>
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
               </div>
             </div>
           </div>
-        
+  
       </div>
       
       <div class="swiper-slide justify-content-center">
@@ -124,7 +124,7 @@
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Oliver Bennett</h2>
                   <p class="light">General Counsel and<br>VP of Compliance & Legal</p></div>
-                  <button class="btn">view my profile</button>
+                  <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
                   <p class="text-left"><span class="heavy">Oliver Bennett</span> joined Sientra in 2015, first
 as outside counsel and then as general counsel to the company, prior to becoming
 General Counsel and Vice President for Oliver Bennett Compliance and Legal in 2018. Oliver brings with him almost two decades of experience in counseling medical device and life science companies in complex high stakes legal issues.</p>
@@ -151,7 +151,7 @@ General Counsel and Vice President for Oliver Bennett Compliance and Legal in 20
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Deborah Bettencourt</h2>
                   <p class="light">Vice President,<br>Human Resources & Corporate Administration</p></div>
-                  <button class="btn">view my profile</button>
+                  <button class="btn" data-toggle="modal" data-target="#bio3">view my profile</button>
                   <p class="text-left"><span class="heavy">Deborah Bettencourt</span> joined Sientra in
 2007 with nearly 20 years of experience in corporate operations and information technology within the medical device Deborah Bettencourt industry. Deborah spent much of her professional career at Inamed Corporation (currently Alleran Medical).</p>
 
@@ -175,7 +175,7 @@ General Counsel and Vice President for Oliver Bennett Compliance and Legal in 20
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Dan Carlisle</h2>
                   <p class="light">Vice President, Innovation & Product<br>Development, Breast Products</p></div>
-                  <button class="btn">view my profile</button>
+                  <button class="btn" data-toggle="modal" data-target="#bio4">view my profile</button>
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
@@ -200,7 +200,7 @@ General Counsel and Vice President for Oliver Bennett Compliance and Legal in 20
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Kirk Gunhus</h2>
                   <p class="light">Senior Vice President of<br>Worldwide Sales</p></div>
-                  <button class="btn">view my profile</button>
+                  <button class="btn" data-toggle="modal" data-target="#bio5">view my profile</button>
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
@@ -224,7 +224,7 @@ General Counsel and Vice President for Oliver Bennett Compliance and Legal in 20
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Jeff Jones</h2>
                   <p class="light">Vice President, Operations<br> </p></div>
-                  <button class="btn">view my profile</button>
+                  <button class="btn" data-toggle="modal" data-target="#bio6">view my profile</button>
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
@@ -248,7 +248,7 @@ General Counsel and Vice President for Oliver Bennett Compliance and Legal in 20
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">JoAnn Kuhne</h2>
                   <p class="light">Vice President, Regulatory Affairs,<br>Quality Assurance & Clinical Operations</p></div>
-                  <button class="btn">view my profile</button>
+                  <button class="btn" data-toggle="modal" data-target="#bio7">view my profile</button>
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
@@ -271,9 +271,9 @@ General Counsel and Vice President for Oliver Bennett Compliance and Legal in 20
               </div>
               <div class="flip-card-back" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));">
                 <div class="px-4 py-5">
-                  <div><h2 class="medium opus">Paul Littl</h2>
+                  <div><h2 class="medium opus">Paul Little</h2>
                   <p class="light">Chief Financial Officer,<br>Senior Vice President and Treasurer</p></div>
-                  <button class="btn">view my profile</button>
+                  <button class="btn" data-toggle="modal" data-target="#bio8">view my profile</button>
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
@@ -298,7 +298,7 @@ General Counsel and Vice President for Oliver Bennett Compliance and Legal in 20
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Valerie Miller</h2>
                   <p class="light">Vice President, Corporate Controller<br> </p></div>
-                  <button class="btn">view my profile</button>
+                  <button class="btn" data-toggle="modal" data-target="#bio9">view my profile</button>
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
@@ -322,7 +322,7 @@ General Counsel and Vice President for Oliver Bennett Compliance and Legal in 20
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Kim Porter</h2>
                   <p class="light">Vice President, Corporate Controller<br> </p></div>
-                  <button class="btn">view my profile</button>
+                  <button class="btn" data-toggle="modal" data-target="#bio10">view my profile</button>
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
@@ -346,7 +346,7 @@ General Counsel and Vice President for Oliver Bennett Compliance and Legal in 20
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Lisa Rosas</h2>
                   <p class="light">Vice President, Marketing<br> </p></div>
-                  <button class="btn">view my profile</button>
+                  <button class="btn" data-toggle="modal" data-target="#bio11">view my profile</button>
                   <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
 
                 </div>
@@ -392,6 +392,197 @@ work for a company at the forefront of the aesthetic industry, please visit our 
 <p class="heavy opus">Careers Website.</p>
 </section>
 
+
+
+
+
+      <!-- Modal -->
+<div class="modal fade" id="bio1" tabindex="-1" role="dialog" aria-labelledby="bio" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+       <p class="text-left light"><span class="heavy opus">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X. Jeff’s experience includes serving as the CEO and Worldwide President of Neutrogena, where he led the acquisition by Johnson & Johnson. Neutrogena is regarded as one of the most successful acquisitions in J&J history. Following Neutrogena, Jeff became the President and CEO of Revlon, where he led a turnaround in profitability and a global initiative of new product innovation. He was Founder, President and CEO of Precision Dermatology, a multi-channel dermatology and skin care company he established in 2010. The company grew both organically and by M&A and was acquired by Valeant Pharmaceuticals in 2013. He began his career at Johnson & Johnson where he held a number of senior responsibilities in general management, research, finance, marketing and manufacturing across pharmaceutical, medical device and consumer franchises.
+He was appointed Vice President of Worldwide Quality. Jeff has also served as Chairman, Director, President and Chief Executive Officer of a number of aesthetic medicine, medical device and consumer focused companies including Bioform, Inc. prior to its acquisition by Merz Aesthetics, Inc. He has also served on the
+Board of the Child Welfare League of America. Jeff holds a B.S. in mathematics from St. Joseph’s College and earned an M.B.A. in finance and marketing from Loyola University in Chicago. He served as an Artillery Officer in the U.S. Army while assigned to military intelligence at the Pentagon.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal -->
+<div class="modal fade" id="bio2" tabindex="-1" role="dialog" aria-labelledby="bio" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+       <p class="text-left light"><span class="heavy opus">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X. Jeff’s experience includes serving as the CEO and Worldwide President of Neutrogena, where he led the acquisition by Johnson & Johnson. Neutrogena is regarded as one of the most successful acquisitions in J&J history. Following Neutrogena, Jeff became the President and CEO of Revlon, where he led a turnaround in profitability and a global initiative of new product innovation. He was Founder, President and CEO of Precision Dermatology, a multi-channel dermatology and skin care company he established in 2010. The company grew both organically and by M&A and was acquired by Valeant Pharmaceuticals in 2013. He began his career at Johnson & Johnson where he held a number of senior responsibilities in general management, research, finance, marketing and manufacturing across pharmaceutical, medical device and consumer franchises.
+He was appointed Vice President of Worldwide Quality. Jeff has also served as Chairman, Director, President and Chief Executive Officer of a number of aesthetic medicine, medical device and consumer focused companies including Bioform, Inc. prior to its acquisition by Merz Aesthetics, Inc. He has also served on the
+Board of the Child Welfare League of America. Jeff holds a B.S. in mathematics from St. Joseph’s College and earned an M.B.A. in finance and marketing from Loyola University in Chicago. He served as an Artillery Officer in the U.S. Army while assigned to military intelligence at the Pentagon.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Modal -->
+<div class="modal fade" id="bio3" tabindex="-1" role="dialog" aria-labelledby="bio" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+       <p class="text-left light"><span class="heavy opus">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X. Jeff’s experience includes serving as the CEO and Worldwide President of Neutrogena, where he led the acquisition by Johnson & Johnson. Neutrogena is regarded as one of the most successful acquisitions in J&J history. Following Neutrogena, Jeff became the President and CEO of Revlon, where he led a turnaround in profitability and a global initiative of new product innovation. He was Founder, President and CEO of Precision Dermatology, a multi-channel dermatology and skin care company he established in 2010. The company grew both organically and by M&A and was acquired by Valeant Pharmaceuticals in 2013. He began his career at Johnson & Johnson where he held a number of senior responsibilities in general management, research, finance, marketing and manufacturing across pharmaceutical, medical device and consumer franchises.
+He was appointed Vice President of Worldwide Quality. Jeff has also served as Chairman, Director, President and Chief Executive Officer of a number of aesthetic medicine, medical device and consumer focused companies including Bioform, Inc. prior to its acquisition by Merz Aesthetics, Inc. He has also served on the
+Board of the Child Welfare League of America. Jeff holds a B.S. in mathematics from St. Joseph’s College and earned an M.B.A. in finance and marketing from Loyola University in Chicago. He served as an Artillery Officer in the U.S. Army while assigned to military intelligence at the Pentagon.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal -->
+<div class="modal fade" id="bio4" tabindex="-1" role="dialog" aria-labelledby="bio" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+       <p class="text-left light"><span class="heavy opus">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X. Jeff’s experience includes serving as the CEO and Worldwide President of Neutrogena, where he led the acquisition by Johnson & Johnson. Neutrogena is regarded as one of the most successful acquisitions in J&J history. Following Neutrogena, Jeff became the President and CEO of Revlon, where he led a turnaround in profitability and a global initiative of new product innovation. He was Founder, President and CEO of Precision Dermatology, a multi-channel dermatology and skin care company he established in 2010. The company grew both organically and by M&A and was acquired by Valeant Pharmaceuticals in 2013. He began his career at Johnson & Johnson where he held a number of senior responsibilities in general management, research, finance, marketing and manufacturing across pharmaceutical, medical device and consumer franchises.
+He was appointed Vice President of Worldwide Quality. Jeff has also served as Chairman, Director, President and Chief Executive Officer of a number of aesthetic medicine, medical device and consumer focused companies including Bioform, Inc. prior to its acquisition by Merz Aesthetics, Inc. He has also served on the
+Board of the Child Welfare League of America. Jeff holds a B.S. in mathematics from St. Joseph’s College and earned an M.B.A. in finance and marketing from Loyola University in Chicago. He served as an Artillery Officer in the U.S. Army while assigned to military intelligence at the Pentagon.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal -->
+<div class="modal fade" id="bio5" tabindex="-1" role="dialog" aria-labelledby="bio" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+       <p class="text-left light"><span class="heavy opus">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X. Jeff’s experience includes serving as the CEO and Worldwide President of Neutrogena, where he led the acquisition by Johnson & Johnson. Neutrogena is regarded as one of the most successful acquisitions in J&J history. Following Neutrogena, Jeff became the President and CEO of Revlon, where he led a turnaround in profitability and a global initiative of new product innovation. He was Founder, President and CEO of Precision Dermatology, a multi-channel dermatology and skin care company he established in 2010. The company grew both organically and by M&A and was acquired by Valeant Pharmaceuticals in 2013. He began his career at Johnson & Johnson where he held a number of senior responsibilities in general management, research, finance, marketing and manufacturing across pharmaceutical, medical device and consumer franchises.
+He was appointed Vice President of Worldwide Quality. Jeff has also served as Chairman, Director, President and Chief Executive Officer of a number of aesthetic medicine, medical device and consumer focused companies including Bioform, Inc. prior to its acquisition by Merz Aesthetics, Inc. He has also served on the
+Board of the Child Welfare League of America. Jeff holds a B.S. in mathematics from St. Joseph’s College and earned an M.B.A. in finance and marketing from Loyola University in Chicago. He served as an Artillery Officer in the U.S. Army while assigned to military intelligence at the Pentagon.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal -->
+<div class="modal fade" id="bio6" tabindex="-1" role="dialog" aria-labelledby="bio" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+       <p class="text-left light"><span class="heavy opus">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X. Jeff’s experience includes serving as the CEO and Worldwide President of Neutrogena, where he led the acquisition by Johnson & Johnson. Neutrogena is regarded as one of the most successful acquisitions in J&J history. Following Neutrogena, Jeff became the President and CEO of Revlon, where he led a turnaround in profitability and a global initiative of new product innovation. He was Founder, President and CEO of Precision Dermatology, a multi-channel dermatology and skin care company he established in 2010. The company grew both organically and by M&A and was acquired by Valeant Pharmaceuticals in 2013. He began his career at Johnson & Johnson where he held a number of senior responsibilities in general management, research, finance, marketing and manufacturing across pharmaceutical, medical device and consumer franchises.
+He was appointed Vice President of Worldwide Quality. Jeff has also served as Chairman, Director, President and Chief Executive Officer of a number of aesthetic medicine, medical device and consumer focused companies including Bioform, Inc. prior to its acquisition by Merz Aesthetics, Inc. He has also served on the
+Board of the Child Welfare League of America. Jeff holds a B.S. in mathematics from St. Joseph’s College and earned an M.B.A. in finance and marketing from Loyola University in Chicago. He served as an Artillery Officer in the U.S. Army while assigned to military intelligence at the Pentagon.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal -->
+<div class="modal fade" id="bio7" tabindex="-1" role="dialog" aria-labelledby="bio" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+       <p class="text-left light"><span class="heavy opus">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X. Jeff’s experience includes serving as the CEO and Worldwide President of Neutrogena, where he led the acquisition by Johnson & Johnson. Neutrogena is regarded as one of the most successful acquisitions in J&J history. Following Neutrogena, Jeff became the President and CEO of Revlon, where he led a turnaround in profitability and a global initiative of new product innovation. He was Founder, President and CEO of Precision Dermatology, a multi-channel dermatology and skin care company he established in 2010. The company grew both organically and by M&A and was acquired by Valeant Pharmaceuticals in 2013. He began his career at Johnson & Johnson where he held a number of senior responsibilities in general management, research, finance, marketing and manufacturing across pharmaceutical, medical device and consumer franchises.
+He was appointed Vice President of Worldwide Quality. Jeff has also served as Chairman, Director, President and Chief Executive Officer of a number of aesthetic medicine, medical device and consumer focused companies including Bioform, Inc. prior to its acquisition by Merz Aesthetics, Inc. He has also served on the
+Board of the Child Welfare League of America. Jeff holds a B.S. in mathematics from St. Joseph’s College and earned an M.B.A. in finance and marketing from Loyola University in Chicago. He served as an Artillery Officer in the U.S. Army while assigned to military intelligence at the Pentagon.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal -->
+<div class="modal fade" id="bio8" tabindex="-1" role="dialog" aria-labelledby="bio" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+       <p class="text-left light"><span class="heavy opus">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X. Jeff’s experience includes serving as the CEO and Worldwide President of Neutrogena, where he led the acquisition by Johnson & Johnson. Neutrogena is regarded as one of the most successful acquisitions in J&J history. Following Neutrogena, Jeff became the President and CEO of Revlon, where he led a turnaround in profitability and a global initiative of new product innovation. He was Founder, President and CEO of Precision Dermatology, a multi-channel dermatology and skin care company he established in 2010. The company grew both organically and by M&A and was acquired by Valeant Pharmaceuticals in 2013. He began his career at Johnson & Johnson where he held a number of senior responsibilities in general management, research, finance, marketing and manufacturing across pharmaceutical, medical device and consumer franchises.
+He was appointed Vice President of Worldwide Quality. Jeff has also served as Chairman, Director, President and Chief Executive Officer of a number of aesthetic medicine, medical device and consumer focused companies including Bioform, Inc. prior to its acquisition by Merz Aesthetics, Inc. He has also served on the
+Board of the Child Welfare League of America. Jeff holds a B.S. in mathematics from St. Joseph’s College and earned an M.B.A. in finance and marketing from Loyola University in Chicago. He served as an Artillery Officer in the U.S. Army while assigned to military intelligence at the Pentagon.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal -->
+<div class="modal fade" id="bio9" tabindex="-1" role="dialog" aria-labelledby="bio" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+       <p class="text-left light"><span class="heavy opus">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X. Jeff’s experience includes serving as the CEO and Worldwide President of Neutrogena, where he led the acquisition by Johnson & Johnson. Neutrogena is regarded as one of the most successful acquisitions in J&J history. Following Neutrogena, Jeff became the President and CEO of Revlon, where he led a turnaround in profitability and a global initiative of new product innovation. He was Founder, President and CEO of Precision Dermatology, a multi-channel dermatology and skin care company he established in 2010. The company grew both organically and by M&A and was acquired by Valeant Pharmaceuticals in 2013. He began his career at Johnson & Johnson where he held a number of senior responsibilities in general management, research, finance, marketing and manufacturing across pharmaceutical, medical device and consumer franchises.
+He was appointed Vice President of Worldwide Quality. Jeff has also served as Chairman, Director, President and Chief Executive Officer of a number of aesthetic medicine, medical device and consumer focused companies including Bioform, Inc. prior to its acquisition by Merz Aesthetics, Inc. He has also served on the
+Board of the Child Welfare League of America. Jeff holds a B.S. in mathematics from St. Joseph’s College and earned an M.B.A. in finance and marketing from Loyola University in Chicago. He served as an Artillery Officer in the U.S. Army while assigned to military intelligence at the Pentagon.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal -->
+<div class="modal fade" id="bio10" tabindex="-1" role="dialog" aria-labelledby="bio" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+       <p class="text-left light"><span class="heavy opus">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X. Jeff’s experience includes serving as the CEO and Worldwide President of Neutrogena, where he led the acquisition by Johnson & Johnson. Neutrogena is regarded as one of the most successful acquisitions in J&J history. Following Neutrogena, Jeff became the President and CEO of Revlon, where he led a turnaround in profitability and a global initiative of new product innovation. He was Founder, President and CEO of Precision Dermatology, a multi-channel dermatology and skin care company he established in 2010. The company grew both organically and by M&A and was acquired by Valeant Pharmaceuticals in 2013. He began his career at Johnson & Johnson where he held a number of senior responsibilities in general management, research, finance, marketing and manufacturing across pharmaceutical, medical device and consumer franchises.
+He was appointed Vice President of Worldwide Quality. Jeff has also served as Chairman, Director, President and Chief Executive Officer of a number of aesthetic medicine, medical device and consumer focused companies including Bioform, Inc. prior to its acquisition by Merz Aesthetics, Inc. He has also served on the
+Board of the Child Welfare League of America. Jeff holds a B.S. in mathematics from St. Joseph’s College and earned an M.B.A. in finance and marketing from Loyola University in Chicago. He served as an Artillery Officer in the U.S. Army while assigned to military intelligence at the Pentagon.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Modal -->
+<div class="modal fade" id="bio11" tabindex="-1" role="dialog" aria-labelledby="bio" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+       <p class="text-left light"><span class="heavy opus">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X. Jeff’s experience includes serving as the CEO and Worldwide President of Neutrogena, where he led the acquisition by Johnson & Johnson. Neutrogena is regarded as one of the most successful acquisitions in J&J history. Following Neutrogena, Jeff became the President and CEO of Revlon, where he led a turnaround in profitability and a global initiative of new product innovation. He was Founder, President and CEO of Precision Dermatology, a multi-channel dermatology and skin care company he established in 2010. The company grew both organically and by M&A and was acquired by Valeant Pharmaceuticals in 2013. He began his career at Johnson & Johnson where he held a number of senior responsibilities in general management, research, finance, marketing and manufacturing across pharmaceutical, medical device and consumer franchises.
+He was appointed Vice President of Worldwide Quality. Jeff has also served as Chairman, Director, President and Chief Executive Officer of a number of aesthetic medicine, medical device and consumer focused companies including Bioform, Inc. prior to its acquisition by Merz Aesthetics, Inc. He has also served on the
+Board of the Child Welfare League of America. Jeff holds a B.S. in mathematics from St. Joseph’s College and earned an M.B.A. in finance and marketing from Loyola University in Chicago. He served as an Artillery Officer in the U.S. Army while assigned to military intelligence at the Pentagon.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>
 <!-- @php the_content() @endphp -->

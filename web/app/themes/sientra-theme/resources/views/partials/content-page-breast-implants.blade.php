@@ -26,7 +26,9 @@
 			<img src="@asset('images/gel-diagram.jpg')" class="img-fluid my-5 d-md-none" alt="gel-diagram" width="2500" height="1036" />
 		</div>
 	</div><!-- .row -->
-	<img src="@asset('images/gel-diagram.jpg')" class="img-fluid my-5 d-none d-md-block" alt="gel-diagram" width="2500" height="1036" />
+	<div class="gel-diagram container">
+			<img src="@asset('images/gel-diagram.svg')" class="img-fluid my-5 d-none d-md-block" alt="gel-diagram" width="2500" height="1036" />
+	</div><!-- .container -->
 </section>
 <section class="surfaces row text-center">
 	<div class="mx-3 mb-3 wrap">
@@ -43,8 +45,8 @@
 	</div>
 </section>
 
-<section class="row"> 
-	<img src="@asset('images/surface-diagram.jpg')" class="img-fluid" alt="surface-diagram" width="2500" height="1237" />
+<section class="surface-diagram container my-4"> 
+	<img src="@asset('images/surface-diagram.svg')" class="img-fluid" alt="surface-diagram" />
 	
 </section>
 
@@ -58,7 +60,7 @@
 <section class="surfaces row text-center">
 	<div class="mx-3 mb-3 wrap">
   	<div>
-    	<img src="@asset('images/smooth-surfaces.svg')" alt="smooth-surfaces" />
+    	<img src="@asset('images/cohesive-gel-hsc.svg')" alt="cohesive-gel-hsc" />
       <ul class="opus-list text-left">
         <li>Soft feel mimics natural breast tissue</li>
         <li>Impressive upper pole retention</li>
@@ -68,7 +70,7 @@
 	</div>
 	<div class="mx-3 mb-3 wrap">
   	<div>
-	  	<img src="@asset('images/microtextured-surfaces.svg')" class="micro" alt="textured-surfaces" />
+	  	<img src="@asset('images/cohesive-gel-hsc-plus.svg')" alt="cohesive-gel-hsc-plus" />
       <ul class="opus-list text-left">
         <li>More cohesive than our HSC gel</li>
         <li>Unmatched shape retention<sup>2</sup></li>
