@@ -81,28 +81,227 @@
   	<h2 class="silver">Meet Sientra</h2>
 	</header>
 	
-  <div class="swiper-container swiper-team py-5">
+  <div class="swiper-container swiper-team p-md-5 p-2">
     <div class="swiper-wrapper">
       <div class="swiper-slide justify-content-center">
-        <img src="@asset('images/amelia-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
+
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <div>
+                  <h2 class="medium">Jeffrey Nugent</h2>
+                  <p class="light">Chairman and<br>Chief Executive Officer</p>
+                </div>
+              </div>
+              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));">
+                <div>
+                  <h2 class="medium">Jeffrey Nugent</h2>
+                  <p class="light">Chairman and<br>Chief Executive Officer</p>
+                </div>
+              </div>
+            </div>
+          </div>
         
       </div>
       <div class="swiper-slide justify-content-center">
-        <img src="@asset('images/cindyprado-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <div>
+                  <h2 class="medium">Oliver Bennett</h2>
+                  <p class="light">General Counsel and<br>VP of Compliance & Legal</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <h2 class="medium">Oliver Bennett</h2
+                <p class="light">General Counsel and<br>VP of Compliance & Legal</p>
+              </div>
+            </div>
+          </div>
+        
         
       </div>
       <div class="swiper-slide justify-content-center">
-        <img src="@asset('images/hochstein-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <div>
+                  <h2 class="medium">Deborah Bettencourt</h2>
+                  <p class="light">Vice President,<br>Human Resources & Corporate Administration</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <h2 class="medium">Deborah Bettencourt</h2>
+                <p class="light">Vice President,<br>Human Resources & Corporate Administration</p>
+              </div>
+            </div>
+          </div>
+        
         
       </div>
       <div class="swiper-slide justify-content-center">
-        <img src="@asset('images/edenknows-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />        
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <div>
+                  <h2 class="medium">Dan Carlisle</h2>
+                  <p class="light">Vice President, Innovation & Product<br>Development, Breast Products</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <h2 class="medium">Dan Carlisle</h2>
+                <p class="light">Vice President, Innovation & Product<br>Development, Breast Products</p>
+              </div>
+            </div>
+          </div>
+        
         
       </div>
       <div class="swiper-slide justify-content-center">
-        <img src="@asset('images/summer-insta.jpg')" class="img-fluid" alt="hochstein-insta" width="300" height="368" />
-        
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <div>
+                  <h2 class="medium">Kirk Gunhus</h2>
+                  <p class="light">Senior Vice President of<br>Worldwide Sales</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <h2 class="medium">Kirk Gunhus</h2>
+                <p class="light">Senior Vice President of<br>Worldwide Sales</p>
+              </div>
+            </div>
+          </div>
       </div>
+
+      <div class="swiper-slide justify-content-center">
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <div>
+                  <h2 class="medium">Jeff Jones</h2>
+                  <p class="light">Vice President, Operations<br> </p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <h2 class="medium">Jeff Jones</h2>
+                <p class="light">Vice President, Operations<br> </p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="swiper-slide justify-content-center">
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <div>
+                  <h2 class="medium">JoAnn Kuhne</h2>
+                  <p class="light">Vice President, Regulatory Affairs,<br>Quality Assurance & Clinical Operations</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <h2 class="medium">JoAnn Kuhne</h2>
+                <p class="light">Vice President, Regulatory Affairs,<br>Quality Assurance & Clinical Operations</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="swiper-slide justify-content-center">
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <div>
+                  <h2 class="medium">Paul Little</h2>
+                  <p class="light">Chief Financial Officer,<br>Senior Vice President and Treasurer</p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <h2 class="medium">Paul Little</h2>
+                <p class="light">Chief Financial Officer,<br>Senior Vice President and Treasurer</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="swiper-slide justify-content-center">
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <div>
+                  <h2 class="medium">Valerie Miller</h2>
+                  <p class="light">Vice President, Corporate Controller<br> </p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <h2 class="medium">Valerie Miller</h2>
+                <p class="light">Vice President, Corporate Controller<br> </p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="swiper-slide justify-content-center">
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <div>
+                  <h2 class="medium">Kim Porter</h2>
+                  <p class="light">Vice President, Corporate Controller<br> </p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <h2 class="medium">Valerie Miller</h2>
+                <p class="light">Vice President, Information Technology<br> </p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="swiper-slide justify-content-center">
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <div>
+                  <h2 class="medium">Lisa Rosas</h2>
+                  <p class="light">Vice President, Marketing<br> </p>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <h2 class="medium">Lisa Rosas</h2>
+                <p class="light">Vice President, Marketing<br> </p>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+      
+
     </div><!-- .swiper-wrapper -->
   </div>	
 	
