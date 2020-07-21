@@ -21,13 +21,15 @@
 	<div class="h2-wrap">
 		<h2>design features unique to all <span class="opus">OPUS</span> implants</h2>
 	</div>
+<!--
 	<div class="row">
 		<div class="col-12 col-md-6 my-3 px-2">
 			<img src="@asset('images/gel-diagram.jpg')" class="img-fluid my-5 d-md-none" alt="gel-diagram" width="2500" height="1036" />
 		</div>
-	</div><!-- .row -->
+	</div>
+--><!-- .row -->
 	<div class="gel-diagram container">
-			<img src="@asset('images/gel-diagram.svg')" class="img-fluid my-5 d-none d-md-block" alt="gel-diagram" width="2500" height="1036" />
+			<img src="@asset('images/gel-diagram.svg')" class="img-fluid my-5" alt="gel-diagram" />
 	</div><!-- .container -->
 </section>
 <section class="surfaces row text-center">

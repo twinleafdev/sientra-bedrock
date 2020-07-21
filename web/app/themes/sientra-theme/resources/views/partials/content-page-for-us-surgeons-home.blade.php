@@ -40,8 +40,8 @@ Our shared commitment to excellence. Sientra is the only silicone gel implant br
 	</div>
 </section>
 
-<section class="patient-safety-break row my-5">
-	<div class="col-6 light text-center">When it comes to <span class="opus">patient safety</span> not all implants are created equal. Sientra OPUS implants are clinically shown to have low complication rates.<sup>1</sup></div>
+<section class="patient-safety-break row">
+	<div class="col-md-6 light text-center">When it comes to <span class="opus">patient safety</span> not all implants are created equal. Sientra OPUS implants are clinically shown to have low complication rates.<sup>1</sup></div>
 </section>
 
 <section class="pair row text-center">
@@ -133,7 +133,8 @@ fit better</h3>
 </section>
 <section class="row unmatched align-content-start">
   <header class="col-12 col-md-8">
-  	<img src="@asset('images/not-just-warranty.svg')" alt="not just a warranty" />
+  	<img src="@asset('images/not-just-warranty.svg')" class="d-none d-md-block" alt="not just a warranty" />
+  	<div class="d-md-none row mb-3"><img src="@asset('images/unmatched-mobile.jpg')" class="img-fluid" alt="unmatched-mobile" width="800" height="1033" /></div>
   </header>
   <div class="w-100">
   	

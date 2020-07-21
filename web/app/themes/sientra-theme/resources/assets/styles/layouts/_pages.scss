@@ -2624,14 +2624,30 @@
     }
   }
   .patient-safety-break {
-    height: 42vw;
+    height: 86vw;
     background-image: url(../images/patient-safety-break.jpg);
-    background-position: center center;
-    background-size: contain;
+    background-position: 84% center;
+    background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
-    color: #fff;
-    font-size: 2.25rem;
+    color: $primary;
+    font-size: 1.25rem;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    @media (min-width: 768px) { 
+      height: 42vw;
+      background-size: contain;
+      background-position: center center;
+      color: #fff;
+      font-size: 2.25rem;
+       margin-bottom: 3rem;
+    }
+    & > div {
+      margin-top: 90vw;
+      @media (min-width: 768px) { 
+        margin-top: 0;
+      }
+    }
     div {
       padding-left: 6%;
       padding-right: 6%;
@@ -2789,6 +2805,12 @@
     margin-bottom: 55px;
     @media (min-width: 768px) {
       margin-bottom: 235px;
+    }
+    h3 {
+      font-size: 1.0rem;
+      @media (min-width: 768px) { 
+        font-size: 1.75rem;
+      }
     }
     .row {
       background-color: $tan;
