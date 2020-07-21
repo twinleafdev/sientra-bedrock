@@ -47,7 +47,7 @@
 	<img src="@asset('images/surface-diagram.svg')" class="img-fluid d-none d-md-block" alt="surface-diagram" />
 	
 </section>
-
+<section class="gel-break-mobile row d-md-none"></section>
 <section class="gel-break row">
 	<div class="col-12 col-md-6 offset-md-6 text-center">
 		<h2 class="light">Two exclusive high-strength<br>cohesive gels – <span class="opus heavy">HSC</span> & <span class="opus heavy">HSC+</span></h2>

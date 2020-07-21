@@ -2644,31 +2644,30 @@
       }
     }
   }
-  .patient-safety-break {
-    height: 86vw;
+  .patient-safety-break-mobile {
+       height: 86vw;
     background-image: url(../images/patient-safety-break.jpg);
     background-position: 84% center;
     background-size: cover;
     background-repeat: no-repeat;
+ 
+  }
+  .patient-safety-break {
+    background-repeat: no-repeat;
     align-items: center;
     color: $primary;
     font-size: 1.25rem;
-    margin-top: 3rem;
-    margin-bottom: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     @media (min-width: 768px) { 
       height: 42vw;
+      background-image: url(../images/patient-safety-break.jpg);
       background-size: contain;
       background-position: center center;
       color: #fff;
       font-size: 2.25rem;
-       margin-bottom: 3rem;
     }
-    & > div {
-      margin-top: 90vw;
-      @media (min-width: 768px) { 
-        margin-top: 0;
-      }
-    }
+
     div {
       padding-left: 6%;
       padding-right: 6%;
@@ -2970,27 +2969,33 @@
       background-size: contain;
     }
   }
-  .gel-break {
+  .gel-break-mobile {
     height: 74vw;
     background-image: url(../images/gel-break.jpg);
     background-position: left center;
     background-size: cover;
     background-repeat: no-repeat;
+    
+  }
+  .gel-break {
+/*
+    height: 74vw;
+    background-image: url(../images/gel-break.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+*/
     align-items: center;
     font-size: 1.2rem;
-    margin-bottom: 66vw;
+    padding: 15px 0;
     @media (min-width: 768px) { 
       font-size: 1.8rem;
+    background-image: url(../images/gel-break.jpg);
+    background-repeat: no-repeat;
       height: 42vw;
       background-position: center center;
       background-size: contain;
-      argin-bottom: 5rem;
-    }
-    & div {
-      margin-top: 76vw;
-      @media (min-width: 768px) { 
-         margin-top: 0;
-      }
+      margin-bottom: 5rem;
     }
     h2 {
       font-size: 1.8rem;
