@@ -8,19 +8,19 @@
     	<h2 class="image-h" style="background-image: url(@asset('images/our-brands.svg'))">Our Brands</h2>
   	</header>
 		<div class="col-12 col-sm-6 col-md-3">
-  		<img src="@asset('images/brands_opus.jpg')" class="img-fluid" alt="brands_opus" width="610" height="558" />
+  		<a href="/breast-augmentation/"><img src="@asset('images/brands_opus.jpg')" class="img-fluid" alt="brands_opus" width="610" height="558" /></a>
 			<p>Highest rated silicone gel breast implant brand.<sup>*</sup> Available exclusively through board-certified plastic surgeons</p>
 		</div>
 		<div class="col-12 col-sm-6 col-md-3">
-  		<img src="@asset('images/brands_opus-recon.jpg')" class="img-fluid" alt="brands_opus-recon" width="619" height="558" />
+  		<a href="/breast-reconstruction/"><img src="@asset('images/brands_opus-recon.jpg')" class="img-fluid" alt="brands_opus-recon" width="619" height="558" /></a>
 			<p>One-of-a-kind breast tissue expanders and silicone gel breast implants uniquely designed to improve patient outcomes</p>
 		</div>
 		<div class="col-12 col-sm-6 col-md-3">
-  		<img src="@asset('images/brands_biocorneum.jpg')" class="img-fluid" alt="brands_biocorneum" width="614" height="558" />
+  		<a href="https://biocorneum.com"><img src="@asset('images/brands_biocorneum.jpg')" class="img-fluid" alt="brands_biocorneum" width="614" height="558" /></a>
 			<p>The plastic surgeons’ choice - #1 performing, preferred and recommended scar treatment gel<sup>**</sup></p>
 		</div>
 		<div class="col-12 col-sm-6 col-md-3">
-  		<img src="@asset('images/brands_miradry.jpg')" class="img-fluid" alt="brands_miradry" width="612" height="558" />
+  		<a href="https://www.miradry.com"><img src="@asset('images/brands_miradry.jpg')" class="img-fluid" alt="brands_miradry" width="612" height="558" /></a>
 			<p>Approved for sale in over 56 international markets, miraDry is the only non-surgical FDA-cleared device for permanent reduction of underarm sweat and hair and may reduce odor</p>
 		</div>
 		<footer class="col-12 text-left">
