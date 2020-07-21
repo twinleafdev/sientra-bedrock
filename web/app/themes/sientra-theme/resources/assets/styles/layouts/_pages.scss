@@ -1,9 +1,15 @@
 .home {
   .augmentation {
     background: $danger;
+    p {
+      margin: 0;
+    }
   }
   .reconstruction {
     background: $primary;
+    p {
+      margin: 0;
+    }
   }
   .slider {
     background: $tan;
