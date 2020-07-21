@@ -93,7 +93,7 @@
 	<div class="softness col-md-5 my-2 align-self-center light text-center"> 
   	<p><span class="opus">OPUS</span> HSC & HSC+ implants show minimum trade-off in softness in order to achieve greater gel strength<sup>2</sup></p>
 	</div>
-	<small class="m-5">*tests performed by an independent laboratory</small>
+	<small class="my-md-5 mx-5">*tests performed by an independent laboratory</small>
 </section>
 <section class="luxe row mb-5">
  <header class="col-6 col-sm-4"> <img src="@asset('images/opus-luxe.png')" class="img-fluid" alt="opus-luxe" width="949" height="353" /></header>
