@@ -28,6 +28,10 @@
        src: url('../fonts/silver-south-serif.woff') format('woff'), /* Pretty Modern Browsers */
             url('../fonts/silver-south-serif.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
+@font-face {
+  font-family: 'silver-south-serif-alt';
+       src: url('../fonts/SilverSouthScriptAlt.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
 
 @font-face {
       font-family: 'fontello';
@@ -118,6 +122,9 @@ body {
   }
   .silver {
     font-family: 'silver-south-serif', serif;
+  }
+  .silver-alt {
+    font-family: 'silver-south-serif-alt';
   }
   .image-h {
     text-indent: -9999px;

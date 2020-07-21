@@ -50,17 +50,17 @@ Our shared commitment to excellence. Sientra is the only silicone gel implant br
 		<h3><span><strong>1,116</strong> patients enrolled</span><span>evaluated for <strong>10 years</strong></span></h3>
 	</div>
 
-  <div class="container my-5">
+  <div class="container my-md-5">
     <div class="row">    
     <!-- 	 -->
-    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+    	<article class="col-12 col-sm-4 mb-md-5 mb-0">
       	<div class="rounded-circle">
       		<strong>Low</strong>
     <p>capsular contracture rate*</p>
       	</div>
     	</article>
     <!-- 	 -->
-    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+    	<article class="col-12 col-sm-4 mb-md-5 mb-0">
       	<div class="rounded-circle">
       		<strong>Lowest</strong>
       		<p>rupture rate*</p>
@@ -68,7 +68,7 @@ Our shared commitment to excellence. Sientra is the only silicone gel implant br
     
     	</article>
     <!-- 	 -->
-    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+    	<article class="col-12 col-sm-4 mb-md-5 mb-0">
       	<div class="rounded-circle">
       		<strong>Lowest</strong>
       		<p>reoperation rate*</p>
@@ -116,7 +116,7 @@ Our shared commitment to excellence. Sientra is the only silicone gel implant br
 fit better</h3>
     	</article>
     <!-- 	 -->
-      <article class="col-12 mt-4">
+      <article class="col-12 mt-md-4">
       	    *(primary augmentation cohort)
       </article>
     </div><!-- .row -->
@@ -126,7 +126,11 @@ fit better</h3>
 <section class="board-certified container">
 	<div class="row">
 		<div class="col-12 text-center">
-  		<h1 class="image-h" style="background-image: url(@asset('images/board-certified.svg')); padding-bottom: 20%;"> board-certified </h1>
+<!--   		<h1 class="image-h" style="background-image: url(@asset('images/board-certified.svg')); padding-bottom: 20%;"> board-certified </h1> -->
+  		<h1 class="silver">board-certified</h1>
+  		<h2>The only silicone gel breast implant available <span class="silver-alt opus">exclusively</span> to 
+board-certified plastic surgeons</h2>
+  
 			<h3>We believe high-performing implants exclusively in the hands of the most skilled and qualified surgeons lead to safer, more beautiful outcomes.</h3>
 		</div>
 	</div><!-- .row -->

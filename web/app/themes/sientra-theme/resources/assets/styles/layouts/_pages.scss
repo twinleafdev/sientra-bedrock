@@ -2806,6 +2806,24 @@
     @media (min-width: 768px) {
       margin-bottom: 235px;
     }
+    h1 {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      @media (min-width: 768px) { 
+        font-size: 4rem;
+      }
+    }
+    h2 {
+      font-size: 1.0rem;
+      .silver-alt {
+        font-size: 1.8em;
+        line-height: 1em;
+      }
+      @media (min-width: 768px) { 
+        font-size: 2.25rem;
+      }
+    }
+
     h3 {
       font-size: 1.0rem;
       @media (min-width: 768px) { 
