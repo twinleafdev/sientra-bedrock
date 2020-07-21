@@ -14,12 +14,38 @@
   </div>
 </section>
 
-<section class="patient-safety row text-center">
+<section class="commitment-patient-safety row text-center">
   <div class="inner container-fluid">
+    
+    
     <header class="row mb-5 px-5">
-      <div class="h-line col-12 col-md-7"> <img src="@asset('images/patient-safety.svg')" alt="patient-safety" /></div>
-      <div class="col-12 col-md-4 text-center d-flex align-items-center"> <p><span class="opus">OPUS</span> breast implants are clinically shown to have low complication rates<sup>1</sup></p></div>
+      <div class="h-line col-12 col-md-7">
+        <img src="@asset('images/patient-safety.svg')" alt="patient-safety" />
+      </div>
+      <div class="col-12 col-md-4 text-center d-flex align-items-center">
+        <h2><span class="opus">OPUS</span> breast implants are clinically shown to have low complication rates<sup>1</sup</</p>
+      </div>
     </header>
+    
+
+
+<!--
+  <header class="row">
+		<div class="col-md-8 pt-4">
+			<img src="@asset('images/standard-of-care.svg')" alt="standard-of-care" />
+		</div>
+		<div class="col-md-4 d-flex align-items-center">
+			<h2><span class="opus heavy">78%</span> of infections require explantation<sup>4</sup></h2>
+		</div>
+	</header>
+-->
+
+
+
+
+
+
+    
     <div class="row"> 
       <div class="col-12">
       	<h2>A robust 10-year clinical study – the largest breast implant study of its kind – revealed unrivaled safety and clinical results</h2>

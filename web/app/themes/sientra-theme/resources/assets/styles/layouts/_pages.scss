@@ -2884,8 +2884,21 @@
         }
         border: 1px solid #fff;
         padding: 15px;
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .icon-luxe {
+          font-size: 1.9em;  
+          &:before {
+            width: 1.6em;
+          }
+        }
+        .icon-curve:before {
+          
+        }        
       }
     }
   }
@@ -3312,6 +3325,25 @@
         }
       }
     }
+  }
+  .commitment-patient-safety {
+    header {
+      div:last-of-type {
+        h2 {
+          border-top: 1px solid $primary;
+          padding-top: 10%;
+          padding-bottom: 10%;
+          margin-left: -15px;
+          padding-left: 15px;
+          text-align: center;
+          @media (min-width: 768px) { 
+            border-left: 1px solid $primary;
+            border-top: none;
+            text-align: left;
+          }
+        }
+      }
+    }   
   }
   .rates {
     .boxed-h {
