@@ -14,8 +14,8 @@
   </div>
 </section>
 
-<section class="lead container text-center">
-	<h1 class="light">Making it <span class="opus">easy</span> and <span class="opus">cost effective</span> to do business</h1>
+<section class="lead container text-center d-flex">
+	<h1 class="light m-auto">Making it <span class="opus">easy</span> and <span class="opus">cost effective</span> to do business</h1>
 </section>
 
 <section class="features container">

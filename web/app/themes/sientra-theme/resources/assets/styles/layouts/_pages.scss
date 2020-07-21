@@ -3776,7 +3776,10 @@
       height: 20vw;
     }
     h1 {
-      
+      font-size: 1.5rem;
+      @media (min-width: 768px) { 
+        font-size: 2.0rem;
+      }
     }
   }
   .features {
@@ -3784,6 +3787,12 @@
       margin-bottom: 75px;
       padding-left: 5%;
       padding-right: 5%;
+      h2 {
+       font-size: 1.5rem;
+       @media (min-width: 768px) { 
+         font-size: 2.0rem;
+       }       
+      }
       & > div {
         align-items: flex-start;
         display: flex;
@@ -3791,7 +3800,10 @@
       ul {
         margin-top: 15px;
         li {
-          font-size: 1.5rem;
+          font-size: 1.0rem;
+           @media (min-width: 768px) { 
+             font-size: 1.5rem;
+           }
         }
       }
     }
