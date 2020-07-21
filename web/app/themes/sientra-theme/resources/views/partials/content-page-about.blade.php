@@ -336,13 +336,13 @@ General Counsel and Vice President for Oliver Bennett Compliance and Legal in 20
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
+                <span class="headshot" style="background-image: url(@asset('images/headshot-lisa-rosas.jpg'));"></span>
                 <div>
                   <h2 class="medium">Lisa Rosas</h2>
                   <p class="light">Vice President, Marketing<br> </p>
                 </div>
               </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));">
+              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-lisa-rosas.jpg'));">
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Lisa Rosas</h2>
                   <p class="light">Vice President, Marketing<br> </p></div>
