@@ -3863,6 +3863,17 @@
     }
   }
   .resources {
+    header {
+      min-height: 7vw;
+      display: flex;
+      align-items: flex-end;
+      h3 {
+        width: 100%;
+      }
+      .image-h {
+        min-height: 50px;
+      }
+    }
     article {
       header {
         display: flex;

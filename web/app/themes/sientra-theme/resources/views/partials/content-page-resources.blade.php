@@ -20,8 +20,9 @@
 		
   	<div class="col-6">
     	<header>
-    		
+      	<h3 class="image-h" style="background-image:url(@asset('images/for-surgeons.svg'));  height: 4.5vw; ">For Physicians</h3>
     	</header>
+    	
   		<article class="col">
         <header><h3>Customer Service</h3></header>
           <span><a href="@asset('images/surg-resources/Sientra Inc-Standard-Terms-and-Conditions-for-Sale-of-Products.pdf')" target="_blank">PDF</a> </span> <p>Terms & Conditions</p>
@@ -57,6 +58,9 @@
 
 
   	<div class="col-6">
+    	<header>
+      	<h3 class="image-h" style="background-image:url(@asset('images/for-your-patients.svg'));  height: 4.8vw; ">For Physicians</h3>
+    	</header>
   		<article class="col">
         <header><h3>Augmentation</h3></header>
           <span><a href="@asset('images/aug/MDC-0351_R1_OPUS_Luxe_Patient_Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
