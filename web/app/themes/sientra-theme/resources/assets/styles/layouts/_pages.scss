@@ -3179,15 +3179,22 @@
     }
     .wrap {
       background-image: url(../images/expander-options-bg.jpg);
-      background-position: left bottom;
+      background-position: left 13vw;
       background-size: contain;
       background-repeat: no-repeat;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
+      @media (min-width: 768px) { 
+        background-position: left 13vw;
+        background-position: left bottom;
+        font-size: 1.4rem;
+      }
       h2 {
         font-size: 4rem;
         color: rgba(83, 86, 89, 0.3);
+        margin-bottom: 100vw;
         @media (min-width: 768px) { 
           font-size: 6rem;
+          margin-bottom: 0;
         }
 
         sup {
@@ -3257,17 +3264,22 @@
   }
   .dermaspan {
     background-image: url(../images/dermaspan-bg.jpg);
-    background-position: right bottom;
+    background-position: right 26vw;
     background-size: contain;
     background-repeat: no-repeat;
     padding-top: 10vw;
     padding-bottom: 10vw; 
-    font-size: 1.4rem; 
+    font-size: 1.4rem;
+    @media (min-width: 768px) { 
+      background-position: right bottom;
+    } 
     h2 {
       font-size: 2.5rem;
       color: rgba(83, 86, 89, 0.3);
+      margin-bottom: 100vw;
       @media (min-width: 768px) { 
         font-size: 6rem;
+        margin-bottom: 0;
       }
     }
     h3 {
@@ -3303,16 +3315,19 @@
     header {
       div:last-of-type {
         h2 {
-          border-top: 1px solid $primary;
-          padding-top: 10%;
+        //  border-top: 1px solid $primary;
+          
           padding-bottom: 10%;
           margin-left: -15px;
           padding-left: 15px;
           text-align: center;
+          font-size: 1.5rem;
           @media (min-width: 768px) { 
+            padding-top: 10%;
             border-left: 1px solid $primary;
             border-top: none;
             text-align: left;
+            font-size: 2.0rem;
           }
         }
       }
@@ -3320,24 +3335,38 @@
   }
   .costs.info-box {
     .inner {
-      padding: 15px 15%;
+      padding: 15px;
+      @media (min-width: 768px) { 
+        padding: 15px 15%;    
+      }
       p {
-        font-size: 1.6rem;
+        font-size: 1.1rem;
+        @media (min-width: 768px) { 
+          font-size: 1.6rem;
+        }
       }
     }
   }
   .clinical-outcomes {
     background-image: url(../images/clinical-outcome-bg.jpg);
-    background-position: right bottom;
+    background-position: right 48vw;
     background-size: contain;
-    background-repeat: no-repeat;
-    padding-bottom: 45vw; 
+    background-repeat: no-repeat; 
     margin-top: 10vw;
     @media (min-width: 768px) { 
       padding-bottom: 10vw;
+      background-position: right bottom;
     }
     header {
-      margin-top: -10vw;
+      margin-top: 0vw;
+      margin-bottom: 100vw;
+      @media (min-width: 768px) {
+        margin-top: -10vw;
+        margin-bottom: 0;
+      }
+      .image-h {
+        min-height: 100px;
+      }
     }
     h3 {
       font-size: 2.0rem;
@@ -3345,8 +3374,11 @@
     .info-box {
       .inner {
         p {
-          font-size: 1.15rem;
+          font-size: 1.0rem;
           line-height: 1.5;
+          @media (min-width: 768px) { 
+            font-size: 1.15rem;
+          }
         }
       }
     }

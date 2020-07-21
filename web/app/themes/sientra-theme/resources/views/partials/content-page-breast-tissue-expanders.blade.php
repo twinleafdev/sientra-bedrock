@@ -92,8 +92,8 @@
 		<div class="col-md-8 pt-4">
 			<img src="@asset('images/standard-of-care.svg')" alt="standard-of-care" />
 		</div>
-		<div class="col-md-4 d-flex align-items-center">
-			<h2><span class="opus heavy">78%</span> of infections require explantation<sup>4</sup></h2>
+		<div class="col-md-4 d-flex justify-content-center">
+			<h2 class="light"><span class="opus heavy">78%</span> of infections<br>require explantation<sup>4</sup></h2>
 		</div>
 	</header><!-- .row -->
 </section>
@@ -103,10 +103,11 @@
   </div>
 </section>
 <section class="flow-chart container">
-	<img src="@asset('images/risk-flow-chart.svg')" class="img-fluid" alt="risk-flow-chart" />
+	<img src="@asset('images/risk-flow-chart.svg')" class="img-fluid d-none d-md-block" alt="risk-flow-chart" />
+	<img src="@asset('images/risk-flow-chart-mobile.svg')" class="img-fluid d-md-none" alt="risk-flow-chart" />
 </section>
 <section class="clinical-outcomes row text-center">
-	<header class="col-md-7 mb-5">
+	<header class="col-md-7 mb-md-5">
 		<h2 class="image-h" style="background-image:url(@asset('images/clinical-outcomes.svg')); height: 10vw;">Clinical Outcomes</h2>
 		<h3 class="light">AlloX2 improves salvage rates & clinical outcomes<sup>10</sup></h3>
 	</header>
