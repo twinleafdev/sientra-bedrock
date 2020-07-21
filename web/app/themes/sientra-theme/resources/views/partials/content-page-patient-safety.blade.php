@@ -135,11 +135,11 @@
   				<h4>Mentor 10-Yr<br>N=552</h4>
   			</header>
         <ul class="list-group">
-          <li class="list-group-item">2,230</li>
-          <li class="list-group-item">398</li>
-          <li class="list-group-item">12.9%</li>
-          <li class="list-group-item">8.7%</li>
+          <li class="list-group-item">1,102</li>
+          <li class="list-group-item">220</li>
+          <li class="list-group-item">12.1% </li>
           <li class="list-group-item">24.2%</li>
+          <li class="list-group-item">25.5%</li>
         </ul>
   		</article>
   
@@ -162,11 +162,11 @@
   				<h4>Allergan 10-Yr<br>N=455</h4>
   			</header>
         <ul class="list-group">
-          <li class="list-group-item">2,230</li>
-          <li class="list-group-item">398</li>
-          <li class="list-group-item">12.9%</li>
-          <li class="list-group-item">8.7%</li>
-          <li class="list-group-item">24.2%</li>
+          <li class="list-group-item">908</li>
+          <li class="list-group-item">158</li>
+          <li class="list-group-item">18.9%</li>
+          <li class="list-group-item">9.3%</li>
+          <li class="list-group-item">36.1%</li>
         </ul>
   		</article>
   			
@@ -319,8 +319,10 @@
         <!-- Slides -->
         <div class="swiper-slide"><p><span class="q">&#8220;</span> Only one major implant manufacturer exclusively sells to 
 board-certified plastic surgeons. The data shows they have superior long-term rupture and capsular contracture rates. This is not a coincidence. <span class="q">&#8221;</span><br><span class="sig">- Troy A. Pittman, MD | Washington, DC </span></p></div>
-        <div class="swiper-slide"><p><span class="q">&#8220;</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p></div>
-        <div class="swiper-slide"><p><span class="q">&#8220;</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p></div>
+        <div class="swiper-slide"><p><span class="q">&#8220;</span> Only one major implant manufacturer exclusively sells to 
+board-certified plastic surgeons. The data shows they have superior long-term rupture and capsular contracture rates. This is not a coincidence. <span class="q">&#8221;</span><br><span class="sig">- Troy A. Pittman, MD | Washington, DC </span></p></div>
+        <div class="swiper-slide"><p><span class="q">&#8220;</span> Only one major implant manufacturer exclusively sells to 
+board-certified plastic surgeons. The data shows they have superior long-term rupture and capsular contracture rates. This is not a coincidence. <span class="q">&#8221;</span><br><span class="sig">- Troy A. Pittman, MD | Washington, DC </span></p></div>
             ...
 
     </div>
