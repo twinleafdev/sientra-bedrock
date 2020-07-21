@@ -87,20 +87,20 @@ Our shared commitment to excellence. Sientra is the only silicone gel implant br
 <section class="factor row text-center py-5">
   <div class="container">
     <div class="row">
-    	<div class="col-12 py-4 tag">
+    	<div class="col-12 py-md-4 tag">
       	<img src="@asset('images/feel-good-factor.svg')" alt="feel good factor" />
     		<h2>patient satisfaction rates<sup>2</sup></h2>
     	</div>  
   	  
     <!-- 	 -->
-    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+    	<article class="col-12 col-sm-4 mb-md-5 mb-0">
       	<div class="rounded-circle _90">
       		<strong>90%</strong><br>
       	</div>
     		<h3>Felt more feminine</h3>
     	</article>
     <!-- 	 -->
-    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+    	<article class="col-12 col-sm-4 mb-md-5 mb-0">
       	<div class="rounded-circle _91">
       		<strong>91%</strong><br>
       	</div>
@@ -108,7 +108,7 @@ Our shared commitment to excellence. Sientra is the only silicone gel implant br
 </h3>
     	</article>
     <!-- 	 -->
-    	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
+    	<article class="col-12 col-sm-4 mb-md-5 mb-0">
       	<div class="rounded-circle _79">
       		<strong>79%</strong><br>
       	</div>

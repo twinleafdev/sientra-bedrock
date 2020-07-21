@@ -43,11 +43,12 @@
 </section>
 
 <section class="surface-diagram container my-4"> 
-	<img src="@asset('images/surface-diagram.svg')" class="img-fluid" alt="surface-diagram" />
+  <img src="@asset('images/surface-diagram-mobile.jpg')" class="img-fluid d-md-none" alt="surface-diagram-mobile" width="800" height="1368" />
+	<img src="@asset('images/surface-diagram.svg')" class="img-fluid d-none d-md-block" alt="surface-diagram" />
 	
 </section>
 
-<section class="gel-break row mb-5">
+<section class="gel-break row">
 	<div class="col-12 col-md-6 offset-md-6 text-center">
 		<h2 class="light">Two exclusive high-strength<br>cohesive gels – <span class="opus heavy">HSC</span> & <span class="opus heavy">HSC+</span></h2>
 <p class="light">Engineered for <span class="medium">optimal shape retention</span><br>and <span class="medium">fracture resistance</span> while<br>maintaining a <span class="medium">natural feel</span><sup>2</sup></p>

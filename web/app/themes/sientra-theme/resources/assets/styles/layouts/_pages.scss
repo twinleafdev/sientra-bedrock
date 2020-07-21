@@ -2932,18 +2932,46 @@
     }
   }
   .gel-break {
-    height: 42vw;
+    height: 74vw;
     background-image: url(../images/gel-break.jpg);
-    background-position: center center;
-    background-size: contain;
+    background-position: left center;
+    background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    margin-bottom: 46vw;
+    @media (min-width: 768px) { 
+      font-size: 1.8rem;
+      height: 42vw;
+      background-position: center center;
+      background-size: contain;
+      argin-bottom: 5rem;
+    }
+    & div {
+      margin-top: 76vw;
+      @media (min-width: 768px) { 
+         margin-top: 0;
+      }
+    }
     h2 {
-      font-size: 2.25rem;
+      font-size: 1.8rem;
+      @media (min-width: 768px) { 
+        font-size: 2.25rem;
+      }
     }
   }
   .strength {
+    header {
+      .image-h {
+        min-height: 120px;
+      }
+      h3 {
+        font-size: 1.25rem;
+      @media (min-width: 768px) { 
+        font-size: 1.75rem;
+      }
+      }
+    }
     .softness {
       background-color: $tan;
       padding: 15px;
