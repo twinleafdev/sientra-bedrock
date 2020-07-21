@@ -36,7 +36,7 @@
 	
 	<div class="mx-3 mb-3 wrap">
   	<div>
-    	<img src="@asset('images/smooth-surfaces.svg')" alt="smooth-surfaces" />
+    	<img src="@asset('images/smooth-surface.svg')" alt="smooth-surfaces" />
   		<p>Are soft yet durable. Smooth shells keep the gel inside and allow the implant to move naturally with the breast tissue.</p>
   	</div>
 	</div>
@@ -55,8 +55,10 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
 	<div class="h2-wrap">
 		<h2>choose from 2 cohesive gel levels for 2 degrees of softness</h2>
 	</div>
-	<div class="col-12">
-  	<img src="@asset('images/optimal-feel.svg')" class="w-25 mb-4" alt="optimal-feel" /><br>
+	<div class="optimal-feel col-12">
+  	<h2 class="image-h" style="background-image: url(@asset('images/optimal-feel.svg')); height:10vw;">optimal feel</h2>
+  	
+<!--   	<img src="@asset('images/optimal-feel.svg')" class="w-25 mb-4" alt="optimal-feel" /><br> -->
 	</div>
 	<div class="row">
   	<div class="col-12 col-sm-10 offset-sm-1 px-5">

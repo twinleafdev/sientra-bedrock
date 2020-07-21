@@ -18,7 +18,7 @@
 	
 	<div class="row">
 		
-  	<div class="col-6">
+  	<div class="col-md-6">
     	<header>
       	<h3 class="image-h" style="background-image:url(@asset('images/for-surgeons.svg'));  height: 4.5vw; ">For Physicians</h3>
     	</header>
@@ -57,7 +57,7 @@
     </div>	
 
 
-  	<div class="col-6">
+  	<div class="col-md-6">
     	<header>
       	<h3 class="image-h" style="background-image:url(@asset('images/for-your-patients.svg'));  height: 4.8vw; ">For Physicians</h3>
     	</header>

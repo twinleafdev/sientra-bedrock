@@ -730,7 +730,7 @@
     max-width: 1250px;
     header h2 {
       transform: translateX(1vw);
-//       max-width: 555px;
+      min-height: 100px;
     }
   }
   .surfaces {
@@ -766,6 +766,11 @@
     header img {
       transform: translateX(-17%);
       max-width: 350px;
+    }
+    .optimal-feel {
+      .image-h {
+        min-height: 70px;
+      }
     }
     .press {
         background-position: center center;
