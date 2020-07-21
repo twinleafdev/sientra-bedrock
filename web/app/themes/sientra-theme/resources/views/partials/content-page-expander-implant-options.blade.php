@@ -80,7 +80,7 @@
 <section class="implant-options text-center mx-auto mt-5">
   <header>
     <img src="@asset('images/implant-options.svg')" class="img-fluid" alt="implant-options" />
-		<h2 class="light my-3">available in round and teardrop shape</h2>
+		<h2 class="light my-3 h2-wrap">available in round and teardrop shape</h2>
   </header>
 	<div class="row">
 		<div class="col-12 col-md-6 my-3">
@@ -88,7 +88,7 @@
 			<p>Cohesive <span class="opus">round implants</span> designed for a fuller look with a naturally soft feel</p>
 			<img src="@asset('images/options-diagram_luxe.jpg')" class="img-fluid diagram" alt="options-diagram_luxe" width="1500" height="1067" />
 		</div>
-		<div class="col-12 col-md-6 my-3">
+		<div class="col-12 col-md-6 my-md-3">
 			<img src="@asset('images/opus-curve.svg')" alt="opus-curve" />
 			<p>Cohesive <span class="opus">teardrop shaped implants</span> designed to mimic the natural slope of a women’s breast</p>
 			<img src="@asset('images/options-diagram_curve.jpg')" class="img-fluid diagram" alt="options-diagram_curve" width="1500" height="1067" />
@@ -99,7 +99,7 @@
 
 <section class="feel-so-real text-center"> 
 	<header>
-		<img src="@asset('images/feel-so-real.svg')" class="feel mt-4"alt="feel-so-real" />
+		<img src="@asset('images/feel-so-real.svg')" class="feel mt-md-4"alt="feel-so-real" />
 	</header>
 	<div class="h2-wrap">
 		<h2>choose from 2 cohesive gel levels for 2 degrees of softness</h2>

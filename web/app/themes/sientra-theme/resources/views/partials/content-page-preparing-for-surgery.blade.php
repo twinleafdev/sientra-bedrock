@@ -15,7 +15,8 @@
 </section>
 <section class="get-started text-center">
 	<header>
-		<img src="@asset('images/getting-started.svg')" class="w-50" alt="getting-started" />
+  	<h2 class="image-h" style="background-image: url(@asset('images/getting-started.svg')); height:12vw;">getting started</h2>
+<!-- 		<img src="@asset('images/getting-started.svg')" class="w-50" alt="getting-started" /> -->
 		<p>on your reconstruction journey</p>
 	</header>
 	<p class="w-75 mx-auto">There are many decisions to make when considering breast reconstruction surgery. We’ve compiled a list of questions to help guide your initial discussions with your surgical team. </p>
