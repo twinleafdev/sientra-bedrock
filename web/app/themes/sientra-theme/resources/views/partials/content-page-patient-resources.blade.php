@@ -102,7 +102,6 @@
  		</article>
 		
 	</div><!-- .row -->
-<!--
 	
 	<div class="row commitment">
   	<article class="col-md-8 offset-md-2">
@@ -124,7 +123,6 @@
 		
 	</div>	
 	
--->
 </section>
 
 
