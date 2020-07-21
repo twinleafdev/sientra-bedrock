@@ -26,30 +26,11 @@
         <h2><span class="opus">OPUS</span> breast implants are clinically shown to have low complication rates<sup>1</sup</</p>
       </div>
     </header>
-    
 
-
-<!--
-  <header class="row">
-		<div class="col-md-8 pt-4">
-			<img src="@asset('images/standard-of-care.svg')" alt="standard-of-care" />
-		</div>
-		<div class="col-md-4 d-flex align-items-center">
-			<h2><span class="opus heavy">78%</span> of infections require explantation<sup>4</sup></h2>
-		</div>
-	</header>
--->
-
-
-
-
-
-
-    
     <div class="row"> 
-      <div class="col-12">
+      <div class="col-12 evaluated">
       	<h2>A robust 10-year clinical study – the largest breast implant study of its kind – revealed unrivaled safety and clinical results</h2>
-      	<h3 class="my-5"><span class="opus">1,788</span> patients enrolled  <span class="opus">|  37</span> plastic surgery sites  <span class="opus">|</span>  evaluated for <span class="opus">10 years</span></h3>
+      	<h3><span class="opus heavy">1,788</span> patients enrolled</h3>  <span class="opus">|</span>  <h3>37</span> plastic surgery sites</h3>  <span class="opus">|</span>  <h3>evaluated for <span class="opus heavy">10 years</span></h3>
       </div>
     </div>
   </div> 
@@ -300,8 +281,11 @@
   	</div>
 
   	<div class="col-12 col-lg-8 message">
-      <div class="message-inner">
-    	<h3 class="image-h" style="background-image: url(@asset('images/board-certified-exclusivity.svg')); height:13vw;">board-certified plastic surgeon exclusivity – a commitment to excellence</h3>
+      <div class="message-inner">    	    	
+    	<h1 class="silver">board-certified</h1>
+  		<h2>plastic surgeon <span class="silver-alt opus">exclusively</span>  –<br>a commitment to excellence</h2>
+    	
+    	
 <p>Sientra is the ONLY major silicone gel breast implant manufacturer to sell exclusively to board-certified plastic surgeons. We believe this results in safer and more beautiful patient outcomes. Several key opinion leaders have recently expressed the importance of BCPS exclusivity:</p>
       </div>
   	</div>
