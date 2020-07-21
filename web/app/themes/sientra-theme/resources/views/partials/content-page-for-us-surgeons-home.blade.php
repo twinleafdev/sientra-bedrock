@@ -1,12 +1,12 @@
 <section class="hero row">
 <!-- 	<img src="@asset('images/surg-home-hero.jpg')" class="img-fluid" alt="surg-home-hero" width="2500" height="1224" /> -->
-	<video autoplay>
+	<video autoplay loop>
   <source src="@asset('images/video/Parntership_AnimatedHeader-R4.mp4')" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </section>
 
-<section class="row why-choose text-center my-4  py-5">
+<section class="row why-choose text-center my-4  py-3 py-md-5">
 	<header class="col-12 mb-2 mb-sm-5">
   	<img src="@asset('images/why-choose-surg.svg')" alt="why choose" />
 	</header> 
