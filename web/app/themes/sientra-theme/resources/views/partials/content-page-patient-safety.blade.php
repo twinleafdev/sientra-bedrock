@@ -88,7 +88,7 @@
   <div class="container my-5">
   
   	<div class="tb row">
-      <h3 class="light">Key Complications Primary Augmentation (smooth and textured devices) Through 10 years,<br>by Patient KM Risk Estimates</h3>
+      <h3 class="light mb-3">Key Complications Primary Augmentation (smooth and textured devices) Through 10 years,<br>by Patient KM Risk Estimates</h3>
   		<article class="col-6 col-md-3">
   			<header>
         <h4>&nbsp;<br>&nbsp;</h4>
@@ -118,7 +118,7 @@
   		
   		<article class="d-md-none col-6 col-md-3">
   			<header>
-        &nbsp;<br>&nbsp;
+        <h4>&nbsp;<br>&nbsp;</h4>
   			</header>
   
         <ul class="list-group">
@@ -145,7 +145,7 @@
   
   		<article class="d-md-none col-6 col-md-3">
   			<header>
-        &nbsp;<br>&nbsp;
+        <h4>&nbsp;<br>&nbsp;</h4>
   			</header>
   
         <ul class="list-group">
@@ -204,7 +204,7 @@
       <!-- 	 -->
 
   <div class="container my-5">
-  <h3 class="light">Key Complications Primary Reconstruction Cohort Through 10 years,<br>by Patient KM Risk Estimates</h3>
+  <h3 class="light mb-3">Key Complications Primary Reconstruction Cohort Through 10 years,<br>by Patient KM Risk Estimates</h3>
   	<div class="tb row">
   		<article class="col-6 col-md-3">
   			<header>
@@ -235,7 +235,7 @@
   		
   		<article class="d-md-none col-6 col-md-3">
   			<header>
-        &nbsp;<br>&nbsp;
+        <h4>&nbsp;<br>&nbsp;</h4>
   			</header>
   
         <ul class="list-group">
@@ -262,7 +262,7 @@
   
   		<article class="d-md-none col-6 col-md-3">
   			<header>
-        &nbsp;<br>&nbsp;
+        <h4>&nbsp;<br>&nbsp;</h4>
   			</header>
   
         <ul class="list-group">

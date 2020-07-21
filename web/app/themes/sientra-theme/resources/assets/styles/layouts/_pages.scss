@@ -3395,11 +3395,27 @@
           padding-bottom: 10px;
           h4 {
             color: #fff;
+            margin: 0;
+            font-size: 1.2rem;
+            @media (min-width: 768px) { 
+              font-size: 1.5rem;
+            }
           }
         }
         ul {
-          li {
+          li.list-group-item {
             display: inline-block;
+            font-size: 0.8rem;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            border-color: $teal;
+            border-right: 0;
+            @media (min-width: 768px) { 
+              font-size: 1.2rem;
+            }
+            
           }
         }
         &.sientra {
@@ -3416,7 +3432,13 @@
         &.allergan {
           header {
             background-color: $teal;
-          }          
+          }
+          ul {
+            li.list-group-item {
+              border-right: 1px solid $teal;
+              
+            }
+          }    
         }
       }
     }
@@ -3597,7 +3619,10 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 20vw;
+    height: 39vw;
+    @media (min-width: 768px) { 
+      height: 20vw;
+    }
     h1 {
       
     }
