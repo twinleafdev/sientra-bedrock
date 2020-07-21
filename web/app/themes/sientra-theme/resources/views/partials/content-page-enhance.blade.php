@@ -13,7 +13,7 @@
   </div>
 </section>
 
-<section class="lead container text-center">
+<section class="lead container text-center mb-5">
   <p>Our ENHANCE Practice Development team offers a wide range of support for 
   loyal Sientra accounts. Our team is the best in the industry on working with practices to increase revenue, practice efficiencies, and education for your entire practice, not just our product offering. You will receive recommendations, 
   support tools, and an action plan to drive practice growth.</p> 

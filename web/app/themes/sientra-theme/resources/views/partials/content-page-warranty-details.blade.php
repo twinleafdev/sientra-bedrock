@@ -15,12 +15,18 @@
 </section>
 
 <section class="comfort row">
+ 
+  <?php the_field('headline'); ?>
+<!--
   <div class="col-4 col-md-2 offset-md-1">
   	<img src="@asset('images/warranty.svg')" alt="warranty" />
   </div>
   <div class="col-8 col-md-6">
   	<img src="@asset('images/take-comfort.svg')" alt="take-comfort" />
   </div>
+-->
+
+
 </section>
 <div class="bg-wrap row">
   <section class="coverage">
