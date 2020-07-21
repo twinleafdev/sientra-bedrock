@@ -25,7 +25,7 @@
 		<header class="col-12">
 			<h2 class="image-h" style="background-image: url(@asset('images/practice-assessment.svg')); height: 6vw;">practice assessment</h2>
 		</header>
-		<article class="col-6">
+		<article class="col-md-6">
 			<h3>Operations</h3>
 			<ul class="opus-list">
         <li>Customer service</li>
@@ -35,14 +35,14 @@
         <li>Patient flow</li>
 			</ul>
 		</article>
-		<article class="col-6">
+		<article class="col-md-6">
 			<h3>Human Resources</h3>
 			<ul class="opus-list">
         <li>Staffing / staff planning</li>
         <li>Training opportunities</li>
 			</ul>
 		</article>
-		<article class="col-6">
+		<article class="col-md-6">
 			<h3>Marketing</h3>
 			<ul class="opus-list">
         <li>Patient acquisition systems</li>
@@ -50,7 +50,7 @@
         <li>Key procedures and sources</li>
 			</ul>
 		</article>
-		<article class="col-6">
+		<article class="col-md-6">
 			<h3>Business and Strategic Planning</h3>
 			<ul class="opus-list">
         <li>Overhead analysis</li>

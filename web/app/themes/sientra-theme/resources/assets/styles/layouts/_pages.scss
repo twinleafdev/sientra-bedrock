@@ -333,7 +333,7 @@
         }
         @media (min-width: $max-width-matters) { 
           height: 100%;
-          width: auto;
+//           width: auto;
         }
         img {
           width: 100%;
@@ -349,11 +349,20 @@
           }
         }
         #matters-video {
-          width: 95%;
-          height: auto;
-          min-height: 35vw;
+          width: 100%;
+//           height: auto;
+//           min-height: 35vw;
+          height: 50vw;
+          @media (min-width: 768px) {
+            width: 95%;
+            height: 20vw;
+          }
           .vjs-big-play-button {
             display: none;
+          }
+          .vjs-poster {
+            background-size: cover;
+            padding-top: 56.25%
           }
         }
       }
@@ -3482,6 +3491,11 @@
     }
   }
   .practice-assessment {
+    header {
+      h2 {
+        min-height: 50px;
+      }
+    }
     article {
 /*
       padding-left: 3%;
@@ -3491,8 +3505,10 @@
         text-align: center;
         color: $orange;
         border: 1px solid $primary;
-        width: 80%;
         margin: 15px auto;
+        @media (min-width: 768px) { 
+          width: 80%;
+        }
       }
       ul {
         width: 70%;
@@ -3512,9 +3528,16 @@
         background-color: $tan;
         padding: 15px;
         ul {
+          padding-inline-start: 10px;
+          @media (min-width: 768px) { 
+            padding-inline-start: 40px;
+          }
           li {
-            font-size: 1.5rem;
+            font-size: 1.1rem;
             margin-bottom: 10px;
+            @media (min-width: 768px) { 
+              font-size: 1.5rem;
+            }
           }
         }
       }
@@ -3609,6 +3632,7 @@
         padding: 5px 20px;
         text-align: center;
         margin: 50px auto 30px;
+        width: 80%;
 
       }
     }

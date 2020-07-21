@@ -53,11 +53,15 @@
 			<header><h3>Silicone Scar Treatment</h3></header>
         <span><a href="" target="_blank">PDF</a> </span> <p>BIOCORNEUM: See Your Beauty, Not Your Scar</p>
   		  		
+<!--
 			<header><h3>FULL CIRCLE Program</h3></header>
         <span><a href="#" target="_blank">WEB</a> </span> <p>We are committed to improving the lives of women with breast cancer</p>
+-->
  		</article>
 		
 	</div><!-- .row -->
+<!--
+	
 	<div class="row commitment">
   	<article class="col-md-8 offset-md-2">
   		<header><h3>Commitment to Safety</h3></header>
@@ -65,9 +69,9 @@
 
   	</article>
 		
-	</div><!-- .row -->
+	</div>	
 	
-	
+-->
 </section>
 
 
