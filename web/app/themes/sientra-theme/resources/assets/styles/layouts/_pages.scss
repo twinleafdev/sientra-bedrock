@@ -71,6 +71,10 @@
     }
   }
   .social-love {
+    h2 {
+      width: 100%;
+      min-height: 120px;
+    }
     .swiper-social {
       width: 100vw;
     }
@@ -726,7 +730,7 @@
     }
   }
   .desired-look {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     max-width: 1250px;
     header h2 {
       transform: translateX(1vw);
@@ -769,7 +773,7 @@
     }
     .optimal-feel {
       .image-h {
-        min-height: 70px;
+        min-height: 75px;
       }
     }
     .press {

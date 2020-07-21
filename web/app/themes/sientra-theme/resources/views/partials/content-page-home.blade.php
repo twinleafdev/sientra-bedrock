@@ -35,7 +35,8 @@
 </section>
 
 <section class="social-love row">
-  <img src="@asset('images/social-love.png')" class="heading mx-auto mt-5 mb-3 img-fluid" alt="social love" width="400" height="123" />
+<!--   <img src="@asset('images/social-love.png')" class="heading mx-auto mt-5 mb-3 img-fluid" alt="social love" width="400" height="123" /> -->
+  <h2 class="image-h mt-5 mb-3" style="background-image: url(@asset('images/social-love.svg')); height: 8vw;">social love</h2>
   <div class="swiper-container swiper-social">
     <div class="swiper-wrapper">
       <div class="swiper-slide justify-content-center">
