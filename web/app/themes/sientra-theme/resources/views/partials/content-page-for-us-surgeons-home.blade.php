@@ -139,7 +139,7 @@ board-certified plastic surgeons</h2>
 <section class="row unmatched align-content-start">
   <header class="col-12 col-md-8">
   	<img src="@asset('images/not-just-warranty.svg')" class="d-none d-md-block" alt="not just a warranty" />
-  	<div class="d-md-none row mb-3"><img src="@asset('images/unmatched-mobile.jpg')" class="img-fluid" alt="unmatched-mobile" width="800" height="1033" /></div>
+  	<div class="d-md-none row mb-3"><img src="@asset('images/unmatched-mobile.jpg')" class="img-fluid w-100" alt="unmatched-mobile" width="800" height="1033" /></div>
   </header>
   <div class="w-100">
   	

@@ -18,7 +18,7 @@
   <div class="inner container-fluid">
     
     
-    <header class="row mb-5 px-5">
+    <header class="row mb-5 px-2 px-md-5">
       <div class="h-line col-12 col-md-7">
         <img src="@asset('images/patient-safety.svg')" alt="patient-safety" />
       </div>
@@ -30,7 +30,7 @@
     <div class="row"> 
       <div class="col-12 evaluated">
       	<h2>A robust 10-year clinical study – the largest breast implant study of its kind – revealed unrivaled safety and clinical results</h2>
-      	<h3><span class="opus heavy">1,788</span> patients enrolled</h3>  <span class="opus">|</span>  <h3>37</span> plastic surgery sites</h3>  <span class="opus">|</span>  <h3>evaluated for <span class="opus heavy">10 years</span></h3>
+      	<h3><span class="opus heavy">1,788</span> patients enrolled</h3>  <span class="opus d-none d-md-inline">|</span>  <h3>37</span> plastic surgery sites</h3>  <span class="opus d-none d-md-inline">|</span>  <h3>evaluated for <span class="opus heavy">10 years</span></h3>
       </div>
     </div>
   </div> 

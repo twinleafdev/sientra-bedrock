@@ -16,7 +16,8 @@
 
 <section class="desired-look text-center mx-auto">
   <header>
-    <img src="@asset('images/implant-options-surg.svg')" class="img-fluid" alt="achieve your desired look" />
+<!--     <img src="@asset('images/implant-options-surg.svg')" class="img-fluid" alt="achieve your desired look" /> -->
+    <h3 class="image-h" style="background-image:url(@asset('images/implant-options-surg.svg'));  height: 16vw; ">achieve your desired look</h3>
   </header>
 	<div class="h2-wrap">
 		<h2>design features unique to all <span class="opus">OPUS</span> implants</h2>

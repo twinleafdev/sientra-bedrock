@@ -1463,7 +1463,9 @@
   .implant-options {
 
     max-width: 1650px;
-    header {      
+    header { 
+      display: flex;
+      flex-direction: column;     
       img {
         transform: translateX(-9%);
         max-width: 475px;
@@ -2923,9 +2925,10 @@
   .desired-look {
     font-size: 1.5rem;
     max-width: 1250px;
-    header img {
+    header .image-h {
       transform: translateX(2%);
       max-width: 555px;
+      min-height: 115px;
     }
     .gel-diagram {
       img {
@@ -3386,19 +3389,26 @@
       }
     }
   }
-  .clinical-outcomes {
+  .clinical-outcomes-mobile {
     background-image: url(../images/clinical-outcome-bg.jpg);
-    background-position: right 48vw;
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    height: 100vw;  
+  }
+  .clinical-outcomes {    
+//     background-position: right 48vw;
     background-size: contain;
     background-repeat: no-repeat; 
     margin-top: 10vw;
     @media (min-width: 768px) { 
       padding-bottom: 10vw;
       background-position: right bottom;
+      background-image: url(../images/clinical-outcome-bg.jpg);
     }
     header {
       margin-top: 0vw;
-      margin-bottom: 100vw;
+//       margin-bottom: 100vw;
       @media (min-width: 768px) {
         margin-top: -10vw;
         margin-bottom: 0;
@@ -3543,6 +3553,14 @@
           line-height: 2.3rem;
           margin-bottom: 0;
           color: $orange;
+        }
+      }
+    }
+    .container {
+      h3 {
+        font-size: 1.4rem;
+        @media (min-width: 768px) { 
+          font-size: 1.75rem;
         }
       }
     }

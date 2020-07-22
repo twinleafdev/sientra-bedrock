@@ -111,6 +111,7 @@
 		<h2 class="image-h" style="background-image:url(@asset('images/clinical-outcomes.svg')); height: 10vw;">Clinical Outcomes</h2>
 		<h3 class="light">AlloX2 improves salvage rates & clinical outcomes<sup>10</sup></h3>
 	</header>
+	<div class="clinical-outcomes-mobile col-12 d-md-none"></div>
 	<div class="info-box col-md-5 offset-md-1">
     <div class="inner light">
       <p>Retrospective review of <span class="opus">112</span> consecutive patients</p> 
@@ -127,6 +128,7 @@
     </ul>
 	</div>
 </section>
+
 <section class="satisfaction row text-center my-5">
   <div class="col-md-8 offset-md-2">
 
