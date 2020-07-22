@@ -1,14 +1,27 @@
 <section class="hero row d-block">
 <!-- 	<img src="@asset('images/surg-home-hero.jpg')" class="img-fluid" alt="surg-home-hero" width="2500" height="1224" /> -->
-<video autoPlay loop muted class="d-none d-md-block">
-  <source src="@asset('images/video/Parntership_AnimatedHeader-R4.mp4')" type="video/mp4">
+<video playsinline autoplay loop muted class="video-js" style="height: 49vw;">
+  <source src="@asset('images/video/Parntership_AnimatedHeader-R4.mp4')" type="video/mp4" media="all and (min-width: 769px)">
 Your browser does not support the video tag.
 </video>
+<!--
 
-<video autoPlay loop muted class="d-md-none">
+<video playsinline autoplay loop muted class="d-md-none">
   <source src="@asset('images/video/Parntership_AnimatedHeader-Mobile-LARGE.mp4')" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+-->
+
+
+<!--
+<video id="video_1" class="video-js vjs-default-skin" controls data-setup='{}' >
+  <source src="@asset('images/video/Parntership_AnimatedHeader-Mobile-LARGE.mp4')" type="video/mp4" label='SD' res='480'>
+  <source src="@asset('images/video/Parntership_AnimatedHeader-R4.mp4')" type="video/mp4" label='HD' res='1080'>
+</video>
+-->
+        
+
+
 
 </section>
 
