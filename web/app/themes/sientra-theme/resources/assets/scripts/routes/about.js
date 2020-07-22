@@ -9,12 +9,16 @@ export default {
     /* eslint-disable no-unused-vars */
     var socialSwiper = new Swiper('.swiper-team', {
       slidesPerView: 1,
-      spaceBetween: 30,
+      spaceBetween: 50,
       freeMode: true,
       loop: true,
       pagination: {
         el: '.swiper-team-pagination',
         clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
       breakpoints: {
         640: {

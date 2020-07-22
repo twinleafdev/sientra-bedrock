@@ -95,7 +95,7 @@ Our shared commitment to excellence. Sientra is the only silicone gel implant br
   <div class="container">
     <div class="row">
     	<div class="col-12 py-md-4 tag">
-      	<img src="@asset('images/feel-good-factor.svg')" alt="feel good factor" />
+      	<img src="@asset('images/confidence-in-choice.svg')" alt="confidence in choice" />
     		<h2>patient satisfaction rates<sup>2</sup></h2>
     	</div>  
   	  

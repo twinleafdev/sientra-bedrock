@@ -2290,6 +2290,9 @@
   .meet {
     .swiper-team {
       background-color: $tan;
+      .swiper-button-next {
+        color: $orange;
+      }
     }
     .swiper-slide {
       .card {        
@@ -2875,10 +2878,15 @@
         padding-right: 4%;
         line-height: 1.7rem;
         img {
-          width: 100%;
+          width: 80%;
           height: auto;
-          max-width: 400px;
+          max-width: 420px;
           margin-bottom: 1.5rem;
+          transform: translateX(-10%);
+          @media (min-width: 768px) { 
+            max-width: 420px;
+          }
+          
         }
         h2 {
           font-family: Avenir-Light, Avenir, sans-serif;

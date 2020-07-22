@@ -81,7 +81,7 @@
   	<h2 class="silver">Meet Sientra</h2>
 	</header>
 	
-  <div class="swiper-container swiper-team p-md-5 p-2 w-100">
+  <div class="swiper-container swiper-team pr-5 p-md-5 p-2 w-100">
     <div class="swiper-wrapper">
       <div class="swiper-slide justify-content-center">
 
@@ -279,7 +279,8 @@
         </div>          
       </div>
     </div><!-- .swiper-wrapper -->
-  
+    <div class="swiper-button-next"></div>
+<!--     <div class="swiper-button-prev"></div>   -->  
   </div>	
 	
 </section>
@@ -303,7 +304,7 @@ to the Sientra Full Circle Fund</p>
         <p><a href="http://sientra.com/fullcircle/about/" class="opus">http://sientra.com/fullcircle/about/</a></p>
       </div>
   	</div>
-  	  	
+	
   </div>
 </section>
 <section class="careers light text-center container my-5">

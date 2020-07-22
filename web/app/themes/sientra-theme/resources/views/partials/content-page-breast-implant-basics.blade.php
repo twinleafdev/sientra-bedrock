@@ -101,7 +101,7 @@
 
           </div>
           
-          <h3 class="text-center"><strong class="opus">Teardrop</strong> shaped implants  <span class="opus">|  5</span> projection levels </h3>
+          <h3 class="text-center"><strong class="opus">Teardrop</strong> shaped implants  <span class="opus">|  2</span> projection levels </h3>
           <div class="teardrop row"> 
             <img src="@asset('images/teardrop-projections_01.jpg')" alt="teardrop-projections_01" width="928" height="518" />
             <img src="@asset('images/teardrop-projections_02.jpg')" alt="teardrop-projections_02" width="927" height="518" />
