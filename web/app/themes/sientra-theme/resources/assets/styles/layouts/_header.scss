@@ -8,9 +8,12 @@
 .banner .nav a {
   @extend .nav-link;
 }
-.us_surgeons .locator {
-  display: none;
-  visibility: hidden;
+.us_surgeons .banner{
+    padding-top: 10px;
+    .locator {
+      display: none;
+      visibility: hidden;
+    }
 }
 .banner {
   .locator {
