@@ -1,9 +1,9 @@
 <section class="connect text-center mb-5">
   <img src="@asset('images/connect.svg')" class="heading mx-auto mt-5 mb-1 img-fluid" alt="connect with us" width="400" height="66" />
   <div class="d-flex justify-content-center mb-1">
-    <img src="@asset('images/facebook.svg')" class="social-icon" alt="facebook" />
-    <img src="@asset('images/instagram.svg')" class="social-icon" alt="instagram" />
-    <img src="@asset('images/linkedin.svg')" class="social-icon" alt="linkedin" />
+    <a href="https://www.facebook.com/SientraInc"><img src="@asset('images/facebook.svg')" class="social-icon" alt="facebook" /></a>
+    <a href="https://www.instagram.com/sientrainc/?hl=en"><img src="@asset('images/instagram.svg')" class="social-icon" alt="instagram" /></a>
+    <a href="https://www.linkedin.com/company/sientrainc"><img src="@asset('images/linkedin.svg')" class="social-icon" alt="linkedin" /></a>
   </div>
 <!--
   <a href="#" class="mb-4 mt-1">CEO Corner</a>
@@ -32,13 +32,13 @@
     <div class="footerMenu row d-flex justify-content-between py-2 align-items-center">
       <div class="col-12 col-md-8 text-center text-md-left">
         <nav class="nav">
-          <a class="nav-link" href="#">PRIVACY STATEMENT </a>
-          <a class="nav-link" href="#">TERMS OF USE</a>
-          <a class="nav-link" href="#">SAFETY</a>
-          <a class="nav-link" href="#">INFORMATION</a>
-          <a class="nav-link" href="#">COMPLIANCE</a>
-          <a class="nav-link" href="#">RESOURCES</a>
-          <a class="nav-link" href="#">PATENTS</a>
+          <a class="nav-link" href="/app/uploads/2020/07/Website-Privacy_071720.pdf">PRIVACY STATEMENT </a>
+          <a class="nav-link" href="/app/uploads/2020/07/Website-Privacy_071720.pdf">TERMS OF USE</a>
+          <a class="nav-link" href="/app/uploads/2020/07/Website-Privacy_071720.pdf">SAFETY</a>
+          <a class="nav-link" href="/app/uploads/2020/07/Website-Privacy_071720.pdf">INFORMATION</a>
+          <a class="nav-link" href="/app/uploads/2020/07/Website-Privacy_071720.pdf">COMPLIANCE</a>
+          <a class="nav-link" href="/app/uploads/2020/07/Website-Privacy_071720.pdf">RESOURCES</a>
+          <a class="nav-link" href="/app/uploads/2020/07/Website-Privacy_071720.pdf">PATENTS</a>
         </nav>
       </div>
       <div class="col-12 col-md-4 text-center text-md-right">© 2020 Sientra, Inc. All rights reserved.</div> 

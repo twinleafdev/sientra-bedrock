@@ -2105,10 +2105,10 @@
   .projection {
     border: 1px solid $orange;
     padding: 0 25px 0;
-    margin-top: 70px;
+    margin-top: 100px;
     header {
       img {
-        margin: -53px auto 30px;
+        margin: -71px auto 30px;
         height: 100px;
         width: auto;
         display: block;
@@ -2116,6 +2116,12 @@
       }
       h3 {
         font-size: 1.4rem;
+        .icon-luxe {
+          font-size: 2em;
+          &:before {
+            width: 4rem;
+          }
+        }
       }
     } 
     img {
