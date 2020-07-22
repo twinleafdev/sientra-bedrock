@@ -79,7 +79,7 @@
 
 <section class="implant-options text-center mx-auto mt-5">
   <header>
-    <img src="@asset('images/implant-options.svg')" class="img-fluid" alt="implant-options" />
+    <img src="@asset('images/implant-options.svg')" class="img-fluid mx-auto" alt="implant-options" />
 		<h2 class="light my-3">available in round and teardrop shape</h2>
   </header>
 	<div class="row">

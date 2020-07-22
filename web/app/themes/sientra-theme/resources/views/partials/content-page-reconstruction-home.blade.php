@@ -3,10 +3,12 @@
 
 </section>
 
-<section class="intro row mb-5" >
+<section class="intro row" >
   <div class="container">
     <header class="mx-auto">
-    	<img src="@asset('images/helping-you-more.svg')" alt="helping-you-more" />
+    	<img src="@asset('images/helping-you-more.svg')" class="d-none d-md-block" alt="helping-you-more" />
+    	<img src="@asset('images/helping-you-more-mobile.svg')" class="d-md-none" alt="helping-you-more" />
+    	
     </header>
   	<div class="col text-center my-5 light">
   		<p>For many women, restoring the look and feel of their breasts can be emotionally rewarding and promote a general sense of well-being. If you are considering breast reconstruction surgery, Sientra has a comprehensive portfolio of options to support you along your reconstructive journey.</p>
@@ -102,9 +104,10 @@
   </div>
    
 </section>
-<section class="quote row my-5">
+<section class="quote row mb-5 my-md-5">
 <!--     <img src="@asset('images/recon-patient-break.jpg')" class="img-fluid my-5" alt="recon-patient-break" width="2500" height="1094" /> -->
-    <img src="@asset('images/jane-cook-quote.svg')" alt="jane-cook-quote" />
+    <img src="@asset('images/jane-cook-quote.svg')" class="d-none d-md-block " alt="jane-cook-quote" />
+    <img src="@asset('images/jane-cook-quote-mobile.svg')" class="d-md-none" alt="jane-cook-quote" />
 </section>
 <section class="options row"> 
   <header class="col-12">

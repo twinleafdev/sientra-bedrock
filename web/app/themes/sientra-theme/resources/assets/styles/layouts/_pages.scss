@@ -1876,13 +1876,25 @@
   .quote {
     background-image: url(../images/recon-patient-break.jpg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 43vw;
+    height: 100vw;
     display: flex;
+    margin-top: 50vw;
+    @media (min-width: 768px) { 
+      height: 43vw;
+      background-size: contain;
+      margin-top: 0;
+    }
     img {
-      width: 40%;
+      width: 100%;
       margin-left: 4%;
+      margin-right: 4%;
+      margin-top: -122vw;
+      @media (min-width: 768px) { 
+        width: 40%;
+        margin-top: 0;
+      }
     }
   }
   .options {
