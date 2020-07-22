@@ -8,7 +8,10 @@
 .banner .nav a {
   @extend .nav-link;
 }
-
+.us_surgeons .locator {
+  display: none;
+  visibility: hidden;
+}
 .banner {
   .locator {
     position: relative;
