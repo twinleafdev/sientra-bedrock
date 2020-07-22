@@ -1,11 +1,11 @@
 <section class="hero row d-block">
 <!-- 	<img src="@asset('images/surg-home-hero.jpg')" class="img-fluid" alt="surg-home-hero" width="2500" height="1224" /> -->
-<video autoplay loop class="d-none d-md-block">
+<video autoPlay loop muted class="d-none d-md-block">
   <source src="@asset('images/video/Parntership_AnimatedHeader-R4.mp4')" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-<video autoplay loop class="d-md-none">
+<video autoPlay loop muted class="d-md-none">
   <source src="@asset('images/video/Parntership_AnimatedHeader-Mobile-LARGE.mp4')" type="video/mp4">
 Your browser does not support the video tag.
 </video>
