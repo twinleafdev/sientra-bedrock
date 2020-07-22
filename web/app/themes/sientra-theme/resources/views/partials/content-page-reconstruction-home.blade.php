@@ -14,8 +14,8 @@
   </div><!-- .container -->
 
 </section>
-<section class="row d-block">
-  <img src="@asset('images/recon-woman-section-break.jpg')" class="img-fluid" alt="recon-woman-section-break" width="2000" height="759" />	
+<section class="recon-woman-section-break row d-block">
+<!--   <img src="@asset('images/recon-woman-section-break.jpg')" class="img-fluid" alt="recon-woman-section-break" width="2000" height="759" />	 -->
 </section>
 <section class="guide text-center container light mt-5">
   <header>
