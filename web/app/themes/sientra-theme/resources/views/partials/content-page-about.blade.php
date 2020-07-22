@@ -95,7 +95,7 @@
           <div class="hover px-4 py-5">
             <div><h2 class="medium opus">Jeffrey Nugent</h2>
             <p class="light">Chairman and<br>Chief Executive Officer</p></div>
-            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <button class="btn" data-toggle="modal" data-target="#bio1">view my profile</button>
             <p class="text-left m-0"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>             
           
           </div>
@@ -132,7 +132,7 @@
           <div class="hover px-4 py-5">
             <div><h2 class="medium opus">Deborah Bettencourt</h2>
             <p class="light">Vice President,<br>Human Resources & Corporate Administration</p></div>
-            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <button class="btn" data-toggle="modal" data-target="#bio3">view my profile</button>
             <p class="text-left m-0"><span class="heavy">Deborah Bettencourt</span> joined Sientra in
 2007 with nearly 20 years of experience in corporate operations and information technology within the medical device Deborah Bettencourt industry. Deborah spent much of her professional career at Inamed Corporation (currently Alleran Medical).</p>             
           </div>
@@ -151,7 +151,7 @@
           <div class="hover px-4 py-5">
             <div><h2 class="medium opus">Dan Carlisle</h2>
             <p class="light">Vice President, Innovation & Product<br>Development, Breast Products</p></div>
-            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <button class="btn" data-toggle="modal" data-target="#bio4">view my profile</button>
             <p class="text-left m-0"><span class="heavy">Dan Carlisle</span> joined Sientra in 2007 and has nearly 30 years of innovative product design and development experience as well as technical expertise in the aesthetic/ surgical market. Prior to joining Sientra, Dan was Senior Director, Technical Marketing at Inamed Corporation (currently Allergan Medical).</p>             
           </div>
         </div>          
@@ -169,7 +169,7 @@
           <div class="hover px-4 py-5">
             <div><h2 class="medium opus">Kirk Gunhus</h2>
             <p class="light">Senior Vice President of<br>Worldwide Sales</p></div>
-            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <button class="btn" data-toggle="modal" data-target="#bio5">view my profile</button>
             <p class="text-left m-0"><span class="heavy">Kirk Gunhus</span> joined Sientra in 2018 as Vice President of International Sales for miraDry. In his current role, Kirk now oversees worldwide sales for both the miraDry and Breast Product segments of the company. Kirk brings over 20 years of commercial experience in the health care and device industry.</p>             
           </div>
         </div>          
@@ -186,7 +186,7 @@
           <div class="hover px-4 py-5">
             <div><h2 class="medium opus">Jeff Jones</h2>
             <p class="light">Vice President, Operations<br> </p></div>
-            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <button class="btn" data-toggle="modal" data-target="#bio6">view my profile</button>
             <p class="text-left m-0"><span class="heavy">Jeff Jones</span> joined Sientra in 2019. He brings over 30 years of operations and quality experience with both medical device start-ups and Fortune 500 companies to Sientra. Most recently, Jeff was Vice President of Quality and Commercial Operations at Earlens, a medical device startup that makes direct-drive hearing devices that sit directly on the eardrum.</p>             
           </div>
         </div>          
@@ -203,7 +203,7 @@
           <div class="hover px-4 py-5">
             <div><h2 class="medium opus">JoAnn Kuhne</h2>
             <p class="light">Vice President, Regulatory Affairs,<br>Quality Assurance & Clinical Operations</p></div>
-            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <button class="btn" data-toggle="modal" data-target="#bio7">view my profile</button>
             <p class="text-left m-0"><span class="heavy">JoAnn Kuhne</span> joined Sientra in 2006 and has more than twenty years of global regulatory and clinical experience. Prior to joining Sientra, JoAnn served as Senior Director, Regulatory Affairs at Inamed Corporation (now Allergan Medical) where she was instrumental in the company’s efforts to obtain PMA approval for the company’s silicone gel breast implants.</p>             
           </div>
         </div>          
@@ -221,7 +221,7 @@
           <div class="hover px-4 py-5">
             <div><h2 class="medium opus">Paul Little</h2>
             <p class="light">Chief Financial Officer,<br>Senior Vice President and Treasurer</p></div>
-            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <button class="btn" data-toggle="modal" data-target="#bio8">view my profile</button>
             <p class="text-left m-0"><span class="heavy">Paul Little</span> joined Sientra in 2018. He brings with him over 30 years of financial and operational management experience with public companies in the aesthetic space. Paul most recently served as Chief Operating Officer at Syneron Candela, a leading global non-surgical aesthetic device company with a wide portfolio of medical aesthetic products.</p>             
           </div>
         </div>          
@@ -239,7 +239,7 @@
           <div class="hover px-4 py-5">
             <div><h2 class="medium opus">Valerie Miller</h2>
             <p class="light">Vice President, Corporate Controller<br> </p></div>
-            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <button class="btn" data-toggle="modal" data-target="#bio9">view my profile</button>
             <p class="text-left m-0"><span class="heavy">Valerie Miller</span> joined Sientra in 2017. She has over 20 years of financial management experience in both public and private healthcare and technology companies. Valerie has held a variety of financial executive level positions. Most recently, she held senior financial positions at The Trade Desk, Inc, which went public in 2016 and at lynda.com.</p>             
           </div>
         </div>          
@@ -256,7 +256,7 @@
           <div class="hover px-4 py-5">
             <div><h2 class="medium opus">Kim Porter</h2>
             <p class="light">Vice President, Corporate Controller<br> </p></div>
-            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <button class="btn" data-toggle="modal" data-target="#bio10">view my profile</button>
             <p class="text-left m-0"><span class="heavy">Kim Porter</span> joined Sientra in 2018. She brings with her over 20 years of Information Technology experience with large government and public companies. Kim most recently served as Deputy Chief Information Officer at the County of Ventura, an award winning digital government agency.</p>             
           </div>
         </div>          
@@ -273,7 +273,7 @@
           <div class="hover px-4 py-5">
             <div><h2 class="medium opus">Lisa Rosas</h2>
             <p class="light">Vice President, Marketing<br> </p></div>
-            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <button class="btn" data-toggle="modal" data-target="#bio11">view my profile</button>
             <p class="text-left m-0"><span class="heavy">Lisa Rosas</span> joined Sientra in 2018. She brings over 20 years of marketing leadership in a wide range of aesthetics businesses. Prior to joining Sientra, Lisa was Vice President of Marketing at Obalon Therapeutics, which went public in 2016, and ZELTIQ Aesthetics, where she played a critical role in establishing category superiority for the CoolSculpting brand.</p>             
           </div>
         </div>          
