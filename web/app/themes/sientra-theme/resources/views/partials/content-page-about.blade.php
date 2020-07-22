@@ -81,7 +81,7 @@
   	<h2 class="silver">Meet Sientra</h2>
 	</header>
 	
-  <div class="swiper-container swiper-team p-md-5 p-2">
+  <div class="swiper-container swiper-team p-md-5 p-2 w-100">
     <div class="swiper-wrapper">
       <div class="swiper-slide justify-content-center">
 
