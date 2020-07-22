@@ -3439,7 +3439,10 @@
       }
     }
     h3 {
-      font-size: 2.0rem;
+      font-size: 1.5rem;
+      @media (min-width: 768px) { 
+        font-size: 2.0rem;
+      }
     }
     .info-box {
       .inner {
@@ -3455,18 +3458,29 @@
     .opus-list {
       padding-left: 20px;
       li {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        @media (min-width: 768px) { 
+          font-size: 1.4rem;
+        }
       }
     }   
   }
   .satisfaction {
     h2 {
+      font-size: 1.7rem;
+      margin-bottom: 15px;
+      @media (min-width: 768px) { 
+        font-size: 2.0rem;
+      }
       .opus {
         font-size: 1.6em;
       }
     }
     p {
-      font-size: 1.4em;
+      font-size: 1.2em;
+      @media (min-width: 768px) { 
+        font-size: 1.4em;
+      }
     }
   }
 }
@@ -3784,7 +3798,7 @@
   .practice-assessment {
     header {
       h2 {
-        min-height: 50px;
+        min-height: 63px;
       }
     }
     article {
@@ -3812,6 +3826,14 @@
 
   }
   .training {
+    header {
+      h2 {
+        font-size: 1.4rem;
+        @media (min-width: 768px) { 
+          font-size: 1.75rem;
+        }
+      }
+    }
     & > div {
       border: 1px solid $primary;
       padding: 15px;
@@ -3960,7 +3982,10 @@
         border: none;         
       }
       span a {
-        margin-bottom: 4rem;
+        margin-bottom: 12rem;
+        @media (min-width: 768px) { 
+          margin-bottom: 4rem;
+        }
       }
     }
   } 
