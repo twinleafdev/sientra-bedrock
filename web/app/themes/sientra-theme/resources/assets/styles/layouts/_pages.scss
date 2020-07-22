@@ -2297,10 +2297,10 @@
         background-position: center top;
         background-size: contain;
         background-repeat: no-repeat;
-        transition: all ease 0.3s;
+        transition: opacity ease 0.3s;
         .hover { 
           opacity: 0;
-          transition: all ease 0.3s;
+          transition: opacity ease 0.3s;
           position: absolute;
           top: 0;
           width: 100%;
@@ -2329,6 +2329,8 @@
           height: 100%;
           width: 100%;
           padding-top: 96%;
+          background-color: transparent;
+          transition: all ease 0.3s;
           .card-title {
             font-size: 1.2rem;
           }
@@ -2340,7 +2342,7 @@
         &:hover {
           .card-bg {
             background-color: rgba(0, 0, 0, 0.86);
-
+            opacity: 1;
             .card-body {
               display: none;
               opacity: 0;

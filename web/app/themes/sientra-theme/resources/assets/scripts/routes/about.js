@@ -8,7 +8,7 @@ export default {
     // JavaScript to be fired on the home page, after the init JS
     /* eslint-disable no-unused-vars */
     var socialSwiper = new Swiper('.swiper-team', {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 30,
       freeMode: true,
       loop: true,
@@ -22,7 +22,7 @@ export default {
           spaceBetween: 20,
         },
         768: {
-          slidesPerView: 3,
+          slidesPerView: 2,
           spaceBetween: 30,
         },
         1024: {

@@ -87,308 +87,199 @@
 
         <div class="card text-center" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));">
           <div class="card-bg">
-                    	
-            <!--   <img class="card-img-top" src="..." alt="Card image cap"> -->
             <div class="card-body">
               <h5 class="card-title medium">Jeffrey Nugent</h5>
               <p class="card-text light">Chairman and<br>Chief Executive Officer</p>
             </div>
-            
           </div>
           <div class="hover px-4 py-5">
-              
-            <div><h2 class="medium opus">Oliver Bennett</h2>
-            <p class="light">General Counsel and<br>VP of Compliance & Legal</p></div>
+            <div><h2 class="medium opus">Jeffrey Nugent</h2>
+            <p class="light">Chairman and<br>Chief Executive Officer</p></div>
             <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
-            <p class="text-left m-0"><span class="heavy">Oliver Bennett</span> joined Sientra in 2015, first
-as outside counsel and then as general counsel to the company, prior to becoming
-General Counsel and Vice President for Oliver Bennett Compliance and Legal in 2018. Oliver brings with him almost two decades of experience in counseling medical device and life science companies in complex high stakes legal issues.</p>
-
-             
-          </div>
+            <p class="text-left m-0"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>             
           
+          </div>
         </div>
 
-
-
-<?php /*
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));"></span>
-                <div>
-                  <h2 class="medium">Jeffrey Nugent</h2>
-                  <p class="light">Chairman and<br>Chief Executive Officer</p>
-                </div>
-              </div>
-              
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));">
-                <div class="px-4 py-5">
-                  <div><h2 class="medium opus">Jeffrey Nugent</h2>
-                  <p class="light">Chairman and<br>Chief Executive Officer</p></div>
-                  <button class="btn" data-toggle="modal" data-target="#bio1">view my profile</button>
-                  <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
-
-                </div>
-              </div>
-
-            </div>
-          </div>
-        
-        */ ?>
-        
-        
       </div> <!-- ./ swiper-slide -->
       
       <div class="swiper-slide justify-content-center">
-
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-oliver-bennett.jpg'));"></span>
-                <div>
-                  <h2 class="medium">Oliver Bennett</h2>
-                  <p class="light">General Counsel and<br>VP of Compliance & Legal</p>
-                </div>
-              </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-oliver-bennett.jpg'));">
-                <div class="px-4 py-5">
-                  <div><h2 class="medium opus">Oliver Bennett</h2>
-                  <p class="light">General Counsel and<br>VP of Compliance & Legal</p></div>
-                  <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
-                  <p class="text-left"><span class="heavy">Oliver Bennett</span> joined Sientra in 2015, first
-as outside counsel and then as general counsel to the company, prior to becoming
-General Counsel and Vice President for Oliver Bennett Compliance and Legal in 2018. Oliver brings with him almost two decades of experience in counseling medical device and life science companies in complex high stakes legal issues.</p>
-
-                </div>
-              </div>
+        <div class="card text-center" style="background-image: url(@asset('images/headshot-oliver-bennett.jpg'));">
+          <div class="card-bg">
+            <div class="card-body">
+              <h5 class="card-title medium">Oliver Bennett</h5>
+              <p class="card-text light">General Counsel and<br>VP of Compliance & LegaZ</p>
             </div>
           </div>
-      </div>
+          <div class="hover px-4 py-5">
+            <div><h2 class="medium opus">Oliver Bennett</h2>
+            <p class="light">General Counsel and<br>VP of Compliance & Legal</p></div>
+            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <p class="text-left m-0"><span class="heavy">Oliver Bennett</span> joined Sientra in 2015, first as outside counsel and then as general counsel to the company, prior to becoming General Counsel and Vice President for Oliver Bennett Compliance and Legal in 2018. Oliver brings with him almost two decades of experience in counseling medical device and life science companies in complex high stakes legal issues.</p>             
+          </div>
+        </div>
+      </div> <!-- ./ swiper-slide -->
 
 
       <div class="swiper-slide justify-content-center">
-
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-deborah-bettencourt.jpg'));"></span>
-                <div>
-                  <h2 class="medium">Deborah Bettencourt</h2>
-                  <p class="light">Vice President,<br>Human Resources & Corporate Administration</p>
-                </div>
-              </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-deborah-bettencourt.jpg'));">
-                <div class="px-4 py-5">
-                  <div><h2 class="medium opus">Deborah Bettencourt</h2>
-                  <p class="light">Vice President,<br>Human Resources & Corporate Administration</p></div>
-                  <button class="btn" data-toggle="modal" data-target="#bio3">view my profile</button>
-                  <p class="text-left"><span class="heavy">Deborah Bettencourt</span> joined Sientra in
-2007 with nearly 20 years of experience in corporate operations and information technology within the medical device Deborah Bettencourt industry. Deborah spent much of her professional career at Inamed Corporation (currently Alleran Medical).</p>
-
-                </div>
-              </div>
+        <div class="card text-center" style="background-image: url(@asset('images/headshot-deborah-bettencourt.jpg'));">
+          <div class="card-bg">
+            <div class="card-body">
+              <h5 class="card-title medium">Deborah Bettencourt</h5>
+              <p class="card-text light">Vice President, Innovation & Product<br>Development, Breast Products</p>
             </div>
           </div>
-      </div>
-      <div class="swiper-slide justify-content-center">
-
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-dan-carlisle.jpg'));"></span>
-                <div>
-                  <h2 class="medium">Dan Carlisle</h2>
-                  <p class="light">Vice President, Innovation & Product<br>Development, Breast Products</p>
-                </div>
-              </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-dan-carlisle.jpg'));">
-                <div class="px-4 py-5">
-                  <div><h2 class="medium opus">Dan Carlisle</h2>
-                  <p class="light">Vice President, Innovation & Product<br>Development, Breast Products</p></div>
-                  <button class="btn" data-toggle="modal" data-target="#bio4">view my profile</button>
-                  <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
-
-                </div>
-              </div>
-            </div>
+          <div class="hover px-4 py-5">
+            <div><h2 class="medium opus">Deborah Bettencourt</h2>
+            <p class="light">Vice President,<br>Human Resources & Corporate Administration</p></div>
+            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <p class="text-left m-0"><span class="heavy">Deborah Bettencourt</span> joined Sientra in
+2007 with nearly 20 years of experience in corporate operations and information technology within the medical device Deborah Bettencourt industry. Deborah spent much of her professional career at Inamed Corporation (currently Alleran Medical).</p>             
           </div>
-        
-        
-      </div>
-      <div class="swiper-slide justify-content-center">
-
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-kirk-gunhus.jpg'));"></span>
-                <div>
-                  <h2 class="medium">Kirk Gunhus</h2>
-                  <p class="light">Senior Vice President of<br>Worldwide Sales</p>
-                </div>
-              </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-kirk-gunhus.jpg'));">
-                <div class="px-4 py-5">
-                  <div><h2 class="medium opus">Kirk Gunhus</h2>
-                  <p class="light">Senior Vice President of<br>Worldwide Sales</p></div>
-                  <button class="btn" data-toggle="modal" data-target="#bio5">view my profile</button>
-                  <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-
-      <div class="swiper-slide justify-content-center">
-
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-jeff-jones.jpg'));"></span>
-                <div>
-                  <h2 class="medium">Jeff Jones</h2>
-                  <p class="light">Vice President, Operations<br> </p>
-                </div>
-              </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-jeff-jones.jpg'));">
-                <div class="px-4 py-5">
-                  <div><h2 class="medium opus">Jeff Jones</h2>
-                  <p class="light">Vice President, Operations<br> </p></div>
-                  <button class="btn" data-toggle="modal" data-target="#bio6">view my profile</button>
-                  <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-
-      <div class="swiper-slide justify-content-center">
-
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-joann-kuhne.jpg'));"></span>
-                <div>
-                  <h2 class="medium">JoAnn Kuhne</h2>
-                  <p class="light">Vice President, Regulatory Affairs,<br>Quality Assurance & Clinical Operations</p>
-                </div>
-              </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-joann-kuhne.jpg'));">
-                <div class="px-4 py-5">
-                  <div><h2 class="medium opus">JoAnn Kuhne</h2>
-                  <p class="light">Vice President, Regulatory Affairs,<br>Quality Assurance & Clinical Operations</p></div>
-                  <button class="btn" data-toggle="modal" data-target="#bio7">view my profile</button>
-                  <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-
-
-      <div class="swiper-slide justify-content-center">
-
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-paul-little.jpg'));"></span>
-                <div>
-                  <h2 class="medium">Paul Little</h2>
-                  <p class="light">Chief Financial Officer,<br>Senior Vice President and Treasurer</p>
-                </div>
-              </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-paul-little.jpg'));">
-                <div class="px-4 py-5">
-                  <div><h2 class="medium opus">Paul Little</h2>
-                  <p class="light">Chief Financial Officer,<br>Senior Vice President and Treasurer</p></div>
-                  <button class="btn" data-toggle="modal" data-target="#bio8">view my profile</button>
-                  <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-
-
-      <div class="swiper-slide justify-content-center">
-
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-valerie-miller.jpg'));"></span>
-                <div>
-                  <h2 class="medium">Valerie Miller</h2>
-                  <p class="light">Vice President, Corporate Controller<br> </p>
-                </div>
-              </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-valerie-miller.jpg'));">
-                <div class="px-4 py-5">
-                  <div><h2 class="medium opus">Valerie Miller</h2>
-                  <p class="light">Vice President, Corporate Controller<br> </p></div>
-                  <button class="btn" data-toggle="modal" data-target="#bio9">view my profile</button>
-                  <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-
-      <div class="swiper-slide justify-content-center">
-
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-kim-porter.jpg'));"></span>
-                <div>
-                  <h2 class="medium">Kim Porter</h2>
-                  <p class="light">Vice President, Corporate Controller<br> </p>
-                </div>
-              </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-kim-porter.jpg'));">
-                <div class="px-4 py-5">
-                  <div><h2 class="medium opus">Kim Porter</h2>
-                  <p class="light">Vice President, Corporate Controller<br> </p></div>
-                  <button class="btn" data-toggle="modal" data-target="#bio10">view my profile</button>
-                  <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-
-      <div class="swiper-slide justify-content-center">
-
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <span class="headshot" style="background-image: url(@asset('images/headshot-lisa-rosas.jpg'));"></span>
-                <div>
-                  <h2 class="medium">Lisa Rosas</h2>
-                  <p class="light">Vice President, Marketing<br> </p>
-                </div>
-              </div>
-              <div class="flip-card-back" style="background-image: url(@asset('images/headshot-lisa-rosas.jpg'));">
-                <div class="px-4 py-5">
-                  <div><h2 class="medium opus">Lisa Rosas</h2>
-                  <p class="light">Vice President, Marketing<br> </p></div>
-                  <button class="btn" data-toggle="modal" data-target="#bio11">view my profile</button>
-                  <p class="text-left"><span class="heavy">Jeffrey Nugent</span> joined Sientra in 2014 as a board member, prior to becoming the Chairman and CEO in 2015. Since his appointment, he has reestablished destroyed supply chain capabilities, expanded into several aesthetic agencies and increased revenue by 4X.</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
+        </div>          
+      </div> <!-- ./ swiper-slide -->
       
       
+      <div class="swiper-slide justify-content-center">
+        <div class="card text-center" style="background-image: url(@asset('images/headshot-dan-carlisle.jpg'));">
+          <div class="card-bg">
+            <div class="card-body">
+              <h5 class="card-title medium">Dan Carlisle</h5>
+              <p class="card-text light">Vice President, Innovation & Product<br>Development, Breast Products</p>
+            </div>
+          </div>
+          <div class="hover px-4 py-5">
+            <div><h2 class="medium opus">Dan Carlisle</h2>
+            <p class="light">Vice President, Innovation & Product<br>Development, Breast Products</p></div>
+            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <p class="text-left m-0"><span class="heavy">Dan Carlisle</span> joined Sientra in 2007 and has nearly 30 years of innovative product design and development experience as well as technical expertise in the aesthetic/ surgical market. Prior to joining Sientra, Dan was Senior Director, Technical Marketing at Inamed Corporation (currently Allergan Medical).</p>             
+          </div>
+        </div>          
+      </div> <!-- ./ swiper-slide -->
+      
+      
+      <div class="swiper-slide justify-content-center">
+        <div class="card text-center" style="background-image: url(@asset('images/headshot-kirk-gunhus.jpg'));">
+          <div class="card-bg">
+            <div class="card-body">
+              <h5 class="card-title medium">Kirk Gunhus</h5>
+              <p class="card-text light">Senior Vice President of<br>Worldwide Sales</p>
+            </div>
+          </div>
+          <div class="hover px-4 py-5">
+            <div><h2 class="medium opus">Kirk Gunhus</h2>
+            <p class="light">Senior Vice President of<br>Worldwide Sales</p></div>
+            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <p class="text-left m-0"><span class="heavy">Kirk Gunhus</span> joined Sientra in 2018 as Vice President of International Sales for miraDry. In his current role, Kirk now oversees worldwide sales for both the miraDry and Breast Product segments of the company. Kirk brings over 20 years of commercial experience in the health care and device industry.</p>             
+          </div>
+        </div>          
+      </div> <!-- ./ swiper-slide -->
 
+      <div class="swiper-slide justify-content-center">
+        <div class="card text-center" style="background-image: url(@asset('images/headshot-jeff-jones.jpg'));">
+          <div class="card-bg">
+            <div class="card-body">
+              <h5 class="card-title medium">Jeff Jones</h5>
+              <p class="card-text light">Vice President, Operations<br> </p>
+            </div>
+          </div>
+          <div class="hover px-4 py-5">
+            <div><h2 class="medium opus">Jeff Jones</h2>
+            <p class="light">Vice President, Operations<br> </p></div>
+            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <p class="text-left m-0"><span class="heavy">Jeff Jones</span> joined Sientra in 2019. He brings over 30 years of operations and quality experience with both medical device start-ups and Fortune 500 companies to Sientra. Most recently, Jeff was Vice President of Quality and Commercial Operations at Earlens, a medical device startup that makes direct-drive hearing devices that sit directly on the eardrum.</p>             
+          </div>
+        </div>          
+      </div> <!-- ./ swiper-slide -->
+
+      <div class="swiper-slide justify-content-center">
+        <div class="card text-center" style="background-image: url(@asset('images/headshot-joann-kuhne.jpg'));">
+          <div class="card-bg">
+            <div class="card-body">
+              <h5 class="card-title medium">JoAnn Kuhne</h5>
+              <p class="card-text light">Vice President, Regulatory Affairs,<br>Quality Assurance & Clinical Operations</p>
+            </div>
+          </div>
+          <div class="hover px-4 py-5">
+            <div><h2 class="medium opus">JoAnn Kuhne</h2>
+            <p class="light">Vice President, Regulatory Affairs,<br>Quality Assurance & Clinical Operations</p></div>
+            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <p class="text-left m-0"><span class="heavy">JoAnn Kuhne</span> joined Sientra in 2006 and has more than twenty years of global regulatory and clinical experience. Prior to joining Sientra, JoAnn served as Senior Director, Regulatory Affairs at Inamed Corporation (now Allergan Medical) where she was instrumental in the company’s efforts to obtain PMA approval for the company’s silicone gel breast implants.</p>             
+          </div>
+        </div>          
+      </div> <!-- ./ swiper-slide -->
+
+
+      <div class="swiper-slide justify-content-center">
+        <div class="card text-center" style="background-image: url(@asset('images/headshot-paul-little.jpg'));">
+          <div class="card-bg">
+            <div class="card-body">
+              <h5 class="card-title medium">Paul Little</h5>
+              <p class="card-text light">Chief Financial Officer,<br>Senior Vice President and Treasurer</p>
+            </div>
+          </div>
+          <div class="hover px-4 py-5">
+            <div><h2 class="medium opus">Paul Little</h2>
+            <p class="light">Chief Financial Officer,<br>Senior Vice President and Treasurer</p></div>
+            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <p class="text-left m-0"><span class="heavy">Paul Little</span> joined Sientra in 2018. He brings with him over 30 years of financial and operational management experience with public companies in the aesthetic space. Paul most recently served as Chief Operating Officer at Syneron Candela, a leading global non-surgical aesthetic device company with a wide portfolio of medical aesthetic products.</p>             
+          </div>
+        </div>          
+      </div> <!-- ./ swiper-slide -->
+
+
+      <div class="swiper-slide justify-content-center">
+        <div class="card text-center" style="background-image: url(@asset('images/headshot-valerie-miller.jpg'));">
+          <div class="card-bg">
+            <div class="card-body">
+              <h5 class="card-title medium">Valerie Miller</h5>
+              <p class="card-text light">Vice President, Corporate Controller<br> </p>
+            </div>
+          </div>
+          <div class="hover px-4 py-5">
+            <div><h2 class="medium opus">Valerie Miller</h2>
+            <p class="light">Vice President, Corporate Controller<br> </p></div>
+            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <p class="text-left m-0"><span class="heavy">Valerie Miller</span> joined Sientra in 2017. She has over 20 years of financial management experience in both public and private healthcare and technology companies. Valerie has held a variety of financial executive level positions. Most recently, she held senior financial positions at The Trade Desk, Inc, which went public in 2016 and at lynda.com.</p>             
+          </div>
+        </div>          
+      </div> <!-- ./ swiper-slide -->
+
+      <div class="swiper-slide justify-content-center">
+        <div class="card text-center" style="background-image: url(@asset('images/headshot-kim-porter.jpg'));">
+          <div class="card-bg">
+            <div class="card-body">
+              <h5 class="card-title medium">Kim Porter</h5>
+              <p class="card-text light">Vice President, Corporate Controller<br> </p>
+            </div>
+          </div>
+          <div class="hover px-4 py-5">
+            <div><h2 class="medium opus">Kim Porter</h2>
+            <p class="light">Vice President, Corporate Controller<br> </p></div>
+            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <p class="text-left m-0"><span class="heavy">Kim Porter</span> joined Sientra in 2018. She brings with her over 20 years of Information Technology experience with large government and public companies. Kim most recently served as Deputy Chief Information Officer at the County of Ventura, an award winning digital government agency.</p>             
+          </div>
+        </div>          
+      </div> <!-- ./ swiper-slide -->
+
+      <div class="swiper-slide justify-content-center">
+        <div class="card text-center" style="background-image: url(@asset('images/headshot-lisa-rosas.jpg'));">
+          <div class="card-bg">
+            <div class="card-body">
+              <h5 class="card-title medium">Lisa Rosas</h5>
+              <p class="card-text light">Vice President, Marketing<br> </p>
+            </div>
+          </div>
+          <div class="hover px-4 py-5">
+            <div><h2 class="medium opus">Lisa Rosas</h2>
+            <p class="light">Vice President, Marketing<br> </p></div>
+            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <p class="text-left m-0"><span class="heavy">Lisa Rosas</span> joined Sientra in 2018. She brings over 20 years of marketing leadership in a wide range of aesthetics businesses. Prior to joining Sientra, Lisa was Vice President of Marketing at Obalon Therapeutics, which went public in 2016, and ZELTIQ Aesthetics, where she played a critical role in establishing category superiority for the CoolSculpting brand.</p>             
+          </div>
+        </div>          
+      </div>
     </div><!-- .swiper-wrapper -->
+  
   </div>	
 	
 </section>
