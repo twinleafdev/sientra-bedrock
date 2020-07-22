@@ -85,7 +85,33 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide justify-content-center">
 
+        <div class="card text-center" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));">
+          <div class="card-bg">
+                    	
+            <!--   <img class="card-img-top" src="..." alt="Card image cap"> -->
+            <div class="card-body">
+              <h5 class="card-title medium">Jeffrey Nugent</h5>
+              <p class="card-text light">Chairman and<br>Chief Executive Officer</p>
+            </div>
+            
+          </div>
+          <div class="hover px-4 py-5">
+              
+            <div><h2 class="medium opus">Oliver Bennett</h2>
+            <p class="light">General Counsel and<br>VP of Compliance & Legal</p></div>
+            <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
+            <p class="text-left m-0"><span class="heavy">Oliver Bennett</span> joined Sientra in 2015, first
+as outside counsel and then as general counsel to the company, prior to becoming
+General Counsel and Vice President for Oliver Bennett Compliance and Legal in 2018. Oliver brings with him almost two decades of experience in counseling medical device and life science companies in complex high stakes legal issues.</p>
 
+             
+          </div>
+          
+        </div>
+
+
+
+<?php /*
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
@@ -95,6 +121,7 @@
                   <p class="light">Chairman and<br>Chief Executive Officer</p>
                 </div>
               </div>
+              
               <div class="flip-card-back" style="background-image: url(@asset('images/headshot-jeffrey-nugent.jpg'));">
                 <div class="px-4 py-5">
                   <div><h2 class="medium opus">Jeffrey Nugent</h2>
@@ -104,10 +131,14 @@
 
                 </div>
               </div>
+
             </div>
           </div>
-  
-      </div>
+        
+        */ ?>
+        
+        
+      </div> <!-- ./ swiper-slide -->
       
       <div class="swiper-slide justify-content-center">
 
