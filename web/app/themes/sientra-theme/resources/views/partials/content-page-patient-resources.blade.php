@@ -73,7 +73,7 @@
 		</article>
 		<article class="col">
 
-			<header><h3><?php the_field('column_4_header'); ?></h3></header>
+			<header id="warranty"><h3><?php the_field('column_4_header'); ?></h3></header>
 			<?php // Check rows exists.
 			if( have_rows('column_4') ):
 

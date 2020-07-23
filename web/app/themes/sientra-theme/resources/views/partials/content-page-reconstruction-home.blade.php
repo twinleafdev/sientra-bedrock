@@ -55,7 +55,7 @@
   		<h2 class="image-h" style="background-image: url(@asset('images/step-two.svg'))">Step Two</h2>
   	</div>
     <div class="col-12 col-md-9 d-flex align-items-center flex-column flex-md-row order-md-1">
-      Once the pocket is formed (typically within 2-6 months following surgery) the tissue expander is removed and replaced with a long-term breast implant	
+      Once the pocket is formed (typically within 2-6 months following surgery) the tissue expander is removed and replaced with a long-term breast implant<sup>2</sup>	
       <img src="@asset('images/step-two-diagram.svg')" class="img-fluid d-block d-md-none" alt="step-two-diagram" />
     </div>
 

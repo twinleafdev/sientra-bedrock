@@ -19,7 +19,7 @@
 	<div class="low projection row">
   	<header class="col-12 text-center">
     	<img src="@asset('images/patient-one.svg')" alt="patient-one" />
-      <h3>AlloX2 Mid-Height tissue expander exchanged for Sientra <span class="opus">OPUS</span> <i class="icon-curve"></i>  <br>shaped implant, oval base, high projection implant</h3>
+      <h3>AlloX2 Mid-Height tissue expander exchanged for Sientra <span class="opus">OPUS</span> <i class="icon-curve"></i>  <br>shaped implant, oval base, high projection</h3>
   	</header>
       <article class="col-12 col-md-4"><img src="@asset('images/Sientra_RECON-BeforeAfters-ONE.jpg')" alt="recon-b-a_01" width="2083" height="1375" /></article>
       <article class="col-12 col-md-4"><img src="@asset('images/Sientra_RECON-BeforeAfters-ONE2.jpg')" alt="recon-b-a_02" width="2083" height="1375" /></article>

@@ -108,7 +108,7 @@
           <div class="card-bg">
             <div class="card-body">
               <h5 class="card-title medium">Oliver Bennett</h5>
-              <p class="card-text light">General Counsel and<br>VP of Compliance & LegaZ</p>
+              <p class="card-text light">General Counsel and<br>VP of Compliance & Legal</p>
             </div>
           </div>
           <div class="hover px-4 py-5">
