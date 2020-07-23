@@ -95,7 +95,7 @@
           <span><a href="" target="_blank">PDF</a> </span> <p>Sientra Warranty Terms & Conditions</p>
           <span><a href="" target="_blank">PDF</a> </span> <p>CapCon Care Program Terms & Conditions</p>
           <p>On or After May 1, 2018</p>
-          <span><a href="" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Terms & Conditions</p>
+          <span><a href="/app/uploads/2020/07/LGL-0006-R4-Sientra-Platinum20-Warranty-Terms-and-Conditions-Fianl-3-6-20202.pdf" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Terms & Conditions</p>
   		</article>
   		
 
