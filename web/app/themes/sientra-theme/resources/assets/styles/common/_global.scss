@@ -459,6 +459,7 @@ $height1: 41vw;
 			bottom: 0;
 			left: 15%;
 			height: 100%;
+			width: 100%;
 			z-index: 1;
 			background-position: center left;
 			background-size: contain;
@@ -473,6 +474,8 @@ $height1: 41vw;
 			  // margin-bottom: -28px;
 			  transform: translateY(200%);
 			  margin-left: -25px;
+			  width: 100%;
+			  text-align: left;
 		  }
 			&.low {
 				background-image: url(../images/curve-projection-low.png);
