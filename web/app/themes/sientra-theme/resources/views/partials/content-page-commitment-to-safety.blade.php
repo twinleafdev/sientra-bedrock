@@ -115,22 +115,31 @@ we encourage you to reach out to your board-certified plastic surgeon. </p>
 	<div class="row">
 		<article class="col-12 col-md-6">
 			<header class="mb-4"><h3 class="image-h" style="background-image:url(@asset('images/for-physicians.svg'));  height: 4.5vw; ">For Physicians</h3></header>
-        <span><a href="@asset('images/aug/MDC-0351_R1_OPUS_Luxe_Patient_Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
-        <span><a href="@asset('images/aug/Sientra_Patient_Planning_Guide_Breast_Augmentation.pdf')" target="_blank">PDF</a> </span> <p>Sientra Patient Planning Guide: Breast Augmentation</p>
-        <span><a href="@asset('images/aug/Sientra_PatientLabel_Augmentation_MDC-0010_R2_11-7-17.pdf')" target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p>
-        <span><a href="@asset('images/aug/Sientra_Silicone_Gel_Breast_Implants_Quick_Facts_About_Breast_Augmentation_and_Reconstruction.pdf')" target="_blank">PDF</a> </span> <p>Patient Educational Brochure: Breast Augmentation With Sientra Silicone Gel Breast Implants</p>
-        <span><a href="@asset('images/aug/MDC-0298_R2_Platinum20_Patient_Leaflet.pdf')" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Program Information Pamphlet</p>
+		
+        <span><a href="#" target="_blank">PDF</a> </span> <p>Letter to Plastic Surgeons – FDA Breast Panel Statement</p>
+        <span><a href="#" target="_blank">PDF</a> </span> <p>Letter to Plastic Surgeons – Breast Implant Safety Update, February 2019</p>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>Sientra Breast Implant Warranty Information</p>
+        <span><a href="#" target="_blank">PDF</a> </span> <p>2019 BIA-ALCL Frequently Asked Questions from Sientra Medical Affairs</p>
+        <span><a href="#" target="_blank">PDF</a> </span> <p>Surgical Best Practices: 14-Point Plan</p>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>ASPS – Important Notes About Breast Implant Safety</p>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>ASPS – FDA Announcement and Registry Information</p>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>ASAPS – Breast Implant-Associated Illness References</p>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>FDA – Summary of Breast Implant Risks</p>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>FDA- Statement on new efforts to protect women’s health and ensure safety of breast implants</p>
+
 		</article>
 		
 		<article class="col-12 col-md-6 patient">
   		  		
 			<header class="mb-4"><h3 class="image-h" style="background-image:url(@asset('images/for-your-patients.svg')); height: 4.8vw; ">For Your Patients</h3></header>
-        <span><a href="@asset('images/recon/MDC-0351_R1_OPUS_Luxe_Patient_Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p>
-        <span><a href="@asset('images/recon/Sientra_Patient_Planning_Guide_Breast_Augmentation.pdf')" target="_blank">PDF</a> </span> <p>Sientra Patient Planning Guide: Breast Reconstruction</p>
-        <span><a href="@asset('images/recon/Sientra_Silicone_Gel_Breast_Implants_Quick_Facts_About_Breast_Augmentation_and_Reconstruction.pdf') " target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p>
-        <span><a href="@asset('images/recon/Sientra_PatientLabel_Augmentation_MDC-0010_R2_11-7-17.pdf')" target="_blank">PDF</a> </span> <p>Patient Educational Brochure: Breast Reconstruction With Sientra Silicone Gel Breast Implants</p>
-        <span><a href="@asset('images/recon/MDC-0009_R2_Warranty.pdf')" target="_blank">PDF</a> </span> <p>The Sientra Platinum20<sup>TM</sup> Limited Warranty & Lifetime Product Replacement Program Brochure</p>
-        <span><a href="@asset('images/recon/MDC-0298_R2_Platinum20_Patient_Leaflet.pdf')" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Program Information Pamphlet</p>
+        <span><a href="#" target="_blank">PDF</a> </span> <p>Safety of Silicone</p>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>Sientra Breast Implant Safety Data</p>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>Sientra Breast Implant Warranty Information</p>
+        <span><a href="#" target="_blank">PDF</a> </span> <p>Sientra Breast Augmentation Patient Educational Brochure</p>
+        <span><a href="#" target="_blank">PDF</a> </span> <p>Sientra Breast Reconstruction Patient Educational Brochure</p>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>ASPS – Important Notes About Breast Implant Safety</p>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>ASAPS – Breast Implant-Associated Illness References</p>
+        <span><a href="#" target="_blank">WEB</a> </span> <p>FDA – Summary of Breast Implant Risks</p>
 
 		</article>
 	
