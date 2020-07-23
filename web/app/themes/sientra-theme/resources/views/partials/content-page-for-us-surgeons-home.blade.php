@@ -1,9 +1,59 @@
 <section class="hero row d-block">
 <!-- 	<img src="@asset('images/surg-home-hero.jpg')" class="img-fluid" alt="surg-home-hero" width="2500" height="1224" /> -->
-<video playsinline autoplay loop muted class="video-js" style="height: 49vw;">
-  <source src="@asset('images/video/Parntership_AnimatedHeader-R4.mp4')" type="video/mp4" media="all and (min-width: 769px)">
+<!--
+<video 
+  class="video-js"
+    style="height: 49vw;"
+    data-setup='{"controls": "false", "autoplay": "true", "preload": "auto"}' >
+  <source src="@asset('images/video/Parntership_AnimatedHeader-R4.mp4')" type="video/mp4" >
 Your browser does not support the video tag.
 </video>
+-->
+
+<video
+    autoplay
+    muted
+    loop
+    id="my-video"
+    class="video-js d-md-none"
+    preload="auto"
+    autoplay="true"
+    data-setup="{}"
+  >
+      <source src="@asset('images/video/Parntership_AnimatedHeader-Mobile-LARGE.mp4')" type="video/mp4" >
+
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
+
+<video
+    autoplay
+    muted
+    loop
+    id="my-video"
+    class="video-js d-none d-md-block"
+    preload="auto"
+    autoplay="true"
+    data-setup="{}"
+  >
+  <source src="@asset('images/video/Parntership_AnimatedHeader-R4.mp4')" type="video/mp4" >
+
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
+
+
+
 <!--
 
 <video playsinline autoplay loop muted class="d-md-none">
