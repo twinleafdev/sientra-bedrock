@@ -113,6 +113,52 @@ our commitment to your health and safety.
 	<header class="col-12 my-5">
 		<img src="@asset('images/board-certified-matters.svg')" alt="board-certified-matters" />
 	</header>
+</section>
+<section class="matters-vid boxy-box text-center">
+  <div class="wrap px-0 pl-lg-3">  	
+  	
+  	<div class="col-12 col-lg-5 message bg-white">
+      <div class="message-inner">
+        <video
+            id="matters-video"
+            class="video-js"
+            controls
+            preload="auto"
+            poster="@asset('images/pittman.jpg')"
+            data-setup='{}'>
+          <source src="@asset('images/video/Sientra_Dr_Pittman_Consumer_Testimonial_B_PG_003.mp4')" type="video/mp4"></source>
+  
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">
+              supports HTML5 video
+            </a>
+          </p>
+        </video>
+
+      </div>
+  	</div>
+  	
+  	
+  	<div class="col-12 col-lg-8 model text-left pl-lg-3">
+    	<div>
+        <h2>Is your plastic surgeon board-certified?</h2>
+        <p>This is the first criteria to consider when researching a surgeon. Not all surgeons who perform breast augmentation are board-certified. Board-certification requires the highest level of surgical training and education and, as a result, is shown to minimize complications related to breast surgery.<sup>3</sup></p>
+        <p><span class="opus">ONLY</span> Sientra implants are available exclusively through board-certified plastic surgeons. You can trust if a surgeon offers Sientra, they are board-certified. </p>
+        <h3 class="image-h mx-auto" style="background-image:url(@asset('images/14yrs.svg'));  height: 10vw; ">14 years of formalized training and experience</h3>
+
+      </div>
+  	</div>
+  	  	
+  </div>
+</section>
+
+<?php /*
+<section class="row matters text-center">
+	<header class="col-12 my-5">
+		<img src="@asset('images/board-certified-matters.svg')" alt="board-certified-matters" />
+	</header>
   <div class="col wrap">
   	
   	<div class="col-12 col-lg-6 col-xl-5 imgwrap">
@@ -151,6 +197,9 @@ our commitment to your health and safety.
 
   </div>
 </section>
+
+*/ ?>
+
 <section class="love my-5">
 	<div class="col-12 col-md-5">
 		<img src="@asset('images/woman-love-results.svg')" alt="woman love the results" />

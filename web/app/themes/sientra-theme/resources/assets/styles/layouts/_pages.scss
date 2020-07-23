@@ -277,6 +277,88 @@
       }
     }
   }
+  
+  
+  .matters-vid.boxy-box {
+    .wrap {
+      .model {
+        order: 2;
+         border: 1px solid $primary;
+         padding: 15px;
+        @media (min-width: 992px) {
+          margin-left: calc(-8.33333% + 15px);
+        }
+        div {
+          padding: 15px;
+          background-color: $tan;
+          @media (min-width: 768px) { 
+            padding: 20px;
+          }
+          @media (min-width: 992px) { 
+            padding: 20px 10% 20px 15%;
+          }
+          h2 {
+            font-size: 1.5rem;
+            color: $orange;
+            border: 1px solid #fff;
+            padding: 5px;
+            display: block;
+            text-align: center;
+            font-family: 'Avenir-Medium', Avenir, sans-serif;
+            margin-bottom: 1.5rem;
+            @media (min-width: 768px) {
+              font-size: 1.8rem;
+              padding: 5px 45px;
+              
+            }
+            @media (min-width: 992px) { 
+              display: inline-block;
+            }
+          }
+          p {
+            font-size: 1.2rem;
+            text-align: center;
+            margin-bottom: 15px;
+            @media (min-width: 768px) { 
+              font-size: 1.5rem;
+            }
+          }
+          h3 {
+            min-height: 100px;
+          }
+        }
+      }
+      .message {
+        order: 1;
+        padding: 0;
+        @media (min-width: 992px) {
+          margin-left: -30px;
+        }   
+        .message-inner {
+          border: none;
+          padding: 0;
+          .video-js {
+            width: 100%;
+            height: 49vw;
+            @media (min-width: 992px) { 
+              height: 21vw;
+            }
+            .vjs-big-play-button {
+              display: none;
+            }
+          }
+          img {
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+
+  
+  
+  
   $max-width-matters: 1650px;
   $break1: 41vw;
   $break2: 60vw;
@@ -365,7 +447,7 @@
 //           height: auto;
 //           min-height: 35vw;
           height: 50vw;
-          @media (min-width: 768px) {
+          @media (min-width: 992px) {
             width: 95%;
             height: 20vw;
           }
