@@ -419,6 +419,7 @@ $height1: 41vw;
     position: relative;
 		flex-direction: column;
 		align-items: center;
+		overflow: hidden;
 		&:hover .projection-bg.default {
 			opacity: 0;
 		}
