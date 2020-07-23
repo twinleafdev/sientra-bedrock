@@ -2235,6 +2235,10 @@
 
 .about {
   .hero {
+    video {
+      width: 100%;
+    }
+/*
     background-image: url(../images/about-hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -2246,6 +2250,7 @@
       width: 100%;
       height: 19vw;
     }
+*/
   }
   .brands {
     font-size: 0.8rem;
