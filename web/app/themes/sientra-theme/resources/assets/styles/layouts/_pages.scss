@@ -2686,15 +2686,8 @@
 
 .for-us-surgeons {
   .hero {
-    .video-js {
-      width: 100%;
-      height: 125vw;
-      @media (min-width: 768px) {
-        height: 49vw;
-      }
-      video {
+    video {
         width: 100%;
-    }
     }
   } 
   .why-choose {
@@ -2766,7 +2759,7 @@
     background-position: 84% center;
     background-size: cover;
     background-repeat: no-repeat;
- 
+
   }
   .patient-safety-break {
     background-repeat: no-repeat;
@@ -2781,6 +2774,9 @@
       background-size: contain;
       background-position: center center;
       color: #fff;
+      font-size: 1.75rem;
+    }
+    @media (min-width: 992px) { 
       font-size: 2.25rem;
     }
 
