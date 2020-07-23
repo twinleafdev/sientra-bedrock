@@ -33,7 +33,7 @@
 		<article class="col-12 col-md-6">
 			<h2 class="book">No restocking penalty or fees</h2>
 			<div class="light">
-        <img src="@asset('images/icon-shipping.svg')" class="icon w-25" alt="icon-shipping" />
+        <img src="@asset('images/icon-fees.svg')" class="icon w-25" alt="icon-shipping" />
         <ul class="opus-list-dash">
           <li>Receive full-credit for all returns up to 6 months. </li>				
         </ul>
@@ -45,7 +45,7 @@
 		<article class="col-12 col-md-6">
 			<h2 class="book">Provisional stock ordering</h2>
 			<div class="light">
-        <img src="@asset('images/icon-shipping.svg')" class="icon w-25" alt="icon-shipping" />
+        <img src="@asset('images/icon-stock.svg')" class="icon w-25" alt="icon-shipping" />
         <ul class="opus-list-dash">
           <li>No billing for 35 days. Order up to 24 devices, use what you need, and return the rest. This ensures you are only billed for the products you use. </li>				
         </ul>
@@ -55,7 +55,7 @@
 		<article class="col-12 col-md-6">
 			<h2 class="book">Consignments</h2>
 			<div class="light">
-        <img src="@asset('images/icon-shipping.svg')" class="icon w-25" alt="icon-shipping" />
+        <img src="@asset('images/icon-consign.svg')" class="icon w-25" alt="icon-shipping" />
         <ul class="opus-list-dash">
           <li>A generous consignment allotment helps ensure products are available when you need them. </li>				
         </ul>
@@ -67,7 +67,7 @@
 		<article class="col-12 col-md-6">
 			<h2 class="book">Extended ordering hours</h2>
 			<div class="light">
-        <img src="@asset('images/icon-shipping.svg')" class="icon w-25" alt="icon-shipping" />
+        <img src="@asset('images/icon-hours.svg')" class="icon w-25" alt="icon-shipping" />
         <ul class="opus-list-dash">
           <li>Our ordering lines are open longer to better accommodate your schedule</li>				
         </ul>
@@ -77,7 +77,7 @@
 		<article class="col-12 col-md-6">
 			<h2 class="book">Continuing education series</h2>
 			<div class="light">
-        <img src="@asset('images/icon-shipping.svg')" class="icon w-25" alt="icon-shipping" />
+        <img src="@asset('images/icon-education.svg')" class="icon w-25" alt="icon-shipping" />
         <ul class="opus-list-dash">
           <li>Learn about the latest surgical techniques and best practices from some of the country’s leading plastic and reconstructive surgeons.</li>				
         </ul>
