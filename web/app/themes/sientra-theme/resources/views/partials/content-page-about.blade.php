@@ -1,4 +1,4 @@
-<section class="hero row">
+<section class="hero row d-block">
 <!-- 	<h1 class="image-h" style="background-image: url(@asset('images/about-hero-txt.svg'))">Advanced science. Exceptional Service. Unrivaled Safety.</h1> -->
 
 
@@ -89,7 +89,7 @@
   	<h2 class="silver">Meet Sientra</h2>
 	</header>
 	
-  <div class="swiper-container swiper-team pr-5 p-md-5 p-2 w-100">
+  <div class="swiper-container swiper-team px-5 p-md-5 p-2 w-100">
     <div class="swiper-wrapper">
       <div class="swiper-slide justify-content-center">
 
@@ -288,7 +288,7 @@
       </div>
     </div><!-- .swiper-wrapper -->
     <div class="swiper-button-next"></div>
-<!--     <div class="swiper-button-prev"></div>   -->  
+    <div class="swiper-button-prev"></div>    
   </div>	
 	
 </section>
