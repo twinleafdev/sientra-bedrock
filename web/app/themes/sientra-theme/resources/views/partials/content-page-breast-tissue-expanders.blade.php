@@ -82,7 +82,7 @@
     	</div>
     	<div class="col-md-4 px-5">
       	<img src="@asset('images/risk_icon_3.svg')" class="icon w-50 img-fluid mx-auto d-block" alt="risk_icon_3" />
-    		<p>Clinically relevant infections with poor salvage rates occurred in nearly 1/5 of seroma patients (18.8%)4</p>
+    		<p>Clinically relevant infections with poor salvage rates occurred in nearly 1/5 of seroma patients (18.8%)<sup>4</sup></p>
     	</div>
     </div>
   </div><!-- .container -->

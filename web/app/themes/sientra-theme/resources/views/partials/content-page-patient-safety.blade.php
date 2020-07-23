@@ -311,7 +311,7 @@ board-certified plastic surgeons. The data shows they have superior long-term ru
 
     </div>
     <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
+<!--     <div class="swiper-pagination"></div> -->
 
 </div>
 </section>

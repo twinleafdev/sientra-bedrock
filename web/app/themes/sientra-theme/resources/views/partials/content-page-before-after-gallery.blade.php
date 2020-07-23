@@ -38,7 +38,7 @@
     <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-ModProjection3.jpg')" alt="before-after_mod_03" width="2083" height="1833" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-ModProjection4.jpg')" alt="before-after_mod_04" width="2083" height="1833" /></article>
     <footer class="col-12 text-center light">
-    	<p class="text-center light">Photos courtesy of Dr. Jennifer Harrington</p>
+    	<p class="text-center light">Photos courtesy of Dr. Robert Cohen</p>
     </footer>
 	</div><!-- .container -->
 	
@@ -49,7 +49,7 @@
     <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-ModPlusProjection3.jpg')" alt="before-after_modplus_03" width="2083" height="1833" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-ModPlusProjection4.jpg')" alt="before-after_modplus_04" width="2083" height="1833" /></article>
     <footer class="col-12 text-center light">
-    	<p class="text-center light">Photos courtesy of Dr. Sean Kelishad</p>
+    	<p class="text-center light">Photos courtesy of Dr. Joshua Waltzman </p>
     </footer>
 	</div><!-- .container -->
 	
@@ -60,7 +60,7 @@
     <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-HighProjection3.jpg')" alt="before-after_high_03" width="2083" height="1833" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-HighProjection4.jpg')" alt="before-after_high_04" width="2083" height="1833" /></article>
     <footer class="col-12 text-center light">
-    	<p class="text-center light">Photos courtesy of Dr. Leonard Hochstein</p>
+    	<p class="text-center light">Photos courtesy of Dr. Aaron Smith</p>
     </footer>
 	</div><!-- .container -->
 	
@@ -71,7 +71,7 @@
     <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-XPProjection3.jpg')" alt="before-after_xhigh_03" width="2083" height="1833" /></article>
     <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-XPProjection4.jpg')" alt="before-after_xhigh_04" width="2083" height="1833" /></article>
     <footer class="col-12 text-center light">
-    	<p class="text-center light">Photos courtesy of Dr. Lorem Ipsum</p>
+    	<p class="text-center light">Photos courtesy of Dr. Sacha Obaide</p>
     </footer>
 	</div><!-- .container -->
 	
