@@ -116,11 +116,11 @@ we encourage you to reach out to your board-certified plastic surgeon. </p>
 		<article class="col-12 col-md-6">
 			<header class="mb-4"><h3 class="image-h" style="background-image:url(@asset('images/for-physicians.svg'));  height: 4.5vw; ">For Physicians</h3></header>
 		
-        <span><a href="#" target="_blank">PDF</a> </span> <p>Letter to Plastic Surgeons – FDA Breast Panel Statement</p>
-        <span><a href="#" target="_blank">PDF</a> </span> <p>Letter to Plastic Surgeons – Breast Implant Safety Update, February 2019</p>
+        <span><a href="@asset('images/Sientra-FDA-Breast-Advisory-Committee-Meeting-Statement-5.6.2019.pdf')" target="_blank">PDF</a> </span> <p>Letter to Plastic Surgeons – FDA Breast Panel Statement</p>
+        <span><a href="@asset('images/Sientra-Breast-Implant-Safety-Update-21419.pdf')" target="_blank">PDF</a> </span> <p>Letter to Plastic Surgeons – Breast Implant Safety Update, February 2019</p>
         <span><a href="#" target="_blank">WEB</a> </span> <p>Sientra Breast Implant Warranty Information</p>
-        <span><a href="#" target="_blank">PDF</a> </span> <p>2019 BIA-ALCL Frequently Asked Questions from Sientra Medical Affairs</p>
-        <span><a href="#" target="_blank">PDF</a> </span> <p>Surgical Best Practices: 14-Point Plan</p>
+        <span><a href="@asset('images/2019-BIA-ALCL-FAQandResources-from-Sientra-Medical-Affairs-MDC-0365-R1.pdf')" target="_blank">PDF</a> </span> <p>2019 BIA-ALCL Frequently Asked Questions from Sientra Medical Affairs</p>
+        <span><a href="@asset('EXT-0029-R2-14-Point-Plan.pdf')" target="_blank">PDF</a> </span> <p>Surgical Best Practices: 14-Point Plan</p>
         <span><a href="#" target="_blank">WEB</a> </span> <p>ASPS – Important Notes About Breast Implant Safety</p>
         <span><a href="#" target="_blank">WEB</a> </span> <p>ASPS – FDA Announcement and Registry Information</p>
         <span><a href="#" target="_blank">WEB</a> </span> <p>ASAPS – Breast Implant-Associated Illness References</p>
@@ -132,11 +132,11 @@ we encourage you to reach out to your board-certified plastic surgeon. </p>
 		<article class="col-12 col-md-6 patient">
   		  		
 			<header class="mb-4"><h3 class="image-h" style="background-image:url(@asset('images/for-your-patients.svg')); height: 4.8vw; ">For Your Patients</h3></header>
-        <span><a href="#" target="_blank">PDF</a> </span> <p>Safety of Silicone</p>
+        <span><a href="@asset('images/MDC-0342-R1-SafetyofSilicone.pdf')" target="_blank">PDF</a> </span> <p>Safety of Silicone</p>
         <span><a href="#" target="_blank">WEB</a> </span> <p>Sientra Breast Implant Safety Data</p>
         <span><a href="#" target="_blank">WEB</a> </span> <p>Sientra Breast Implant Warranty Information</p>
-        <span><a href="#" target="_blank">PDF</a> </span> <p>Sientra Breast Augmentation Patient Educational Brochure</p>
-        <span><a href="#" target="_blank">PDF</a> </span> <p>Sientra Breast Reconstruction Patient Educational Brochure</p>
+        <span><a href="@asset('images/Sientra-PatientLabel-Augmentation-MDC-0010-R2-11717-1.pdf')" target="_blank">PDF</a> </span> <p>Sientra Breast Augmentation Patient Educational Brochure</p>
+        <span><a href="@asset('images/Sientra-PatientLabel-Reconstruction-MDC-0011-R2-11717-1.pdf')" target="_blank">PDF</a> </span> <p>Sientra Breast Reconstruction Patient Educational Brochure</p>
         <span><a href="#" target="_blank">WEB</a> </span> <p>ASPS – Important Notes About Breast Implant Safety</p>
         <span><a href="#" target="_blank">WEB</a> </span> <p>ASAPS – Breast Implant-Associated Illness References</p>
         <span><a href="#" target="_blank">WEB</a> </span> <p>FDA – Summary of Breast Implant Risks</p>
