@@ -47,7 +47,8 @@ add_action('after_setup_theme', function () {
         'primary_navigation' => __('Primary Navigation', 'sage'),
         'augmentation_navigation' => __('Augmentation Navigation', 'sage'),
         'reconstruction_navigation' => __('Reconstruction Navigation', 'sage'),
-        'sergeon_navigation' => __('Surgeon Navigation', 'sage')
+        'sergeon_navigation' => __('Surgeon Navigation', 'sage'),
+        'footer_navigation' => __('Footer Navigation', 'sage')
     ]);
 
     /**
