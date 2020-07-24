@@ -64,7 +64,7 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
   	<div class="col-12 col-sm-10 offset-sm-1 px-5">
   		<img src="@asset('images/cohesivity.svg')" alt="cohesivity" />
   	</div>
-		<div id="hscPress" class="col-12 col-sm-5 px-4 offset-sm-1">
+		<div id="hscPress" class="col-12 col-md-5 px-4 offset-md-1">
       <img src="@asset('images/hsc.jpg')" alt="hsc" id="hsc" class="img-fluid mb-4" width="1000" height="656" />
       <script>      
           function Start() {
@@ -81,7 +81,7 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
 			<h3>High-Strength Cohesive (HSC) Gel</h3>
 <p>is soft but maintains its shape. HSC implants hold their fullness while mimicking the soft feel of natural breast tissue.</p>
 		</div>
-		<div id="hscPlusPress" class="col-12 col-sm-5 px-4">
+		<div id="hscPlusPress" class="col-12 col-md-5 px-4">
       <img src="@asset('images/hsc-plus.jpg')" alt="hsc" id="hsc-plus" class="img-fluid mb-4" width="1000" height="656" />
       <script>      
           function Start() {
@@ -102,7 +102,7 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
 </section>
 <section class="luxe row mb-5">
  <header class="col-6 col-sm-4"> <img src="@asset('images/opus-luxe.png')" class="img-fluid" alt="opus-luxe" width="949" height="353" /></header>
- <div class="_250-round col-12 col-md-4 mb-2">
+ <div class="_250-round col-12 col-md-4 mb-4 mb-md-0">
   <img src="@asset('images/250-round.svg')" alt="250-round" />
  </div>
  
@@ -188,12 +188,13 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
   	</div> 
   	
   	<div class="high projection-bg">
-  		<p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 635 cc)</p>
+<!--   		<p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 635 cc)</p> -->
   	</div>
-
+    <p class="bg-p high-p"><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 635 cc)</p>
   	<div class="low projection-bg">
-  		<p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+<!--   		<p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p> -->
   	</div>
+  	<p class="bg-p low-p"><span class="opus">moderate</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
  </div>
  
  <div class="implant col-12 d-md-none text-center">

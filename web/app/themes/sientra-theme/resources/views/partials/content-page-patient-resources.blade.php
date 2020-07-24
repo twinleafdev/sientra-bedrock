@@ -27,7 +27,7 @@
 				// Loop through rows.
 				while( have_rows('column_1') ) : the_row(); ?>
 
-					<span><?php if (get_sub_field('column_1_file')) { ?><a href="<?php the_sub_field('column_1_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_1_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_1_text'); ?>
+					<div class="d-flex"><span><?php if (get_sub_field('column_1_file')) { ?><a href="<?php the_sub_field('column_1_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_1_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_1_text'); ?></div>
 
 				<?php // End loop.
 				endwhile;
@@ -43,7 +43,7 @@
 				// Loop through rows.
 				while( have_rows('column_2') ) : the_row(); ?>
 
-					<span><?php if (get_sub_field('column_2_file')) { ?><a href="<?php the_sub_field('column_2_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_2_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_2_text'); ?>
+					<div class="d-flex"><span><?php if (get_sub_field('column_2_file')) { ?><a href="<?php the_sub_field('column_2_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_2_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_2_text'); ?></div>
 
 				<?php // End loop.
 				endwhile;
@@ -65,7 +65,7 @@
 				// Loop through rows.
 				while( have_rows('column_3') ) : the_row(); ?>
 
-					<span><?php if (get_sub_field('column_3_file')) { ?><a href="<?php the_sub_field('column_3_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_3_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_3_text'); ?>
+					<div class="d-flex"><span><?php if (get_sub_field('column_3_file')) { ?><a href="<?php the_sub_field('column_3_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_3_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_3_text'); ?></div>
 
 				<?php // End loop.
 				endwhile;
@@ -80,7 +80,7 @@
 				// Loop through rows.
 				while( have_rows('column_4') ) : the_row(); ?>
 
-					<span><?php if (get_sub_field('column_4_file')) { ?><a href="<?php the_sub_field('column_4_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_4_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_4_text'); ?>
+					<div class="d-flex"><span><?php if (get_sub_field('column_4_file')) { ?><a href="<?php the_sub_field('column_4_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_4_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_4_text'); ?></div>
 
 				<?php // End loop.
 				endwhile;
@@ -93,7 +93,7 @@
 				// Loop through rows.
 				while( have_rows('column_5') ) : the_row(); ?>
 
-					<span><?php if (get_sub_field('column_5_file')) { ?><a href="<?php the_sub_field('column_5_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_5_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_5_text'); ?>
+					<div class="d-flex"><span><?php if (get_sub_field('column_5_file')) { ?><a href="<?php the_sub_field('column_5_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_5_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_5_text'); ?></div>
 
 				<?php // End loop.
 				endwhile;
@@ -112,7 +112,7 @@
 				// Loop through rows.
 				while( have_rows('column_6') ) : the_row(); ?>
 
-					<span><?php if (get_sub_field('column_6_file')) { ?><a href="<?php the_sub_field('column_6_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_6_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_6_text'); ?>
+					<div class="d-flex"><span><?php if (get_sub_field('column_6_file')) { ?><a href="<?php the_sub_field('column_6_file'); ?>" target="_blank">PDF</a><?php } else { ?><a href="<?php the_sub_field('column_6_url'); ?>" target="_blank">WEB</a><?php } ?> </span> <?php the_sub_field('column_6_text'); ?></div>
 
 				<?php // End loop.
 				endwhile;

@@ -83,6 +83,7 @@
       padding: 5px;
       .insta-bio {
         max-height: 32px;
+        max-width: 100%;
         width: auto;
         display: flex;
       }
@@ -794,11 +795,18 @@
           line-height: 1.2rem;
           display: flex;
           flex-direction: column;
-          justify-content: flex-start;
-          padding: 11% 8% 8%;
+          justify-content: center;
+          padding: 11% 6% 8%;
           font-size: 1.2rem;
           font-family: Avenir-Light, Avenir, sans-serif;
           margin-bottom: 1rem;
+          @media (min-width: 768px) { 
+            padding: 18% 11% 8%;
+            justify-content: flex-start;
+          }
+          @media (min-width: 992px) { 
+            padding: 13% 8% 8%;
+          }
           strong {
             font-size: 1.7rem;
             margin-bottom: .6rem;
@@ -1304,8 +1312,11 @@
   }
   .projection {
     border: 1px solid $orange;
-    padding: 0 25px 10px;
+    padding: 0 5px 10px;
     margin-top: 70px;
+    @media (min-width: 768px) { 
+      padding: 0 25px 10px;
+    }
     header img {
       margin: -35px auto 30px;
       height: 65px;
@@ -1705,6 +1716,7 @@
       display: flex;
       align-items: center;
       margin-bottom: 1rem;
+
       strong {
         margin-left: auto;
         margin-right: auto;
@@ -2070,11 +2082,18 @@
         line-height: 1.2rem;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        padding: 14% 8% 8%;
+        justify-content: center;
+        padding: 8%;
         font-size: 1.2rem;
         font-family: Avenir-Light, Avenir, sans-serif;
         margin-bottom: 1rem;
+        @media (min-width: 768px) { 
+          justify-content: flex-start;
+           padding: 20% 8% 8%;
+        }
+        @media (min-width: 992px) { 
+           padding: 14% 8% 8%;
+        }
         strong {
           font-size: 1.7rem;
           margin-bottom: .6rem;
@@ -2188,15 +2207,23 @@
     }
   .projection {
     border: 1px solid $orange;
-    padding: 0 25px 0;
+    padding: 0 5px 0;
     margin-top: 100px;
+    @media (min-width: 768px) { 
+      padding: 0 25px 0;
+    }
     header {
       img {
-        margin: -71px auto 30px;
-        height: 100px;
+        margin: -52px auto 30px;
+        height: 72px;
         width: auto;
         display: block;
         background-color: #fff;
+        @media (min-width: 768px) { 
+          margin: -71px auto 30px;
+          height: 100px;
+        }        
+
       }
       h3 {
         font-size: 1.4rem;
@@ -2347,9 +2374,12 @@
     }
   }
   .silver {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-transform: uppercase;
     -webkit-text-stroke: .01em $primary;
+    @media (min-width: 375px) { 
+      font-size: 2rem;
+    }
     @media (min-width: 768px) { 
       font-size: 3.5rem;
     }
@@ -3800,7 +3830,7 @@
             border-right: 0;
             padding-left: 0;
             padding-right: 0;
-            @media (min-width: 768px) { 
+            @media (min-width: 992px) { 
               font-size: 1.2rem;
             }
             

@@ -235,24 +235,36 @@ $height1: 41vw;
   min-height: 80vw;
   padding-left: 4%;
   padding-top: 15%;
+   @media (min-width: 768px) { 
+    justify-content: space-around;
+    padding: 50px;
+   }
+/*
+  @media (min-width: 992px) { 
+    padding-top: 15%;
+  }
+*/
   flex-direction: column;
   ._250-round {
     margin-top: 53vw;
     padding-left: 15%;
-    padding-right: 15%; 
+    padding-right: 15%;
+    @media (min-width: 768px) { 
+     margin-top: 0;
+      padding: 1% 3%;     
+    } 
+    @media (min-width: 992px) {  
+      padding: 3%;      
+    }
   }
   @media (min-width: 768px) { 
      background-image: url(../images/luxe-bg.jpg);
      min-height: 53vw;
-     padding-top: 3%;
-    ._250-round { 
-      margin-top: 0;
-      padding: 3%;
-    }
+     padding-top: 2% 3%;
   }
   .luxe-projections {
     height: 16vw;
-    width: 32vw;
+    width: 40vw;
     background-position: center bottom;
     background-size: contain;
     position: relative;
@@ -260,6 +272,10 @@ $height1: 41vw;
 		flex-direction: column;
 		align-items: center;
 		transition: background-image ease-in 0.3s;
+
+    @media (min-width: 992px) { 
+      width: 32vw; 
+    }
 		&:hover .projection-bg.default {
 			opacity: 0;
 		}
@@ -387,6 +403,7 @@ $height1: 41vw;
   min-height: 108vw;
   padding-left: 4%;
   padding-top: 15%;
+  overflow: hidden;
   ._90-options {
     margin-top: 78vw;
     padding-left: 15%;
@@ -419,10 +436,20 @@ $height1: 41vw;
     position: relative;
 		flex-direction: column;
 		align-items: center;
-		overflow: hidden;
+		
 		&:hover .projection-bg.default {
 			opacity: 0;
 		}
+    .bg-p {
+      position: absolute;
+      bottom: -40px;
+      right: 3vw;
+      width: 36vw;
+      text-align: right;
+      &.high-p {
+        opacity: 0;
+      }
+    }
     .projection {
 	    position: absolute;
 	    bottom: 0;
@@ -435,11 +462,12 @@ $height1: 41vw;
 			border-bottom-right-radius: 0;
 			z-index: 2;
 			
-	    &.low {
+	    &.low,
+	    .low-p {
 		    height: 100%;
         width: 46%;
 				opacity: 1;
-			 	&:hover ~ .projection-bg.low{
+			 	&:hover ~ .projection-bg.low {
 				 	opacity: 1;
 			 	}
 
@@ -447,10 +475,12 @@ $height1: 41vw;
 	    &.high {
 		    height: 100%;
 		    width: 68%;
-			 	&:hover ~ .projection-bg.high{
+			 	&:hover ~ .projection-bg.high,
+			  &:hover ~ .high-p {
 				 	opacity: 1;
 			 	}
-			 	&:hover ~ .projection-bg.low{
+			 	&:hover ~ .projection-bg.low,
+			  &:hover ~ .low-p {
 				 	opacity: 0;
 			 	}
 	    }
@@ -473,8 +503,8 @@ $height1: 41vw;
       color: #fff;
 		  p{
 			  // margin-bottom: -28px;
-			  transform: translateY(200%);
-			  margin-left: -25px;
+			  transform: translate(-10%, 231%);
+			  
 			  width: 100%;
 			  text-align: left;
 		  }
@@ -487,6 +517,7 @@ $height1: 41vw;
 			}
 
     }
+
   }
 
   .swiper-curve-projection {
