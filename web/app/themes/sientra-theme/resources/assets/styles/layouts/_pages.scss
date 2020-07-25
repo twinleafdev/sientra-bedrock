@@ -288,6 +288,13 @@
         font-family: Avenir-Light, Avenir, sans-serif;
         margin-bottom: 1rem;
         align-items: center;
+        @media (min-width: 768px) { 
+          justify-content: flex-start;
+          padding-top: 18%; 
+        }
+       @media (min-width: 992px) { 
+          padding-top: 11%; 
+        }
         strong {
           font-size: 1.7rem;
           margin-bottom: .6rem;
