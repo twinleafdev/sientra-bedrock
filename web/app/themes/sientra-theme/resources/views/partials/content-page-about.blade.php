@@ -134,7 +134,7 @@
           <div class="card-bg">
             <div class="card-body">
               <h5 class="card-title medium">Deborah Bettencourt</h5>
-              <p class="card-text light">Vice President, Innovation & Product<br>Development, Breast Products</p>
+              <p class="card-text light">Vice President,<br>Human Resources & Corporate Administration</p>
             </div>
           </div>
           <div class="hover px-4 py-5">
@@ -258,12 +258,12 @@
           <div class="card-bg">
             <div class="card-body">
               <h5 class="card-title medium">Kim Porter</h5>
-              <p class="card-text light">Vice President, Corporate Controller<br> </p>
+              <p class="card-text light">Vice President, Information Technology<br> </p>
             </div>
           </div>
           <div class="hover px-4 py-5">
             <div><h2 class="medium opus">Kim Porter</h2>
-            <p class="light">Vice President, Corporate Controller<br> </p></div>
+            <p class="light">Vice President, Information Technology<br> </p></div>
             <button class="btn" data-toggle="modal" data-target="#bio10">view my profile</button>
             <p class="text-left m-0"><span class="heavy">Kim Porter</span> joined Sientra in 2018. She brings with her over 20 years of Information Technology experience with large government and public companies. Kim most recently served as Deputy Chief Information Officer at the County of Ventura, an award winning digital government agency.</p>             
           </div>
