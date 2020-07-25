@@ -319,8 +319,9 @@ to the Sientra Full Circle Fund</p>
 	<h3 class="opus light">We Help Build Relationships. And Careers.</h3>
 <p>We are seeking exceptionally talented and motivated people to join our team. 
 If you are looking for a career that is both challenging and rewarding, and to 
-work for a company at the forefront of the aesthetic industry, please visit our </p>
-<p><a href="https://careers.sientra.com/" class="heavy opus">Careers Website.</a></p>
+work for a company at the forefront of the aesthetic industry, please email us at <a href="mailto:careers@sientra.com" class="heavy opus">careers@sientra.com</a> for inquiries and opportunities.
+ </p>
+
 </section>
 
 
