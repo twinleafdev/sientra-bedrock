@@ -1,5 +1,5 @@
 <header class="banner" id="top">
-  <a href="http://locator.sientra.com/feelgood/"><img src="@asset('images/locator-tan.svg')" class="locator" alt="locator-form" /></s>
+  <a href="https://locator.sientra.com/surgeon/"><img src="@asset('images/locator-tan.svg')" class="locator" alt="locator-form" /></s>
   <div class="container-fluid">
     <div class="row ">
       <a class="brand brand-light col-6 col-lg-12 mx-auto my-lg-3" href="{{ home_url('/') }}"><img src="@asset('images/Sientra-logo.svg')" alt="{{ get_bloginfo('name', 'display') }}" /></a>

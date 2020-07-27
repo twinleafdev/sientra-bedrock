@@ -61,7 +61,7 @@
     <article class="col-12">
     	<img src="@asset('images/hq-expander.jpg')" class="img-fluid" alt="hq-expander" width="800" height="632" />
     	<h3 class="hq">Breast Tissue expander<br>ManufactUring</h3>
-    	<p class="location">Franklin, WI</p>
+    	<p class="location">Victor, MT</p>
     </article>
     <article class="col-12">
     	<img src="@asset('images/hq-bio.jpg')" class="img-fluid" alt="hq-bio" width="800" height="641" />
@@ -100,7 +100,7 @@
               <p class="card-text light">Chairman and<br>Chief Executive Officer</p>
             </div>
           </div>
-          <div class="hover px-4 py-5">
+          <div class="hover p-4">
             <div><h2 class="medium opus">Jeffrey Nugent</h2>
             <p class="light">Chairman and<br>Chief Executive Officer</p></div>
             <button class="btn" data-toggle="modal" data-target="#bio1">view my profile</button>
@@ -119,11 +119,11 @@
               <p class="card-text light">General Counsel and<br>VP of Compliance & Legal</p>
             </div>
           </div>
-          <div class="hover px-4 py-5">
+          <div class="hover p-4">
             <div><h2 class="medium opus">Oliver Bennett</h2>
             <p class="light">General Counsel and<br>VP of Compliance & Legal</p></div>
             <button class="btn" data-toggle="modal" data-target="#bio2">view my profile</button>
-            <p class="text-left m-0"><span class="heavy">Oliver Bennett</span> joined Sientra in 2015, first as outside counsel and then as general counsel to the company, prior to becoming General Counsel and Vice President for Oliver Bennett Compliance and Legal in 2018. Oliver brings with him almost two decades of experience in counseling medical device and life science companies in complex high stakes legal issues.</p>             
+            <p class="text-left m-0"><span class="heavy">Oliver Bennett</span> joined Sientra in 2015, first as outside counsel and then as general counsel to the company, prior to becoming General Counsel and Vice President for Compliance and Legal in 2018. Oliver brings with him almost two decades of experience in counseling medical device and life science companies in complex high stakes legal issues.</p>             
           </div>
         </div>
       </div> <!-- ./ swiper-slide -->
@@ -137,12 +137,12 @@
               <p class="card-text light">Vice President,<br>Human Resources & Corporate Administration</p>
             </div>
           </div>
-          <div class="hover px-4 py-5">
+          <div class="hover p-4">
             <div><h2 class="medium opus">Deborah Bettencourt</h2>
             <p class="light">Vice President,<br>Human Resources & Corporate Administration</p></div>
             <button class="btn" data-toggle="modal" data-target="#bio3">view my profile</button>
             <p class="text-left m-0"><span class="heavy">Deborah Bettencourt</span> joined Sientra in
-2007 with nearly 20 years of experience in corporate operations and information technology within the medical device Deborah Bettencourt industry. Deborah spent much of her professional career at Inamed Corporation (currently Alleran Medical).</p>             
+2007 with nearly 20 years of experience in corporate operations and information technology within the medical device industry. Deborah spent much of her professional career at Inamed Corporation (currently Alleran Medical).</p>             
           </div>
         </div>          
       </div> <!-- ./ swiper-slide -->
@@ -156,7 +156,7 @@
               <p class="card-text light">Vice President, Innovation & Product<br>Development, Breast Products</p>
             </div>
           </div>
-          <div class="hover px-4 py-5">
+          <div class="hover p-4">
             <div><h2 class="medium opus">Dan Carlisle</h2>
             <p class="light">Vice President, Innovation & Product<br>Development, Breast Products</p></div>
             <button class="btn" data-toggle="modal" data-target="#bio4">view my profile</button>
@@ -174,7 +174,7 @@
               <p class="card-text light">Senior Vice President of<br>Worldwide Sales</p>
             </div>
           </div>
-          <div class="hover px-4 py-5">
+          <div class="hover p-4">
             <div><h2 class="medium opus">Kirk Gunhus</h2>
             <p class="light">Senior Vice President of<br>Worldwide Sales</p></div>
             <button class="btn" data-toggle="modal" data-target="#bio5">view my profile</button>
@@ -191,7 +191,7 @@
               <p class="card-text light">Vice President, Operations<br> </p>
             </div>
           </div>
-          <div class="hover px-4 py-5">
+          <div class="hover p-4">
             <div><h2 class="medium opus">Jeff Jones</h2>
             <p class="light">Vice President, Operations<br> </p></div>
             <button class="btn" data-toggle="modal" data-target="#bio6">view my profile</button>
@@ -208,7 +208,7 @@
               <p class="card-text light">Vice President, Regulatory Affairs,<br>Quality Assurance & Clinical Operations</p>
             </div>
           </div>
-          <div class="hover px-4 py-5">
+          <div class="hover p-4">
             <div><h2 class="medium opus">JoAnn Kuhne</h2>
             <p class="light">Vice President, Regulatory Affairs,<br>Quality Assurance & Clinical Operations</p></div>
             <button class="btn" data-toggle="modal" data-target="#bio7">view my profile</button>
@@ -226,7 +226,7 @@
               <p class="card-text light">Chief Financial Officer,<br>Senior Vice President and Treasurer</p>
             </div>
           </div>
-          <div class="hover px-4 py-5">
+          <div class="hover p-4">
             <div><h2 class="medium opus">Paul Little</h2>
             <p class="light">Chief Financial Officer,<br>Senior Vice President and Treasurer</p></div>
             <button class="btn" data-toggle="modal" data-target="#bio8">view my profile</button>
@@ -244,7 +244,7 @@
               <p class="card-text light">Vice President, Corporate Controller<br> </p>
             </div>
           </div>
-          <div class="hover px-4 py-5">
+          <div class="hover p-4">
             <div><h2 class="medium opus">Valerie Miller</h2>
             <p class="light">Vice President, Corporate Controller<br> </p></div>
             <button class="btn" data-toggle="modal" data-target="#bio9">view my profile</button>
@@ -261,7 +261,7 @@
               <p class="card-text light">Vice President, Information Technology<br> </p>
             </div>
           </div>
-          <div class="hover px-4 py-5">
+          <div class="hover p-4">
             <div><h2 class="medium opus">Kim Porter</h2>
             <p class="light">Vice President, Information Technology<br> </p></div>
             <button class="btn" data-toggle="modal" data-target="#bio10">view my profile</button>
@@ -278,7 +278,7 @@
               <p class="card-text light">Vice President, Marketing<br> </p>
             </div>
           </div>
-          <div class="hover px-4 py-5">
+          <div class="hover p-4">
             <div><h2 class="medium opus">Lisa Rosas</h2>
             <p class="light">Vice President, Marketing<br> </p></div>
             <button class="btn" data-toggle="modal" data-target="#bio11">view my profile</button>
