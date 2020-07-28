@@ -61,7 +61,9 @@
     "deliciousbrains-plugin/wp-migrate-db-pro-multisite-tools": "*",
     "deliciousbrains-plugin/wp-migrate-db-pro-theme-plugin-files": "*",
     "wpackagist-plugin/safe-svg": "^1.9",
-    "advanced-custom-fields/advanced-custom-fields-pro": "^5.8.0"
+    "advanced-custom-fields/advanced-custom-fields-pro": "^5.8.0",
+    "wpackagist-plugin/google-site-kit": "^1.12",
+    "wpackagist-plugin/unbounce": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.4",
