@@ -46,7 +46,8 @@
 
   		<article class="col">
   			<header><h3>Silicone Scar Treatment</h3></header>
-          <div class="d-flex"><span><a href="" target="_blank">PDF</a> </span> <p>BIOCORNEUM: See Your Beauty, Not Your Scar</p></div>
+          <div class="d-flex"><span><a href="" target="_blank">PDF</a> </span> <p>BIOCORNEUM: The Physician’s Choice for Advanced Scar Treatment</p></div>
+          <div class="d-flex"><span><a href="" target="_blank">PDF</a> </span> <p>Product Information - BIOCORNEUM</p></div>
    		</article>
    		
   		<article class="col">    		  		
