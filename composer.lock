@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26931c0f10510edf5046d2eb6fd4dd75",
+    "content-hash": "4fa8d8743b7b1a81b853901652afb6cf",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -694,6 +694,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/unbounce/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-mail-smtp",
+            "version": "2.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
+                "reference": "tags/2.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.2.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
         }
     ],
     "packages-dev": [
@@ -703,12 +721,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "f1062cc7471971bbb483e8e0dcb7d16eaf472aa4"
+                "reference": "179a485fcb7b25d1a2544435604e5a5916d0df33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f1062cc7471971bbb483e8e0dcb7d16eaf472aa4",
-                "reference": "f1062cc7471971bbb483e8e0dcb7d16eaf472aa4",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/179a485fcb7b25d1a2544435604e5a5916d0df33",
+                "reference": "179a485fcb7b25d1a2544435604e5a5916d0df33",
                 "shasum": ""
             },
             "conflict": {
@@ -805,7 +823,9 @@
                 "namshi/jose": "<2.2",
                 "nystudio107/craft-seomatic": "<3.3",
                 "nzo/url-encryptor-bundle": ">=4,<4.3.2|>=5,<5.0.1",
-                "october/october": ">=1.0.319,<1.0.467",
+                "october/backend": ">=1.0.319,<1.0.467",
+                "october/cms": ">=1.0.319,<1.0.466",
+                "october/october": ">=1.0.319,<1.0.466",
                 "onelogin/php-saml": "<2.10.4",
                 "oneup/uploader-bundle": "<1.9.3|>=2,<2.1.5",
                 "openid/php-openid": "<2.3",
@@ -972,7 +992,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2020-07-28T10:42:11+00:00"
+            "time": "2020-07-28T20:02:00+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
