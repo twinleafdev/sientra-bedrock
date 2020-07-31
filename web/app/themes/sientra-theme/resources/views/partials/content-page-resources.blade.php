@@ -66,8 +66,8 @@
         <header><h3>Augmentation</h3></header>
           <div class="d-flex"><span><a href="@asset('images/aug/MDC-0351_R1_OPUS_Luxe_Patient_Brochure.pdf')" target="_blank">PDF</a> </span> <p>Sientra Feel Good Factor: Breast Implants That Feel as Amazing as They Look</p></div>
           <div class="d-flex"><span><a href="@asset('images/aug/Sientra_Patient_Planning_Guide_Breast_Augmentation.pdf')" target="_blank">PDF</a> </span> <p>Sientra Patient Planning Guide: Breast Augmentation</p></div>
-          <div class="d-flex"><span><a href="@asset('images/aug/Sientra_PatientLabel_Augmentation_MDC-0010_R2_11-7-17.pdf')" target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p></div>
-          <div class="d-flex"><span><a href="@asset('images/aug/Sientra_Silicone_Gel_Breast_Implants_Quick_Facts_About_Breast_Augmentation_and_Reconstruction.pdf')" target="_blank">PDF</a> </span> <p>Patient Educational Brochure: Breast Augmentation With Sientra Silicone Gel Breast Implants</p></div>
+          <div class="d-flex"><span><a href="@asset('images/aug/Sientra_Silicone_Gel_Breast_Implants_Quick_Facts_About_Breast_Augmentation_and_Reconstruction.pdf')" target="_blank">PDF</a> </span> <p>Sientra Silicone Gel Breast Implants: Quick Facts About Breast Augmentation & Reconstruction</p></div>
+          <div class="d-flex"><span><a href="@asset('images/aug/Sientra_PatientLabel_Augmentation_MDC-0010_R2_11-7-17.pdf')" target="_blank">PDF</a> </span> <p>Patient Educational Brochure: Breast Augmentation With Sientra Silicone Gel Breast Implants</p></div>
           <div class="d-flex"><span><a href="@asset('images/aug/MDC-0298_R2_Platinum20_Patient_Leaflet.pdf')" target="_blank">PDF</a> </span> <p>Sientra Platinum20<sup>TM</sup> Warranty Program Information Pamphlet</p></div>
   		</article>
   		
