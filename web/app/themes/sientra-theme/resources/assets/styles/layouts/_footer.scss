@@ -75,3 +75,44 @@ footer {
     visibility: hidden;
   }
 }
+.modal-open {
+  overflow: inherit;
+}
+#cookie.modal {
+  bottom: 0;
+  top: inherit;
+  height: auto;
+  
+  .modal-dialog {
+    max-width: 100%;
+    margin: 0;
+    .modal-content {
+      border-radius: 0;
+      border: none;
+      background-color: rgb(238, 238, 238);
+      .modal-body {
+        display: flex;
+        align-items: center;
+        p {
+          margin: 0;
+          a {
+            text-decoration: underline;
+            &:hover {
+              color: $orange;
+            }
+          }
+        }
+        button {
+          white-space: nowrap;
+          border-radius: 0;
+          background-color: $orange;
+          color: #fff;
+          margin-left: 10px;
+          &:hover {
+            background-color: $primary;
+          }
+        }
+      }
+    }
+  }
+}
