@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28cf86377a5618b0960b06a1f3c7737a",
+    "content-hash": "26931c0f10510edf5046d2eb6fd4dd75",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -694,24 +694,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/unbounce/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-ses",
-            "version": "1.4.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-ses/",
-                "reference": "tags/1.4.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-ses.1.4.2.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-ses/"
         }
     ],
     "packages-dev": [
