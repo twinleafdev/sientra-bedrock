@@ -75,8 +75,9 @@ footer {
     visibility: hidden;
   }
 }
-.modal-open {
+.home.modal-open {
   overflow: inherit;
+  padding-right: 0 !important;
 }
 #cookie.modal {
   bottom: 0;
