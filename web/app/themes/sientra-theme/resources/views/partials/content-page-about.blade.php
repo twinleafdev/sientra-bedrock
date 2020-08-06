@@ -3,39 +3,36 @@
 
 
   <video autoplay muted loop playsinline >
-      <source src="@asset('images/video/Sientra-About-Us-Video-Loop-Version-A.mp4')" type="video/mp4" >
+      <source src="<?php the_field('video'); ?>" type="video/mp4" >
   </video>
 
 
 
 </section>
-<h2 class="text-center light my-5">A portfolio of medical aesthetic brands designed to make a difference in patients’ lives by enhancing their body image, growing their self-esteem, and restoring their confidence. Purposeful and differentiated technologies supported by strong clinical outcomes, that’s the Sientra difference. </h2>
+<h2 class="text-center light my-5"><?php the_field('intro'); ?></h2>
 
 <section class="brands row my-5">
   	<header>
-    	<h2 class="image-h" style="background-image: url(@asset('images/our-brands.svg'))">Our Brands</h2>
+    	<h2 class="image-h" style="background-image: url(<?php the_field('brands_image'); ?>)"><?php the_field('brands_title'); ?></h2>
   	</header>
-		<div class="col-12 col-sm-6 col-md-3">
-  		<a href="/breast-augmentation/"><img src="@asset('images/brands_opus.jpg')" class="img-fluid" alt="brands_opus" width="610" height="558" /></a>
-			<p>Highest rated silicone gel breast implant brand.<sup>*</sup> Available exclusively through board-certified plastic surgeons</p>
-		</div>
-		<div class="col-12 col-sm-6 col-md-3">
-  		<a href="/breast-reconstruction/"><img src="@asset('images/brands_opus-recon.jpg')" class="img-fluid" alt="brands_opus-recon" width="619" height="558" /></a>
-			<p>One-of-a-kind breast tissue expanders and silicone gel breast implants uniquely designed to improve patient outcomes</p>
-		</div>
-		<div class="col-12 col-sm-6 col-md-3">
-  		<a href="https://biocorneum.com"><img src="@asset('images/brands_biocorneum.jpg')" class="img-fluid" alt="brands_biocorneum" width="614" height="558" /></a>
-			<p>The plastic surgeons’ choice - #1 performing, preferred and recommended scar treatment gel<sup>**</sup></p>
-		</div>
-		<div class="col-12 col-sm-6 col-md-3">
-  		<a href="https://www.miradry.com"><img src="@asset('images/brands_miradry.jpg')" class="img-fluid" alt="brands_miradry" width="612" height="558" /></a>
-			<p>Approved for sale in over 56 international markets, miraDry is the only non-surgical FDA-cleared device for permanent reduction of underarm sweat and hair and may reduce odor</p>
-		</div>
+	
+		<?php // Check rows exists.
+        if( have_rows('brands') ):
+
+            // Loop through rows.
+            while( have_rows('brands') ) : the_row(); ?>
+				<?php $image = get_sub_field('image'); ?>
+				<div class="col-12 col-sm-6 col-md-3">
+					<a href="<?php the_sub_field('url'); ?>"><img src="<?php echo esc_url($image['url']); ?>)" class="img-fluid" alt="<?php echo esc_attr($image['alt']); ?>" /></a>
+					<?php the_sub_field('content'); ?>
+				</div>
+
+            <?php // End loop.
+            endwhile;
+        endif; ?>
+		
 		<footer class="col-12 text-left">
-      <ul class="list-unstyled">
-        <li><small>* Among silicone gel breast implants; As of March, 2020, realself.com</small></li>
-        <li><small>** Data on file.</small></li>
-      </ul>
+		  <?php the_field('brands_footer'); ?>
 		</footer>
 
 </section>
