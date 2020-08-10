@@ -2905,7 +2905,7 @@
   }
   .patient-safety-break-mobile {
        height: 86vw;
-    background-image: url(../images/patient-safety-break.jpg);
+    /* background-image: url(../images/patient-safety-break.jpg); */
     background-position: 84% center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2920,7 +2920,7 @@
     margin-bottom: 1rem;
     @media (min-width: 768px) { 
       height: 42vw;
-      background-image: url(../images/patient-safety-break.jpg);
+      /* background-image: url(../images/patient-safety-break.jpg); */
       background-size: contain;
       background-position: center center;
       color: #fff;
@@ -3016,7 +3016,7 @@
   }
   .factor {
     .container {
-      background-image: url(../images/implant-bg.jpg);
+      /* background-image: url(../images/implant-bg.jpg); */
       background-position: center top;
       background-size: contain;
       background-repeat: no-repeat;

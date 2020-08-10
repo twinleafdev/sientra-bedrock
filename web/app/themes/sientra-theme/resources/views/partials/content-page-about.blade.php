@@ -133,30 +133,25 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-    	<img src="@asset('images/one-woman.jpg')" alt="one-woman" width="1500" height="992" />
-      <p>ONE WOMAN’S <span class="heavy">BREAST<br>reconstruction</span><br>contributes to<br>another woman’s <span class="heavy">cure</span></p>
+    	<img src="<?php the_field('commitment_background'); ?>" alt="one-woman" width="1500" height="992" />
+      	<?php the_field('commitment_background_text_overlay'); ?>
   	</div>
 
   	<div class="col-12 col-lg-5 message bg-white text-center light">
       <div class="message-inner">
-        <h2 class="silver">Our Commitment</h2>
-        <h4>goes beyond products and services</h4>
-        <img src="@asset('images/sientra-full-circle.svg')" class="w-50 img-fluid my-3 px-md-5 mx-auto" alt="sientra-full-circle" />
-        <p>Supports nonprofits in the breast cancer community dedicated to aid, research, patient outreach/advocacy and prevention</p>
-        <p>A portion of sales of each <span class="opus">OPUS</span> expander is contributed 
-to the Sientra Full Circle Fund</p>
-        <p><a href="http://sientra.com/fullcircle/about/" class="opus">http://sientra.com/fullcircle/about/</a></p>
+        <h2 class="silver"><?php the_field('our_commitment_title'); ?></h2>
+        <h4><?php the_field('our_commitment_subtitle'); ?></h4>
+		<?php $our_commitment_logo = get_field('our_commitment_logo'); ?>
+        <img src="<?php echo esc_url($our_commitment_logo['url']); ?>" class="w-50 img-fluid my-3 px-md-5 mx-auto" alt="<?php echo esc_attr($our_commitment_logo['alt']); ?>" />
+        <?php the_field('our_commitment'); ?>
       </div>
   	</div>
 	
   </div>
 </section>
 <section class="careers light text-center container my-5">
-	<h3 class="opus light">We Help Build Relationships. And Careers.</h3>
-<p>We are seeking exceptionally talented and motivated people to join our team. 
-If you are looking for a career that is both challenging and rewarding, and to 
-work for a company at the forefront of the aesthetic industry, please email us at <a href="mailto:careers@sientra.com" class="heavy opus">careers@sientra.com</a> for inquiries and opportunities.
- </p>
+	<h3 class="opus light"><?php the_field('careers_title'); ?></h3>
+	<?php the_field('careers'); ?>
 
 </section>
 
