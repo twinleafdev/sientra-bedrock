@@ -228,7 +228,7 @@ $height1: 41vw;
   }
 } 
 .luxe {
-  background-image: url(../images/luxe-bg-m.jpg);
+  /* background-image: url(../images/luxe-bg-m.jpg); */
   background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -258,7 +258,7 @@ $height1: 41vw;
     }
   }
   @media (min-width: 768px) { 
-     background-image: url(../images/luxe-bg.jpg);
+     /* background-image: url(../images/luxe-bg.jpg); */
      min-height: 53vw;
      padding-top: 2% 3%;
   }
@@ -352,11 +352,14 @@ $height1: 41vw;
 		transition: opacity ease-in 0.3s;
 		align-items: flex-end;
 		justify-content: center;
-    display: flex;
+    	display: flex;
 		  p{
 			  margin-bottom: -28px;
 		  }
 			&.low {
+				opacity: 1;
+			}
+			/*&.low {
 				background-image: url(../images/luxe-projection-low.png);
 				opacity: 1;
 			}
@@ -371,7 +374,7 @@ $height1: 41vw;
 			}
 			&.xtra-high {
 				background-image: url(../images/luxe-projection-xrta-high.png);
-			}
+			}*/
 
     }
   }
@@ -396,7 +399,7 @@ $height1: 41vw;
   }
 }
 .curve {
-  background-image: url(../images/curve-bg-m.jpg);
+  /* background-image: url(../images/curve-bg-m.jpg); */
   background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -421,7 +424,7 @@ $height1: 41vw;
     }
   }
   @media (min-width: 768px) { 
-     background-image: url(../images/curve-bg.jpg);
+     /* background-image: url(../images/curve-bg.jpg); */
      min-height: 52vw;
     ._90-options { 
       margin-top: 0;

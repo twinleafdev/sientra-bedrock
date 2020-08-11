@@ -3239,7 +3239,7 @@
   }
   .gel-break-mobile {
     height: 74vw;
-    background-image: url(../images/gel-break.jpg);
+    /* background-image: url(../images/gel-break.jpg); */
     background-position: left center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3258,7 +3258,7 @@
     padding: 15px 0;
     @media (min-width: 768px) { 
       font-size: 1.8rem;
-    background-image: url(../images/gel-break.jpg);
+    /* background-image: url(../images/gel-break.jpg); */
     background-repeat: no-repeat;
       height: 42vw;
       background-position: center center;
