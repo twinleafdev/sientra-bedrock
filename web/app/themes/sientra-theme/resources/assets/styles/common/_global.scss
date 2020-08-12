@@ -512,12 +512,13 @@ $height1: 41vw;
 			  text-align: left;
 		  }
 			&.low {
-				background-image: url(../images/curve-projection-low.png);
+				/* background-image: url(../images/curve-projection-low.png); */
 				opacity: 1;
 			}
+			/* 
 			&.high {
 				background-image: url(../images/curve-projection-high.png);
-			}
+			} */
 
     }
 
