@@ -743,8 +743,11 @@
       background-position: center right;
       background-size: cover;
       background-repeat: no-repeat;
-      height: 54vw;
+//       height: 64vw;
       background-position: center top;
+    }
+    @media (min-width: 880px) {
+      height: 54vw;
     }
     .warranty {
       @media (max-width: 767px) {
@@ -2329,7 +2332,7 @@
           background-color: transparent;
           padding: 0;
           border: none;
-          button {
+          .btn {
 	          display: flex;
             &:not(.collapsed) {
               background-color: #fff;
@@ -2466,7 +2469,10 @@
             font-size: 1.2rem;
           }
           p {
-            font-size: 0.8rem;
+            font-size: 0.7rem;
+            @media (min-width: 375px) {
+              font-size: 0.8rem;
+            }
           }
           .btn {
             border: 1px solid $orange;
@@ -3127,7 +3133,7 @@
     font-size: 1.0rem;
 //     line-height: 1.3rem;
     @media (min-width: 768px) {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
      
       header img {
         margin-top: -10.5vw;
@@ -3138,6 +3144,9 @@
       background-repeat: no-repeat;
       height: 47vw;
       background-position: 0vw -4vw;
+    }
+    @media (min-width: 992px) {
+      font-size: 1.6rem;
     }
     .warranty {
       @media (max-width: 767px) {

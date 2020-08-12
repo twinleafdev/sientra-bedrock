@@ -139,7 +139,7 @@
             <p class="light">Vice President,<br>Human Resources & Corporate Administration</p></div>
             <button class="btn" data-toggle="modal" data-target="#bio3">view my profile</button>
             <p class="text-left m-0"><span class="heavy">Deborah Bettencourt</span> joined Sientra in
-2007 with nearly 20 years of experience in corporate operations and information technology within the medical device industry. Deborah spent much of her professional career at Inamed Corporation (currently Alleran Medical).</p>             
+2007 with nearly 20 years of experience in corporate operations and information technology within the medical device industry. Deborah spent much of her professional career at Inamed Corporation (currently Allergan Medical).</p>             
           </div>
         </div>          
       </div> <!-- ./ swiper-slide -->
@@ -306,7 +306,7 @@
         <p>Supports nonprofits in the breast cancer community dedicated to aid, research, patient outreach/advocacy and prevention</p>
         <p>A portion of sales of each <span class="opus">OPUS</span> expander is contributed 
 to the Sientra Full Circle Fund</p>
-        <p><a href="http://sientra.com/fullcircle/about/" class="opus">http://sientra.com/fullcircle/about/</a></p>
+        <p><a href="https://fullcircle.sientra.com/" class="opus">http://sientra.com/fullcircle/about/</a></p>
       </div>
   	</div>
 	

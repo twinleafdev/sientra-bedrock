@@ -45,7 +45,7 @@
     <div class="modal-content">
       <div class="modal-body">
         <p>This website uses cookies and other technologies to enhance site navigation, analyze site usage and assist in marketing efforts . You may find out more about our use of cookies in our Privacy Statement <a href="/privacy-statement/">here</a>. By continuing to use this site you accept our use of cookies. <a href="/privacy-statement/">Learn more</a></p>
-         <button type="button" class="btn btn-secondary" data-dismiss="modal">Got it!</button>
+         <button type="button" id="cookieClose" class="btn btn-secondary" data-dismiss="modal">Got it!</button>
       </div>
     </div>
   </div>

@@ -1,11 +1,7 @@
 import Swiper from 'swiper';
 export default {
   init() {
-    // JavaScript to be fired on the home page
-    jQuery('#cookie').modal({
-      show: true,
-      backdrop: false,
-    })
+
 
   },
   finalize() {

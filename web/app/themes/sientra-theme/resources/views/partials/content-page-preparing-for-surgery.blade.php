@@ -26,126 +26,126 @@
     <div class="card">
       <div class="card-header" id="headingOne">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <div class="btn btn-link collapsed">
             Am I a good candidate for breast reconstruction? 
-          </button>
+          </div>
         </h2>
       </div>
     </div>
     <div class="card">
       <div class="card-header" id="headingTwo">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <div class="btn btn-link collapsed">
             What type of breast reconstruction procedure is best for me?
-          </button>
+          </div>
         </h2>
       </div>
     </div>
     <div class="card">
       <div class="card-header" id="headingThree">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <div class="btn btn-link collapsed">
             What are the primary risks and complications associated with breast reconstruction?
-          </button>
+          </div>
         </h2>
       </div>
     </div>
     <div class="card">
       <div class="card-header" id="headingFour">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <div class="btn btn-link collapsed">
             What is the best timing for me? Can I have breast reconstruction during the same surgery as my mastectomy? If not, how long do I need to wait?
-          </button>
+          </div>
         </h2>
       </div>
     </div>
     <div class="card">
       <div class="card-header" id="headingFive">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          <div class="btn btn-link collapsed">
              Will the reconstructed breast match my remaining breast in size?
-          </button>
+          </div>
         </h2>
       </div>
     </div>
     <div class="card">
       <div class="card-header" id="headingSix">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          <div class="btn btn-link collapsed">
             How will my reconstructed breast feel to the touch?
-          </button>
+          </div>
         </h2>
       </div>
     </div>
     <div class="card">
       <div class="card-header" id="headingSeven">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          <div class="btn btn-link collapsed">
              Will I have any feeling in my reconstructed breast?
-          </button>
+          </div>
         </h2>
       </div>
     </div>
     <div class="card">
       <div class="card-header" id="headingEight">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          <div class="btn btn-link collapsed">
              Are you board certified (or board eligible) by The American Board of Plastic Surgery (ABPS)? (You can research board membership at www.abplsurg.org) 
-          </button>
+          </div>
         </h2>
       </div>
     </div>
     <div class="card">
       <div class="card-header" id="headingNine">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          <div class="btn btn-link collapsed">
              How many breast reconstruction surgeries do you perform each year?
-          </button>
+          </div>
         </h2>
       </div> 
     </div>
     <div class="card">
       <div class="card-header" id="headingNine">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          <div class="btn btn-link collapsed">
             How many years have you been doing breast reconstruction surgery? 
-          </button>
+          </div>
         </h2>
       </div> 
     </div>
     <div class="card">
       <div class="card-header" id="headingNine">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          <div class="btn btn-link collapsed">
             Which types of reconstruction are you most experienced in?
-          </button>
+          </div>
         </h2>
       </div> 
     </div>
     <div class="card">
       <div class="card-header" id="headingNine">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          <div class="btn btn-link collapsed">
              What is the most common complication you encounter with breast reconstruction patients? 
-          </button>
+          </div>
         </h2>
       </div> 
     </div>
     <div class="card">
       <div class="card-header" id="headingNine">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          <div class="btn btn-link collapsed">
              What is your reoperation rate for reconstruction patients? And what is the most common reoperation you perform?
-          </button>
+          </div>
         </h2>
       </div> 
     </div>
     <div class="card">
       <div class="card-header" id="headingNine">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          <div class="btn btn-link collapsed">
             Do you have before-and-after photos of similar procedures that I can review? 
-          </button>
+          </div>
         </h2>
       </div> 
     </div>
