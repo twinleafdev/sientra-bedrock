@@ -54,5 +54,12 @@ export default {
       }
       
       closeBtn.addEventListener('click', setCookie );
+      
+      $(document).ready(function() {
+           $('img').on('contextmenu',function(){
+              return false;
+           }); 
+       });
+      
   },
 };
