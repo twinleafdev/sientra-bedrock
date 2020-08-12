@@ -31,6 +31,9 @@
      }
   }
   .brand {
+    @media (max-width: 330px) {
+      max-width: 245px;
+    }
     max-width: 275px;
     display: block;
     position: absolute;
@@ -45,6 +48,14 @@
     &.brand-recon {
       display: none;
       visibility: hidden;
+    }
+  }
+  .navbar {
+    @media (max-width: 575px) {
+      padding: 0;
+    }
+    .navbar-nav {
+      padding-right: 15px;
     }
   }
   .augmentation.page-child &{

@@ -30,9 +30,9 @@
   	<div class="col-12 col-md-6 col-lg-8 pl-md-5">
   		<p>Covers all primary and revision augmentation and reconstruction surgeries</p>
   		<ul class="list-group"><li class="list-group-item"><span>Lifetime</span>FREE implant replacement for rupture</li>
-        <li class="list-group-item"><span>20 Year</span>Up to $5,000 for uncovered fees and costs due to implant rupture</li>
+        <li class="list-group-item"><span>20 Year</span>Up to $5,000 for uncovered fees and costs due to implant rupture</li>
         <li class="list-group-item"><span>20 Year</span>FREE implant replacement for complications of capsular contracture (Baker Grade III/IV), late forming seroma, and double capsule</li>
-        <li class="list-group-item"><span>2 Year</span>Up to $2,000 for uncovered fees and costs due to capsular contracture (Baker Grade III/IV), late forming seroma, and double capsule</li> 
+        <li class="list-group-item"><span>2 Year</span>Up to $2,000 for uncovered fees and costs due to capsular contracture (Baker Grade III/IV), late forming seroma, and double capsule</li> 
   		</ul>
   		<p class="text-center small">For qualifying patients with late forming seroma, Sientra will cover the cost of complete testing, based on current best practices, for Breast Implant Associated-Anaplastic Large Cell Lymphoma (BIA-ALCL). </p>
   		<p class="text-center">For complete details about the terms and conditions of the Sientra Platinum20 program and Sientra <span class="opus">OPUS</span> breast implants visit <a href="/breast-augmentation/patient-resources/"><span class="opus heavy">resources</span></a></p>

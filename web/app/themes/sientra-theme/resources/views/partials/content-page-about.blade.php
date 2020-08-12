@@ -89,6 +89,7 @@
 	
   <div class="swiper-container swiper-team px-5 p-md-5 p-2 w-100">
     <div class="swiper-wrapper">
+
       <?php // Check rows exists.
       if( have_rows('sientra_team') ):
 			
@@ -115,6 +116,7 @@
                 </div>
               </div>
 
+
             </div>
 
           <?php 
@@ -139,11 +141,14 @@
 
   	<div class="col-12 col-lg-5 message bg-white text-center light">
       <div class="message-inner">
+
         <h2 class="silver"><?php the_field('our_commitment_title'); ?></h2>
         <h4><?php the_field('our_commitment_subtitle'); ?></h4>
 		<?php $our_commitment_logo = get_field('our_commitment_logo'); ?>
         <img src="<?php echo esc_url($our_commitment_logo['url']); ?>" class="w-50 img-fluid my-3 px-md-5 mx-auto" alt="<?php echo esc_attr($our_commitment_logo['alt']); ?>" />
         <?php the_field('our_commitment'); ?>
+
+
       </div>
   	</div>
 	

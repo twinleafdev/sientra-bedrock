@@ -47,7 +47,7 @@
 			<ul class="opus-list">
         <li>Patient acquisition systems</li>
         <li>Internet marketing</li>
-        <li>Key procedures and sources</li>
+        <li>Key procedures and sources</li>
 			</ul>
 		</article>
 		<article class="col-md-6">
@@ -76,7 +76,7 @@
         <li>Training on how to customize your patient education documents, including letters and some forms.</li>
         <li>Pinpointing missed opportunities and practice growth opportunities.</li>
         <li>Mastering the art of qualifying callers.</li>
-        <li>Monverting new patient callers into those who have surgery.</li>
+        <li>Converting new patient callers into those who have surgery.</li>
         <li>Converting “price shoppers” into informed consumers.</li>
         <li>Establishing follow-up processes that capture more patients.</li>
         <li>Learning new strategies for confirming appointments that decreases no shows.</li>
