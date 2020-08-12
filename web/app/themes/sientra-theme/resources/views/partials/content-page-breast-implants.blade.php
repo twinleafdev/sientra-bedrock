@@ -117,19 +117,19 @@
  </div>
  
 <style>
-	.projection-bg.low {
+	.luxe .luxe-projections .projection-bg.low {
         background-image: url(<?php the_field('luxe_projection_low'); ?>);
     }
-    .projection-bg.mod {
+    .luxe .luxe-projections .projection-bg.mod {
         background-image: url(<?php the_field('luxe_projection_moderate'); ?>);
     }
-    .projection-bg.mod-plus {
+    .luxe .luxe-projections .projection-bg.mod-plus {
         background-image: url(<?php the_field('luxe_projection_moderate_plus'); ?>);
     }
-    .projection-bg.high {
+    .luxe .luxe-projections .projection-bg.high {
         background-image: url(<?php the_field('luxe_projection_high'); ?>);
     }
-    .projection-bg.xtra-high {
+    .luxe .luxe-projections .projection-bg.xtra-high {
         background-image: url(<?php the_field('luxe_projection_xtra_high'); ?>);
     }	
 </style>
@@ -217,6 +217,15 @@
 	 <?php $options_90 = get_field('options_90'); ?>
   <img src="<?php echo esc_url($options_90['url']); ?>" alt="<?php echo esc_url($options_90['alt']); ?>" />
  </div>
+	
+<style>
+	.curve .curve-projections .projection-bg.low {
+        background-image: url(<?php the_field('curve_projection_low'); ?>);
+    }
+    .curve .curve-projections .projection-bg.high {
+        background-image: url(<?php the_field('curve_projection_high'); ?>);
+    }
+</style>
  
   <div class="d-none d-md-flex col-md-3 curve-projections text-center">
 
@@ -229,11 +238,11 @@
   	</div> 
   	
   	<div class="high projection-bg">
-  		<p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 635 cc)</p>
+  		<p><?php the_field('curve_projection_high_text'); ?></p>
   	</div>
 
   	<div class="low projection-bg">
-  		<p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+  		<p><?php the_field('curve_projection_low_text'); ?></p>
   	</div>
  </div>
  
@@ -242,12 +251,12 @@
      <div class="swiper-container swiper-curve-projection">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-           <img src="@asset('images/curve-projection-low.png')" class="img-fluid" alt="curve-projection-low" width="500" height="1048" />
-           <p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+           <img src="<?php the_field('curve_projection_low'); ?>" class="img-fluid" alt="curve-projection-low" width="500" height="1048" />
+           <p><?php the_field('curve_projection_low_text'); ?></p>
         </div>
         <div class="swiper-slide">
-          <img src="@asset('images/curve-projection-high.png')" class="img-fluid" alt="curve-projection-high" width="500" height="1046" />
-          <p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 635 cc)</p>
+          <img src="<?php the_field('curve_projection_high'); ?>" class="img-fluid" alt="curve-projection-high" width="500" height="1046" />
+          <p><?php the_field('curve_projection_high_text'); ?></p>
         </div>
       </div><!-- .swiper-wrapper -->
      </div>
@@ -257,12 +266,12 @@
 </section>
 <section class="love row my-5">
 	<div class="col-12 col-md-5">
-		<img src="@asset('images/woman-love-results.svg')" alt="woman love the results" />
+		<?php $results_image = get_field('results_image'); ?>
+		<img src="<?php echo esc_url($results_image['url']); ?>" alt="<?php echo esc_url($results_image['alt']); ?>" />
 	</div>
 	<div class="col-12 col-md-8 testimonial ml-auto">
   	<img src="@asset('images/quote.svg')" class="quote-icon" alt="quote" />
-  	<p><span class="q">&#8220;</span> I went to the beach over the weekend and it’s the first time in a while I wore a bikini! I couldn’t be happier
-with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p>
+  	<?php the_field('quote'); ?>
 	</div>
 </section>
 
@@ -271,15 +280,17 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
   <div class="container-fluid wrap px-0 px-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 px-lg-3">
-      <img src="@asset('images/realself-model.jpg')" alt="pittman" width="800" height="767" />
+		<?php $realself_background = get_field('realself_background'); ?>
+      <img src="<?php echo esc_url($realself_background['url']); ?>" alt="<?php echo esc_url($realself_background['alt']); ?>" width="800" height="767" />
   	</div>
 
   	<div class="col-12 col-lg-5 ml-auto rated">
       <div class="rated-inner">
-        <img src="@asset('images/realself.svg')" alt="realself" />
-      	<h2>The <span class="opus"><strong>highest rated</strong></span><br>breast implant brand in the U.S.*</h2>
+		  <?php $realself_image = get_field('realself_image'); ?>
+        <img src="<?php echo esc_url($realself_image['url']); ?>" alt="<?php echo esc_url($realself_image['alt']); ?>" />
+      	<h2><?php the_field('realself'); ?></h2>
       </div>
-      <small>*Among silicone gel breast implants; As of March, 2020, realself.com</small>
+      <small><?php the_field('realself_footnote'); ?></small>
   	</div>
   	  	
   </div>
