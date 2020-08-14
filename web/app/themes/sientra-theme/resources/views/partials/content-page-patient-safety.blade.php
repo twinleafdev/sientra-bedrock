@@ -2,12 +2,14 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/safety-surg.jpg')" alt="safety-surg" width="1500" height="861" />
+		<?php $header_background = get_field('header_background'); ?>
+		<img src="<?php echo esc_url($header_background['url']); ?>" alt="<?php echo esc_url($header_background['alt']); ?>" width="1500" height="861" />
   	</div>
 
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/recon-patient-safety.svg')" alt="recon-patient-safety" />
+		  <?php $header_title = get_field('header_title'); ?>
+         <img src="<?php echo esc_url($header_title['url']); ?>" alt="<?php echo esc_url($header_title['alt']); ?>" />
       </div>
   	</div>
   	  	
@@ -20,17 +22,18 @@
     
     <header class="row mb-5 px-2 px-md-5">
       <div class="h-line col-12 col-md-7">
-        <img src="@asset('images/patient-safety.svg')" alt="patient-safety" />
+        <?php $commitment_image = get_field('commitment_image'); ?>
+         <img src="<?php echo esc_url($commitment_image['url']); ?>" alt="<?php echo esc_url($commitment_image['alt']); ?>" />
       </div>
       <div class="col-12 col-md-4 text-center d-flex align-items-center">
-        <h2><span class="opus">OPUS</span> breast implants are clinically shown to have low complication rates<sup>1</sup</</p>
+        <h2><?php the_field('commitment'); ?></p>
       </div>
     </header>
 
     <div class="row"> 
       <div class="col-12 evaluated">
-      	<h2>A robust 10-year clinical study – the largest breast implant study of its kind – revealed unrivaled safety and clinical results</h2>
-      	<h3><span class="opus heavy">1,788</span> patients enrolled</h3>  <span class="opus d-none d-md-inline">|</span>  <h3>37</span> plastic surgery sites</h3>  <span class="opus d-none d-md-inline">|</span>  <h3>evaluated for <span class="opus heavy">10 years</span></h3>
+      	<h2><?php the_field('study_title'); ?></h2>
+      	<?php the_field('study'); ?>
       </div>
     </div>
   </div> 
@@ -39,29 +42,29 @@
 
 <section class="rates aug-rates row text-center my-5">
         <div class="col-12">
-        	<h3 class="boxed-h mb-4">primary <span class="opus">augmentation</span> complication rates<sup>1</sup></h3>
+        	<h3 class="boxed-h mb-4"><?php the_field('complication_rates_title'); ?></h3>
         </div>
            
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
         	<div class="rounded-circle">
-        		<strong>12.9<sup>%</sup></strong>
+        		<strong><?php the_field('capsular_rate'); ?></strong>
         	</div>
-      		<h3>Capsular Contracture<br>III/IV</h3>
+      		<h3><?php the_field('capsular_title'); ?></h3>
       	</article>
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
         	<div class="rounded-circle">
-        		<strong>8.7<sup>%</sup></strong>
+        		<strong><?php the_field('rupture_rate'); ?></strong>
         	</div>
-      		<h3>Rupture<br>(MRI Cohort)</h3>
+      		<h3><?php the_field('rupture_title'); ?></h3>
       	</article>
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
         	<div class="rounded-circle">
-        		<strong>24.2<sup>%</sup></strong>
+        		<strong><?php the_field('reoperation_rate'); ?></strong>
         	</div>
-      		<h3>Reoperation</h3>
+      		<h3><?php the_field('reoperation_title'); ?></h3>
       	</article>
       <!-- 	 -->
 
@@ -69,31 +72,31 @@
   <div class="container my-5">
   
   	<div class="tb row">
-      <h3 class="light mb-3">Key Complications Primary Augmentation (smooth and textured devices) Through 10 years,<br>by Patient KM Risk Estimates</h3>
+      <h3 class="light mb-3"><?php the_field('key_complications_primary_augmentation_title'); ?></h3>
   		<article class="col-6 col-md-3">
   			<header>
         <h4>&nbsp;<br>&nbsp;</h4>
   			</header>
   
         <ul class="list-group">
-          <li class="list-group-item">Number of Implants</li>
-          <li class="list-group-item">MRI Cohort Patients</li>
-          <li class="list-group-item">Capsular Contracture III/IV</li>
-          <li class="list-group-item">Rupture (MRI Cohort)</li>
-          <li class="list-group-item">Reoperation</li>
+          <li class="list-group-item"><?php the_field('augmentation_number'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_mri'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_capsular'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_rupture'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_reoperation'); ?></li>
       </ul>
   		</article>
   		
   		<article class="sientra col-6 col-md-3">
   			<header>
-  				<h4>Sientra 10-Yr<br>N=1,116</h4>
+  				<h4><?php the_field('augmentation_sientra'); ?></h4>
   			</header>
         <ul class="list-group">
-          <li class="list-group-item">2,230</li>
-          <li class="list-group-item">398</li>
-          <li class="list-group-item">12.9%</li>
-          <li class="list-group-item">8.7%</li>
-          <li class="list-group-item">24.2%</li>
+          <li class="list-group-item"><?php the_field('augmentation_number_sientra'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_mri_sientra'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_capsular_sientra'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_rupture_sientra'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_reoperation_sientra'); ?></li>
         </ul>
   		</article>
   		
@@ -103,24 +106,24 @@
   			</header>
   
         <ul class="list-group">
-          <li class="list-group-item">Number of Implants</li>
-          <li class="list-group-item">MRI Cohort Patients</li>
-          <li class="list-group-item">Capsular Contracture III/IV</li>
-          <li class="list-group-item">Rupture (MRI Cohort)</li>
-          <li class="list-group-item">Reoperation</li>
+          <li class="list-group-item"><?php the_field('augmentation_number'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_mri'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_capsular'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_rupture'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_reoperation'); ?></li>
       </ul>
   		</article>	
   			
   		<article class="mentor col-6 col-md-3">
   			<header>
-  				<h4>Mentor 10-Yr<br>N=552</h4>
+  				<h4><?php the_field('augmentation_mentor'); ?></h4>
   			</header>
         <ul class="list-group">
-          <li class="list-group-item">1,102</li>
-          <li class="list-group-item">220</li>
-          <li class="list-group-item">12.1% </li>
-          <li class="list-group-item">24.2%</li>
-          <li class="list-group-item">25.5%</li>
+          <li class="list-group-item"><?php the_field('augmentation_number_mentor'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_mri_mentor'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_capsular_mentor'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_rupture_mentor'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_reoperation_mentor'); ?></li>
         </ul>
   		</article>
   
@@ -130,24 +133,24 @@
   			</header>
   
         <ul class="list-group">
-          <li class="list-group-item">Number of Implants</li>
-          <li class="list-group-item">MRI Cohort Patients</li>
-          <li class="list-group-item">Capsular Contracture III/IV</li>
-          <li class="list-group-item">Rupture (MRI Cohort)</li>
-          <li class="list-group-item">Reoperation</li>
+          <li class="list-group-item"><?php the_field('augmentation_number'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_mri'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_capsular'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_rupture'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_reoperation'); ?></li>
       </ul>
   		</article>	
   				
   		<article class="allergan col-6 col-md-3">
   			<header>
-  				<h4>Allergan 10-Yr<br>N=455</h4>
+  				<h4><?php the_field('augmentation_allergan'); ?></h4>
   			</header>
         <ul class="list-group">
-          <li class="list-group-item">908</li>
-          <li class="list-group-item">158</li>
-          <li class="list-group-item">18.9%</li>
-          <li class="list-group-item">9.3%</li>
-          <li class="list-group-item">36.1%</li>
+          <li class="list-group-item"><?php the_field('augmentation_number_allergan'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_mri_allergan'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_capsular_allergan'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_rupture_allergan'); ?></li>
+          <li class="list-group-item"><?php the_field('augmentation_reoperation_allergan'); ?></li>
         </ul>
   		</article>
   			
@@ -158,34 +161,34 @@
 
 <section class="rates recon-rates row text-center my-5">
         <div class="col-12">
-        	<h3 class="boxed-h mb-4">primary <span class="opus">reconstruction</span> complication rates<sup>1</sup></h3>
+        	<h3 class="boxed-h mb-4"><?php the_field('reconstruction_complication_rates_title'); ?></h3>
         </div>
            
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
         	<div class="rounded-circle">
-        		<strong>15.8<sup>%</sup></strong>
+        		<strong><?php the_field('reconstruction_capsular_rate'); ?></strong>
         	</div>
-      		<h3>Capsular Contracture<br>III/IV</h3>
+      		<h3><?php the_field('reconstruction_capsular_title'); ?></h3>
       	</article>
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
         	<div class="rounded-circle">
-        		<strong>16.5<sup>%</sup></strong>
+        		<strong><?php the_field('reconstruction_rupture_rate'); ?></strong>
         	</div>
-      		<h3>Rupture<br>(MRI Cohort)</h3>
+      		<h3><?php the_field('reconstruction_rupture_title'); ?></h3>
       	</article>
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
         	<div class="rounded-circle">
-        		<strong>48.2<sup>%</sup></strong>
+        		<strong><?php the_field('reconstruction_reoperation_rate'); ?></strong>
         	</div>
-      		<h3>Reoperation</h3>
+      		<h3><?php the_field('reconstruction_reoperation_title'); ?></h3>
       	</article>
       <!-- 	 -->
 
   <div class="container my-5">
-  <h3 class="light mb-3">Key Complications Primary Reconstruction Cohort Through 10 years,<br>by Patient KM Risk Estimates</h3>
+  <h3 class="light mb-3"><?php the_field('key_complications_primary_reconstruction_title'); ?></h3>
   	<div class="tb row">
   		<article class="col-6 col-md-3">
   			<header>
@@ -193,24 +196,24 @@
   			</header>
   
         <ul class="list-group">
-          <li class="list-group-item">Number of Implants</li>
-          <li class="list-group-item">MRI Cohort Patients</li>
-          <li class="list-group-item">Capsular Contracture III/IV</li>
-          <li class="list-group-item">Rupture (MRI Cohort)</li>
-          <li class="list-group-item">Reoperation</li>
+          <li class="list-group-item"><?php the_field('reconstruction_number'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_mri'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_capsular'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_rupture'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_reoperation'); ?></li>
       </ul>
   		</article>
   		
   		<article class="sientra col-6 col-md-3">
   			<header>
-  				<h4>Sientra 10-Yr<br>N=225</h4>
+  				<h4><?php the_field('reconstruction_sientra'); ?></h4>
   			</header>
         <ul class="list-group">
-          <li class="list-group-item">412</li>
-          <li class="list-group-item">48</li>
-          <li class="list-group-item">15.8%</li>
-          <li class="list-group-item">16.5%</li>
-          <li class="list-group-item">48.2%</li>
+          <li class="list-group-item"><?php the_field('reconstruction_number_sientra'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_mri_sientra'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_capsular_sientra'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_rupture_sientra'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_reoperation_sientra'); ?></li>
         </ul>
   		</article>
   		
@@ -220,24 +223,24 @@
   			</header>
   
         <ul class="list-group">
-          <li class="list-group-item">Number of Implants</li>
-          <li class="list-group-item">MRI Cohort Patients</li>
-          <li class="list-group-item">Capsular Contracture III/IV</li>
-          <li class="list-group-item">Rupture (MRI Cohort)</li>
-          <li class="list-group-item">Reoperation</li>
+          <li class="list-group-item"><?php the_field('reconstruction_number'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_mri'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_capsular'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_rupture'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_reoperation'); ?></li>
       </ul>
   		</article>	
   			
   		<article class="mentor col-6 col-md-3">
   			<header>
-  				<h4>Mentor 10-Yr<br>N=251</h4>
+  				<h4><?php the_field('reconstruction_mentor'); ?></h4>
   			</header>
         <ul class="list-group">
-          <li class="list-group-item">410</li>
-          <li class="list-group-item">134</li>
-          <li class="list-group-item">20.5%</li>
-          <li class="list-group-item">32.7%</li>
-          <li class="list-group-item">49.0%</li>
+          <li class="list-group-item"><?php the_field('reconstruction_number_mentor'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_mri_mentor'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_capsular_mentor'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_rupture_mentor'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_reoperation_mentor'); ?></li>
         </ul>
   		</article>
   
@@ -247,24 +250,24 @@
   			</header>
   
         <ul class="list-group">
-          <li class="list-group-item">Number of Implants</li>
-          <li class="list-group-item">MRI Cohort Patients</li>
-          <li class="list-group-item">Capsular Contracture III/IV</li>
-          <li class="list-group-item">Rupture (MRI Cohort)</li>
-          <li class="list-group-item">Reoperation</li>
+          <li class="list-group-item"><?php the_field('reconstruction_number'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_mri'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_capsular'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_rupture'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_reoperation'); ?></li>
       </ul>
   		</article>	
   				
   		<article class="allergan col-6 col-md-3">
   			<header>
-  				<h4>Allergan 10-Yr<br>N=98</h4>
+  				<h4><?php the_field('reconstruction_allergan'); ?></h4>
   			</header>
         <ul class="list-group">
-          <li class="list-group-item">127</li>
-          <li class="list-group-item">51</li>
-          <li class="list-group-item">24.6%</li>
-          <li class="list-group-item">35.4%</li>
-          <li class="list-group-item">71.5%</li>
+          <li class="list-group-item"><?php the_field('reconstruction_number_allergan'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_mri_allergan'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_capsular_allergan'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_rupture_allergan'); ?></li>
+          <li class="list-group-item"><?php the_field('reconstruction_reoperation_allergan'); ?></li>
         </ul>
   		</article>
   			
@@ -277,16 +280,15 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-5 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/timing.jpg')" alt="timing" width="708" height="834" />
+		<?php $board_certified_background = get_field('board_certified_background'); ?>
+         <img src="<?php echo esc_url($board_certified_background['url']); ?>" alt="<?php echo esc_url($board_certified_background['alt']); ?>" width="708" height="834" />
   	</div>
 
   	<div class="col-12 col-lg-8 message">
       <div class="message-inner">    	    	
-    	<h1 class="silver">board-certified</h1>
-  		<h2>plastic surgeon <span class="silver-alt opus">exclusively</span>  –<br>a commitment to excellence</h2>
-    	
-    	
-<p>Sientra is the ONLY major silicone gel breast implant manufacturer to sell exclusively to board-certified plastic surgeons. We believe this results in safer and more beautiful patient outcomes. Several key opinion leaders have recently expressed the importance of BCPS exclusivity:</p>
+    	<h1 class="silver"><?php the_field('board_certified_title'); ?></h1>
+  		<h2><?php the_field('board_certified_subtitle'); ?></h2>
+		<?php the_field('board_certified'); ?>
       </div>
   	</div>
   	  	
@@ -301,12 +303,18 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide"><p><span class="q">&#8220;</span> Only one major implant manufacturer exclusively sells to 
-board-certified plastic surgeons. The data shows they have superior long-term rupture and capsular contracture rates. This is not a coincidence. <span class="q">&#8221;</span><br><span class="sig">- Troy A. Pittman, MD | Washington, DC </span></p></div>
-        <div class="swiper-slide"><p><span class="q">&#8220;</span> Only one major implant manufacturer exclusively sells to 
-board-certified plastic surgeons. The data shows they have superior long-term rupture and capsular contracture rates. This is not a coincidence. <span class="q">&#8221;</span><br><span class="sig">- Troy A. Pittman, MD | Washington, DC </span></p></div>
-        <div class="swiper-slide"><p><span class="q">&#8220;</span> Only one major implant manufacturer exclusively sells to 
-board-certified plastic surgeons. The data shows they have superior long-term rupture and capsular contracture rates. This is not a coincidence. <span class="q">&#8221;</span><br><span class="sig">- Troy A. Pittman, MD | Washington, DC </span></p></div>
+		<?php // Check rows exists.
+        if( have_rows('quotes') ):
+
+            // Loop through rows.
+            while( have_rows('quotes') ) : the_row(); ?>
+				<div class="swiper-slide"><p>
+					<span class="q">&#8220;</span> <?php the_sub_field('quote'); ?> <span class="q">&#8221;</span><br><span class="sig">- <?php the_sub_field('quote_author'); ?> </span>
+				</p></div>
+
+            <?php // End loop.
+            endwhile;
+        endif; ?>
             ...
 
     </div>
