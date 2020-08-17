@@ -65,8 +65,17 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
   		<img src="@asset('images/cohesivity.svg')" alt="cohesivity" />
   	</div>
 		<div id="hscPress" class="col-12 col-md-5 px-4 offset-md-1">
-      <img src="@asset('images/hsc.jpg')" alt="hsc" id="hsc" class="img-fluid mb-4" width="1000" height="656" />
-      <script>      
+      <img src="@asset('images/hsc.jpg')" alt="hsc" id="hsc" class="img-fluid mb-4 d-none d-md-block" width="1000" height="656" />
+      <img src="@asset('images/hsc.gif')" alt="hsc" class="img-fluid mb-4 d-md-none" width="1000" height="656" />
+      <script> 
+	      jQuery.preloadImages = function() {
+			  for (var i = 0; i < arguments.length; i++) {
+			    jQuery("<img />").attr("src", arguments[i]);
+			  }
+			}
+			
+		  jQuery.preloadImages('@asset('images/hsc.gif')','@asset('images/hsc-plus.gif')');
+		       
           function Start() {
             jQuery('#hscPress').on({
             
@@ -82,7 +91,8 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
 <p>is soft but maintains its shape. HSC implants hold their fullness while mimicking the soft feel of natural breast tissue.</p>
 		</div>
 		<div id="hscPlusPress" class="col-12 col-md-5 px-4">
-      <img src="@asset('images/hsc-plus.jpg')" alt="hsc" id="hsc-plus" class="img-fluid mb-4" width="1000" height="656" />
+      <img src="@asset('images/hsc-plus.jpg')" alt="hsc" id="hsc-plus" class="img-fluid mb-4 d-none d-md-block" width="1000" height="656" />
+      <img src="@asset('images/hsc-plus.gif')" alt="hsc" class="img-fluid mb-4 d-md-none" width="1000" height="656" />
       <script>      
           function Start() {
             jQuery('#hscPlusPress').on({

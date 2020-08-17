@@ -20,7 +20,7 @@ export default {
         dynamicBullets: false,
       },
       autoplay: {
-        delay: 3000,
+        delay: 1500,
       },  
     });
     var swiperCurveProjection = new Swiper ('.swiper-curve-projection', {
@@ -36,7 +36,7 @@ export default {
         dynamicBullets: false,
       },
       autoplay: {
-        delay: 3000,
+        delay: 1500,
       },  
     });
     /* eslint-enable no-unused-vars */
