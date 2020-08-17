@@ -115,7 +115,7 @@
  }
 .breast-augmentation {
   .hero {
-    background-image: url(../images/aug-header-mobile.jpg);
+    /* background-image: url(../images/aug-header-mobile.jpg); */
     background-position: center top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -124,8 +124,8 @@
     align-content: flex-end;
     padding-bottom: 6vw;
     @media (min-width: 768px) { 
-//       background-image: url(../images/aug_home_hero-1200.jpg);
-      background-image: url(../images/aug_home_hero-2500.jpg);
+/*       background-image: url(../images/aug_home_hero-1200.jpg); */
+      /* background-image: url(../images/aug_home_hero-2500.jpg); */
       height: 49vw;
       padding-bottom: 7vw;
     }
@@ -4111,7 +4111,7 @@
 
 .business-practices {
   .lead {
-    background-image: url(../images/implant-group.jpg);
+    /* background-image: url(../images/implant-group.jpg); */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;

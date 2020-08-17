@@ -1,3 +1,17 @@
+
+<style>
+
+	.breast-augmentation .hero {
+		background-image: url(<?php the_field('header_background_mobile'); ?>);
+	}
+	
+	@media (min-width: 768px) {
+		.breast-augmentation .hero {
+			background-image: url(<?php the_field('header_background'); ?>);
+		}
+	}
+</style>
+
 <section class="hero row">
 <!-- 	<img src="@asset('images/aug_home_hero.jpg')" class="img-fluid" alt="aug_home_hero" width="2500" height="1552" /> -->
 <!--
@@ -10,41 +24,35 @@
      alt="Safer more beautiful results" width="2500" height="1552" >
 -->
   <div class="col-12 col-md-6 offset-md-6">
-    <span class="image-h" style="background-image: url(@asset('images/safer-results.svg'));">SAFER more beautiful RESULTS</span>
+    <span class="image-h" style="background-image: url(<?php the_field('header_title'); ?>);"><?php the_field('header_title_text'); ?></span>
   </div>
   <div class="col-12 col-md-6 offset-md-6">
-  	<h2 class="light">We believe superior implants, in the most skilled<br>
-and qualified hands, lead to better outcomes</h2>
+  	<h2 class="light"><?php the_field('header_text'); ?></h2>
   </div>
 </section>
 
 <section class="row why-choose text-center my-4  py-5">
 	<header class="col-12 mb-2 mb-sm-5">
-  	<img src="@asset('images/why-choose.svg')" alt="why choose" />
-		<h3>Sientra <span class="opus">OPUS</span> implants?</h3>
+		<?php $why_choose_title = get_field('why_choose_title'); ?>
+  	<img src="<?php echo esc_url($why_choose_title['url']); ?>" alt="<?php echo esc_url($why_choose_title['alt']); ?>" />
+		<h3><?php the_field('why_choose_subtitle'); ?></h3>
 	</header> 
 	<article class="col-12 col-sm pt-3 pt-sm-0">
-		<p class="lead">Next-generation <br>
-implant science</p>
+		<p class="lead"><?php the_field('why_choose_title_column_1'); ?></p>
 <span class="opus">•••</span><br>
-Implants designed <br>
-to perform better with a high safety profile.<sup>1,2</sup>
+<?php the_field('why_choose_column_1'); ?>
 	</article>
 	<hr class="w-50 d-block d-sm-none">
 	<article class="col-12 col-sm pt-sm-0">
-		<p class="lead">Only the best, most<br>  
-highly trained plastic surgeons</p>
+		<p class="lead"><?php the_field('why_choose_title_column_2'); ?></p>
 <span class="opus">•••</span><br>
-Sientra is available exclusively through board-certified plastic surgeons. With <span class="opus">OPUS</span> you can trust you are in 
-exceptionally skilled hands. 
+<?php the_field('why_choose_column_2'); ?> 
 	</article>
 	<hr class="w-50 d-block d-sm-none">
 	<article class="col-12 col-sm pt-sm-0">
-		<p class="lead">The industry’s most comprehensive
-20-year warranty</p>
+		<p class="lead"><?php the_field('why_choose_title_column_3'); ?></p>
 <span class="opus">•••</span><br>
-It’s more than a warranty, it’s 
-our commitment to your health and safety. 
+<?php the_field('why_choose_column_3'); ?> 
 	</article>
 </section>
 <section class="shape row text-center mt-5">

@@ -2,12 +2,14 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/warranty.jpg')" alt="warranty" width="1200" height="687" />
+		<?php $header_background = get_field('header_background'); ?>
+		<img src="<?php echo esc_url($header_background['url']); ?>" alt="<?php echo esc_url($header_background['alt']); ?>" width="1200" height="687" />
   	</div>
 
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/warranty-details.svg')" alt="warranty details" />
+		  <?php $header_title = get_field('header_title'); ?>
+         <img src="<?php echo esc_url($header_title['url']); ?>" alt="<?php echo esc_url($header_title['alt']); ?>" />
       </div>
   	</div>
   	  	
@@ -28,14 +30,19 @@
     </div>
 
   	<div class="col-12 col-md-6 col-lg-8 pl-md-5">
-  		<p>Covers all primary and revision augmentation and reconstruction surgeries</p>
-  		<ul class="list-group"><li class="list-group-item"><span>Lifetime</span>FREE implant replacement for rupture</li>
-        <li class="list-group-item"><span>20 Year</span>Up to $5,000 for uncovered fees and costs due to implant rupture</li>
-        <li class="list-group-item"><span>20 Year</span>FREE implant replacement for complications of capsular contracture (Baker Grade III/IV), late forming seroma, and double capsule</li>
-        <li class="list-group-item"><span>2 Year</span>Up to $2,000 for uncovered fees and costs due to capsular contracture (Baker Grade III/IV), late forming seroma, and double capsule</li> 
+  		<p><?php the_field('coverage_title'); ?></p>
+  		<ul class="list-group">
+			<?php // Check rows exists.
+            if( have_rows('coverage') ):
+                // Loop through rows.
+                while( have_rows('coverage') ) : the_row(); ?>
+                    <li class="list-group-item"><?php the_sub_field('coverage_item'); ?></li>
+                <?php // End loop.
+                endwhile;
+            endif; ?>
   		</ul>
-  		<p class="text-center small">For qualifying patients with late forming seroma, Sientra will cover the cost of complete testing, based on current best practices, for Breast Implant Associated-Anaplastic Large Cell Lymphoma (BIA-ALCL). </p>
-  		<p class="text-center">For complete details about the terms and conditions of the Sientra Platinum20 program and Sientra <span class="opus">OPUS</span> breast implants visit <a href="/breast-augmentation/patient-resources/"><span class="opus heavy">resources</span></a></p>
+  		<p class="text-center small"><?php the_field('qualifying_patients'); ?> </p>
+  		<?php the_field('terms'); ?>
   	</div>
   </section>
 </div>

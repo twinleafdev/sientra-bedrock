@@ -2,40 +2,44 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/partners.jpg')" alt="partners" width="1500" height="861" />
+      <?php $header_background = get_field('header_background'); ?>
+		<img src="<?php echo esc_url($header_background['url']); ?>" alt="<?php echo esc_url($header_background['alt']); ?>" width="1500" height="861" />
   	</div>
 
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/partners-inventory.svg')" alt="recon-patient-safety" />
+        <?php $header_title = get_field('header_title'); ?>
+         <img src="<?php echo esc_url($header_title['url']); ?>" alt="<?php echo esc_url($header_title['alt']); ?>" />
       </div>
   	</div>
   	  	
   </div>
 </section>
 
-<section class="lead container text-center d-flex">
-	<h1 class="light m-auto">Making it <span class="opus">easy</span> and <span class="opus">cost effective</span> to do business</h1>
+<section class="lead container text-center d-flex" style="background-image: url(<?php the_field('intro_background'); ?>);">
+	<h1 class="light m-auto"><?php the_field('intro'); ?></h1>
 </section>
 
 <section class="features container">
 	<div class="row">
 		<article class="col-12 col-md-6">
-			<h2 class="book">Free <span class="opus">two-way</span> shipping</h2>
+			<h2 class="book"><?php the_field('shipping_title'); ?></h2>
 			<div class="light">
-        <img src="@asset('images/icon-shipping.svg')" class="icon w-25" alt="icon-shipping" />
+				<?php $shipping_icon = get_field('shipping_icon'); ?>
+        <img src="<?php echo esc_url($shipping_icon['url']); ?>" class="icon w-25" alt="<?php echo esc_url($shipping_icon['alt']); ?>" />
         <ul class="opus-list-dash">
-          <li>Shipping in both directions is on us. Consider it easy, worry-free ordering that won’t negatively impact your bottom line.</li>				
+          <li><?php the_field('shipping'); ?></li>				
         </ul>
 			</div>
 		</article>
 		
 		<article class="col-12 col-md-6">
-			<h2 class="book">No restocking penalty or fees</h2>
+			<h2 class="book"><?php the_field('restocking_title'); ?></h2>
 			<div class="light">
-        <img src="@asset('images/icon-fees.svg')" class="icon w-25" alt="icon-shipping" />
+				<?php $restocking_icon = get_field('restocking_icon'); ?>
+        <img src="<?php echo esc_url($restocking_icon['url']); ?>" class="icon w-25" alt="<?php echo esc_url($restocking_icon['alt']); ?>" />
         <ul class="opus-list-dash">
-          <li>Receive full-credit for all returns up to 6 months. </li>				
+          <li><?php the_field('restocking'); ?></li>					
         </ul>
       </div>
 		</article>
@@ -43,21 +47,23 @@
 	
 	<div class="row">
 		<article class="col-12 col-md-6">
-			<h2 class="book">Provisional stock ordering</h2>
+			<h2 class="book"><?php the_field('stock_title'); ?></h2>
 			<div class="light">
-        <img src="@asset('images/icon-stock.svg')" class="icon w-25" alt="icon-shipping" />
+				<?php $stock_icon = get_field('stock_icon'); ?>
+        <img src="<?php echo esc_url($stock_icon['url']); ?>" class="icon w-25" alt="<?php echo esc_url($stock_icon['alt']); ?>" />
         <ul class="opus-list-dash">
-          <li>No billing for 35 days. Order up to 24 devices, use what you need, and return the rest. This ensures you are only billed for the products you use. </li>				
+          <li><?php the_field('stock'); ?></li>				
         </ul>
 			</div>
 		</article>
 		
 		<article class="col-12 col-md-6">
-			<h2 class="book">Consignments</h2>
+			<h2 class="book"><?php the_field('consignments_title'); ?></h2>
 			<div class="light">
-        <img src="@asset('images/icon-consign.svg')" class="icon w-25" alt="icon-shipping" />
+				<?php $consignments_icon = get_field('consignments_icon'); ?>
+        <img src="<?php echo esc_url($consignments_icon['url']); ?>" class="icon w-25" alt="<?php echo esc_url($consignments_icon['alt']); ?>" />
         <ul class="opus-list-dash">
-          <li>A generous consignment allotment helps ensure products are available when you need them. </li>				
+          <li><?php the_field('consignments'); ?></li>				
         </ul>
       </div>
 		</article>
@@ -65,21 +71,23 @@
 
 	<div class="row">
 		<article class="col-12 col-md-6">
-			<h2 class="book">Extended ordering hours</h2>
+			<h2 class="book"><?php the_field('hours_title'); ?></h2>
 			<div class="light">
-        <img src="@asset('images/icon-hours.svg')" class="icon w-25" alt="icon-shipping" />
+				<?php $hours_icon = get_field('hours_icon'); ?>
+        <img src="<?php echo esc_url($hours_icon['url']); ?>" class="icon w-25" alt="<?php echo esc_url($hours_icon['alt']); ?>" />
         <ul class="opus-list-dash">
-          <li>Our ordering lines are open longer to better accommodate your schedule</li>				
+          <li><?php the_field('hours'); ?></li>				
         </ul>
 			</div>
 		</article>
 		
 		<article class="col-12 col-md-6">
-			<h2 class="book">Continuing education series</h2>
+			<h2 class="book"><?php the_field('education_title'); ?></h2>
 			<div class="light">
-        <img src="@asset('images/icon-education.svg')" class="icon w-25" alt="icon-shipping" />
+				<?php $education_icon = get_field('education_icon'); ?>
+        <img src="<?php echo esc_url($education_icon['url']); ?>" class="icon w-25" alt="<?php echo esc_url($education_icon['alt']); ?>" />
         <ul class="opus-list-dash">
-          <li>Learn about the latest surgical techniques and best practices from some of the country’s leading plastic and reconstructive surgeons.</li>				
+          <li><?php the_field('education'); ?></li>				
         </ul>
 			</div>
 		</article>
