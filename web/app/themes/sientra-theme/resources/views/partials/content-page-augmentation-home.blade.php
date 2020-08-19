@@ -127,14 +127,16 @@
   	
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
+		<?php the_field('board_certification_video_code'); ?>
+		<!--
         <video
             id="matters-video"
             class="video-js"
             controls
             preload="auto"
-            poster="<?php the_field('board_certification_video_poster'); ?>"
+            poster="<?php //the_field('board_certification_video_poster'); ?>"
             data-setup='{}'>
-          <source src="<?php the_field('board_certification_video'); ?>" type="video/mp4"></source>
+          <source src="<?php //the_field('board_certification_video'); ?>" type="video/mp4"></source>
   
           <p class="vjs-no-js">
             To view this video please enable JavaScript, and consider upgrading to a
@@ -144,7 +146,7 @@
             </a>
           </p>
         </video>
-
+		-->
       </div>
   	</div>
   	
