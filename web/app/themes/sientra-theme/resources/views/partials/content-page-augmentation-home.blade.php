@@ -55,24 +55,26 @@
 <?php the_field('why_choose_column_3'); ?> 
 	</article>
 </section>
-<section class="shape row text-center mt-5">
+<section class="shape row text-center mt-5" style="background-image:url(<?php the_field('implants_background'); ?>);">
 	<div class="tag col-6 col-md-8">
-		<h2>Implants designed to hold their shape while maintaining a <span class="opus">remarkably soft</span> feel</h2>
+		<h2><?php the_field('implants'); ?></h2>
 	</div>
 	<div class="implant col-12 col-md-8">
-		<img src="@asset('images/implant-diagram.png')" class="img-fluid mx-auto b-block" alt="shape-implant" width="700" height="601" />
+		<?php $implants_diagram = get_field('implants_diagram'); ?>
+		<img src="<?php echo esc_url($implants_diagram['url']); ?>" class="img-fluid mx-auto b-block" alt="<?php echo esc_url($implants_diagram['alt']); ?>" width="700" height="601" />
 	</div>
 </section>
 
 <section class="pair row text-center py-5 mt-md-5">
 	<header class="col-12 col-md-6 pl-5">
-		<img src="@asset('images/perfect-pair.svg')" alt="perfect-pair" />
+		<?php $perfect_pair_image = get_field('perfect_pair_image'); ?>
+		<img src="<?php echo esc_url($perfect_pair_image['url']); ?>" alt="<?php echo esc_url($perfect_pair_image['alt']); ?>" />
 	</header>
 	<div class="col-12 col-md-6 tag d-flex align-items-end">
-		<p>When it comes to patient safety, not all implants are created equal. Sientra <span class="opus">OPUS</span> implants are clinically shown to have low complication rates.<sup>2</sup></p>
+		<?php the_field('perfect_pair'); ?>
 	</div>
 	<div class="col-12 py-4 mt-md-5 tag">
-		<h3><span><strong>1,116</strong> patients enrolled</span><span>evaluated for <strong>10 years</strong></span></h3>
+		<h3><?php the_field('patients'); ?></h3>
 	</div>
 
   <div class="container">
@@ -80,37 +82,34 @@
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle">
-      		<strong>Low</strong>
-    <p>capsular contracture rate*</p>
+      		<strong><?php the_field('stat_circle_title_1'); ?></strong>
+    <p><?php the_field('stat_circle_1'); ?></p>
       	</div>
-    		<h3>Capsular Contracture</h3>
-    <p>A tightening/hardening 
-    of the scar tissue around 
-    the implant</p>
+    		<h3><?php the_field('term_title_1'); ?></h3>
+    <p><?php the_field('term_1'); ?></p>
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle">
-      		<strong>Lowest</strong>
-      		<p>rupture rate*</p>
-    		</div>
-    		<h3>Implant Rupture</h3>
-    <p>A hole or tear in the 
-    shell of the implant</p> 
+      		<strong><?php the_field('stat_circle_title_2'); ?></strong>
+    <p><?php the_field('stat_circle_2'); ?></p>
+      	</div>
+    		<h3><?php the_field('term_title_2'); ?></h3>
+    <p><?php the_field('term_2'); ?></p> 
     
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle">
-      		<strong>Lowest</strong>
-      		<p>reoperation rate*</p>
+      		<strong><?php the_field('stat_circle_title_3'); ?></strong>
+    <p><?php the_field('stat_circle_3'); ?></p>
       	</div>
-    		<h3>Reoperation</h3>
-    <p>Any additional surgery performed to the breast after the first breast implantation</p> 
+    		<h3><?php the_field('term_title_3'); ?></h3>
+    <p><?php the_field('term_3'); ?></p>
     	</article>
     <!-- 	 -->
       <article class="col-12">
-      	    <p>*(primary augmentation cohort)</p>
+      	    <p><?php the_field('stat_footnote'); ?></p>
       </article>
     </div><!-- .row -->
   </div><!-- .container -->
@@ -119,7 +118,8 @@
 
 <section class="row matters text-center">
 	<header class="col-12 my-5">
-		<img src="@asset('images/board-certified-matters.svg')" alt="board-certified-matters" />
+		<?php $board_certification_title = get_field('board_certification_title'); ?>
+		<img src="<?php echo esc_url($board_certification_title['url']); ?>" alt="<?php echo esc_url($board_certification_title['alt']); ?>" />
 	</header>
 </section>
 <section class="matters-vid boxy-box text-center">
@@ -132,9 +132,9 @@
             class="video-js"
             controls
             preload="auto"
-            poster="@asset('images/pittman.jpg')"
+            poster="<?php the_field('board_certification_video_poster'); ?>"
             data-setup='{}'>
-          <source src="@asset('images/video/Sientra_Dr_Pittman_Consumer_Testimonial_B_PG_003.mp4')" type="video/mp4"></source>
+          <source src="<?php the_field('board_certification_video'); ?>" type="video/mp4"></source>
   
           <p class="vjs-no-js">
             To view this video please enable JavaScript, and consider upgrading to a
@@ -151,10 +151,8 @@
   	
   	<div class="col-12 col-lg-8 model text-left pl-lg-3">
     	<div>
-        <h2>Is your plastic surgeon board-certified?</h2>
-        <p>This is the first criteria to consider when researching a surgeon. Not all surgeons who perform breast augmentation are board-certified. Board-certification requires the highest level of surgical training and education and, as a result, is shown to minimize complications related to breast surgery.<sup>3</sup></p>
-        <p><span class="opus">ONLY</span> Sientra implants are available exclusively through board-certified plastic surgeons. You can trust if a surgeon offers Sientra, they are board-certified. </p>
-        <h3 class="image-h mx-auto" style="background-image:url(@asset('images/14yrs.svg'));  height: 10vw; ">14 years of formalized training and experience</h3>
+        <?php the_field('board_certification'); ?>
+        <h3 class="image-h mx-auto" style="background-image:url(<?php the_field('experience_background'); ?>);  height: 10vw; "><?php the_field('experience'); ?></h3>
 
       </div>
   	</div>
@@ -210,12 +208,12 @@
 
 <section class="love my-5">
 	<div class="col-12 col-md-5">
-		<img src="@asset('images/woman-love-results.svg')" alt="woman love the results" />
+		<?php $results_title = get_field('results_title'); ?>
+		<img src="<?php echo esc_url($results_title['url']); ?>" alt="<?php echo esc_url($results_title['alt']); ?>" />
 	</div>
 	<div class="col-12 col-md-8 testimonial ml-auto">
   	<img src="@asset('images/quote.svg')" class="quote-icon" alt="quote" />
-  	<p><span class="q">&#8220;</span> I went to the beach over the weekend and it’s the first time in a while I wore a bikini! I couldn’t be happier
-with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p>
+  	<p><span class="q">&#8220;</span> <?php the_field('quote'); ?> <span class="q">&#8221;</span><br><span class="sig"><?php the_field('quote_author'); ?></span></p>
 	</div>
 </section>
 
@@ -224,75 +222,91 @@ with my results <span class="q">&#8221;</span><br><span class="sig">- RealSelf M
   <div class="container-fluid wrap px-0 px-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 px-lg-3">
-      <img src="@asset('images/realself-model.jpg')" alt="pittman" width="800" height="767" />
+		<?php $rating_background = get_field('rating_background'); ?>
+      <img src="<?php echo esc_url($rating_background['url']); ?>" alt="<?php echo esc_url($rating_background['alt']); ?>" width="800" height="767" />
   	</div>
 
   	<div class="col-12 col-lg-5 ml-auto rated">
       <div class="rated-inner">
-        <img src="@asset('images/realself.svg')" alt="realself" />
-      	<h2>The <span class="opus"><strong>highest rated</strong></span><br>breast implant brand in the U.S.*</h2>
+		  <?php $rating_image = get_field('rating_image'); ?>
+        <img src="<?php echo esc_url($rating_image['url']); ?>" alt="<?php echo esc_url($rating_image['alt']); ?>" />
+      	<h2><?php the_field('rating'); ?></h2>
       </div>
-      <small>*Among silicone gel breast implants; As of March, 2020, realself.com</small>
+      <small><?php the_field('rating_footnote'); ?></small>
   	</div>
   	  	
   </div>
 </section>
 
 <section class="factor row text-center py-5 mt-5">
-  <div class="container">
+  <div class="container" style="background-image:url(<?php the_field('satisfaction_background'); ?>); ">
     <div class="row">
     	<div class="col-12 py-4 tag">
-      	<img src="@asset('images/feel-good-factor.svg')" alt="feel good factor" />
-    		<h2>patient satisfaction rates<sup>2</sup></h2>
+			<?php $satisfaction_title = get_field('satisfaction_title'); ?>
+      	<img src="<?php echo esc_url($satisfaction_title['url']); ?>" alt="<?php echo esc_url($rating_image['satisfaction_title']); ?>" />
+    		<h2><?php the_field('satisfaction_subtitle'); ?></h2>
     	</div>  
   	  
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle _90">
-      		<strong>90%</strong><br>
+      		<strong><?php the_field('feminine_stat'); ?></strong><br>
       	</div>
-    		<h3>Felt more feminine</h3>
+    		<h3><?php the_field('feminine'); ?></h3>
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle _91">
-      		<strong>91%</strong><br>
+      		<strong><?php the_field('natural_stat'); ?></strong><br>
       	</div>
-    		<h3>Felt their breasts look natural and soft
+    		<h3><?php the_field('natural'); ?>
 </h3>
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle _79">
-      		<strong>79%</strong><br>
+      		<strong><?php the_field('clothes_stat'); ?></strong><br>
       	</div>
-    		<h3>Felt their clothes
-fit better</h3>
+    		<h3><?php the_field('clothes'); ?></h3>
     	</article>
     <!-- 	 -->
       <article class="col-12 mt-4">
-      	    *(primary augmentation cohort)
+      	    <?php the_field('stats_footnote'); ?>
       </article>
     </div><!-- .row -->
   </div><!-- .container -->
 
 </section>
 
+<style>
+	@media (min-width: 768px) { 
+		.unmatched {
+			background-image:url(<?php the_field('warranty_background'); ?>);
+		}
+	}
+	
+	@media (max-width: 767px) { 
+		.warranty {
+			background-image:url(<?php the_field('warranty_background'); ?>);
+		}
+	}
+</style>
+
 <section class="row unmatched align-content-start">
 <!--   <img src="@asset('images/unmatched.jpg')" class="img-fluid" alt="unmatched" width="2000" height="1182" /> -->
   <header class="col-12 col-md-6">
-  	<img src="@asset('images/unmatched.svg')" alt="unmatched" />
+	  <?php $warranty_title = get_field('warranty_title'); ?>
+  	<img src="<?php echo esc_url($warranty_title['url']); ?>" alt="<?php echo esc_url($warranty_title['alt']); ?>" />
   </header>
   <div class="w-100">
   	
   </div>
   <div class="col-12 order-2 order-md-1 col-md-6 col-lg-5 mt-md-5">
-  	<p>Because we believe in the safety and performance of our implants, we can offer the industry’s best warranty.</p>
-<p>Our Sientra Platinum20<sup>TM</sup> Product Replacement and Limited Warranty Program provides the most comprehensive protection, <span class="opus">longest length of coverage</span>, most financial assistance, and <span class="opus">least amount of warranty restrictions</span> amongst all implant brands.</p>
-<p><span class="opus">All at no cost to you.</span></p>
+  	<?php the_field('warranty'); ?>
   </div>
   <div class="warranty col-12 offset-md-0 col-md-2 order-1 order-md-2 mt-md-5">
-  	<img src="@asset('images/warranty.svg')" alt="warranty" />
+	  <?php $warranty_image = get_field('warranty_image'); ?>
+  	<img src="<?php echo esc_url($warranty_image['url']); ?>" alt="<?php echo esc_url($warranty_image['alt']); ?>" />
   </div>
 </section>
 <?php echo '<!-- ' . basename( get_page_template() ) . ' -->'; ?>

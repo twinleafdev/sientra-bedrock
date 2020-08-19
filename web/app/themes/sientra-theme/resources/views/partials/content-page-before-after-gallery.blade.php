@@ -2,12 +2,14 @@
   <div class="container-fluid wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 px-lg-3">
-      <img src="@asset('images/before-after.jpg')" alt="before-after" width="1200" height="692" />
+		<?php $header_background = get_field('header_background'); ?>
+		<img src="<?php echo esc_url($header_background['url']); ?>" alt="<?php echo esc_url($header_background['alt']); ?>" width="1200" height="692" />
   	</div>
 
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/before-after-gallery.svg')" alt="before-after-gallery" />
+		  <?php $header_title = get_field('header_title'); ?>
+         <img src="<?php echo esc_url($header_title['url']); ?>" alt="<?php echo esc_url($header_title['alt']); ?>" />
       </div>
   	</div>
   	  	
@@ -15,63 +17,119 @@
 </section>
 <section class="intro text-center">
   <div class="col-12 col-md-8 offset-md-2">
-  	<h3>Whether you’re looking for a subtle change or a bold transformation, achieve your desired look with Sientra <span class="opus">OPUS</span> implants. Women love the natural look and feel of their <span class="opus">OPUS</span> implants and we think you will too!</h3>
+  	<?php the_field('intro'); ?>
 	  </div>
 </section>
 <section class="container">
 	<div class="low projection row">
-  	<header class="col-12"><img src="@asset('images/low-projection.png')" alt="low-projection" width="800" height="300" /></header>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-LOW.jpg')" alt="before-after_01" width="339" height="300" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-LOW2.jpg')" alt="before-after_02" width="339" height="300" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-LOW3.jpg')" alt="before-after_03" width="339" height="300" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-LOW4.jpg')" alt="before-after_04" width="339" height="300" /></article>
+  	<header class="col-12">
+		<?php $low_projection_title = get_field('low_projection_title'); ?>
+		<img src="<?php echo esc_url($low_projection_title['url']); ?>" alt="<?php echo esc_url($low_projection_title['alt']); ?>" width="800" height="300" /></header>
+		
+		<?php // Check rows exists.
+        if( have_rows('low_projection') ):
+
+            // Loop through rows.
+            while( have_rows('low_projection') ) : the_row(); ?>
+				<?php $before = get_sub_field('before'); ?>
+				<?php $after = get_sub_field('after'); ?>
+				<article class="col-6 col-md-3"><img src="<?php echo esc_url($before['url']); ?>" alt="<?php echo esc_attr($before['alt']); ?>" width="339" height="300" /></article>
+    			<article class="col-6 col-md-3"><img src="<?php echo esc_url($after['url']); ?>" alt="<?php echo esc_attr($after['alt']); ?>" width="339" height="300" /></article>
+
+            <?php // End loop.
+            endwhile;
+        endif; ?>
     <footer class="col-12 text-center light">
-    	<p class="text-center light">Photos courtesy of Dr. James C. Grotting</p>
+    	<p class="text-center light"><?php the_field('low_projection_credit'); ?></p>
     </footer>
 	</div><!-- .container -->
 
 	<div class="moderate projection row">
-  	<header class="col-12"><img src="@asset('images/moderate-projection.jpg')" alt="moderate-projection')" width="1000" height="322" /></header>
+		<header class="col-12">
+		<?php $moderate_projection_title = get_field('moderate_projection_title'); ?>
+		<img src="<?php echo esc_url($moderate_projection_title['url']); ?>" alt="<?php echo esc_url($moderate_projection_title['alt']); ?>" width="1000" height="322" /></header>
    
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-ModProjection.jpg')" alt="before-after_mod_01" width="2083" height="1833" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-ModProjection2.jpg')" alt="before-after_mod_02" width="2083" height="1833" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-ModProjection3.jpg')" alt="before-after_mod_03" width="2083" height="1833" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-ModProjection4.jpg')" alt="before-after_mod_04" width="2083" height="1833" /></article>
+    <?php // Check rows exists.
+        if( have_rows('moderate_projection') ):
+
+            // Loop through rows.
+            while( have_rows('moderate_projection') ) : the_row(); ?>
+				<?php $before = get_sub_field('before'); ?>
+				<?php $after = get_sub_field('after'); ?>
+				<article class="col-6 col-md-3"><img src="<?php echo esc_url($before['url']); ?>" alt="<?php echo esc_attr($before['alt']); ?>" width="339" height="300" /></article>
+    			<article class="col-6 col-md-3"><img src="<?php echo esc_url($after['url']); ?>" alt="<?php echo esc_attr($after['alt']); ?>" width="339" height="300" /></article>
+
+            <?php // End loop.
+            endwhile;
+        endif; ?>
     <footer class="col-12 text-center light">
-    	<p class="text-center light">Photos courtesy of Dr. Robert Cohen</p>
+    	<p class="text-center light"><?php the_field('moderate_projection_credit'); ?></p>
     </footer>
 	</div><!-- .container -->
 	
 	<div class="moderate-plus projection row">
-  	<header class="col-12"><img src="@asset('images/moderate-plus-projection.jpg')" alt="moderate-plus-projection" width="1378" height="350" /></header>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-ModPlusProjection.jpg')" alt="before-after_modplus_01" width="2083" height="1833" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-ModPlusProjection2.jpg')" alt="before-after_modplus_02" width="2083" height="1833" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-ModPlusProjection3.jpg')" alt="before-after_modplus_03" width="2083" height="1833" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-ModPlusProjection4.jpg')" alt="before-after_modplus_04" width="2083" height="1833" /></article>
+  	<header class="col-12">
+		<?php $moderate_plus_projection_title = get_field('moderate_plus_projection_title'); ?>
+		<img src="<?php echo esc_url($moderate_plus_projection_title['url']); ?>" alt="<?php echo esc_url($moderate_plus_projection_title['alt']); ?>" width="1378" height="350" /></header>
+    <?php // Check rows exists.
+        if( have_rows('moderate_plus_projection') ):
+
+            // Loop through rows.
+            while( have_rows('moderate_plus_projection') ) : the_row(); ?>
+				<?php $before = get_sub_field('before'); ?>
+				<?php $after = get_sub_field('after'); ?>
+				<article class="col-6 col-md-3"><img src="<?php echo esc_url($before['url']); ?>" alt="<?php echo esc_attr($before['alt']); ?>" width="339" height="300" /></article>
+    			<article class="col-6 col-md-3"><img src="<?php echo esc_url($after['url']); ?>" alt="<?php echo esc_attr($after['alt']); ?>" width="339" height="300" /></article>
+
+            <?php // End loop.
+            endwhile;
+        endif; ?>
     <footer class="col-12 text-center light">
-    	<p class="text-center light">Photos courtesy of Dr. Joshua Waltzman </p>
+    	<p class="text-center light"><?php the_field('moderate_plus_projection_credit'); ?></p>
     </footer>
 	</div><!-- .container -->
 	
 	<div class="high projection row">
-  	<header class="col-12"><img src="@asset('images/high-projection.png')" alt="high-projection" width="882" height="350" /></header>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-HighProjection.jpg')" alt="before-after_high_01" width="2083" height="1833" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-HighProjection2.jpg')" alt="before-after_high_02" width="2083" height="1833" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-HighProjection3.jpg')" alt="before-after_high_03" width="2083" height="1833" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-HighProjection4.jpg')" alt="before-after_high_04" width="2083" height="1833" /></article>
+  	<header class="col-12">
+		<?php $high_projection_title = get_field('high_projection_title'); ?>
+		<img src="<?php echo esc_url($high_projection_title['url']); ?>" alt="<?php echo esc_url($high_projection_title['alt']); ?>" width="882" height="350" /></header>
+    <?php // Check rows exists.
+        if( have_rows('high_projection') ):
+
+            // Loop through rows.
+            while( have_rows('high_projection') ) : the_row(); ?>
+				<?php $before = get_sub_field('before'); ?>
+				<?php $after = get_sub_field('after'); ?>
+				<article class="col-6 col-md-3"><img src="<?php echo esc_url($before['url']); ?>" alt="<?php echo esc_attr($before['alt']); ?>" width="339" height="300" /></article>
+    			<article class="col-6 col-md-3"><img src="<?php echo esc_url($after['url']); ?>" alt="<?php echo esc_attr($after['alt']); ?>" width="339" height="300" /></article>
+
+            <?php // End loop.
+            endwhile;
+        endif; ?>
     <footer class="col-12 text-center light">
-    	<p class="text-center light">Photos courtesy of Dr. Aaron Smith</p>
+    	<p class="text-center light"><?php the_field('high_projection_credit'); ?></p>
     </footer>
 	</div><!-- .container -->
 	
 	<div class="xtra-high projection row">
-  	<header class="col-12"><img src="@asset('images/xtra-high-projection.jpg')" alt="xtra-high-projection" width="800" height="363" /></header>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-XPProjection.jpg')" alt="before-after_xhigh_01" width="2083" height="1833" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-XPProjection2.jpg')" alt="before-after_xhigh_02" width="2083" height="1833" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-XPProjection3.jpg')" alt="before-after_xhigh_03" width="2083" height="1833" /></article>
-    <article class="col-6 col-md-3"><img src="@asset('images/Sientra_AUG-BeforeAfters-XPProjection4.jpg')" alt="before-after_xhigh_04" width="2083" height="1833" /></article>
+  	<header class="col-12">
+		<?php $xtra_high_projection_title = get_field('xtra_high_projection_title'); ?>
+		<img src="<?php echo esc_url($xtra_high_projection_title['url']); ?>" alt="<?php echo esc_url($xtra_high_projection_title['alt']); ?>" width="800" height="363" /></header>
+    <?php // Check rows exists.
+        if( have_rows('xtra_high_projection') ):
+
+            // Loop through rows.
+            while( have_rows('xtra_high_projection') ) : the_row(); ?>
+				<?php $before = get_sub_field('before'); ?>
+				<?php $after = get_sub_field('after'); ?>
+				<article class="col-6 col-md-3"><img src="<?php echo esc_url($before['url']); ?>" alt="<?php echo esc_attr($before['alt']); ?>" width="339" height="300" /></article>
+    			<article class="col-6 col-md-3"><img src="<?php echo esc_url($after['url']); ?>" alt="<?php echo esc_attr($after['alt']); ?>" width="339" height="300" /></article>
+
+            <?php // End loop.
+            endwhile;
+        endif; ?>
     <footer class="col-12 text-center light">
-    	<p class="text-center light">Photos courtesy of Dr. Sacha Obaide</p>
+    	<p class="text-center light"><?php the_field('xtra_high_projection_credit'); ?></p>
     </footer>
 	</div><!-- .container -->
 	

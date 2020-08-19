@@ -2,12 +2,14 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/implant-science.jpg')" alt="pittman" width="1200" height="691" />
+		<?php $header_background = get_field('header_background'); ?>
+		<img src="<?php echo esc_url($header_background['url']); ?>" alt="<?php echo esc_url($header_background['alt']); ?>" width="1200" height="691" />
   	</div>
 
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-         <img src="@asset('images/advanced-science.svg')" class="mx-auto" alt="advanced-science" />
+		  <?php $header_title = get_field('header_title'); ?>
+         <img src="<?php echo esc_url($header_title['url']); ?>" alt="<?php echo esc_url($header_title['alt']); ?>" class="mx-auto" />
       </div>
   	</div>
   	  	
@@ -15,58 +17,68 @@
 </section>
 <section class="desired-look text-center mx-auto">
   <header>
-    <h2 class="image-h" style="background-image: url(@asset('images/desired-look.svg')); height:13vw;">achieve your desired look</h2>
+    <h2 class="image-h" style="background-image: url(<?php the_field('desired_look_background'); ?>); height:13vw;"><?php the_field('desired_look_text'); ?></h2>
   </header>
 	<div class="h2-wrap">
-		<h2>available in round and teardrop shape</h2>
+		<h2><?php the_field('desired_look_subtitle'); ?></h2>
 	</div>
 	<div class="row">
 		<div class="col-12 col-md-6 my-3 px-5">
-			<p>Cohesive <span class="opus">round implants</span> designed for a fuller look with a naturally soft feel</p>
-			<img src="@asset('images/desires-diagram-round.jpg')" class="img-fluid d-md-none" alt="desires-diagram-round" width="1000" height="597" />
+			<p><?php the_field('round_implants'); ?></p>
+			<?php $round_implants_diagram_mobile = get_field('round_implants_diagram_mobile'); ?>
+			<img src="<?php echo esc_url($round_implants_diagram_mobile['url']); ?>" class="img-fluid d-md-none" alt="<?php echo esc_url($round_implants_diagram_mobile['alt']); ?>" width="1000" height="597" />
 		</div>
 		<div class="col-12 col-md-6 my-3 px-5">
-			<p>Cohesive <span class="opus">teardrop shaped implants</span> designed to mimic the natural slope of a women’s breast</p>
-			<img src="@asset('images/desires-diagram-teardrop.jpg')" class="img-fluid d-md-none" alt="desires-diagram-teardrop" width="1091" height="845" />
+			<p><?php the_field('teardrop_implants'); ?></p>
+			<?php $teardrop_implants_diagram_mobile = get_field('teardrop_implants_diagram_mobile'); ?>
+			<img src="<?php echo esc_url($teardrop_implants_diagram_mobile['url']); ?>" class="img-fluid d-md-none" alt="<?php echo esc_url($teardrop_implants_diagram_mobile['alt']); ?>" width="1091" height="845" />
 		</div>
 	</div><!-- .row -->
-	<img src="@asset('images/desires-diagram.jpg')" class="img-fluid my-5 d-none d-md-block" alt="desires-diagram" width="2500" height="911" />
+	<?php $implants_diagram = get_field('implants_diagram'); ?>
+	<img src="<?php echo esc_url($implants_diagram['url']); ?>" class="img-fluid my-5 d-none d-md-block" alt="<?php echo esc_url($implants_diagram['alt']); ?>" width="2500" height="911" />
 </section>
 <section class="surfaces row text-center">
 	
 	<div class="mx-3 mb-3 wrap">
   	<div>
-    	<img src="@asset('images/smooth-surface.svg')" alt="smooth-surfaces" />
-  		<p>Are soft yet durable. Smooth shells keep the gel inside and allow the implant to move naturally with the breast tissue.</p>
+		<?php $smooth_surface_title = get_field('smooth_surface_title'); ?>
+    	<img src="<?php echo esc_url($smooth_surface_title['url']); ?>" alt="<?php echo esc_url($smooth_surface_title['alt']); ?>" />
+  		<?php the_field('smooth_surface'); ?>
   	</div>
 	</div>
 	<div class="mx-3 mb-3 wrap">
   	<div>
-	  	<img src="@asset('images/microtextured-surfaces.svg')" class="micro" alt="textured-surfaces" />
-<p>More rough and aggressive shell surfaces have been classified as macrotextured. Sientra’s textured shell has been classified as a microtexture due to its less aggressive, finer surface.<sup>5</sup> Sientra’s <span class="opus">microtextured</span> surface has been reported to have a lower incidence
-of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<sup>5,6</sup></p>
+		<?php $microtextured_title = get_field('microtextured_title'); ?>
+	  	<img src="<?php echo esc_url($microtextured_title['url']); ?>" class="micro" alt="<?php echo esc_url($microtextured_title['alt']); ?>" />
+<?php the_field('microtextured'); ?>
   	</div>
 	</div>
 </section>
 <section class="feel-so-real text-center"> 
 	<header>
-		<img src="@asset('images/feel-so-real.svg')" class="w-50 mt-4"alt="feel-so-real" />
+		<?php $feel_so_real = get_field('feel_so_real'); ?>
+		<img src="<?php echo esc_url($feel_so_real['url']); ?>" class="w-50 mt-4"alt="<?php echo esc_url($feel_so_real['alt']); ?>" />
 	</header>
 	<div class="h2-wrap">
-		<h2>choose from 2 cohesive gel levels for 2 degrees of softness</h2>
+		<h2><?php the_field('choose'); ?></h2>
 	</div>
 	<div class="optimal-feel col-12">
-  	<h2 class="image-h" style="background-image: url(@asset('images/optimal-feel.svg')); height:10vw;">optimal feel</h2>
+  	<h2 class="image-h" style="background-image: url(<?php the_field('optimal_feel_image'); ?>); height:10vw;"><?php the_field('optimal_feel_text'); ?></h2>
   	
 <!--   	<img src="@asset('images/optimal-feel.svg')" class="w-25 mb-4" alt="optimal-feel" /><br> -->
 	</div>
 	<div class="row">
   	<div class="col-12 col-sm-10 offset-sm-1 px-5">
-  		<img src="@asset('images/cohesivity.svg')" alt="cohesivity" />
+		<?php $cohesivity = get_field('cohesivity'); ?>
+  		<img src="<?php echo esc_url($cohesivity['url']); ?>" alt="<?php echo esc_url($cohesivity['alt']); ?>" />
   	</div>
-		<div id="hscPress" class="col-12 col-md-5 px-4 offset-md-1">
-      <img src="@asset('images/hsc.jpg')" alt="hsc" id="hsc" class="img-fluid mb-4 d-none d-md-block" width="1000" height="656" />
-      <img src="@asset('images/hsc.gif')" alt="hsc" class="img-fluid mb-4 d-md-none" width="1000" height="656" />
+		<?php $cohesive_image = get_field('cohesive_image'); ?>
+		<?php $cohesive_image_animation = get_field('cohesive_image_animation'); ?>
+		<?php $cohesive_plus_image = get_field('cohesive_plus_image'); ?>
+		<?php $cohesive_plus_image_animation = get_field('cohesive_plus_image_animation'); ?>
+		<div id="hscPress" class="col-12 col-md-5 px-4 offset-md-1">			
+      <img src="<?php echo esc_url($cohesive_image['url']); ?>" alt="<?php echo esc_url($cohesive_image['alt']); ?>" id="hsc" class="img-fluid mb-4 d-none d-md-block" width="1000" height="656" />
+      <img src="<?php echo esc_url($cohesive_image_animation['url']); ?>" alt="<?php echo esc_url($cohesive_image_animation['alt']); ?>" class="img-fluid mb-4 d-md-none" width="1000" height="656" />
       <script> 
 	      jQuery.preloadImages = function() {
 			  for (var i = 0; i < arguments.length; i++) {
@@ -74,48 +86,77 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
 			  }
 			}
 			
-		  jQuery.preloadImages('@asset('images/hsc.gif')','@asset('images/hsc-plus.gif')');
+		  jQuery.preloadImages('<?php echo esc_url($cohesive_image_animation['url']); ?>','<?php echo esc_url($cohesive_plus_image_animation['url']); ?>');
 		       
           function Start() {
             jQuery('#hscPress').on({
             
-            mouseenter: function () { jQuery('#hsc').prop('src', '@asset('images/hsc.gif')') },
-            mouseleave: function () { jQuery('#hsc').prop('src', '@asset('images/hsc.jpg')') }
+            mouseenter: function () { jQuery('#hsc').prop('src', '<?php echo esc_url($cohesive_image_animation['url']); ?>') },
+            mouseleave: function () { jQuery('#hsc').prop('src', '<?php echo esc_url($cohesive_image['url']); ?>') }
             
               });
           }   
           jQuery(Start);
       </script>
       
-			<h3>High-Strength Cohesive (HSC) Gel</h3>
-<p>is soft but maintains its shape. HSC implants hold their fullness while mimicking the soft feel of natural breast tissue.</p>
+			<?php the_field('cohesive'); ?>
 		</div>
 		<div id="hscPlusPress" class="col-12 col-md-5 px-4">
-      <img src="@asset('images/hsc-plus.jpg')" alt="hsc" id="hsc-plus" class="img-fluid mb-4 d-none d-md-block" width="1000" height="656" />
-      <img src="@asset('images/hsc-plus.gif')" alt="hsc" class="img-fluid mb-4 d-md-none" width="1000" height="656" />
+      <img src="<?php echo esc_url($cohesive_plus_image['url']); ?>" alt="<?php echo esc_url($cohesive_plus_image['alt']); ?>" id="hsc-plus" class="img-fluid mb-4 d-none d-md-block" width="1000" height="656" />
+      <img src="<?php echo esc_url($cohesive_plus_image_animation['url']); ?>" alt="<?php echo esc_url($cohesive_plus_image_animation['alt']); ?>" class="img-fluid mb-4 d-md-none" width="1000" height="656" />
       <script>      
           function Start() {
             jQuery('#hscPlusPress').on({
             
-            mouseenter: function () { jQuery('#hsc-plus').prop('src', '@asset('images/hsc-plus.gif')') },
-            mouseleave: function () { jQuery('#hsc-plus').prop('src', '@asset('images/hsc-plus.jpg')') }
+            mouseenter: function () { jQuery('#hsc-plus').prop('src', '<?php echo esc_url($cohesive_plus_image_animation['url']); ?>') },
+            mouseleave: function () { jQuery('#hsc-plus').prop('src', '<?php echo esc_url($cohesive_plus_image['url']); ?>') }
             
               });
           }   
           jQuery(Start);
       </script>
       
-			<h3>High-Strength Cohesive Plus (HSC+) Gel</h3>
-<p>is more cohesive than our HSC gel. It provides improved shape retention without the trade-off of an overly firm implant.<sup>1</sup></p>
+			<?php the_field('cohesive_plus'); ?>
 		</div>
 	</div><!-- .row -->
 </section>
+<style>
+	.luxe {
+		background-image: url(<?php the_field('luxe_background_mobile'); ?>);
+	}
+	
+	@media (min-width: 768px) {
+		.luxe {
+			background-image: url(<?php the_field('luxe_background'); ?>);
+		}
+	}
+</style>
 <section class="luxe row mb-5">
- <header class="col-6 col-sm-4"> <img src="@asset('images/opus-luxe.png')" class="img-fluid" alt="opus-luxe" width="949" height="353" /></header>
+ <header class="col-6 col-sm-4">
+	 <?php $opus_luxe = get_field('opus_luxe'); ?>
+	 <img src="<?php echo esc_url($opus_luxe['url']); ?>" class="img-fluid" alt="<?php echo esc_url($opus_luxe['alt']); ?>" width="949" height="353" /></header>
  <div class="_250-round col-12 col-md-4 mb-4 mb-md-0">
-  <img src="@asset('images/250-round.svg')" alt="250-round" />
+	 <?php $choices_250 = get_field('choices_250'); ?>
+  <img src="<?php echo esc_url($choices_250['url']); ?>" alt="<?php echo esc_url($choices_250['alt']); ?>" />
  </div>
  
+<style>
+	.luxe .luxe-projections .projection-bg.low {
+        background-image: url(<?php the_field('luxe_projection_low'); ?>);
+    }
+    .luxe .luxe-projections .projection-bg.mod {
+        background-image: url(<?php the_field('luxe_projection_moderate'); ?>);
+    }
+    .luxe .luxe-projections .projection-bg.mod-plus {
+        background-image: url(<?php the_field('luxe_projection_moderate_plus'); ?>);
+    }
+    .luxe .luxe-projections .projection-bg.high {
+        background-image: url(<?php the_field('luxe_projection_high'); ?>);
+    }
+    .luxe .luxe-projections .projection-bg.xtra-high {
+        background-image: url(<?php the_field('luxe_projection_xtra_high'); ?>);
+    }	
+</style>
  
  <div class="d-none d-md-block luxe-projections text-center">
  	<div class="xtra-high projection">
@@ -135,19 +176,19 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
  	</div> 
  	
  	<div class="xtra-high projection-bg">
- 		<p><span class="opus">Xtra high</span> projection  <span class="opus">|</span>  (275 cc - 510 cc)</p>
+ 		<p><?php the_field('luxe_projection_xtra_high_text'); ?></p>
  	</div>
  	<div class="high projection-bg">
- 		<p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
+ 		<p><?php the_field('luxe_projection_high_text'); ?></p>
  	</div>
  	<div class="mod-plus projection-bg">
- 		<p><span class="opus">moderate plus</span> projection  <span class="opus">|</span>  (175 cc - 695 cc)</p>
+ 		<p><?php the_field('luxe_projection_moderate_plus_text'); ?></p>
  	</div>
  	<div class="mod projection-bg">
- 		<p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
+ 		<p><?php the_field('luxe_projection_moderate_text'); ?></p>
  	</div>
  	<div class="low projection-bg">
- 		<p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+ 		<p><?php the_field('luxe_projection_low_text'); ?></p>
  	</div>
  </div>
  
@@ -157,24 +198,24 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
      <div class="swiper-container swiper-luxe-projection">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="@asset('images/luxe-projection-low.png')" class="img-fluid" alt="luxe-projection-low" width="800" height="679" />
-          <p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+          <img src="<?php the_field('luxe_projection_low'); ?>" class="img-fluid" alt="luxe-projection-low" width="800" height="679" />
+          <p><?php the_field('luxe_projection_low_text'); ?></p>
         </div>
         <div class="swiper-slide">
-          <img src="@asset('images/luxe-projection-moderate.png')" class="img-fluid" alt="luxe-projection-moderate" width="800" height="554" />
-          <p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
+          <img src="<?php the_field('luxe_projection_moderate'); ?>" class="img-fluid" alt="luxe-projection-moderate" width="800" height="554" />
+          <p><?php the_field('luxe_projection_moderate_text'); ?></p>
         </div>
         <div class="swiper-slide">
-          <img src="@asset('images/luxe-projection-moderate-plus.png')" class="img-fluid" alt="luxe-projection-moderate-plus" width="800" height="570" />
-          <p><span class="opus">moderate plus</span> projection  <span class="opus">|</span>  (175 cc - 695 cc)</p>
+          <img src="<?php the_field('luxe_projection_moderate_plus'); ?>" class="img-fluid" alt="luxe-projection-moderate-plus" width="800" height="570" />
+          <p><?php the_field('luxe_projection_moderate_plus_text'); ?></p>
         </div>
         <div class="swiper-slide">
-          <img src="@asset('images/luxe-projection-high.png')" class="img-fluid" alt="luxe-projection-high" width="800" height="592" />       
-          <p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
+          <img src="<?php the_field('luxe_projection_high'); ?>" class="img-fluid" alt="luxe-projection-high" width="800" height="592" />       
+          <p><?php the_field('luxe_projection_high_text'); ?></p>
         </div>
         <div class="swiper-slide">
-          <img src="@asset('images/luxe-projection-xrta-high.png')" class="img-fluid" alt="luxe-projection-xrta-high" width="800" height="506" />
-          <p><span class="opus">Xtra high</span> projection  <span class="opus">|</span>  (275 cc - 510 cc)</p>
+          <img src="<?php the_field('luxe_projection_xtra_high'); ?>" class="img-fluid" alt="luxe-projection-xrta-high" width="800" height="506" />
+          <p><?php the_field('luxe_projection_xtra_high_text'); ?></p>
         </div>
       </div><!-- .swiper-wrapper -->
      </div>
@@ -182,10 +223,33 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
  
  </div>
 </section>
+
+<style>
+	.curve {
+    	background-image: url(<?php the_field('curve_background_mobile'); ?>);
+	}
+
+    @media (min-width: 768px) { 
+		.curve {
+       		background-image: url(<?php the_field('curve_background'); ?>);
+		}
+    }
+</style>
+
 <section class="curve row mb-5">
  <div class="_90-options col-12 col-md-4 mb-2 offset-md-5">
-  <img src="@asset('images/90-options.svg')" alt="90-options" />
+	 <?php $options_90 = get_field('options_90'); ?>
+  <img src="<?php echo esc_url($options_90['url']); ?>" alt="<?php echo esc_url($options_90['alt']); ?>" />
  </div>
+	
+<style>
+	.curve .curve-projections .projection-bg.low {
+        background-image: url(<?php the_field('curve_projection_low'); ?>);
+    }
+    .curve .curve-projections .projection-bg.high {
+        background-image: url(<?php the_field('curve_projection_high'); ?>);
+    }
+</style>
  
   <div class="d-none d-md-flex col-md-3 curve-projections text-center">
 
@@ -198,13 +262,12 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
   	</div> 
   	
   	<div class="high projection-bg">
-<!--   		<p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 635 cc)</p> -->
+  		<p><?php the_field('curve_projection_high_text'); ?></p>
   	</div>
-    <p class="bg-p high-p"><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 635 cc)</p>
+
   	<div class="low projection-bg">
-<!--   		<p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p> -->
+  		<p><?php the_field('curve_projection_low_text'); ?></p>
   	</div>
-  	<p class="bg-p low-p"><span class="opus">moderate</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
  </div>
  
  <div class="implant col-12 d-md-none text-center">
@@ -212,12 +275,12 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
      <div class="swiper-container swiper-curve-projection">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-           <img src="@asset('images/curve-projection-low.png')" class="img-fluid" alt="curve-projection-low" width="500" height="1048" />
-           <p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+           <img src="<?php the_field('curve_projection_low'); ?>" class="img-fluid" alt="curve-projection-low" width="500" height="1048" />
+           <p><?php the_field('curve_projection_low_text'); ?></p>
         </div>
         <div class="swiper-slide">
-          <img src="@asset('images/curve-projection-high.png')" class="img-fluid" alt="curve-projection-high" width="500" height="1046" />
-          <p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 635 cc)</p>
+          <img src="<?php the_field('curve_projection_high'); ?>" class="img-fluid" alt="curve-projection-high" width="500" height="1046" />
+          <p><?php the_field('curve_projection_high_text'); ?></p>
         </div>
       </div><!-- .swiper-wrapper -->
      </div>
@@ -228,45 +291,44 @@ of BIA-ALCL (cancer of the immune system) than all other U.S. implant brands.<su
 <section class="patient-safety row text-center">
   <div class="inner container-fluid">
     <header class="row mb-5">
-      <div class="h-line col-12 col-md-7"> <img src="@asset('images/patient-safety.svg')" alt="patient-safety" /></div>
-      <div class="col-12 col-md-4 text-center d-flex align-items-center"> <p><span class="opus">OPUS</span> implants are clinically shown to have low complication rates<sup>2</sup></p></div>
+      <div class="h-line col-12 col-md-7"> 
+		  <?php $safety_title = get_field('safety_title'); ?>
+		  <img src="<?php echo esc_url($safety_title['url']); ?>" alt="<?php echo esc_url($safety_title['alt']); ?>" /></div>
+      <div class="col-12 col-md-4 text-center d-flex align-items-center"> <?php the_field('safety'); ?></div>
     </header>
     <div class="container">
       <div class="row">    
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
         	<div class="rounded-circle">
-        		<strong>Low</strong>
-      <p>capsular contracture rate*</p>
-        	</div>
-      		<h3>Capsular Contracture</h3>
-      <p>A tightening/hardening 
-      of the scar tissue around 
-      the implant</p>
+      		<strong><?php the_field('stat_circle_title_1'); ?></strong>
+    <p><?php the_field('stat_circle_1'); ?></p>
+      	</div>
+    		<h3><?php the_field('term_title_1'); ?></h3>
+    <p><?php the_field('term_1'); ?></p>
       	</article>
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
         	<div class="rounded-circle">
-        		<strong>Lowest</strong>
-        		<p>rupture rate*</p>
-      		</div>
-      		<h3>Implant Rupture</h3>
-      <p>A hole or tear in the 
-      shell of the implant</p> 
+      		<strong><?php the_field('stat_circle_title_2'); ?></strong>
+    <p><?php the_field('stat_circle_2'); ?></p>
+      	</div>
+    		<h3><?php the_field('term_title_2'); ?></h3>
+    <p><?php the_field('term_2'); ?></p> 
       
       	</article>
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
         	<div class="rounded-circle">
-        		<strong>Lowest</strong>
-        		<p>reoperation rate*</p>
-        	</div>
-      		<h3>Reoperation</h3>
-      <p>Any additional surgery performed to the breast after the first breast implantation</p> 
+      		<strong><?php the_field('stat_circle_title_3'); ?></strong>
+    <p><?php the_field('stat_circle_3'); ?></p>
+      	</div>
+    		<h3><?php the_field('term_title_3'); ?></h3>
+    <p><?php the_field('term_3'); ?></p>
       	</article>
       <!-- 	 -->
         <article class="col-12">
-        	    <p>*(primary augmentation cohort)</p>
+        	     <p><?php the_field('stat_footnote'); ?></p>
         </article>
       </div><!-- .row -->
     </div><!-- .container -->

@@ -228,7 +228,7 @@ $height1: 41vw;
   }
 } 
 .luxe {
-  background-image: url(../images/luxe-bg-m.jpg);
+  /* background-image: url(../images/luxe-bg-m.jpg); */
   background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -258,7 +258,7 @@ $height1: 41vw;
     }
   }
   @media (min-width: 768px) { 
-     background-image: url(../images/luxe-bg.jpg);
+     /* background-image: url(../images/luxe-bg.jpg); */
      min-height: 53vw;
      padding-top: 2% 3%;
   }
