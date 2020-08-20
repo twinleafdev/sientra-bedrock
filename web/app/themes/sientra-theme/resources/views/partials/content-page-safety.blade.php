@@ -2,12 +2,14 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/recon-patient-safety.jpg')" alt="recon-patient-safety" width="1500" height="861" />
+      <?php $header_background = get_field('header_background'); ?>
+		<img src="<?php echo esc_url($header_background['url']); ?>" alt="<?php echo esc_url($header_background['alt']); ?>" width="1500" height="861" />
   	</div>
 
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/recon-patient-safety.svg')" alt="recon-patient-safety" />
+        <?php $header_title = get_field('header_title'); ?>
+         <img src="<?php echo esc_url($header_title['url']); ?>" alt="<?php echo esc_url($header_title['alt']); ?>" />
       </div>
   	</div>
   	  	
@@ -16,15 +18,18 @@
 
 <section class="patient-safety row text-center">
     <header class="col-12">
-      	<img src="@asset('images/patient-safety.svg')" alt="patient-safety" />
+      	<?php $safety_title = get_field('safety_title'); ?>
+         <img src="<?php echo esc_url($safety_title['url']); ?>" alt="<?php echo esc_url($safety_title['alt']); ?>" />
     </header>
   	<div class="col-12 col-md-10 offset-md-1 my-5">
-    			<h2 class="light">When it comes to patient safety, not all implants are created equal.<br>Sientra <span class="opus">OPUS</span> implants are clinically shown to have low complication rates.<sup>4</sup></h2>
+    			<h2 class="light"><?php the_field('safety'); ?></h2>
   	</div>
 
-    <div class="diagram col-12 mb-5">
-     	<img src="@asset('images/implant-diagram.png')" class="img-fluid d-md-none" alt="implant-diagram" width="1000" height="974" />
-     	<img src="@asset('images/implant-safety-diagram.svg')" class="img-fluid d-none d-md-block" alt="implant-safety-diagram" />
+    <div class="diagram col-12 mb-5" style="background-image:url(<?php the_field('safety_diagram_background'); ?>); ">
+		<?php $safety_diagram = get_field('safety_diagram'); ?>
+		<?php $safety_diagram_mobile = get_field('safety_diagram_mobile'); ?>
+     	<img src="<?php echo esc_url($safety_diagram_mobile['url']); ?>" class="img-fluid d-md-none" alt="<?php echo esc_url($safety_diagram_mobile['alt']); ?>" width="1000" height="974" />
+     	<img src="<?php echo esc_url($safety_diagram['url']); ?>" class="img-fluid d-none d-md-block" alt="<?php echo esc_url($safety_diagram['alt']); ?>" />
     </div>
 
     <div class="container">
@@ -32,37 +37,34 @@
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-5">
         	<div class="rounded-circle">
-        		<strong>Lowest</strong>
-      <p>capsular contracture rate<sup>*</sup></p>
+        		<strong><?php the_field('stat_circle_title_1'); ?></strong>
+      <p><?php the_field('stat_circle_1'); ?></p>
         	</div>
-      		<h3>Capsular Contracture</h3>
-      <p>A tightening/hardening 
-      of the scar tissue around 
-      the implant</p>
+      		<h3><?php the_field('term_title_1'); ?></h3>
+      <p><?php the_field('term_1'); ?></p>
       	</article>
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-5">
         	<div class="rounded-circle">
-        		<strong>Lowest</strong>
-        		<p>rupture rate<sup>*</sup></p>
-      		</div>
-      		<h3>Implant Rupture</h3>
-      <p>A hole or tear in the 
-      shell of the implant</p> 
+        		<strong><?php the_field('stat_circle_title_2'); ?></strong>
+      <p><?php the_field('stat_circle_2'); ?></p>
+        	</div>
+      		<h3><?php the_field('term_title_2'); ?></h3>
+      <p><?php the_field('term_2'); ?></p> 
       
       	</article>
       <!-- 	 -->
       	<article class="col-12 col-sm-4 mb-1 mb-md-5">
         	<div class="rounded-circle">
-        		<strong>Lowest</strong>
-        		<p>reoperation rate<sup>*</sup></p>
+        		<strong><?php the_field('stat_circle_title_3'); ?></strong>
+      <p><?php the_field('stat_circle_3'); ?></p>
         	</div>
-      		<h3>Reoperation</h3>
-      <p>Any additional surgery performed to the breast after the first breast implantation</p> 
+      		<h3><?php the_field('term_title_3'); ?></h3>
+      <p><?php the_field('term_3'); ?></p>
       	</article>
       <!-- 	 -->
         <article class="col-12">
-        	    <p>*(primary reconstruction cohort)</p>
+        	    <p><?php the_field('stat_footnote'); ?></p>
         </article>
       </div><!-- .row -->
     </div><!-- .container -->
@@ -70,29 +72,24 @@
 </section>
 <section class="warranty row">
 	<div class="h-line col-9 col-md-6 offset-md-3 text-center">
-		<img src="@asset('images/best-implant-warranty.svg')" alt="best-implant-warranty" />
+		<?php $warranty_title = get_field('warranty_title'); ?>
+  	<img src="<?php echo esc_url($warranty_title['url']); ?>" alt="<?php echo esc_url($warranty_title['alt']); ?>" />
 	</div>
 	<div class="col-3 col-md-2">
-		<img src="@asset('images/warranty.svg')" class="img-fluid" alt="warranty" />
+		<?php $warranty_image = get_field('warranty_image'); ?>
+  	<img src="<?php echo esc_url($warranty_image['url']); ?>" alt="<?php echo esc_url($warranty_image['alt']); ?>" class="img-fluid" />
 	</div>
 	<div class="col-12 col-md-8 offset-md-2 text-center my-5">
-		<h2 class="light">Because we believe in the safety and performance of our implants, we can offer the industry’s best warranty. </h2>
+		<h2 class="light"><?php the_field('warranty'); ?></h2>
 	</div>
 </section>
 <section class="platinum20 container">
 	<div class="inner">
   	<div class="col-12 text-center">
-  		<p>Our Sientra Platinum20™ Product Replacement and Limited Warranty Program provides the most comprehensive protection, longest length of coverage, most financial assistance, and least amount of warranty restrictions amongst all implant brands. </p>
-  		<p>Covers all primary and revision augmentation and reconstruction surgeries</p>
+  		<?php the_field('platinum20_intro'); ?>
   	</div>
-  	<div class="col-12 col-md-10 offset-md-1">
-  		<ul class="list-group"><li class="list-group-item"><span>Lifetime</span>FREE implant replacement for rupture</li>
-        <li class="list-group-item"><span>20 Year</span>Up to $5,000 for uncovered fees and costs due to implant rupture</li>
-        <li class="list-group-item"><span>20 Year</span>FREE implant replacement for complications of capsular contracture (Baker Grade III/IV), late forming seroma, and double capsule</li>
-        <li class="list-group-item"><span>2 Year</span>Up to $2,000 for uncovered fees and costs due to capsular contracture (Baker Grade III/IV), late forming seroma, and double capsule</li> 
-  		</ul>
-  		<p class="text-center small">For qualifying patients with late forming seroma, Sientra will cover the cost of complete testing, based on current best practices, for Breast Implant Associated-Anaplastic Large Cell Lymphoma (BIA-ALCL). </p>
-  		<p class="text-center">For complete details about the terms and conditions of the Sientra Platinum20 program and Sientra <span class="opus">OPUS</span> breast implants visit <span class="opus heavy"><a href="/breast-reconstruction/patient-resources/#warranty" class="opus">resources</a></span></p>
+  	<div class="col-12 col-md-10 offset-md-1">		
+		<?php the_field('platinum20'); ?>
   	</div>
 
 	</div>

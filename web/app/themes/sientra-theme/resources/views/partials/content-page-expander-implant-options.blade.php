@@ -345,37 +345,38 @@
 </section>
 
 <section class="factor row text-center pb-5">
-  <div class="container">
+  <div class="container" style="background-image:url(<?php the_field('satisfaction_background'); ?>); ">
     <div class="row">
     	<div class="col-12 py-4 tag">
-      	<img src="@asset('images/feel-good-factor.svg')" alt="feel good factor" />
-    		<h2>patient satisfaction rates<sup>4</sup></h2>
+      	<?php $satisfaction_title = get_field('satisfaction_title'); ?>
+      	<img src="<?php echo esc_url($satisfaction_title['url']); ?>" alt="<?php echo esc_url($rating_image['satisfaction_title']); ?>" />
+    		<h2><?php the_field('satisfaction_subtitle'); ?></h2>
     	</div>  
   	  
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle _80">
-      		<strong>80.3<span class="light">%</span></strong><br>
+      		<strong><?php the_field('feminine_stat'); ?></strong><br>
       	</div>
-    		<h3>Felt more<br>feminine</h3>
+    		<h3><?php the_field('feminine'); ?></h3>
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle _75">
-      		<strong>75.2<span class="light">%</span></strong><br>
+      		<strong><?php the_field('clothes_stat'); ?></strong><br>
       	</div>
-    		<h3>felt their clothes<br>fit better</h3>
+    		<h3><?php the_field('clothes'); ?></h3>
     	</article>
     <!-- 	 -->
     	<article class="col-12 col-sm-4 mb-5 mb-sm-0">
       	<div class="rounded-circle _71">
-      		<strong>71.3<span class="light">%</span></strong><br>
+      		<strong><?php the_field('natural_stat'); ?></strong><br>
       	</div>
-    		<h3>felt their breasts look<br>natural and soft</h3>
+    		<h3><?php the_field('natural'); ?></h3>
     	</article>
     <!-- 	 -->
       <article class="col-12 my-4">
-      	    *(primary reconstruction cohort)
+      	    <?php the_field('stats_footnote'); ?>
       </article>
     </div><!-- .row -->
   </div><!-- .container -->
@@ -386,15 +387,17 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
     <div class="col-12 col-lg-8 model text-left px-0 px-lg-3">
-      <img src="@asset('images/expander-realself.jpg')" alt="expander-realself" width="1500" height="992" />
+      <?php $rating_background = get_field('rating_background'); ?>
+      <img src="<?php echo esc_url($rating_background['url']); ?>" alt="<?php echo esc_url($rating_background['alt']); ?>" width="1500" height="992" />
     </div>
 
   	<div class="col-12 col-lg-5 message">
       <div class="message-inner light">
-        <img src="@asset('images/realself.svg')" alt="realself" />
-      	<h2>The <span class="opus"><strong>highest rated</strong></span><br>breast implant brand in the U.S.*</h2>
+        <?php $rating_image = get_field('rating_image'); ?>
+        <img src="<?php echo esc_url($rating_image['url']); ?>" alt="<?php echo esc_url($rating_image['alt']); ?>" />
+      	<h2><?php the_field('rating'); ?></h2>
       </div>
-      <small>*Among silicone gel breast implants; As of March, 2020, realself.com</small>
+      <small><?php the_field('rating_footnote'); ?></small>
 
   	</div>
   	  	
