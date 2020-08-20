@@ -2,12 +2,14 @@
   <div class="container-fluid wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 px-lg-3">
-      <img src="@asset('images/recon-before-after.jpg')" alt="recon-before-after" width="1500" height="861" />
+      <?php $header_background = get_field('header_background'); ?>
+		<img src="<?php echo esc_url($header_background['url']); ?>" alt="<?php echo esc_url($header_background['alt']); ?>" width="1500" height="861" />
   	</div>
 
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/before-after-gallery.svg')" alt="before-after-gallery" />
+        <?php $header_title = get_field('header_title'); ?>
+         <img src="<?php echo esc_url($header_title['url']); ?>" alt="<?php echo esc_url($header_title['alt']); ?>" />
         
       </div>
   	</div>
@@ -18,44 +20,72 @@
 <section class="container">
 	<div class="low projection row">
   	<header class="col-12 text-center">
-    	<img src="@asset('images/patient-one.svg')" alt="patient-one" />
-      <h3>AlloX2 Mid-Height tissue expander exchanged for Sientra <span class="opus">OPUS</span> <i class="icon-curve"></i>  <br>shaped implant, oval base, high projection</h3>
+		<?php $patient_1_title = get_field('patient_1_title'); ?>
+    	<img src="<?php echo esc_url($patient_1_title['url']); ?>" alt="<?php echo esc_url($patient_1_title['alt']); ?>" />
+      <h3><?php the_field('patient_1'); ?></h3>
   	</header>
-      <article class="col-12 col-md-4"><img src="@asset('images/Sientra_RECON-BeforeAfters-ONE.jpg')" alt="recon-b-a_01" width="2083" height="1375" /></article>
-      <article class="col-12 col-md-4"><img src="@asset('images/Sientra_RECON-BeforeAfters-ONE2.jpg')" alt="recon-b-a_02" width="2083" height="1375" /></article>
-      <article class="col-12 col-md-4"><img src="@asset('images/Sientra_RECON-BeforeAfters-ONE3.jpg')" alt="recon-b-a_03" width="2083" height="1375" /></article>
+		
+		<?php // Check rows exists.
+        if( have_rows('patient_1_photos') ):
+
+            // Loop through rows.
+            while( have_rows('patient_1_photos') ) : the_row(); ?>
+				<?php $photo = get_sub_field('photo'); ?>
+				<article class="col-12 col-md-4"><img src="<?php echo esc_url($photo['url']); ?>" alt="<?php echo esc_attr($photo['alt']); ?>" /></article>
+
+            <?php // End loop.
+            endwhile;
+        endif; ?>
     <footer class="col-12 text-center mt-4">
-    	<p>Photos courtesy of Dr. Troy Pittman, MD, FACS</p>
+    	<p><?php the_field('patient_1_credit'); ?></p>
     </footer>
 	</div><!-- .container -->
 
 
 	<div class="low projection row">
   	<header class="col-12 text-center">
-    	<img src="@asset('images/patient-two.svg')" alt="patient-one" />
-      <h3>Sientra tissue expanders exchanged for Sientra <span class="opus">OPUS</span> <i class="icon-curve"></i> <br>shaped implants, round base, high projection</h3>
+    	<?php $patient_2_title = get_field('patient_2_title'); ?>
+    	<img src="<?php echo esc_url($patient_2_title['url']); ?>" alt="<?php echo esc_url($patient_2_title['alt']); ?>" />
+      <h3><?php the_field('patient_2'); ?></h3>
   	</header>
-      <article class="col-12 col-md-3"><img src="@asset('images/Sientra_RECON-BeforeAfters-TWO.jpg')" alt="recon-b-a_01" width="2083" height="1375" /></article>
-      <article class="col-12 col-md-3"><img src="@asset('images/Sientra_RECON-BeforeAfters-TWO2.jpg')" alt="recon-b-a_02" width="2083" height="1375" /></article>
-      <article class="col-12 col-md-3"><img src="@asset('images/Sientra_RECON-BeforeAfters-TWO3.jpg')" alt="recon-b-a_03" width="2083" height="1375" /></article>
-      <article class="col-12 col-md-3"><img src="@asset('images/Sientra_RECON-BeforeAfters-TWO4.jpg')" alt="recon-b-a_03" width="2083" height="1375" /></article>
+		
+		<?php // Check rows exists.
+        if( have_rows('patient_2_photos') ):
+
+            // Loop through rows.
+            while( have_rows('patient_2_photos') ) : the_row(); ?>
+				<?php $photo = get_sub_field('photo'); ?>
+				<article class="col-12 col-md-3"><img src="<?php echo esc_url($photo['url']); ?>" alt="<?php echo esc_attr($photo['alt']); ?>" /></article>
+
+            <?php // End loop.
+            endwhile;
+        endif; ?>
     <footer class="col-12 text-center mt-4">
-    	<p>Photos courtesy of Dr. Gary Donath, MD, FACS</p>
+    	<p><?php the_field('patient_2_credit'); ?></p>
     </footer>
 	</div><!-- .container -->
 	
 	
 	<div class="low projection row">
   	<header class="col-12 text-center">
-    	<img src="@asset('images/patient-three.svg')" alt="patient-one" />
-      <h3>Sientra tissue expanders exchanged for Sientra <span class="opus">OPUS</span> <i class="icon-luxe"></i> <br>smooth round implants, moderate projection</h3>
+    	<?php $patient_3_title = get_field('patient_3_title'); ?>
+    	<img src="<?php echo esc_url($patient_3_title['url']); ?>" alt="<?php echo esc_url($patient_3_title['alt']); ?>" />
+      <h3><?php the_field('patient_3'); ?></h3>
   	</header>
-      <article class="col-12 col-md-3"><img src="@asset('images/Sientra_RECON-BeforeAfters-THREE.jpg')" alt="recon-b-a_01" width="2083" height="1375" /></article>
-      <article class="col-12 col-md-3"><img src="@asset('images/Sientra_RECON-BeforeAfters-THREE2.jpg')" alt="recon-b-a_02" width="2083" height="1375" /></article>
-      <article class="col-12 col-md-3"><img src="@asset('images/Sientra_RECON-BeforeAfters-THREE3.jpg')" alt="recon-b-a_03" width="2083" height="1375" /></article>
-      <article class="col-12 col-md-3"><img src="@asset('images/Sientra_RECON-BeforeAfters-THREE4.jpg')" alt="recon-b-a_03" width="2083" height="1375" /></article>
+		
+		<?php // Check rows exists.
+        if( have_rows('patient_3_photos') ):
+
+            // Loop through rows.
+            while( have_rows('patient_3_photos') ) : the_row(); ?>
+				<?php $photo = get_sub_field('photo'); ?>
+				<article class="col-12 col-md-3"><img src="<?php echo esc_url($photo['url']); ?>" alt="<?php echo esc_attr($photo['alt']); ?>" /></article>
+
+            <?php // End loop.
+            endwhile;
+        endif; ?>
     <footer class="col-12 text-center mt-4">
-    	<p>Photos courtesy of Dr. Gary Donath, MD, FACS</p>
+    	<p><?php the_field('patient_3_credit'); ?></p>
     </footer>
 	</div><!-- .container -->
 
