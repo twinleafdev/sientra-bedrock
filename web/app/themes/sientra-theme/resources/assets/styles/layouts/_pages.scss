@@ -1648,18 +1648,18 @@
         background-repeat: no-repeat;
         display: block;
         padding-bottom: 70%; 
-      &.hsc {
+      /*&.hsc {
         background-image: url(../images/hsc.jpg);
         &:hover{
           background-image: url(../images/hsc.gif);
         }
-      }
-      &.hsc-plus {
+      }*/
+      /*&.hsc-plus {
         background-image: url(../images/hsc-plus.jpg);
         &:hover{
           background-image: url(../images/hsc-plus.gif);
         }
-      }
+      }*/
       
     }
     h3 {
@@ -1677,19 +1677,19 @@
       }
     }
   }
-  .luxe {
+  /* .luxe {
     background-image: url(../images/luxe-bg-m.jpg);
 
     @media (min-width: 768px) { 
        background-image: url(../images/recon-luxe-bg.jpg);
     }
 
-  }
+  } */
 
   .curve {
      padding-top: 5%;
     @media (min-width: 768px) { 
-       background-image: url(../images/recon-curve-bg.jpg);
+       /* background-image: url(../images/recon-curve-bg.jpg); */
        min-height: 68vw;
     }
     
@@ -1803,18 +1803,18 @@
 
 .breast-reconstruction {
   .hero {
-    background-image: url(../images/recon-header-mobile.jpg);
+    /* background-image: url(../images/recon-header-mobile.jpg); */
     background-position: center top;
     background-repeat: no-repeat;
     background-size: contain;
     height: 125vw;
     @media (min-width: 768px) { 
 //       background-image: url(../images/recon_home_hero-1200.jpg);
-      background-image: url(../images/recon_home_hero-2500.jpg);
+      /* background-image: url(../images/recon_home_hero-2500.jpg); */
       height: 50vw;
     }
     @media (min-width: 1999px) { 
-      background-image: url(../images/recon_home_hero-2500.jpg);
+      /* background-image: url(../images/recon_home_hero-2500.jpg); */
     }
 
   }
@@ -1836,7 +1836,7 @@
   }
   .recon-woman-section-break {
     height: 64vw;
-    background-image: url(../images/recon-woman-section-break.jpg);
+    /* background-image: url(../images/recon-woman-section-break.jpg); */
     background-position: center center;
     background-size: cover;
     @media (min-width: 768px) {

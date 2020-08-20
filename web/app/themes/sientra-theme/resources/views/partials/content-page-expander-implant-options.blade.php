@@ -2,11 +2,13 @@
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-8 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/expander-implant-options.jpg')" alt="expander-implant-options" width="1800" height="1038" />
+		<?php $header_background = get_field('header_background'); ?>
+		<img src="<?php echo esc_url($header_background['url']); ?>" alt="<?php echo esc_url($header_background['alt']); ?>" width="1800" height="1038" />
   	</div>
   	<div class="col-12 col-lg-5 message bg-white">
       <div class="message-inner">
-        <img src="@asset('images/expander-implant-options.svg')" alt="expander-implant-options" />
+        <?php $header_title = get_field('header_title'); ?>
+         <img src="<?php echo esc_url($header_title['url']); ?>" alt="<?php echo esc_url($header_title['alt']); ?>" />
       </div>
   	</div>
   	  	
@@ -15,40 +17,42 @@
 <section class="row why-choose text-center mt-4">
   <div class="container-fluid wrap py-5">
   	<header class="col-12 mb-2 mb-sm-5">
-    	<img src="@asset('images/why-choose.svg')" alt="why choose" />
-  		<h3>Sientra <span class="opus">OPUS</span> Reconstruction?</h3>
+		<?php $why_choose_title = get_field('why_choose_title'); ?>
+    	<img src="<?php echo esc_url($why_choose_title['url']); ?>" alt="<?php echo esc_url($why_choose_title['alt']); ?>" />
+  		<h3><?php the_field('why_choose_subtitle'); ?></h3>
   	</header> 
   	<article class="col-12 col-sm pt-3 pt-sm-0">
-  		<p class="lead">One-of-a-kind breast tissue expanders</p>
+  		<p class="lead"><?php the_field('why_choose_column_1_title'); ?></p>
   <span class="opus">•••</span><br>
-  <p>Uniquely designed to deliver comfortable, predictable expansion</p> 
+  <p><?php the_field('why_choose_column_1'); ?></p> 
   	</article>
   	<hr class="w-50 d-block d-sm-none">
   	<article class="col-12 col-sm pt-sm-0">
-  		<p class="lead">Highest rated silicone gel breast implant brand<sup>*</sup>
+  		<p class="lead"><?php the_field('why_choose_column_2_title'); ?>
 </p>
   <span class="opus">•••</span><br>
-  <p>Women love the natural look and feel of their <span class="opus">OPUS</span> implants</p>
+  <p><?php the_field('why_choose_column_2'); ?></p>
   	</article>
   	<hr class="w-50 d-block d-sm-none">
   	<article class="col-12 col-sm pt-sm-0">
-  		<p class="lead">Unrivaled safety and<br>clinical results<sup>4</sup></p>
+  		<p class="lead"><?php the_field('why_choose_column_3_title'); ?></p>
   <span class="opus">•••</span><br>
-  <p>Supported by the industry’s most comprehensive 20-year warranty</p> 
+  <p><?php the_field('why_choose_column_3'); ?></p> 
   	</article>
-  	<small class="mt-5">*As of March, 2020, realself.com</small>
+  	<small class="mt-5"><?php the_field('why_choose_footnote'); ?></small>
   </div>
 </section>
 <section class="following boxy-box text-center mb-5">
   <div class="wrap px-0 pl-lg-3">  	
   	
   	<div class="col-12 col-lg-7 model text-left px-0 pl-lg-3">
-      <img src="@asset('images/following.jpg')" alt="following" width="1000" height="577" />
+		<?php $following_image = get_field('following_image'); ?>
+      <img src="<?php echo esc_url($following_image['url']); ?>" alt="<?php echo esc_url($following_image['alt']); ?>" width="1000" height="577" />
   	</div>
 
   	<div class="col-12 col-lg-6 message">
       <div class="message-inner light">
-        Following a mastectomy, a temporary tissue expander is used to slowly stretch the muscle and skin to create a new pocket for the long-term breast implant.
+        <?php the_field('following'); ?>
       </div>
   	</div>
   	  	
@@ -56,10 +60,12 @@
 </section>
 <section class="expanders row">
 	<div class="col-12 text-center">
-		<h2 class="light">Our <span class="opus">OPUS</span> family of breast tissue expanders are uniquely designed for improved comfort, control, and <span class="opus">peace-of-mind</span></h2>
+		<h2 class="light"><?php the_field('opus_family_title'); ?></h2>
 	</div>
 	<div class="allo-derm container">
-<img src="@asset('images/dermasphere.jpg')" alt="dermasphere" width="1831" height="1500" /><img src="@asset('images/allox2.jpg')" alt="allox2" width="1843" height="1500" />
+		<?php $dermasphere_image = get_field('dermasphere_image'); ?>
+		<?php $allox2_image = get_field('allox2_image'); ?>
+<img src="<?php echo esc_url($dermasphere_image['url']); ?>" alt="<?php echo esc_url($dermasphere_image['alt']); ?>" width="1831" height="1500" /><img src="<?php echo esc_url($allox2_image['url']); ?>" alt="<?php echo esc_url($allox2_image['alt']); ?>" width="1843" height="1500" />
 		
 	</div>
 </section>
@@ -70,7 +76,23 @@
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide"><p><span class="q">&#8220;</span> I absolutely fell in love with the look and feel of Sientra’s implant. The results were better than I’d expected. Absolutely beautiful – even without the nipples, even with the scars that are a constant reminder of this journey. The shape is perfect. <span class="q">&#8221;</span><br><span class="sig">- RealSelf Member</span></p></div>
+		  
+		  <?php // Check rows exists.
+			if( have_rows('quotes') ):
+
+				$cardCount = 1;
+
+				// Loop through rows.
+				while( have_rows('quotes') ) : the_row(); ?>
+		  
+		  			<div class="swiper-slide"><p><span class="q">&#8220;</span> 
+						<?php the_sub_field('quote'); ?><span class="q">&#8221;</span><br><span class="sig">- <?php the_sub_field('author'); ?>
+					</span></p></div>
+		  
+				<?php 
+				// End loop.
+				endwhile;
+			endif; ?>
   
       </div>  
   
@@ -79,62 +101,114 @@
 
 <section class="implant-options text-center mx-auto mt-5">
   <header>
-    <img src="@asset('images/implant-options.svg')" class="img-fluid mx-auto" alt="implant-options" />
+	  <?php $implant_options_title = get_field('implant_options_title'); ?>
+    <img src="<?php echo esc_url($implant_options_title['url']); ?>" class="img-fluid mx-auto" alt="<?php echo esc_url($implant_options_title['alt']); ?>" />
     <div class="h2-wrap mx-auto">
-      <h2>available in round and teardrop shape</h2>
+      <h2><?php the_field('implant_options_subtitle'); ?></h2>
     </div>
   </header>
 	<div class="row">
 		<div class="col-12 col-md-6 my-3">
-  		<img src="@asset('images/opus-luxe.svg')" alt="opus-luxe" />
-			<p>Cohesive <span class="opus">round implants</span> designed for a fuller look with a naturally soft feel</p>
-			<img src="@asset('images/options-diagram_luxe.jpg')" class="img-fluid diagram" alt="options-diagram_luxe" width="1500" height="1067" />
+			<?php $luxe_title = get_field('luxe_title'); ?>
+  		<img src="<?php echo esc_url($luxe_title['url']); ?>" alt="<?php echo esc_url($luxe_title['alt']); ?>" />
+			<p><?php the_field('luxe'); ?></p>
+			<?php $luxe_diagram = get_field('luxe_diagram'); ?>
+			<img src="<?php echo esc_url($luxe_diagram['url']); ?>" class="img-fluid diagram" alt="<?php echo esc_url($luxe_diagram['alt']); ?>" width="1500" height="1067" />
 		</div>
 		<div class="col-12 col-md-6 my-md-3">
-			<img src="@asset('images/opus-curve.svg')" alt="opus-curve" />
-			<p>Cohesive <span class="opus">teardrop shaped implants</span> designed to mimic the natural slope of a women’s breast</p>
-			<img src="@asset('images/options-diagram_curve.jpg')" class="img-fluid diagram" alt="options-diagram_curve" width="1500" height="1067" />
+			<?php $curve_title = get_field('curve_title'); ?>
+  		<img src="<?php echo esc_url($curve_title['url']); ?>" alt="<?php echo esc_url($curve_title['alt']); ?>" />
+			<p><?php the_field('curve'); ?></p>
+			<?php $curve_diagram = get_field('curve_diagram'); ?>
+			<img src="<?php echo esc_url($curve_diagram['url']); ?>" class="img-fluid diagram" alt="<?php echo esc_url($curve_diagram['alt']); ?>" width="1500" height="1067" />
 		</div>
 	</div><!-- .row -->
 <!-- 	<img src="@asset('images/desires-diagram.jpg')" class="img-fluid my-5 d-none d-md-block" alt="desires-diagram" width="2500" height="911" /> -->
 </section>
 
+<style>
+	.hsc {
+		background-image: url(<?php the_field('cohesive_image'); ?>);
+	}
+    .hsc:hover{
+		background-image: url(<?php the_field('cohesive_image_animation'); ?>);
+    }
+    
+    .hsc-plus {
+		background-image: url(<?php the_field('cohesive_plus_image'); ?>);
+	}
+    .hsc-plus:hover{
+		background-image: url(<?php the_field('cohesive_plus_image_animation'); ?>);
+    }
+</style>
+
 <section class="feel-so-real text-center"> 
 	<header>
-		<img src="@asset('images/feel-so-real.svg')" class="feel mt-md-4"alt="feel-so-real" />
+		<?php $feel_so_real = get_field('feel_so_real'); ?>
+		<img src="<?php echo esc_url($feel_so_real['url']); ?>" class="feel mt-md-4"alt="<?php echo esc_url($feel_so_real['alt']); ?>" />
 	</header>
 	<div class="h2-wrap">
-		<h2>choose from 2 cohesive gel levels for 2 degrees of softness</h2>
+		<h2><?php the_field('choose'); ?></h2>
 	</div>
 	<div class="col-12">
-  	<img src="@asset('images/optimal-feel.svg')" class="optimal mb-4" alt="optimal-feel" /><br>
+		<?php $optimal_feel_image = get_field('optimal_feel_image'); ?>
+  	<img src="<?php echo esc_url($optimal_feel_image['url']); ?>" class="optimal mb-4" alt="<?php echo esc_url($optimal_feel_image['alt']); ?>" /><br>
 	</div>
 	<div class="row">
   	<div class="col-12 col-sm-10 offset-sm-1 px-5">
-  		<img src="@asset('images/cohesivity.svg')" alt="cohesivity" />
+  		<?php $cohesivity = get_field('cohesivity'); ?>
+  		<img src="<?php echo esc_url($cohesivity['url']); ?>" alt="<?php echo esc_url($cohesivity['alt']); ?>" />
   	</div>
 		<div class="col-12 col-md-5 px-4 mb-5 offset-md-1">
   		<span class="press hsc mb-4"></span>
-			<h3>High-Strength Cohesive (HSC) Gel</h3>
-<p>is soft but maintains its shape. HSC implants hold their fullness while mimicking the soft feel of natural breast tissue.</p>
+			<?php the_field('cohesive'); ?>
 		</div>
   	<div class="col-12 col-sm-10 offset-sm-1 px-5 d-md-none">
-  		<img src="@asset('images/cohesivity.svg')" alt="cohesivity" />
+  		<img src="<?php echo esc_url($cohesivity['url']); ?>" alt="<?php echo esc_url($cohesivity['alt']); ?>" />
   	</div>
 		<div class="col-12 col-md-5 px-4">
 			<span class="press hsc-plus mb-4"></span>
-			<h3>High-Strength Cohesive Plus (HSC+) Gel</h3>
-<p>is more cohesive than our HSC gel. It provides improved shape retention without the trade-off of an overly firm implant.<sup>1</sup></p>
+			<?php the_field('cohesive_plus'); ?>
 		</div>
 	</div><!-- .row -->
 </section>
 
-
+<style>
+	.luxe {
+		background-image: url(<?php the_field('luxe_background_mobile'); ?>);
+	}
+	
+	@media (min-width: 768px) {
+		.luxe {
+			background-image: url(<?php the_field('luxe_background'); ?>);
+		}
+	}
+</style>
 <section class="luxe row mb-5">
- <header class="col-6 col-sm-4"> <img src="@asset('images/opus-luxe.png')" class="img-fluid" alt="opus-luxe" width="949" height="353" /></header>
+ <header class="col-6 col-sm-4"> <?php $opus_luxe = get_field('opus_luxe'); ?>
+	 <img src="<?php echo esc_url($opus_luxe['url']); ?>" class="img-fluid" alt="<?php echo esc_url($opus_luxe['alt']); ?>" width="949" height="353" /></header>
  <div class="_250-round col-12 col-md-4 mb-2">
-  <img src="@asset('images/250-round.svg')" alt="250-round" />
+  	<?php $choices_250 = get_field('choices_250'); ?>
+  <img src="<?php echo esc_url($choices_250['url']); ?>" alt="<?php echo esc_url($choices_250['alt']); ?>" />
  </div>
+	
+<style>
+	.luxe .luxe-projections .projection-bg.low {
+        background-image: url(<?php the_field('luxe_projection_low'); ?>);
+    }
+    .luxe .luxe-projections .projection-bg.mod {
+        background-image: url(<?php the_field('luxe_projection_moderate'); ?>);
+    }
+    .luxe .luxe-projections .projection-bg.mod-plus {
+        background-image: url(<?php the_field('luxe_projection_moderate_plus'); ?>);
+    }
+    .luxe .luxe-projections .projection-bg.high {
+        background-image: url(<?php the_field('luxe_projection_high'); ?>);
+    }
+    .luxe .luxe-projections .projection-bg.xtra-high {
+        background-image: url(<?php the_field('luxe_projection_xtra_high'); ?>);
+    }	
+</style>
  
  <div class="d-none d-md-block luxe-projections text-center">
   	<div class="xtra-high projection">
@@ -154,19 +228,19 @@
   	</div> 
   	
   	<div class="xtra-high projection-bg">
-  		<p><span class="opus">Xtra high</span> projection  <span class="opus">|</span>  (275 cc - 510 cc)</p>
+  		<p><?php the_field('luxe_projection_xtra_high_text'); ?></p>
   	</div>
   	<div class="high projection-bg">
-  		<p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
+  		<p><?php the_field('luxe_projection_high_text'); ?></p>
   	</div>
   	<div class="mod-plus projection-bg">
-  		<p><span class="opus">moderate plus</span> projection  <span class="opus">|</span>  (175 cc - 695 cc)</p>
+  		<p><?php the_field('luxe_projection_moderate_plus_text'); ?></p>
   	</div>
   	<div class="mod projection-bg">
-  		<p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
+  		<p><?php the_field('luxe_projection_moderate_text'); ?></p>
   	</div>
   	<div class="low projection-bg">
-  		<p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+  		<p><?php the_field('luxe_projection_low_text'); ?></p>
   	</div>
 
  </div>
@@ -178,24 +252,24 @@
      <div class="swiper-container swiper-luxe-projection">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="@asset('images/luxe-projection-low.png')" class="img-fluid" alt="luxe-projection-low" width="800" height="679" />
-          <p><span class="opus">low</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+          <img src="<?php the_field('luxe_projection_low'); ?>" class="img-fluid" alt="luxe-projection-low" width="800" height="679" />
+          <p><?php the_field('luxe_projection_low_text'); ?></p>
         </div>
         <div class="swiper-slide">
-          <img src="@asset('images/luxe-projection-moderate.png')" class="img-fluid" alt="luxe-projection-moderate" width="800" height="554" />
-          <p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
+          <img src="<?php the_field('luxe_projection_moderate'); ?>" class="img-fluid" alt="luxe-projection-moderate" width="800" height="554" />
+          <p><?php the_field('luxe_projection_moderate_text'); ?></p>
         </div>
         <div class="swiper-slide">
-          <img src="@asset('images/luxe-projection-moderate-plus.png')" class="img-fluid" alt="luxe-projection-moderate-plus" width="800" height="570" />
-          <p><span class="opus">moderate plus</span> projection  <span class="opus">|</span>  (175 cc - 695 cc)</p>
+          <img src="<?php the_field('luxe_projection_moderate_plus'); ?>" class="img-fluid" alt="luxe-projection-moderate-plus" width="800" height="570" />
+          <p><?php the_field('luxe_projection_moderate_plus_text'); ?></p>
         </div>
         <div class="swiper-slide">
-          <img src="@asset('images/luxe-projection-high.png')" class="img-fluid" alt="luxe-projection-high" width="800" height="592" />       
-          <p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 700 cc)</p>
+          <img src="<?php the_field('luxe_projection_high'); ?>" class="img-fluid" alt="luxe-projection-high" width="800" height="592" />       
+          <p><?php the_field('luxe_projection_high_text'); ?></p>
         </div>
         <div class="swiper-slide">
-          <img src="@asset('images/luxe-projection-xrta-high.png')" class="img-fluid" alt="luxe-projection-xrta-high" width="800" height="506" />
-          <p><span class="opus">Xtra high</span> projection  <span class="opus">|</span>  (275 cc - 510 cc)</p>
+          <img src="<?php the_field('luxe_projection_xtra_high'); ?>" class="img-fluid" alt="luxe-projection-xrta-high" width="800" height="506" />
+          <p><?php the_field('luxe_projection_xtra_high_text'); ?></p>
         </div>
       </div><!-- .swiper-wrapper -->
      </div>
@@ -203,12 +277,33 @@
  
  </div>
 </section>
- 
+
+<style>
+	.curve {
+    	background-image: url(<?php the_field('curve_background_mobile'); ?>);
+	}
+
+    @media (min-width: 768px) { 
+		.curve {
+       		background-image: url(<?php the_field('curve_background'); ?>);
+		}
+    }
+</style>
 
 <section class="curve row mb-5">
  <div class="_90-options col-12 col-md-4 mb-2 offset-md-5">
-  <img src="@asset('images/90-options-recon.svg')" alt="90-options" />
+  <?php $options_90 = get_field('options_90'); ?>
+  <img src="<?php echo esc_url($options_90['url']); ?>" alt="<?php echo esc_url($options_90['alt']); ?>" />
  </div>
+	
+<style>
+	.curve .curve-projections .projection-bg.low {
+        background-image: url(<?php the_field('curve_projection_low'); ?>);
+    }
+    .curve .curve-projections .projection-bg.high {
+        background-image: url(<?php the_field('curve_projection_high'); ?>);
+    }
+</style>
  
  
   <div class="d-none d-md-flex col-md-3 curve-projections text-center">
@@ -222,11 +317,11 @@
   	</div> 
   	
   	<div class="high projection-bg">
-  		<p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 635 cc)</p>
+  		<p><?php the_field('curve_projection_high_text'); ?></p>
   	</div>
 
   	<div class="low projection-bg">
-  		<p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+  		<p><?php the_field('curve_projection_low_text'); ?></p>
   	</div>
  </div>
 
@@ -235,12 +330,12 @@
      <div class="swiper-container swiper-curve-projection">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-           <img src="@asset('images/curve-projection-low.png')" class="img-fluid" alt="curve-projection-low" width="500" height="1048" />
-           <p><span class="opus">moderate</span> projection  <span class="opus">|</span>  (160 cc - 700 cc)</p>
+           <img src="<?php the_field('curve_projection_low'); ?>" class="img-fluid" alt="curve-projection-low" width="500" height="1048" />
+           <p><?php the_field('curve_projection_low_text'); ?></p>
         </div>
         <div class="swiper-slide">
-          <img src="@asset('images/curve-projection-high.png')" class="img-fluid" alt="curve-projection-high" width="500" height="1046" />
-          <p><span class="opus">high</span> projection  <span class="opus">|</span>  (190 cc - 635 cc)</p>
+          <img src="<?php the_field('curve_projection_high'); ?>" class="img-fluid" alt="curve-projection-high" width="500" height="1046" />
+          <p><?php the_field('curve_projection_high_text'); ?></p>
         </div>
       </div><!-- .swiper-wrapper -->
      </div>
