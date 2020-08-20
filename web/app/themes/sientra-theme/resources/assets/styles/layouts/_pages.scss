@@ -2606,7 +2606,7 @@
       }
     }
   }
-  .modal {
+  .modal:not(#cookie) {
     color: #fff;
     .modal-content {
       padding: 15px;
@@ -2642,9 +2642,11 @@
             margin-left: 45px;
             font-size: 2.0rem;
           }
+/*
           @media (min-width: 992px) {  
             margin-bottom: 0;
           }
+*/
         }
       }
       .message {
