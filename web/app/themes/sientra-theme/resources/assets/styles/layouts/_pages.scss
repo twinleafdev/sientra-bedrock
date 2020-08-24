@@ -158,10 +158,15 @@
     @media (min-width: 576px) {
       padding: inherit;
     }
-    header img {
-      width: 100%;
-      max-width: 430px;
-      height: auto;
+    header {
+	    .eol_si_shrink {
+		    display: block;
+	    }
+	     img {
+	      width: 100%;
+	      max-width: 430px;
+	      height: auto;
+	    }
     }
     hr {
       border-top: 1px solid $orange;
@@ -219,6 +224,9 @@
   .pair {
     header {
       max-width: 80vw;
+	    .eol_si_shrink {
+		    display: block;
+	    }
     }
     .tag {
       padding-left: 4%;
@@ -308,8 +316,6 @@
       }
     }
   }
-  
-  
   .matters-vid.boxy-box {
     .wrap {
       .model {
@@ -398,13 +404,18 @@
     max-width: $max-width-matters;
     margin-left: auto;
     margin-right: auto;
-    header img {
-      width: 100%;
-      max-width: 700px;
-      height: auto;
-       @media (min-width: 768px) {
-         width: 60vw;
-       }
+    header {
+	    .eol_si_shrink {
+		    display: block;
+	    }
+	    img {
+	      width: 100%;
+	      max-width: 700px;
+	      height: auto;
+	       @media (min-width: 768px) {
+	         width: 60vw;
+	       }
+	    }
     }
     .wrap {
       position: relative;
@@ -529,6 +540,10 @@
     }
   }
   .love {
+    .eol_si_shrink {
+	    display: block;
+    }
+
     .testimonial {
        .quote-icon {
         width: 30px;
@@ -649,16 +664,7 @@
           @media (min-width: $max-width-matters) { 
             height: $break3;
           } 
-          div {
-            background-color: $tan;
-            padding: 20px 5% 20px 15%;
-            height: 100%;
-            img {
-              max-width: 400px;
-              margin-left: auto;
-              margin-right: auto;
-            }
-          }
+
         }
       }
   }
@@ -678,6 +684,9 @@
         padding-left: 4%;
         padding-right: 4%;
         line-height: 1.7rem;
+        .eol_si_shrink { 
+	        display: block;
+        }
         img {
           width: 100%;
           height: auto;
@@ -735,8 +744,13 @@
     @media (min-width: 768px) {
       font-size: 1.4rem;
       line-height: 1.7rem;
-      header img {
-        margin-top: -50px;
+      header {
+	      .eol_si_shrink {
+	        display: block;
+	      }
+	      img {
+	        margin-top: -50px;
+	      }
       }
       margin-top: 50px;
       /* background-image: url(../images/unmatched-bg.jpg); */
@@ -874,7 +888,10 @@
       @media (min-width: 768px) {
         flex-basis: 0;
       }
-      div {
+      & > div {
+	    .eol_si_shrink {
+		    display: block;
+	    }
         img {
           width: 80%;
           margin-bottom: 15px;
@@ -892,9 +909,14 @@
   .feel-so-real {
     font-size: 1.3rem;
     font-family: 'Avenir-light', Avenir, sans-serif;
-    header img {
-      transform: translateX(-17%);
-      max-width: 350px;
+	.eol_si_shrink {
+		display: block;
+	}  
+    header {
+		img {
+	      transform: translateX(-17%);
+	      max-width: 350px;
+	    }
     }
     .optimal-feel {
       .image-h {
@@ -975,6 +997,9 @@
     margin-left: auto;
     margin-right: auto;
     header {
+      .eol_si_shrink {
+	    display: block;
+	  }  
       img {
         transform: translateX(-9%);
         max-width: 70vw;
@@ -1033,24 +1058,32 @@
           .round {
             justify-content: space-around;
             align-items: flex-end;
-            img {
+            .eol_si_shrink  {
               width: 80%;
               height: auto;
                @media (min-width: 768px) {
                   width: 15%;                 
                }
+              img {
+				width: 100%;
+				height: auto;
+              }
             }
           }
           .teardrop {
             justify-content: center;
             align-items: flex-end;
-            img {
+            img,
+            .eol_si_shrink {
               width: 80%;
               height: auto;
                @media (min-width: 768px) {
                   width: 20%;                 
                }
-              
+              img {
+				width: 100%;
+				height: auto;
+              }
             }
           }
           .silicone {
@@ -1188,6 +1221,9 @@
     }
   }
   .comfort {
+	.eol_si_shrink {
+		display: block;
+	}
     p {
       font-size: 1.2rem;
       .opus {
@@ -1439,6 +1475,9 @@
       flex-wrap: wrap;
       flex-direction: row;
       display: flex;
+      .eol_si_shrink {
+        display: block; 
+      }
       header img {
         width: 100%;
         max-width: 430px;
@@ -1525,13 +1564,17 @@
         flex-direction: row;
         height: 32vw;
       }
-      img {
+      .eol_si_shrink {
         height: auto;
         width: 100%;
         flex-basis: 100%;
         @media (min-width: 768px) {
           height: 100%;
           width: auto;
+        }
+        img {
+	        width: 100%;
+	        height: auto;
         }
       }
     }
@@ -1632,7 +1675,9 @@
     } 
   }
   .feel-so-real {
-    
+	  .eol_si_shrink {
+		  display: block;
+	  }  
     header img {
       transform: translateX(-17%);
       width: 60%;
@@ -1713,6 +1758,9 @@
         margin-bottom: 0;
       }
       .tag {
+		.eol_si_shrink {
+			display: block;
+		} 
         font-size: 1.5rem;
         padding-left: 4%;
         padding-right: 4%;
@@ -1823,6 +1871,9 @@
       width: 100%;
       @media (min-width: 768px) {
         width: 75%
+      }
+      .eol_si_shrink {
+	      display: block; 
       } 
     }
     p {
@@ -1846,6 +1897,9 @@
   .guide {
     
     header{
+      .eol_si_shrink {
+	      display: block; 
+      } 
       img {
         max-width: 455px;
       }
@@ -1874,6 +1928,9 @@
   .two-step {
     background-color: $tan;
     padding: 15px;
+    .eol_si_shrink {
+      display: block; 
+    } 
     .inner {
       border: 1px solid #fff;
       padding: 15px ;
@@ -1894,6 +1951,9 @@
     }
   }
   .steps {
+   .eol_si_shrink {
+      display: block; 
+    }
     font-size: 1.2rem;
     line-height: 1.5rem;
     text-align: center;
@@ -2089,6 +2149,9 @@
       }
     }
     .diagram {
+	  .eol_si_shrink {
+		  display: block;
+	  } 
       justify-content: center;
       /* background-image: url(../images/implant-safety-diagram.jpg); */
       background-position: center center;
@@ -2144,6 +2207,9 @@
 
   }
   .warranty {
+	  .eol_si_shrink {
+		  display: block;
+	  } 
     padding-left: 3%;
     padding-right: 3%;
     margin-top: 50px;
@@ -2858,10 +2924,15 @@
     @media (min-width: 576px) {
       padding: inherit;
     }
-    header img {
-      width: 100%;
-      max-width: 430px;
-      height: auto;
+    header{
+		.eol_si_shrink {
+			justify-content: center;
+		}		
+	    img {
+	      width: 100%;
+	      max-width: 430px;
+	      height: auto;
+	    }
     }
     hr {
       border-top: 1px solid $orange;
@@ -2902,6 +2973,10 @@
       @media (min-width: 768px) {
         flex-direction: row;
         height: 32vw;
+        .eol_si_shrink {
+			height: 100%;
+			width: auto;	        
+        }
       }
       img {
         height: auto;
@@ -3140,8 +3215,17 @@
     @media (min-width: 768px) {
       font-size: 1.4rem;
      
-      header img {
-        margin-top: -10.5vw;
+      header {
+	  		div.eol_si_shrink {
+		  		display: block;
+		  		img.eol_si_clear {
+			  		margin-top: 0;
+			  		top: 0;
+		  		}
+	  		}
+			img {
+				margin-top: -10.5vw;
+			}
       }
       margin-top: 50px;
       background-image: url(../images/unmatched-bg.jpg);
