@@ -1567,6 +1567,10 @@
       img {
         width: auto;
         height: 100%;
+        @media (min-width: 768px) {
+          height: 100%;
+          width: auto;
+        }
       }
       .eol_si_shrink {
         height: auto;

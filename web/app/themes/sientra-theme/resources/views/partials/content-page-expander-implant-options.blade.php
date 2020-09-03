@@ -154,21 +154,61 @@
 		<?php $optimal_feel_image = get_field('optimal_feel_image'); ?>
   	<img src="<?php echo esc_url($optimal_feel_image['url']); ?>" class="optimal mb-4" alt="<?php echo esc_url($optimal_feel_image['alt']); ?>" /><br>
 	</div>
+	
+	
 	<div class="row">
   	<div class="col-12 col-sm-10 offset-sm-1 px-5">
   		<?php $cohesivity = get_field('cohesivity'); ?>
   		<img src="<?php echo esc_url($cohesivity['url']); ?>" alt="<?php echo esc_url($cohesivity['alt']); ?>" />
   	</div>
-		<div class="col-12 col-md-5 px-4 mb-5 offset-md-1">
-  		<span class="press hsc mb-4"></span>
-			<?php the_field('cohesive'); ?>
-		</div>
+	
+	
+		<div id="hscPress" class="col-12 col-md-5 px-4 offset-md-1">
+<!--   		<span class="press hsc mb-4"></span> -->
+					
+      <img src="<?php echo get_field('cohesive_image'); ?>" alt="hsc" id="hsc" class="img-fluid mb-4" width="1000" height="656" />
+      <script>      
+          function Start() {
+            jQuery('#hscPress').on({
+            
+            mouseenter: function () { jQuery('#hsc').prop('src', '<?php echo get_field('cohesive_image_animation'); ?>') },
+            mouseleave: function () { jQuery('#hsc').prop('src', '<?php echo get_field('cohesive_image'); ?>') }
+            
+              });
+          }   
+          jQuery(Start);
+      </script>
+      
+      <?php the_field('cohesive'); ?>
+		</div>  
+  
   	<div class="col-12 col-sm-10 offset-sm-1 px-5 d-md-none">
   		<img src="<?php echo esc_url($cohesivity['url']); ?>" alt="<?php echo esc_url($cohesivity['alt']); ?>" />
   	</div>
-		<div class="col-12 col-md-5 px-4">
-			<span class="press hsc-plus mb-4"></span>
+	
+	
+		<div id="hscPlusPress" class="col-12 col-md-5 px-4">
+<!-- 			<span class="press hsc-plus mb-4"></span> -->
+			
+
+      <img src="<?php echo get_field('cohesive_plus_image'); ?>" alt="hsc" id="hsc-plus" class="img-fluid mb-4" width="1000" height="656" />
+      <script>      
+          function Start() {
+            jQuery('#hscPlusPress').on({
+            
+            mouseenter: function () { jQuery('#hsc-plus').prop('src', '<?php echo get_field('cohesive_plus_image_animation'); ?>') },
+            mouseleave: function () { jQuery('#hsc-plus').prop('src', '<?php echo get_field('cohesive_plus_image') ?>') }
+            
+              });
+          }   
+          jQuery(Start);
+      </script>
+			
+			
 			<?php the_field('cohesive_plus'); ?>
+			
+			
+			
 		</div>
 	</div><!-- .row -->
 </section>
