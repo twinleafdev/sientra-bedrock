@@ -135,6 +135,12 @@ body {
     display: flex;
   }
 }
+// ie 11 fix, yes really
+_:-ms-fullscreen, :root .ie11up .loading{ 
+  opacity: 1 !important;
+  }
+
+
 $height1: 41vw;
 .boxy-box {
     max-width: 1650px;
